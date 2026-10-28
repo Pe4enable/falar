@@ -1,0 +1,457 @@
+{
+  "id": 13,
+  "number": 13,
+  "title": "Прилагательные и указательные",
+  "topic": "este/esse/aquele, согласование, gostar de",
+  "tags": [
+    "adjetivos",
+    "este/esse"
+  ],
+  "free": false,
+  "theory": {
+    "intro": "Прилагательное согласуется с существительным в роде и числе: vinho tinto, casa bonita, praias lindas. Указательные: este (этот, у меня), esse (тот, у тебя), aquele (вон тот, далеко).",
+    "blocks": [
+      {
+        "type": "text",
+        "content": "Gostar de — «нравиться»: gosto de café, gostas de bacalhau? С указательными de сливается: gosto deste restaurante (de + este)."
+      },
+      {
+        "type": "text",
+        "content": "Сравнение: mais caro (do) que — дороже чем; melhor — лучше; o melhor — самый лучший."
+      },
+      {
+        "type": "note",
+        "content": "Giro/gira — разговорное «классный, симпатичный» (только в Португалии). Sossegado — спокойный, тихий (про район, кафе)."
+      }
+    ]
+  },
+  "verbTable": {
+    "verb": "gostar",
+    "translation": "нравиться (gostar de)",
+    "conjugation": "ar",
+    "schema": {
+      "present": {
+        "affirm": "gosto",
+        "negate": "não gosto",
+        "question": "gosto?"
+      },
+      "past": {
+        "affirm": "gostei",
+        "negate": "não gostei",
+        "question": "gostei?"
+      },
+      "future": {
+        "affirm": "vou gostar",
+        "negate": "não vou gostar",
+        "question": "vou gostar?"
+      }
+    },
+    "presentFull": {
+      "eu": "gosto",
+      "tu": "gostas",
+      "ele": "gosta",
+      "nos": "gostamos",
+      "eles": "gostam"
+    }
+  },
+  "phrases": [
+    {
+      "id": "l13-001",
+      "ru": "Это кафе отличное.",
+      "pt": "Este café é ótimo.",
+      "tense": "present",
+      "form": "affirm",
+      "conjugation": "irregular",
+      "verb": "ser",
+      "distractors": [
+        "esse",
+        "mau"
+      ]
+    },
+    {
+      "id": "l13-002",
+      "ru": "Мне очень нравится этот ресторан.",
+      "pt": "Gosto muito deste restaurante.",
+      "tense": "present",
+      "form": "affirm",
+      "conjugation": "ar",
+      "verb": "gostar",
+      "distractors": [
+        "gostas",
+        "desse"
+      ]
+    },
+    {
+      "id": "l13-003",
+      "ru": "Эта кофта симпатичная.",
+      "pt": "Essa camisola é gira.",
+      "tense": "present",
+      "form": "affirm",
+      "conjugation": "irregular",
+      "verb": "ser",
+      "tags": [
+        "chunk"
+      ],
+      "distractors": [
+        "esta",
+        "cara"
+      ]
+    },
+    {
+      "id": "l13-004",
+      "ru": "Сегодня хорошая погода.",
+      "pt": "O tempo está bom hoje.",
+      "tense": "present",
+      "form": "affirm",
+      "conjugation": "irregular",
+      "verb": "estar",
+      "distractors": [
+        "é",
+        "mau"
+      ]
+    },
+    {
+      "id": "l13-005",
+      "ru": "Вон то здание новое.",
+      "pt": "Aquele prédio é novo.",
+      "tense": "present",
+      "form": "affirm",
+      "conjugation": "irregular",
+      "verb": "ser",
+      "distractors": [
+        "este",
+        "velho"
+      ]
+    },
+    {
+      "id": "l13-006",
+      "ru": "Этот суп очень вкусный.",
+      "pt": "Esta sopa está deliciosa.",
+      "tense": "present",
+      "form": "affirm",
+      "conjugation": "irregular",
+      "verb": "estar",
+      "distractors": [
+        "essa",
+        "fria"
+      ]
+    },
+    {
+      "id": "l13-007",
+      "ru": "Я люблю красное вино.",
+      "pt": "Gosto de vinho tinto.",
+      "tense": "present",
+      "form": "affirm",
+      "conjugation": "ar",
+      "verb": "gostar",
+      "distractors": [
+        "gostas",
+        "branco"
+      ]
+    },
+    {
+      "id": "l13-008",
+      "ru": "Португальские пляжи прекрасны.",
+      "pt": "As praias portuguesas são lindas.",
+      "tense": "present",
+      "form": "affirm",
+      "conjugation": "irregular",
+      "verb": "ser",
+      "distractors": [
+        "é",
+        "grandes"
+      ]
+    },
+    {
+      "id": "l13-009",
+      "ru": "Этот район очень спокойный.",
+      "pt": "Este bairro é muito sossegado.",
+      "tense": "present",
+      "form": "affirm",
+      "conjugation": "irregular",
+      "verb": "ser",
+      "distractors": [
+        "aquele",
+        "barulhento"
+      ]
+    },
+    {
+      "id": "l13-010",
+      "ru": "Фрукты здесь свежие.",
+      "pt": "A fruta aqui é fresca.",
+      "tense": "present",
+      "form": "affirm",
+      "conjugation": "irregular",
+      "verb": "ser",
+      "distractors": [
+        "está",
+        "cara"
+      ]
+    },
+    {
+      "id": "l13-011",
+      "ru": "Я не люблю очереди.",
+      "pt": "Não gosto de filas.",
+      "tense": "present",
+      "form": "negate",
+      "conjugation": "ar",
+      "verb": "gostar",
+      "distractors": [
+        "gostas",
+        "lojas"
+      ]
+    },
+    {
+      "id": "l13-012",
+      "ru": "Это вино недорогое.",
+      "pt": "Este vinho não é caro.",
+      "tense": "present",
+      "form": "negate",
+      "conjugation": "irregular",
+      "verb": "ser",
+      "distractors": [
+        "esse",
+        "barato"
+      ]
+    },
+    {
+      "id": "l13-013",
+      "ru": "Тот магазин не дешёвый.",
+      "pt": "Essa loja não é barata.",
+      "tense": "present",
+      "form": "negate",
+      "conjugation": "irregular",
+      "verb": "ser",
+      "distractors": [
+        "esta",
+        "cara"
+      ]
+    },
+    {
+      "id": "l13-014",
+      "ru": "Мне не нравится эта погода.",
+      "pt": "Não gosto deste tempo.",
+      "tense": "present",
+      "form": "negate",
+      "conjugation": "ar",
+      "verb": "gostar",
+      "distractors": [
+        "gosta",
+        "desse"
+      ]
+    },
+    {
+      "id": "l13-015",
+      "ru": "Рыба несвежая.",
+      "pt": "O peixe não está fresco.",
+      "tense": "present",
+      "form": "negate",
+      "conjugation": "irregular",
+      "verb": "estar",
+      "distractors": [
+        "é",
+        "caro"
+      ]
+    },
+    {
+      "id": "l13-016",
+      "ru": "Вон та улица не очень безопасная.",
+      "pt": "Aquela rua não é muito segura.",
+      "tense": "present",
+      "form": "negate",
+      "conjugation": "irregular",
+      "verb": "ser",
+      "distractors": [
+        "esta",
+        "longa"
+      ]
+    },
+    {
+      "id": "l13-017",
+      "ru": "Тебе нравится это вино?",
+      "pt": "Gostas deste vinho?",
+      "tense": "present",
+      "form": "question",
+      "conjugation": "ar",
+      "verb": "gostar",
+      "distractors": [
+        "gosto",
+        "daquele"
+      ]
+    },
+    {
+      "id": "l13-018",
+      "ru": "Этот столик свободен?",
+      "pt": "Esta mesa está livre?",
+      "tense": "present",
+      "form": "question",
+      "conjugation": "irregular",
+      "verb": "estar",
+      "tags": [
+        "chunk"
+      ],
+      "distractors": [
+        "essa",
+        "ocupada"
+      ]
+    },
+    {
+      "id": "l13-019",
+      "ru": "Вон тот ресторан хороший?",
+      "pt": "Aquele restaurante é bom?",
+      "tense": "present",
+      "form": "question",
+      "conjugation": "irregular",
+      "verb": "ser",
+      "distractors": [
+        "este",
+        "caro"
+      ]
+    },
+    {
+      "id": "l13-020",
+      "ru": "Какое здесь лучшее кафе?",
+      "pt": "Qual é o melhor café aqui?",
+      "tense": "present",
+      "form": "question",
+      "conjugation": "irregular",
+      "verb": "ser",
+      "tags": [
+        "chunk"
+      ],
+      "distractors": [
+        "onde",
+        "pior"
+      ]
+    },
+    {
+      "id": "l13-021",
+      "ru": "Этот сыр местный?",
+      "pt": "Este queijo é da região?",
+      "tense": "present",
+      "form": "question",
+      "conjugation": "irregular",
+      "verb": "ser",
+      "distractors": [
+        "esse",
+        "fresco"
+      ]
+    },
+    {
+      "id": "l13-022",
+      "ru": "Ты любишь бакаляу?",
+      "pt": "Gostas de bacalhau?",
+      "tense": "present",
+      "form": "question",
+      "conjugation": "ar",
+      "verb": "gostar",
+      "tags": [
+        "chunk"
+      ],
+      "distractors": [
+        "gosto",
+        "sardinhas"
+      ]
+    },
+    {
+      "id": "l13-023",
+      "ru": "Та куртка новая?",
+      "pt": "Esse casaco é novo?",
+      "tense": "present",
+      "form": "question",
+      "conjugation": "irregular",
+      "verb": "ser",
+      "distractors": [
+        "este",
+        "velho"
+      ]
+    },
+    {
+      "id": "l13-024",
+      "ru": "Какой ты предпочитаешь: этот или вон тот?",
+      "pt": "Qual preferes: este ou aquele?",
+      "tense": "present",
+      "form": "question",
+      "conjugation": "ir",
+      "verb": "preferir",
+      "distractors": [
+        "prefiro",
+        "esse"
+      ]
+    }
+  ],
+  "exam": {
+    "count": 10,
+    "passThreshold": 0.8
+  },
+  "tables": [
+    {
+      "type": "contractions",
+      "title": "Прилагательные: род и число",
+      "cols": [
+        "м. ед.",
+        "ж. ед.",
+        "м. мн.",
+        "ж. мн."
+      ],
+      "rows": [
+        "новый",
+        "дорогой",
+        "красивый"
+      ],
+      "note": "Согласование: vinho tinto, casa bonita, praias lindas. На -o меняют форму (novo → nova); на -e и согласный — нет (grande, fácil одинаковы для м. и ж.).",
+      "cells": [
+        [
+          "novo",
+          "nova",
+          "novos",
+          "novas"
+        ],
+        [
+          "caro",
+          "cara",
+          "caros",
+          "caras"
+        ],
+        [
+          "lindo",
+          "linda",
+          "lindos",
+          "lindas"
+        ]
+      ]
+    },
+    {
+      "type": "contractions",
+      "title": "Указательные по расстоянию",
+      "cols": [
+        "муж.",
+        "жен.",
+        "нейтр."
+      ],
+      "rows": [
+        "este — тут",
+        "esse — у тебя",
+        "aquele — там"
+      ],
+      "note": "gostar de: Gosto deste. — Мне нравится этот.",
+      "cells": [
+        [
+          "este",
+          "esta",
+          "isto"
+        ],
+        [
+          "esse",
+          "essa",
+          "isso"
+        ],
+        [
+          "aquele",
+          "aquela",
+          "aquilo"
+        ]
+      ]
+    }
+  ]
+}

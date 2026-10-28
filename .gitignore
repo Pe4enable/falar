@@ -1,0 +1,28 @@
+# Зависимости
+node_modules/
+
+# Старые архивы сборок
+*.zip
+
+# Локальный деплой (личная инфраструктура, не для публикации)
+web/deploy.ps1
+web/.deploy.sftp
+web/.deploy-en.sftp
+
+# Сгенерированная сборка (пересобирается из исходников: node web/build-en.js)
+web/en/
+
+# Данные сервиса прогресса (SQLite)
+*.db
+*.db-wal
+*.db-shm
+
+# Инструменты и редакторы
+.claude/
+.vscode/
+.idea/
+*.log
+
+# ОС
+.DS_Store
+Thumbs.db

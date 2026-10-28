@@ -1,0 +1,16 @@
+{
+  "name": "Falar — европейский португальский",
+  "short_name": "Falar",
+  "start_url": "/ru/",
+  "scope": "/ru/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#FAF9F5",
+  "theme_color": "#FAF9F5",
+  "lang": "ru",
+  "description": "Европейский португальский по методу Петрова — с первого урока вслух.",
+  "icons": [
+    { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}

@@ -1,0 +1,503 @@
+### L1 TITLE: Глагол falar — настоящее время -ar || TOPIC: Спряжение -ar: утверждение, отрицание, вопрос
+INTRO: Один глагол даёт девять рабочих форм: три формы предложения (утверждение, отрицание, вопрос) в трёх временах. Сначала видим всю схему, потом доводим до автоматизма. В этом уроке берём настоящее время глаголов на -ar.
+BLK0[text]: Глаголы на -ar в настоящем времени меняют окончание по лицу: eu falo, tu falas, ele/ela/você fala, nós falamos, eles/elas/vocês falam.
+BLK1[text]: Отрицание — частица «não» перед глаголом: eu não falo. Вопрос — тот же порядок слов, но с вопросительной интонацией: tu falas?
+BLK2[text]: В этом уроке восемь глаголов на -ar, и все спрягаются одинаково: falar (говорить), morar (жить), trabalhar (работать), estudar (учиться), comprar (покупать), tomar (брать, пить/есть), almoçar (обедать), pagar (платить).
+BLK3[note]: Европейская норма: «tu» (ты) активно используется в быту. Вопрос часто строят через «é que»: «Onde é que tu moras?» — «Где ты живёшь?».
+BLK4[note]: Местоимение можно опускать — окончание глагола уже показывает лицо: «Falo português» = «Eu falo português». В заданиях оба варианта засчитываются.
+VERB: falar = говорить
+l1-001 | Eu falo português. | Я говорю по-португальски.
+l1-002 | Tu falas muito bem. | Ты говоришь очень хорошо.
+l1-003 | Ela mora em Lisboa. | Она живёт в Лиссабоне.
+l1-004 | Nós trabalhamos hoje. | Мы работаем сегодня.
+l1-005 | Eles estudam português. | Они учат португальский.
+l1-006 | Eu moro aqui. | Я живу здесь.
+l1-007 | Você fala devagar. | Вы говорите медленно.
+l1-008 | Nós moramos em Portugal. | Мы живём в Португалии.
+l1-009 | O João trabalha muito. | Жуан много работает.
+l1-010 | Eu estudo todos os dias. | Я занимаюсь каждый день.
+l1-011 | Eu falo um pouco. | Я говорю немного.
+l1-012 | Nós estudamos juntos. | Мы занимаемся вместе.
+l1-013 | Eu não falo espanhol. | Я не говорю по-испански.
+l1-014 | Tu não trabalhas hoje. | Ты сегодня не работаешь.
+l1-015 | Ela não mora aqui. | Она здесь не живёт.
+l1-016 | Nós não falamos rápido. | Мы не говорим быстро.
+l1-017 | Eles não estudam hoje. | Они сегодня не занимаются.
+l1-018 | Eu não moro em Lisboa. | Я не живу в Лиссабоне.
+l1-019 | Você não fala francês. | Вы не говорите по-французски.
+l1-020 | Eu não trabalho aos domingos. | Я не работаю по воскресеньям.
+l1-021 | Tu falas português? | Ты говоришь по-португальски?
+l1-022 | Você mora em Lisboa? | Вы живёте в Лиссабоне?
+l1-023 | Eles trabalham aqui? | Они здесь работают?
+l1-024 | Onde é que tu moras? | Где ты живёшь?
+l1-025 | Você fala inglês? | Вы говорите по-английски?
+l1-026 | O que é que tu estudas? | Что ты изучаешь?
+l1-027 | Ela trabalha muito? | Она много работает?
+l1-028 | Tu moras longe? | Ты живёшь далеко?
+l1-029 | Eu compro pão fresco. | Я покупаю свежий хлеб.
+l1-030 | Nós compramos fruta no mercado. | Мы покупаем фрукты на рынке.
+l1-031 | Eles compram peixe aqui. | Они покупают рыбу здесь.
+l1-032 | Eu tomo café de manhã. | Я пью кофе по утрам.
+l1-033 | Nós tomamos o pequeno-almoço às oito. | Мы завтракаем в восемь.
+l1-034 | Ela almoça ao meio-dia. | Она обедает в полдень.
+l1-035 | Nós almoçamos em casa. | Мы обедаем дома.
+l1-036 | Eu pago a conta. | Я плачу по счёту.
+l1-037 | Nós pagamos com cartão. | Мы платим картой.
+l1-038 | Eu não compro nada hoje. | Я сегодня ничего не покупаю.
+l1-039 | Eu não tomo café com açúcar. | Я не пью кофе с сахаром.
+l1-040 | Hoje não almoço fora. | Сегодня я не обедаю не дома.
+l1-041 | Eu não pago agora. | Я не плачу сейчас.
+l1-042 | Tu compras o jornal? | Ты покупаешь газету?
+l1-043 | Tomas um café comigo? | Выпьешь со мной кофе?
+l1-044 | A que horas almoças? | Во сколько ты обедаешь?
+l1-045 | Quem paga a conta? | Кто платит по счёту?
+### L2 TITLE: Местоимения и вопросительные слова || TOPIC: eu, tu, ele… + onde, quando, quem, o que, como, porquê
+INTRO: Семь личных местоимений и шесть вопросительных слов открывают почти любой разговор. Вопрос в европейском португальском чаще всего строится через связку «é que».
+BLK0[text]: Местоимения: eu (я), tu (ты), ele/ela (он/она), você (Вы, вежливое), nós (мы), eles/elas (они), vocês (вы).
+BLK1[text]: Вопросительные слова: onde (где), quando (когда), quem (кто), o que (что), como (как), porque/porquê (почему). Схема вопроса: «Onde é que tu moras?» — дословно «Где есть что ты живёшь?».
+BLK2[note]: В Португалии «tu» — нормальное обращение к друзьям и ровесникам. «Você» — вежливо-нейтральное, и его часто вообще опускают: «Mora aqui?» — «Вы живёте здесь?».
+VERB: trabalhar = работать
+l2-001 | Onde é que tu trabalhas? | Где ты работаешь?
+l2-002 | Eu trabalho em Lisboa. | Я работаю в Лиссабоне.
+l2-003 | Quem é que fala russo aqui? | Кто здесь говорит по-русски?
+l2-004 | O que é que vocês estudam? | Что вы изучаете?
+l2-005 | Quando é que ela chega? | Когда она приезжает?
+l2-006 | Como é que isto funciona? | Как это работает?
+l2-007 | Porque é que estudas português? | Почему ты учишь португальский?
+l2-008 | Porque moro em Portugal. | Потому что я живу в Португалии.
+l2-009 | Nós moramos em Cascais. | Мы живём в Кашкайше.
+l2-010 | Eles trabalham juntos. | Они работают вместе.
+l2-011 | Ela chega amanhã. | Она приезжает завтра.
+l2-012 | Eu estudo de manhã. | Я занимаюсь по утрам.
+l2-013 | Vocês moram aqui? | Вы живёте здесь?
+l2-014 | Eu não trabalho hoje. | Я сегодня не работаю.
+l2-015 | Ele não fala russo. | Он не говорит по-русски.
+l2-016 | Nós não estudamos juntos. | Мы не занимаемся вместе.
+l2-017 | Onde é que vocês moram? | Где вы живёте?
+l2-018 | Quando é que tu trabalhas? | Когда ты работаешь?
+l2-019 | Ela não chega hoje. | Она сегодня не приезжает.
+l2-020 | Quem trabalha aqui? | Кто здесь работает?
+l2-021 | Eu chego a casa cedo. | Я прихожу домой рано.
+l2-022 | Tu não falas espanhol? | Ты не говоришь по-испански?
+l2-023 | Como é que tu chegas a casa? | Как ты добираешься домой?
+l2-024 | Vocês trabalham amanhã? | Вы завтра работаете?
+### L3 TITLE: Ser и Estar — два глагола «быть» || TOPIC: Постоянное (ser) и состояние/место (estar)
+INTRO: В португальском два глагола «быть». Ser — для постоянного: кто ты, откуда, профессия. Estar — для состояния и местоположения: как ты себя чувствуешь, где ты сейчас, открыто ли кафе.
+BLK0[text]: Ser: eu sou, tu és, ele/ela é, nós somos, eles são. Estar: eu estou, tu estás, ele/ela está, nós estamos, eles estão.
+BLK1[text]: Сравни: «O café é ótimo» — это кафе вообще отличное (свойство). «O café está fechado» — кафе сейчас закрыто (состояние).
+BLK2[note]: Представляясь, португальцы ставят артикль перед именем: «Eu sou o Alex», «Ela é a Ana». Это норма, а не ошибка.
+VERB: ser = быть (постоянно)
+l3-001 | Eu sou russo. | Я русский.
+l3-002 | Tu és muito simpático. | Ты очень приятный человек.
+l3-003 | Ela é médica. | Она врач.
+l3-004 | Nós somos vizinhos. | Мы соседи.
+l3-005 | Eles são de Lisboa. | Они из Лиссабона.
+l3-006 | Eu estou cansado. | Я устал.
+l3-007 | O café está fechado. | Кафе закрыто.
+l3-008 | A água está fria. | Вода холодная.
+l3-009 | Estou em casa. | Я дома.
+l3-010 | O tempo está ótimo hoje. | Погода сегодня отличная.
+l3-011 | Eu não sou português. | Я не португалец.
+l3-012 | Ele não é daqui. | Он не местный.
+l3-013 | Nós não estamos em casa. | Нас нет дома.
+l3-014 | A loja não está aberta. | Магазин не открыт.
+l3-015 | Isto não é caro. | Это не дорого.
+l3-016 | Tu és de Lisboa? | Ты из Лиссабона?
+l3-017 | Você é o senhor Silva? | Вы господин Силва?
+l3-018 | Onde é que tu estás? | Где ты (сейчас)?
+l3-019 | O restaurante está aberto? | Ресторан открыт?
+l3-020 | Como está o tempo hoje? | Какая сегодня погода?
+l3-021 | Está tudo bem? | Всё хорошо?
+l3-022 | Eu sou o Alex. | Я Алекс.
+l3-023 | Vocês são casados? | Вы женаты?
+l3-024 | O jantar está pronto? | Ужин готов?
+### L4 TITLE: Глаголы -er — настоящее время || TOPIC: comer, beber, viver, perceber, aprender
+INTRO: Вторая группа глаголов — на -er. Логика та же, что у -ar, меняется только гласная в окончаниях: como, comes, come, comemos, comem.
+BLK0[text]: Comer (есть): eu como, tu comes, ele come, nós comemos, eles comem. Так же спрягаются beber (пить), viver (жить), aprender (учить), vender (продавать).
+BLK1[note]: Perceber — главный португальский глагол «понимать» (compreender — книжный синоним). «Não percebo» — фраза выживания номер один.
+BLK2[note]: Сэндвич по-европейски — «uma sandes» (в Бразилии — sanduíche). Хозяин съёмной квартиры — «o senhorio».
+VERB: comer = есть, кушать
+l4-001 | Eu como peixe e arroz. | Я ем рыбу и рис.
+l4-002 | Tu bebes café de manhã. | Ты пьёшь кофе по утрам.
+l4-003 | Nós vivemos em Portugal. | Мы живём в Португалии.
+l4-004 | Eu aprendo português. | Я учу португальский.
+l4-005 | Ela vende fruta no mercado. | Она продаёт фрукты на рынке.
+l4-006 | Eu percebo um pouco. | Я немного понимаю.
+l4-007 | Eles comem fora aos sábados. | Они едят не дома по субботам.
+l4-008 | Nós bebemos vinho ao jantar. | Мы пьём вино за ужином.
+l4-009 | O senhorio vive no primeiro andar. | Хозяин квартиры живёт на первом этаже.
+l4-010 | Eu como uma sandes ao almoço. | Я ем сэндвич на обед.
+l4-011 | Eu não como carne. | Я не ем мясо.
+l4-012 | Ela não bebe álcool. | Она не пьёт алкоголь.
+l4-013 | Nós não percebemos nada. | Мы ничего не понимаем.
+l4-014 | Eles não vivem aqui. | Они здесь не живут.
+l4-015 | Tu não bebes café. | Ты не пьёшь кофе.
+l4-016 | Eu não vendo nada. | Я ничего не продаю.
+l4-017 | Tu comes peixe? | Ты ешь рыбу?
+l4-018 | Vocês vivem em Lisboa? | Вы живёте в Лиссабоне?
+l4-019 | O que é que tu bebes? | Что ты пьёшь?
+l4-020 | Ela percebe russo? | Она понимает русский?
+l4-021 | Onde é que vocês comem hoje? | Где вы сегодня едите?
+l4-022 | Onde é que tu aprendes português? | Где ты учишь португальский?
+l4-023 | Eles vendem pão aqui? | Здесь продают хлеб?
+l4-024 | Tu percebes? | Понимаешь?
+### L5 TITLE: Глаголы -ir — настоящее время || TOPIC: abrir, partir, dormir, decidir, preferir
+INTRO: Третья и последняя группа — глаголы на -ir. Окончания почти как у -er, отличается только форма «мы»: abrimos.
+BLK0[text]: Abrir (открывать): eu abro, tu abres, ele abre, nós abrimos, eles abrem. Так же: partir (отправляться), decidir (решать).
+BLK1[note]: Два полезных глагола чуть меняют корень в форме «я»: dormir → durmo (сплю), preferir → prefiro (предпочитаю). Остальные формы обычные: dormes, prefere…
+BLK2[note]: «A que horas abre…?» — «Во сколько открывается…?» — дежурный вопрос про магазины, музеи и аптеки.
+VERB: abrir = открывать(ся)
+l5-001 | A loja abre às nove. | Магазин открывается в девять.
+l5-002 | Eu abro a janela. | Я открываю окно.
+l5-003 | O comboio parte às oito. | Поезд отправляется в восемь.
+l5-004 | Eu durmo oito horas. | Я сплю восемь часов.
+l5-005 | Nós decidimos hoje. | Мы решаем сегодня.
+l5-006 | Eu prefiro chá. | Я предпочитаю чай.
+l5-007 | Ela dorme muito. | Она много спит.
+l5-008 | As lojas abrem aos sábados. | Магазины открыты по субботам.
+l5-009 | Eu parto amanhã. | Я уезжаю завтра.
+l5-010 | Tu decides sempre tudo. | Ты всегда всё решаешь.
+l5-011 | A farmácia não abre hoje. | Аптека сегодня не работает.
+l5-012 | Eu não durmo bem. | Я плохо сплю.
+l5-013 | O autocarro não parte daqui. | Автобус отсюда не отправляется.
+l5-014 | Nós não decidimos nada. | Мы ничего не решаем.
+l5-015 | Ela não dorme à tarde. | Она не спит днём.
+l5-016 | Eu não parto hoje. | Я сегодня не уезжаю.
+l5-017 | A que horas abre o museu? | Во сколько открывается музей?
+l5-018 | Tu dormes bem? | Ты хорошо спишь?
+l5-019 | Quando é que tu partes? | Когда ты уезжаешь?
+l5-020 | Vocês preferem vinho ou cerveja? | Вы предпочитаете вино или пиво?
+l5-021 | A loja abre ao domingo? | Магазин работает по воскресеньям?
+l5-022 | Tu preferes café ou chá? | Ты предпочитаешь кофе или чай?
+l5-023 | O voo parte de Lisboa? | Рейс вылетает из Лиссабона?
+l5-024 | Quem abre a loja amanhã? | Кто завтра открывает магазин?
+### L6 TITLE: Прошедшее время — Pretérito Perfeito || TOPIC: Завершённые действия: falei, comi, parti
+INTRO: Pretérito Perfeito — главное прошедшее время: законченные действия. «Вчера я работал, поел, лёг спать» — всё это PPS.
+BLK0[text]: Окончания -ar: falei, falaste, falou, falámos, falaram. Окончания -er: comi, comeste, comeu, comemos, comeram. Окончания -ir: parti, partiste, partiu, partimos, partiram.
+BLK1[note]: Европейская деталь: в форме «мы» прошедшее от -ar пишется с акцентом — «jantámos» (поужинали), а настоящее без — «jantamos» (ужинаем).
+BLK2[note]: Самая нужная неправильная форма: fui — «я был» и «я сходил/съездил» (ser и ir совпадают в прошедшем): «Fui ao supermercado» — «Я сходил в супермаркет».
+VERB: jantar = ужинать
+l6-001 | Ontem trabalhei muito. | Вчера я много работал.
+l6-002 | Eu falei com o senhorio. | Я поговорил с хозяином квартиры.
+l6-003 | Comi um pastel de nata. | Я съел паштел-де-ната.
+l6-004 | Bebi um café com a Ana. | Я выпил кофе с Аной.
+l6-005 | Cheguei tarde a casa. | Я поздно пришёл домой.
+l6-006 | Dormi mal esta noite. | Этой ночью я плохо спал.
+l6-007 | Nós jantámos fora ontem. | Вчера мы поужинали не дома.
+l6-008 | Ela abriu a loja cedo. | Она рано открыла магазин.
+l6-009 | Eles partiram de manhã. | Они уехали утром.
+l6-010 | Eu percebi tudo. | Я всё понял.
+l6-011 | Não trabalhei no domingo. | В воскресенье я не работал.
+l6-012 | Não comi nada hoje. | Я сегодня ничего не ел.
+l6-013 | Ela não falou comigo. | Она со мной не поговорила.
+l6-014 | Não dormi quase nada. | Я почти не спал.
+l6-015 | Eles ainda não chegaram. | Они ещё не приехали.
+l6-016 | Não bebi vinho ontem. | Вчера я не пил вино.
+l6-017 | Tu falaste com ela? | Ты с ней поговорил?
+l6-018 | Comeste alguma coisa? | Ты что-нибудь ел?
+l6-019 | A que horas é que tu chegaste? | Во сколько ты пришёл?
+l6-020 | Trabalhaste ontem? | Ты вчера работал?
+l6-021 | Eles já partiram? | Они уже уехали?
+l6-022 | Onde é que vocês jantaram? | Где вы ужинали?
+l6-023 | Dormiste bem? | Хорошо спал?
+l6-024 | Quem abriu a janela? | Кто открыл окно?
+### L7 TITLE: Будущее время — ir + инфинитив || TOPIC: Планы: vou trabalhar, vamos jantar
+INTRO: Будущее в разговорном португальском — это глагол ir (идти) + инфинитив: «vou falar» — «буду говорить / поговорю». Точно как английское going to.
+BLK0[text]: Ir: eu vou, tu vais, ele vai, nós vamos, eles vão. Дальше любой инфинитив: vou comprar (куплю), vais gostar (тебе понравится), vamos jantar (поужинаем).
+BLK1[note]: Само настоящее тоже служит будущим, если есть слово-маркер: «Amanhã trabalho» — «Завтра работаю».
+BLK2[note]: «Vamos beber um café?» — дежурное португальское приглашение. Соглашаться: «Vamos!»
+VERB: ir = идти, ехать
+l7-001 | Amanhã vou trabalhar. | Завтра я буду работать.
+l7-002 | Vou comprar pão. | Я куплю хлеб.
+l7-003 | Vamos jantar fora hoje. | Сегодня мы ужинаем не дома.
+l7-004 | Ela vai chegar tarde. | Она приедет поздно.
+l7-005 | Vou estudar à noite. | Вечером я буду заниматься.
+l7-006 | Eles vão morar no Porto. | Они будут жить в Порту.
+l7-007 | Vais gostar de Lisboa. | Тебе понравится Лиссабон.
+l7-008 | Vou falar com ele amanhã. | Завтра я с ним поговорю.
+l7-009 | No domingo vamos à praia. | В воскресенье мы едем на пляж.
+l7-010 | Vou abrir uma conta no banco. | Я открою счёт в банке.
+l7-011 | Não vou trabalhar amanhã. | Завтра я не работаю.
+l7-012 | Ela não vai gostar disto. | Ей это не понравится.
+l7-013 | Não vamos comer fora hoje. | Сегодня мы не едим не дома.
+l7-014 | Eles não vão chegar a tempo. | Они не успеют вовремя.
+l7-015 | Não vou beber café hoje. | Сегодня я не буду пить кофе.
+l7-016 | Tu não vais dormir? | Ты не будешь спать?
+l7-017 | Vais trabalhar no sábado? | Ты работаешь в субботу?
+l7-018 | O que é que vais comprar? | Что ты будешь покупать?
+l7-019 | Quando é que vocês vão partir? | Когда вы уезжаете?
+l7-020 | Vamos beber um café? | Выпьем кофе?
+l7-021 | Ela vai estudar em Coimbra? | Она будет учиться в Коимбре?
+l7-022 | Vais ficar em casa hoje? | Ты сегодня останешься дома?
+l7-023 | A que horas vai começar o filme? | Во сколько начнётся фильм?
+l7-024 | Quem vai pagar a conta? | Кто будет платить по счёту?
+### L8 TITLE: Estar a + инфинитив — действие прямо сейчас || TOPIC: Estou a trabalhar — я (сейчас) работаю
+INTRO: Действие, которое происходит прямо сейчас, в Португалии выражают конструкцией estar a + инфинитив: «Estou a trabalhar» — «Я работаю (в этот момент)».
+BLK0[text]: Estar спрягается (estou, estás, está, estamos, estão), инфинитив не меняется: estou a falar, estás a comer, estamos a chegar.
+BLK1[note]: Это визитная карточка европейского португальского. В Бразилии скажут «estou falando» — в Португалии всегда «estou a falar».
+BLK2[note]: «Não estou a perceber» — «я не понимаю (то, что сейчас происходит/говорится)» — одна из самых ходовых фраз.
+VERB: estar a falar = говорить (прямо сейчас)
+l8-001 | Estou a aprender português. | Я учу португальский (сейчас, в этот период).
+l8-002 | Está a chover. | Идёт дождь.
+l8-003 | Estou a trabalhar agora. | Я сейчас работаю.
+l8-004 | O telefone está a tocar. | Телефон звонит.
+l8-005 | Ela está a dormir. | Она спит.
+l8-006 | Estamos a chegar. | Мы подъезжаем.
+l8-007 | Eles estão a comer. | Они едят.
+l8-008 | Estou a falar contigo. | Я говорю с тобой.
+l8-009 | A água está a ferver. | Вода закипает.
+l8-010 | Estou a ouvir música. | Я слушаю музыку.
+l8-011 | Não estou a perceber. | Я не понимаю (что происходит).
+l8-012 | Ela não está a trabalhar hoje. | Она сегодня не работает.
+l8-013 | Não está a chover agora. | Сейчас дождя нет.
+l8-014 | Eles não estão a ouvir. | Они не слушают.
+l8-015 | Não estou a brincar. | Я не шучу.
+l8-016 | O carro não está a funcionar. | Машина не заводится (не работает).
+l8-017 | Estás a perceber? | Ты понимаешь (о чём я)?
+l8-018 | O que é que estás a fazer? | Что ты делаешь?
+l8-019 | Está a chover aí? | У вас там идёт дождь?
+l8-020 | Estás a falar a sério? | Ты серьёзно?
+l8-021 | Estão a gostar de Portugal? | Вам нравится Португалия (нравится жить здесь)?
+l8-022 | Quem está a tocar à porta? | Кто звонит в дверь?
+l8-023 | Estás a ouvir? | Ты слушаешь?
+l8-024 | Ela está a estudar agora? | Она сейчас занимается?
+### L9 TITLE: Модальные глаголы — хочу, могу, должен || TOPIC: poder, querer, ter de, dever, precisar de
+INTRO: Пять глаголов-ключей: querer (хотеть), poder (мочь), ter de (быть должным), dever (следует), precisar de (нуждаться). После них идёт обычный инфинитив.
+BLK0[text]: Querer: quero, queres, quer, queremos, querem. Poder: posso, podes, pode, podemos, podem. Ter: tenho, tens, tem, temos, têm (+ de: tenho de ir — мне надо идти).
+BLK1[note]: «Posso…?» — универсальный вежливый вопрос: Posso pagar com cartão? Posso experimentar? Posso deixar a mala aqui?
+BLK2[note]: В кафе заказывают через querer: «Quero um galão, por favor» (галан — кофе с молоком в высоком стакане). Или мягче: «Queria…» — «я бы хотел».
+VERB: poder = мочь
+l9-001 | Quero um galão, por favor. | Я хочу галан, пожалуйста.
+l9-002 | Posso ajudar. | Я могу помочь.
+l9-003 | Tenho de ir embora. | Мне нужно идти.
+l9-004 | Devo chegar cedo amanhã. | Завтра мне следует прийти рано.
+l9-005 | Podes ficar aqui. | Ты можешь остаться здесь.
+l9-006 | Queremos uma mesa para dois. | Мы хотим столик на двоих.
+l9-007 | Tens de provar isto. | Ты должен это попробовать.
+l9-008 | Preciso de ajuda. | Мне нужна помощь.
+l9-009 | Ela quer mudar de casa. | Она хочет переехать.
+l9-010 | Podes abrir a janela. | Ты можешь открыть окно.
+l9-011 | Não posso falar agora. | Я сейчас не могу говорить.
+l9-012 | Não quero açúcar, obrigado. | Я не хочу сахар, спасибо.
+l9-013 | Ele não pode vir hoje. | Он не может прийти сегодня.
+l9-014 | Não tens de pagar nada. | Тебе не нужно ничего платить.
+l9-015 | Não devo comer tanto. | Мне не следует столько есть.
+l9-016 | Não preciso de saco, obrigado. | Пакет не нужен, спасибо.
+l9-017 | Posso pagar com cartão? | Можно оплатить картой?
+l9-018 | Podes repetir, por favor? | Можешь повторить, пожалуйста?
+l9-019 | Posso experimentar? | Можно примерить?
+l9-020 | Queres beber alguma coisa? | Хочешь что-нибудь выпить?
+l9-021 | Podemos pagar em separado? | Мы можем заплатить раздельно?
+l9-022 | Tens de trabalhar amanhã? | Тебе завтра на работу?
+l9-023 | Posso deixar a mala aqui? | Можно оставить чемодан здесь?
+l9-024 | O que é que queres fazer hoje? | Что ты хочешь делать сегодня?
+### L10 TITLE: Артикли и слияния — no, na, do, ao, pelo || TOPIC: Предлоги места + em/de/a/por с артиклями; ficar и há
+INTRO: Артикли: o, a, os, as. Предлоги em, de, a, por сливаются с ними в короткие слова — и появляются вездесущие no, na, do, da, ao, à, pelo, pela.
+BLK0[text]: em + o = no (в), em + a = na; de + o = do (из/от), de + a = da; a + o = ao (к/в), a + a = à; por + o = pelo (через/по), por + a = pela.
+BLK1[text]: Ficar — «находиться» для зданий и мест: «A farmácia fica ao lado do café» — «Аптека находится рядом с кафе». Há — «есть/имеется»: «Há uma farmácia aqui perto?»
+BLK2[note]: Multibanco — португальский банкомат (и целая платёжная система). Os correios — почта. A paragem — остановка.
+VERB: comprar = покупать
+l10-001 | Vou ao supermercado. | Я иду в супермаркет.
+l10-002 | Venho do trabalho. | Я иду с работы.
+l10-003 | As chaves estão na mesa. | Ключи на столе.
+l10-004 | A farmácia fica ao lado do café. | Аптека находится рядом с кафе.
+l10-005 | Compro fruta no mercado. | Я покупаю фрукты на рынке.
+l10-006 | Eu trabalho no centro da cidade. | Я работаю в центре города.
+l10-007 | Ela mora na Rua das Flores. | Она живёт на улице Флорес.
+l10-008 | O dinheiro está na carteira. | Деньги в кошельке.
+l10-009 | Vamos pela ponte. | Мы идём через мост.
+l10-010 | Os correios ficam na esquina. | Почта находится на углу.
+l10-011 | Vou à praia no domingo. | В воскресенье я еду на пляж.
+l10-012 | Não vou ao ginásio hoje. | Сегодня я не иду в спортзал.
+l10-013 | Ele não está no escritório. | Его нет в офисе.
+l10-014 | Não há leite no frigorífico. | В холодильнике нет молока.
+l10-015 | As lojas não abrem ao domingo. | Магазины не работают по воскресеньям.
+l10-016 | Eu não passo pelo centro. | Я не прохожу через центр.
+l10-017 | A paragem não fica longe. | Остановка недалеко.
+l10-018 | Onde fica a estação de metro? | Где находится станция метро?
+l10-019 | Há uma farmácia aqui perto? | Здесь поблизости есть аптека?
+l10-020 | Vais ao mercado no sábado? | Ты идёшь на рынок в субботу?
+l10-021 | Onde é que compras fruta? | Где ты покупаешь фрукты?
+l10-022 | Vens do aeroporto? | Ты едешь из аэропорта?
+l10-023 | O museu fica no centro? | Музей находится в центре?
+l10-024 | Passas pela farmácia? | Зайдёшь в аптеку (по пути)?
+### L11 TITLE: Притяжательные — мой, твой, наш + глагол ter || TOPIC: o meu, a tua, o nosso; tenho, tens, tem
+INTRO: «Мой дом» по-португальски — «a minha casa», с артиклем перед притяжательным. Род и число согласуются с вещью, а не с владельцем.
+BLK0[text]: o meu / a minha / os meus / as minhas (мой); o teu / a tua (твой); o nosso / a nossa (наш); o vosso / a vossa (ваш). Ter (иметь): tenho, tens, tem, temos, têm.
+BLK1[note]: «O seu» обычно значит «ваш» (вежливое). Для «его/её» португальцы говорят dele/dela: «o carro dele» — его машина.
+BLK2[note]: «Tens horas?» — «Не подскажешь, который час?» (дословно «имеешь часы?»). A renda — арендная плата. O troco — сдача.
+VERB: ter = иметь
+l11-001 | O meu apartamento é pequeno. | Моя квартира маленькая.
+l11-002 | A minha mulher trabalha em Lisboa. | Моя жена работает в Лиссабоне.
+l11-003 | Tenho dois filhos. | У меня двое детей.
+l11-004 | Os meus vizinhos são simpáticos. | Мои соседи — приятные люди.
+l11-005 | O nosso carro está na garagem. | Наша машина в гараже.
+l11-006 | A tua casa é muito bonita. | Твой дом очень красивый.
+l11-007 | Tenho uma reunião às dez. | У меня встреча в десять.
+l11-008 | O meu telemóvel está sem bateria. | Мой телефон разрядился.
+l11-009 | A nossa renda é cara. | Наша аренда дорогая.
+l11-010 | Ele tem o meu número. | У него есть мой номер.
+l11-011 | Não tenho troco. | У меня нет сдачи.
+l11-012 | O meu carro não funciona. | Моя машина не работает.
+l11-013 | Não temos tempo hoje. | У нас сегодня нет времени.
+l11-014 | A minha chave não abre a porta. | Мой ключ не открывает дверь.
+l11-015 | Ela não tem irmãos. | У неё нет братьев и сестёр.
+l11-016 | Isto não é meu. | Это не моё.
+l11-017 | Onde está o meu telemóvel? | Где мой телефон?
+l11-018 | Tens as chaves? | Ключи у тебя?
+l11-019 | É o teu casaco? | Это твоя куртка?
+l11-020 | Quantos anos tem o teu filho? | Сколько лет твоему сыну?
+l11-021 | Tens horas? | Не подскажешь, который час?
+l11-022 | A vossa casa tem jardim? | В вашем доме есть сад?
+l11-023 | Tens planos para o fim de semana? | У тебя есть планы на выходные?
+l11-024 | O teu médico fala inglês? | Твой врач говорит по-английски?
+### L12 TITLE: Движение и транспорт || TOPIC: ir de metro, apanhar o autocarro, vir de, até
+INTRO: Как добраться: ir de + транспорт (de metro, de carro, de autocarro) или a pé (пешком). «Успеть на / сесть на» — глагол apanhar.
+BLK0[text]: Apanhar: apanho o autocarro (сажусь на автобус), apanhamos um táxi (берём такси). Vir (приходить/приезжать): venho, vens, vem, vimos, vêm.
+BLK1[text]: Para — направление «надолго/до конца» (vou para casa — домой), a — «ненадолго» (vou ao banco — в банк и обратно). Até — «до»: até à estação.
+BLK2[note]: O elétrico — лиссабонский трамвай. O comboio — поезд (в Бразилии trem). Connosco — «с нами» (европейская форма).
+VERB: apanhar = успеть на, поймать
+l12-001 | Vou de metro para o trabalho. | Я езжу на работу на метро.
+l12-002 | Apanho o autocarro às oito. | Я сажусь на автобус в восемь.
+l12-003 | O comboio vai para o Porto. | Поезд идёт в Порту.
+l12-004 | Venho da farmácia. | Я иду из аптеки.
+l12-005 | Vamos a pé até à praça. | Мы идём пешком до площади.
+l12-006 | Ela vem de carro. | Она приезжает на машине.
+l12-007 | Apanhamos um táxi para o aeroporto. | Мы берём такси до аэропорта.
+l12-008 | O elétrico passa pelo centro. | Трамвай проходит через центр.
+l12-009 | Vou até ao multibanco. | Я схожу до банкомата.
+l12-010 | Saio de casa às sete. | Я выхожу из дома в семь.
+l12-011 | O autocarro não vai para o centro. | Автобус не идёт в центр.
+l12-012 | Não vou de carro hoje. | Сегодня я не еду на машине.
+l12-013 | O metro não chega até lá. | Метро туда не доходит.
+l12-014 | Não apanho o comboio das nove. | Я не успеваю на девятичасовой поезд.
+l12-015 | Ela não vem connosco. | Она не идёт с нами.
+l12-016 | Não saio de casa ao domingo. | По воскресеньям я не выхожу из дома.
+l12-017 | Este autocarro vai para Belém? | Этот автобус идёт в Белен?
+l12-018 | Onde é que apanho o metro? | Где мне сесть на метро?
+l12-019 | Vais de comboio ou de autocarro? | Ты едешь на поезде или на автобусе?
+l12-020 | A que horas parte o último metro? | Во сколько уходит последнее метро?
+l12-021 | Vens connosco? | Пойдёшь с нами?
+l12-022 | Como é que chego ao aeroporto? | Как мне добраться до аэропорта?
+l12-023 | O elétrico passa aqui? | Трамвай здесь проходит?
+l12-024 | Vamos a pé? | Пойдём пешком?
+### L13 TITLE: Прилагательные и указательные || TOPIC: este/esse/aquele, согласование, gostar de
+INTRO: Прилагательное согласуется с существительным в роде и числе: vinho tinto, casa bonita, praias lindas. Указательные: este (этот, у меня), esse (тот, у тебя), aquele (вон тот, далеко).
+BLK0[text]: Gostar de — «нравиться»: gosto de café, gostas de bacalhau? С указательными de сливается: gosto deste restaurante (de + este).
+BLK1[text]: Сравнение: mais caro (do) que — дороже чем; melhor — лучше; o melhor — самый лучший.
+BLK2[note]: Giro/gira — разговорное «классный, симпатичный» (только в Португалии). Sossegado — спокойный, тихий (про район, кафе).
+VERB: gostar = нравиться (gostar de)
+l13-001 | Este café é ótimo. | Это кафе отличное.
+l13-002 | Gosto muito deste restaurante. | Мне очень нравится этот ресторан.
+l13-003 | Essa camisola é gira. | Эта кофта симпатичная.
+l13-004 | O tempo está bom hoje. | Сегодня хорошая погода.
+l13-005 | Aquele prédio é novo. | Вон то здание новое.
+l13-006 | Esta sopa está deliciosa. | Этот суп очень вкусный.
+l13-007 | Gosto de vinho tinto. | Я люблю красное вино.
+l13-008 | As praias portuguesas são lindas. | Португальские пляжи прекрасны.
+l13-009 | Este bairro é muito sossegado. | Этот район очень спокойный.
+l13-010 | A fruta aqui é fresca. | Фрукты здесь свежие.
+l13-011 | Não gosto de filas. | Я не люблю очереди.
+l13-012 | Este vinho não é caro. | Это вино недорогое.
+l13-013 | Essa loja não é barata. | Тот магазин не дешёвый.
+l13-014 | Não gosto deste tempo. | Мне не нравится эта погода.
+l13-015 | O peixe não está fresco. | Рыба несвежая.
+l13-016 | Aquela rua não é muito segura. | Вон та улица не очень безопасная.
+l13-017 | Gostas deste vinho? | Тебе нравится это вино?
+l13-018 | Esta mesa está livre? | Этот столик свободен?
+l13-019 | Aquele restaurante é bom? | Вон тот ресторан хороший?
+l13-020 | Qual é o melhor café aqui? | Какое здесь лучшее кафе?
+l13-021 | Este queijo é da região? | Этот сыр местный?
+l13-022 | Gostas de bacalhau? | Ты любишь бакаляу?
+l13-023 | Esse casaco é novo? | Та куртка новая?
+l13-024 | Qual preferes: este ou aquele? | Какой ты предпочитаешь: этот или вон тот?
+### L14 TITLE: Числа, время и цены || TOPIC: Который час, сколько стоит, дни недели
+INTRO: Числа, часы и цены — то, что нужно каждый день: в кафе, на рынке, на вокзале. Плюс дни недели и вопрос «Que horas são?».
+BLK0[text]: 1–12: um, dois, três, quatro, cinco, seis, sete, oito, nove, dez, onze, doze. Десятки: vinte, trinta, quarenta, cinquenta… cem (100).
+BLK1[text]: Время: É uma hora (час дня), São duas/três horas. В котором часу — às: às oito e meia (в 8:30). Цена: custa — стоит, custam — стоят.
+BLK2[note]: Дни: segunda, terça, quarta, quinta, sexta (будни — «-feira»), sábado, domingo. «À segunda» — по понедельникам. Многие музеи закрыты à segunda!
+VERB: fazer = делать
+l14-001 | São três da tarde. | Сейчас три часа дня.
+l14-002 | O comboio parte às oito e meia. | Поезд отправляется в восемь тридцать.
+l14-003 | Custa dois euros e cinquenta. | Это стоит два евро пятьдесят.
+l14-004 | Tenho trinta e dois anos. | Мне тридцать два года.
+l14-005 | A consulta é na quinta-feira. | Приём у врача в четверг.
+l14-006 | Hoje é dia quinze. | Сегодня пятнадцатое число.
+l14-007 | Faço anos em maio. | У меня день рождения в мае.
+l14-008 | O almoço é ao meio-dia. | Обед в полдень.
+l14-009 | Trabalho das nove às seis. | Я работаю с девяти до шести.
+l14-010 | A loja fecha à uma. | Магазин закрывается в час.
+l14-011 | Ainda não é meio-dia. | Ещё нет полудня.
+l14-012 | O museu não abre à segunda. | Музей не работает по понедельникам.
+l14-013 | Não custa muito. | Это стоит недорого.
+l14-014 | Não tenho tempo à tarde. | Днём у меня нет времени.
+l14-015 | Não há metro depois da uma. | После часа ночи метро не ходит.
+l14-016 | A reunião não é hoje. | Встреча не сегодня.
+l14-017 | Que horas são? | Который час?
+l14-018 | A que horas fecha o supermercado? | Во сколько закрывается супермаркет?
+l14-019 | Quanto custa? | Сколько это стоит?
+l14-020 | Quanto custa um quilo de laranjas? | Сколько стоит килограмм апельсинов?
+l14-021 | Que dia é hoje? | Какой сегодня день?
+l14-022 | A que horas é o jogo? | Во сколько матч?
+l14-023 | Quantos anos tens? | Сколько тебе лет?
+l14-024 | O jantar é às oito? | Ужин в восемь?
+### L15 TITLE: Pretérito Imperfeito — было, бывало || TOPIC: Привычки и фон в прошлом: morava, era, tinha
+INTRO: Второе прошедшее время — для привычек, фона и описаний: «раньше я жил в Порту», «кофе был дешевле». Не законченное событие (это PPS), а картина прошлого.
+BLK0[text]: Окончания -ar: morava, moravas, morava, morávamos, moravam. Окончания -er/-ir: bebia, bebias, bebia, bebíamos, bebiam.
+BLK1[text]: Четыре главных неправильных: era (был), tinha (имел), ia (ходил/ездил), havia (имелось).
+BLK2[note]: Сравни: «Morei no Porto dois anos» — факт, законченный период (PPS). «Morava no Porto quando era estudante» — фон, привычное состояние (Imperfeito).
+VERB: morar = жить (где-то)
+l15-001 | Antigamente morava no Porto. | Раньше я жил в Порту.
+l15-002 | Quando era criança, falava russo. | В детстве я говорил по-русски.
+l15-003 | Eu trabalhava num café. | Я работал в кафе.
+l15-004 | O café era mais barato. | Кофе был дешевле.
+l15-005 | Íamos à praia todos os verões. | Каждое лето мы ездили на пляж.
+l15-006 | Ela tinha um cão. | У неё была собака.
+l15-007 | Eu bebia muito café. | Я пил много кофе.
+l15-008 | Vivíamos perto do mar. | Мы жили у моря.
+l15-009 | O meu avô fazia pão. | Мой дедушка пёк хлеб.
+l15-010 | Havia uma livraria nesta rua. | На этой улице был книжный магазин.
+l15-011 | Não havia metro naquela altura. | Тогда метро ещё не было.
+l15-012 | Eu não gostava de peixe. | Раньше я не любил рыбу.
+l15-013 | Não tínhamos carro. | У нас не было машины.
+l15-014 | Ela não falava inglês. | Она не говорила по-английски.
+l15-015 | Eu não percebia nada. | Я ничего не понимал.
+l15-016 | Não era assim tão caro. | Это было не так уж и дорого.
+l15-017 | Onde é que tu moravas? | Где ты раньше жил?
+l15-018 | Onde é que trabalhavas? | Где ты работал (раньше)?
+l15-019 | Como era a tua cidade? | Каким был твой город?
+l15-020 | Tinhas animais em casa? | У тебя дома были животные?
+l15-021 | Gostavas da escola? | Тебе нравилась школа?
+l15-022 | Ias muito à praia? | Ты часто ездил на пляж?
+l15-023 | O que é que fazias aos domingos? | Что ты делал по воскресеньям?
+l15-024 | Era tudo mais barato? | Всё было дешевле?
+### L16 TITLE: Фразы дня — вежливость и выживание || TOPIC: Формулы на каждый день: кафе, улица, разговор
+INTRO: Финальный урок — готовые формулы, которые португальцы говорят каждый день. Их учат целиком, как слова: они «склеивают» всё, что ты уже умеешь.
+BLK0[text]: Dizer (говорить/сказать): digo, dizes, diz, dizemos, dizem. «Como se diz…?» — «Как сказать…?» — твой инструмент учёбы навсегда.
+BLK1[note]: Obrigado говорит мужчина, obrigada — женщина. Ответ: «De nada» или «Não tem de quê».
+BLK2[note]: Pois é — «да уж / и не говори». Se calhar — «может быть». Está bem — «хорошо, ладно». Combinado — «договорились». Эти словечки делают речь живой.
+VERB: dizer = говорить, сказать
+l16-001 | Com licença. | Извините (разрешите пройти).
+l16-002 | Muito obrigado pela ajuda. | Большое спасибо за помощь.
+l16-003 | Está bem, combinado. | Хорошо, договорились.
+l16-004 | Bom fim de semana! | Хороших выходных!
+l16-005 | Se calhar vou mais tarde. | Может быть, я пойду попозже.
+l16-006 | Pois é, tens razão. | Да уж, ты прав.
+l16-007 | Desculpe o atraso. | Извините за опоздание.
+l16-008 | É para levar, por favor. | С собой, пожалуйста.
+l16-009 | Fica para a próxima. | Перенесём на следующий раз.
+l16-010 | Que giro! | Как здорово!
+l16-011 | Não faz mal. | Ничего страшного.
+l16-012 | Ainda não sei. | Я ещё не знаю.
+l16-013 | Desculpe, não percebi. | Извините, я не понял.
+l16-014 | Não tem de quê. | Не за что.
+l16-015 | Não faz sentido. | Это не имеет смысла.
+l16-016 | Infelizmente não posso ir. | К сожалению, я не могу пойти.
+l16-017 | Como se diz isto em português? | Как это сказать по-португальски?
+l16-018 | Pode repetir mais devagar, por favor? | Можете повторить помедленнее, пожалуйста?
+l16-019 | O que é que isto quer dizer? | Что это значит?
+l16-020 | Tudo bem contigo? | У тебя всё хорошо?
+l16-021 | Podes dizer outra vez? | Можешь сказать ещё раз?
+l16-022 | Aceitam cartão? | Вы принимаете карты?
+l16-023 | Onde é a casa de banho? | Где туалет?
+l16-024 | Tens a certeza? | Ты уверен?

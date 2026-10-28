@@ -1,0 +1,1237 @@
+{
+  "_doc": "Неправильные формы глаголов (европейский португальский). Порядок лиц: [eu, tu, ele/ela/você, nós, eles/elas/vocês]. Указаны ТОЛЬКО неправильные времена; недостающие времена конъюгатор считает по регулярным правилам. Времена: presente, pretperf (Pretérito Perfeito), imperf (Pretérito Imperfeito), futuro (Futuro do Indicativo).",
+  "ser": {
+    "presente": [
+      "sou",
+      "és",
+      "é",
+      "somos",
+      "são"
+    ],
+    "pretperf": [
+      "fui",
+      "foste",
+      "foi",
+      "fomos",
+      "foram"
+    ],
+    "imperf": [
+      "era",
+      "eras",
+      "era",
+      "éramos",
+      "eram"
+    ]
+  },
+  "estar": {
+    "presente": [
+      "estou",
+      "estás",
+      "está",
+      "estamos",
+      "estão"
+    ],
+    "pretperf": [
+      "estive",
+      "estiveste",
+      "esteve",
+      "estivemos",
+      "estiveram"
+    ]
+  },
+  "ter": {
+    "presente": [
+      "tenho",
+      "tens",
+      "tem",
+      "temos",
+      "têm"
+    ],
+    "pretperf": [
+      "tive",
+      "tiveste",
+      "teve",
+      "tivemos",
+      "tiveram"
+    ],
+    "imperf": [
+      "tinha",
+      "tinhas",
+      "tinha",
+      "tínhamos",
+      "tinham"
+    ]
+  },
+  "ir": {
+    "presente": [
+      "vou",
+      "vais",
+      "vai",
+      "vamos",
+      "vão"
+    ],
+    "pretperf": [
+      "fui",
+      "foste",
+      "foi",
+      "fomos",
+      "foram"
+    ],
+    "imperf": [
+      "ia",
+      "ias",
+      "ia",
+      "íamos",
+      "iam"
+    ]
+  },
+  "haver": {
+    "presente": [
+      "hei",
+      "hás",
+      "há",
+      "havemos",
+      "hão"
+    ],
+    "pretperf": [
+      "houve",
+      "houveste",
+      "houve",
+      "houvemos",
+      "houveram"
+    ]
+  },
+  "fazer": {
+    "presente": [
+      "faço",
+      "fazes",
+      "faz",
+      "fazemos",
+      "fazem"
+    ],
+    "pretperf": [
+      "fiz",
+      "fizeste",
+      "fez",
+      "fizemos",
+      "fizeram"
+    ],
+    "futuro": [
+      "farei",
+      "farás",
+      "fará",
+      "faremos",
+      "farão"
+    ]
+  },
+  "dizer": {
+    "presente": [
+      "digo",
+      "dizes",
+      "diz",
+      "dizemos",
+      "dizem"
+    ],
+    "pretperf": [
+      "disse",
+      "disseste",
+      "disse",
+      "dissemos",
+      "disseram"
+    ],
+    "futuro": [
+      "direi",
+      "dirás",
+      "dirá",
+      "diremos",
+      "dirão"
+    ]
+  },
+  "ver": {
+    "presente": [
+      "vejo",
+      "vês",
+      "vê",
+      "vemos",
+      "veem"
+    ],
+    "pretperf": [
+      "vi",
+      "viste",
+      "viu",
+      "vimos",
+      "viram"
+    ],
+    "imperf": [
+      "via",
+      "vias",
+      "via",
+      "víamos",
+      "viam"
+    ]
+  },
+  "dar": {
+    "presente": [
+      "dou",
+      "dás",
+      "dá",
+      "damos",
+      "dão"
+    ],
+    "pretperf": [
+      "dei",
+      "deste",
+      "deu",
+      "demos",
+      "deram"
+    ]
+  },
+  "poder": {
+    "presente": [
+      "posso",
+      "podes",
+      "pode",
+      "podemos",
+      "podem"
+    ],
+    "pretperf": [
+      "pude",
+      "pudeste",
+      "pôde",
+      "pudemos",
+      "puderam"
+    ]
+  },
+  "querer": {
+    "presente": [
+      "quero",
+      "queres",
+      "quer",
+      "queremos",
+      "querem"
+    ],
+    "pretperf": [
+      "quis",
+      "quiseste",
+      "quis",
+      "quisemos",
+      "quiseram"
+    ]
+  },
+  "vir": {
+    "presente": [
+      "venho",
+      "vens",
+      "vem",
+      "vimos",
+      "vêm"
+    ],
+    "pretperf": [
+      "vim",
+      "vieste",
+      "veio",
+      "viemos",
+      "vieram"
+    ],
+    "imperf": [
+      "vinha",
+      "vinhas",
+      "vinha",
+      "vínhamos",
+      "vinham"
+    ]
+  },
+  "pôr": {
+    "presente": [
+      "ponho",
+      "pões",
+      "põe",
+      "pomos",
+      "põem"
+    ],
+    "pretperf": [
+      "pus",
+      "puseste",
+      "pôs",
+      "pusemos",
+      "puseram"
+    ],
+    "imperf": [
+      "punha",
+      "punhas",
+      "punha",
+      "púnhamos",
+      "punham"
+    ],
+    "futuro": [
+      "porei",
+      "porás",
+      "porá",
+      "poremos",
+      "porão"
+    ]
+  },
+  "saber": {
+    "presente": [
+      "sei",
+      "sabes",
+      "sabe",
+      "sabemos",
+      "sabem"
+    ],
+    "pretperf": [
+      "soube",
+      "soubeste",
+      "soube",
+      "soubemos",
+      "souberam"
+    ]
+  },
+  "trazer": {
+    "presente": [
+      "trago",
+      "trazes",
+      "traz",
+      "trazemos",
+      "trazem"
+    ],
+    "pretperf": [
+      "trouxe",
+      "trouxeste",
+      "trouxe",
+      "trouxemos",
+      "trouxeram"
+    ],
+    "futuro": [
+      "trarei",
+      "trarás",
+      "trará",
+      "traremos",
+      "trarão"
+    ]
+  },
+  "ler": {
+    "presente": [
+      "leio",
+      "lês",
+      "lê",
+      "lemos",
+      "leem"
+    ]
+  },
+  "crer": {
+    "presente": [
+      "creio",
+      "crês",
+      "crê",
+      "cremos",
+      "creem"
+    ]
+  },
+  "rir": {
+    "presente": [
+      "rio",
+      "ris",
+      "ri",
+      "rimos",
+      "riem"
+    ]
+  },
+  "caber": {
+    "presente": [
+      "caibo",
+      "cabes",
+      "cabe",
+      "cabemos",
+      "cabem"
+    ],
+    "pretperf": [
+      "coube",
+      "coubeste",
+      "coube",
+      "coubemos",
+      "couberam"
+    ]
+  },
+  "valer": {
+    "presente": [
+      "valho",
+      "vales",
+      "vale",
+      "valemos",
+      "valem"
+    ]
+  },
+  "ouvir": {
+    "presente": [
+      "ouço",
+      "ouves",
+      "ouve",
+      "ouvimos",
+      "ouvem"
+    ]
+  },
+  "sair": {
+    "presente": [
+      "saio",
+      "sais",
+      "sai",
+      "saímos",
+      "saem"
+    ],
+    "pretperf": [
+      "saí",
+      "saíste",
+      "saiu",
+      "saímos",
+      "saíram"
+    ],
+    "imperf": [
+      "saía",
+      "saías",
+      "saía",
+      "saíamos",
+      "saíam"
+    ]
+  },
+  "cair": {
+    "presente": [
+      "caio",
+      "cais",
+      "cai",
+      "caímos",
+      "caem"
+    ],
+    "pretperf": [
+      "caí",
+      "caíste",
+      "caiu",
+      "caímos",
+      "caíram"
+    ],
+    "imperf": [
+      "caía",
+      "caías",
+      "caía",
+      "caíamos",
+      "caíam"
+    ]
+  },
+  "pedir": {
+    "presente": [
+      "peço",
+      "pedes",
+      "pede",
+      "pedimos",
+      "pedem"
+    ]
+  },
+  "medir": {
+    "presente": [
+      "meço",
+      "medes",
+      "mede",
+      "medimos",
+      "medem"
+    ]
+  },
+  "perder": {
+    "presente": [
+      "perco",
+      "perdes",
+      "perde",
+      "perdemos",
+      "perdem"
+    ]
+  },
+  "dormir": {
+    "presente": [
+      "durmo",
+      "dormes",
+      "dorme",
+      "dormimos",
+      "dormem"
+    ]
+  },
+  "sentir": {
+    "presente": [
+      "sinto",
+      "sentes",
+      "sente",
+      "sentimos",
+      "sentem"
+    ]
+  },
+  "servir": {
+    "presente": [
+      "sirvo",
+      "serves",
+      "serve",
+      "servimos",
+      "servem"
+    ]
+  },
+  "seguir": {
+    "presente": [
+      "sigo",
+      "segues",
+      "segue",
+      "seguimos",
+      "seguem"
+    ]
+  },
+  "conseguir": {
+    "presente": [
+      "consigo",
+      "consegues",
+      "consegue",
+      "conseguimos",
+      "conseguem"
+    ]
+  },
+  "preferir": {
+    "presente": [
+      "prefiro",
+      "preferes",
+      "prefere",
+      "preferimos",
+      "preferem"
+    ]
+  },
+  "vestir": {
+    "presente": [
+      "visto",
+      "vestes",
+      "veste",
+      "vestimos",
+      "vestem"
+    ]
+  },
+  "repetir": {
+    "presente": [
+      "repito",
+      "repetes",
+      "repete",
+      "repetimos",
+      "repetem"
+    ]
+  },
+  "mentir": {
+    "presente": [
+      "minto",
+      "mentes",
+      "mente",
+      "mentimos",
+      "mentem"
+    ]
+  },
+  "divertir": {
+    "presente": [
+      "divirto",
+      "divertes",
+      "diverte",
+      "divertimos",
+      "divertem"
+    ]
+  },
+  "subir": {
+    "presente": [
+      "subo",
+      "sobes",
+      "sobe",
+      "subimos",
+      "sobem"
+    ]
+  },
+  "fugir": {
+    "presente": [
+      "fujo",
+      "foges",
+      "foge",
+      "fugimos",
+      "fogem"
+    ]
+  },
+  "manter": {
+    "presente": [
+      "mantenho",
+      "manténs",
+      "mantém",
+      "mantemos",
+      "mantêm"
+    ],
+    "pretperf": [
+      "mantive",
+      "mantiveste",
+      "manteve",
+      "mantivemos",
+      "mantiveram"
+    ],
+    "imperf": [
+      "mantinha",
+      "mantinhas",
+      "mantinha",
+      "mantínhamos",
+      "mantinham"
+    ]
+  },
+  "obter": {
+    "presente": [
+      "obtenho",
+      "obténs",
+      "obtém",
+      "obtemos",
+      "obtêm"
+    ],
+    "pretperf": [
+      "obtive",
+      "obtiveste",
+      "obteve",
+      "obtivemos",
+      "obtiveram"
+    ],
+    "imperf": [
+      "obtinha",
+      "obtinhas",
+      "obtinha",
+      "obtínhamos",
+      "obtinham"
+    ]
+  },
+  "conter": {
+    "presente": [
+      "contenho",
+      "conténs",
+      "contém",
+      "contemos",
+      "contêm"
+    ],
+    "pretperf": [
+      "contive",
+      "contiveste",
+      "conteve",
+      "contivemos",
+      "contiveram"
+    ],
+    "imperf": [
+      "continha",
+      "continhas",
+      "continha",
+      "contínhamos",
+      "continham"
+    ]
+  },
+  "deter": {
+    "presente": [
+      "detenho",
+      "deténs",
+      "detém",
+      "detemos",
+      "detêm"
+    ],
+    "pretperf": [
+      "detive",
+      "detiveste",
+      "deteve",
+      "detivemos",
+      "detiveram"
+    ],
+    "imperf": [
+      "detinha",
+      "detinhas",
+      "detinha",
+      "detínhamos",
+      "detinham"
+    ]
+  },
+  "reter": {
+    "presente": [
+      "retenho",
+      "reténs",
+      "retém",
+      "retemos",
+      "retêm"
+    ],
+    "pretperf": [
+      "retive",
+      "retiveste",
+      "reteve",
+      "retivemos",
+      "retiveram"
+    ],
+    "imperf": [
+      "retinha",
+      "retinhas",
+      "retinha",
+      "retínhamos",
+      "retinham"
+    ]
+  },
+  "entreter": {
+    "presente": [
+      "entretenho",
+      "entreténs",
+      "entretém",
+      "entretemos",
+      "entretêm"
+    ],
+    "pretperf": [
+      "entretive",
+      "entretiveste",
+      "entreteve",
+      "entretivemos",
+      "entretiveram"
+    ],
+    "imperf": [
+      "entretinha",
+      "entretinhas",
+      "entretinha",
+      "entretínhamos",
+      "entretinham"
+    ]
+  },
+  "compor": {
+    "presente": [
+      "componho",
+      "compões",
+      "compõe",
+      "compomos",
+      "compõem"
+    ],
+    "pretperf": [
+      "compus",
+      "compuseste",
+      "compôs",
+      "compusemos",
+      "compuseram"
+    ],
+    "imperf": [
+      "compunha",
+      "compunhas",
+      "compunha",
+      "compúnhamos",
+      "compunham"
+    ],
+    "futuro": [
+      "comporei",
+      "comporás",
+      "comporá",
+      "comporemos",
+      "comporão"
+    ]
+  },
+  "propor": {
+    "presente": [
+      "proponho",
+      "propões",
+      "propõe",
+      "propomos",
+      "propõem"
+    ],
+    "pretperf": [
+      "propus",
+      "propuseste",
+      "propôs",
+      "propusemos",
+      "propuseram"
+    ],
+    "imperf": [
+      "propunha",
+      "propunhas",
+      "propunha",
+      "propúnhamos",
+      "propunham"
+    ],
+    "futuro": [
+      "proporei",
+      "proporás",
+      "proporá",
+      "proporemos",
+      "proporão"
+    ]
+  },
+  "opor": {
+    "presente": [
+      "oponho",
+      "opões",
+      "opõe",
+      "opomos",
+      "opõem"
+    ],
+    "pretperf": [
+      "opus",
+      "opuseste",
+      "opôs",
+      "opusemos",
+      "opuseram"
+    ],
+    "imperf": [
+      "opunha",
+      "opunhas",
+      "opunha",
+      "opúnhamos",
+      "opunham"
+    ],
+    "futuro": [
+      "oporei",
+      "oporás",
+      "oporá",
+      "oporemos",
+      "oporão"
+    ]
+  },
+  "impor": {
+    "presente": [
+      "imponho",
+      "impões",
+      "impõe",
+      "impomos",
+      "impõem"
+    ],
+    "pretperf": [
+      "impus",
+      "impuseste",
+      "impôs",
+      "impusemos",
+      "impuseram"
+    ],
+    "imperf": [
+      "impunha",
+      "impunhas",
+      "impunha",
+      "impúnhamos",
+      "impunham"
+    ],
+    "futuro": [
+      "imporei",
+      "imporás",
+      "imporá",
+      "imporemos",
+      "imporão"
+    ]
+  },
+  "dispor": {
+    "presente": [
+      "disponho",
+      "dispões",
+      "dispõe",
+      "dispomos",
+      "dispõem"
+    ],
+    "pretperf": [
+      "dispus",
+      "dispuseste",
+      "dispôs",
+      "dispusemos",
+      "dispuseram"
+    ],
+    "imperf": [
+      "dispunha",
+      "dispunhas",
+      "dispunha",
+      "dispúnhamos",
+      "dispunham"
+    ],
+    "futuro": [
+      "disporei",
+      "disporás",
+      "disporá",
+      "disporemos",
+      "disporão"
+    ]
+  },
+  "expor": {
+    "presente": [
+      "exponho",
+      "expões",
+      "expõe",
+      "expomos",
+      "expõem"
+    ],
+    "pretperf": [
+      "expus",
+      "expuseste",
+      "expôs",
+      "expusemos",
+      "expuseram"
+    ],
+    "imperf": [
+      "expunha",
+      "expunhas",
+      "expunha",
+      "expúnhamos",
+      "expunham"
+    ],
+    "futuro": [
+      "exporei",
+      "exporás",
+      "exporá",
+      "exporemos",
+      "exporão"
+    ]
+  },
+  "supor": {
+    "presente": [
+      "suponho",
+      "supões",
+      "supõe",
+      "supomos",
+      "supõem"
+    ],
+    "pretperf": [
+      "supus",
+      "supuseste",
+      "supôs",
+      "supusemos",
+      "supuseram"
+    ],
+    "imperf": [
+      "supunha",
+      "supunhas",
+      "supunha",
+      "supúnhamos",
+      "supunham"
+    ],
+    "futuro": [
+      "suporei",
+      "suporás",
+      "suporá",
+      "suporemos",
+      "suporão"
+    ]
+  },
+  "rever": {
+    "presente": [
+      "revejo",
+      "revês",
+      "revê",
+      "revemos",
+      "reveem"
+    ],
+    "pretperf": [
+      "revi",
+      "reviste",
+      "reviu",
+      "revimos",
+      "reviram"
+    ],
+    "imperf": [
+      "revia",
+      "revias",
+      "revia",
+      "revíamos",
+      "reviam"
+    ]
+  },
+  "prever": {
+    "presente": [
+      "prevejo",
+      "prevês",
+      "prevê",
+      "prevemos",
+      "preveem"
+    ],
+    "pretperf": [
+      "previ",
+      "previste",
+      "previu",
+      "previmos",
+      "previram"
+    ],
+    "imperf": [
+      "previa",
+      "previas",
+      "previa",
+      "prevíamos",
+      "previam"
+    ]
+  },
+  "desfazer": {
+    "presente": [
+      "desfaço",
+      "desfazes",
+      "desfaz",
+      "desfazemos",
+      "desfazem"
+    ],
+    "pretperf": [
+      "desfiz",
+      "desfizeste",
+      "desfez",
+      "desfizemos",
+      "desfizeram"
+    ],
+    "futuro": [
+      "desfarei",
+      "desfarás",
+      "desfará",
+      "desfaremos",
+      "desfarão"
+    ]
+  },
+  "satisfazer": {
+    "presente": [
+      "satisfaço",
+      "satisfazes",
+      "satisfaz",
+      "satisfazemos",
+      "satisfazem"
+    ],
+    "pretperf": [
+      "satisfiz",
+      "satisfizeste",
+      "satisfez",
+      "satisfizemos",
+      "satisfizeram"
+    ],
+    "futuro": [
+      "satisfarei",
+      "satisfarás",
+      "satisfará",
+      "satisfaremos",
+      "satisfarão"
+    ]
+  },
+  "refazer": {
+    "presente": [
+      "refaço",
+      "refazes",
+      "refaz",
+      "refazemos",
+      "refazem"
+    ],
+    "pretperf": [
+      "refiz",
+      "refizeste",
+      "refez",
+      "refizemos",
+      "refizeram"
+    ],
+    "futuro": [
+      "refarei",
+      "refarás",
+      "refará",
+      "refaremos",
+      "refarão"
+    ]
+  },
+  "contradizer": {
+    "presente": [
+      "contradigo",
+      "contradizes",
+      "contradiz",
+      "contradizemos",
+      "contradizem"
+    ],
+    "pretperf": [
+      "contradisse",
+      "contradisseste",
+      "contradisse",
+      "contradissemos",
+      "contradisseram"
+    ],
+    "futuro": [
+      "contradirei",
+      "contradirás",
+      "contradirá",
+      "contradiremos",
+      "contradirão"
+    ]
+  },
+  "convir": {
+    "presente": [
+      "convenho",
+      "convéns",
+      "convém",
+      "convimos",
+      "convêm"
+    ],
+    "pretperf": [
+      "convim",
+      "convieste",
+      "conveio",
+      "conviemos",
+      "convieram"
+    ],
+    "imperf": [
+      "convinha",
+      "convinhas",
+      "convinha",
+      "convínhamos",
+      "convinham"
+    ]
+  },
+  "intervir": {
+    "presente": [
+      "intervenho",
+      "intervéns",
+      "intervém",
+      "intervimos",
+      "intervêm"
+    ],
+    "pretperf": [
+      "intervim",
+      "intervieste",
+      "interveio",
+      "interviemos",
+      "intervieram"
+    ],
+    "imperf": [
+      "intervinha",
+      "intervinhas",
+      "intervinha",
+      "intervínhamos",
+      "intervinham"
+    ]
+  },
+  "despir": {
+    "presente": [
+      "dispo",
+      "despes",
+      "despe",
+      "despimos",
+      "despem"
+    ]
+  },
+  "sugerir": {
+    "presente": [
+      "sugiro",
+      "sugeres",
+      "sugere",
+      "sugerimos",
+      "sugerem"
+    ]
+  },
+  "perseguir": {
+    "presente": [
+      "persigo",
+      "persegues",
+      "persegue",
+      "perseguimos",
+      "perseguem"
+    ]
+  },
+  "despedir": {
+    "presente": [
+      "despeço",
+      "despedes",
+      "despede",
+      "despedimos",
+      "despedem"
+    ]
+  },
+  "sorrir": {
+    "presente": [
+      "sorrio",
+      "sorris",
+      "sorri",
+      "sorrimos",
+      "sorriem"
+    ]
+  },
+  "engolir": {
+    "presente": [
+      "engulo",
+      "engoles",
+      "engole",
+      "engolimos",
+      "engolem"
+    ]
+  },
+  "tossir": {
+    "presente": [
+      "tusso",
+      "tosses",
+      "tosse",
+      "tossimos",
+      "tossem"
+    ]
+  },
+  "sacudir": {
+    "presente": [
+      "sacudo",
+      "sacodes",
+      "sacode",
+      "sacudimos",
+      "sacodem"
+    ]
+  },
+  "odiar": {
+    "presente": [
+      "odeio",
+      "odeias",
+      "odeia",
+      "odiamos",
+      "odeiam"
+    ]
+  },
+  "construir": {
+    "presente": [
+      "construo",
+      "constróis",
+      "constrói",
+      "construímos",
+      "constroem"
+    ],
+    "pretperf": [
+      "construí",
+      "construíste",
+      "construiu",
+      "construímos",
+      "construíram"
+    ],
+    "imperf": [
+      "construía",
+      "construías",
+      "construía",
+      "construíamos",
+      "construíam"
+    ]
+  },
+  "destruir": {
+    "presente": [
+      "destruo",
+      "destróis",
+      "destrói",
+      "destruímos",
+      "destroem"
+    ],
+    "pretperf": [
+      "destruí",
+      "destruíste",
+      "destruiu",
+      "destruímos",
+      "destruíram"
+    ],
+    "imperf": [
+      "destruía",
+      "destruías",
+      "destruía",
+      "destruíamos",
+      "destruíam"
+    ]
+  },
+  "trair": {
+    "presente": [
+      "traio",
+      "trais",
+      "trai",
+      "traímos",
+      "traem"
+    ],
+    "pretperf": [
+      "traí",
+      "traíste",
+      "traiu",
+      "traímos",
+      "traíram"
+    ],
+    "imperf": [
+      "traía",
+      "traías",
+      "traía",
+      "traíamos",
+      "traíam"
+    ]
+  }
+}

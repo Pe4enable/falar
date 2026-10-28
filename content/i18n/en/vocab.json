@@ -1,0 +1,74 @@
+{
+  "falar": "to speak", "morar": "to live (somewhere)", "trabalhar": "to work", "estudar": "to study",
+  "comprar": "to buy", "tomar": "to have, drink", "almoçar": "to have lunch", "pagar": "to pay",
+  "café": "coffee", "pão": "bread", "conta": "bill, account", "cartão": "card (bank)",
+  "pequeno-almoço": "breakfast", "hoje": "today", "amanhã": "tomorrow", "aqui": "here",
+  "longe": "far", "muito": "a lot, very", "bem": "well", "devagar": "slowly", "português": "Portuguese",
+
+  "eu": "I", "tu": "you", "ele": "he", "ela": "she", "nós": "we", "vocês": "you (plural)", "eles": "they",
+  "onde": "where", "quando": "when", "quem": "who", "como": "how", "porquê": "why",
+  "chegar": "to arrive, get to", "cedo": "early", "tarde": "late", "juntos": "together",
+
+  "ser": "to be (permanent)", "estar": "to be (state)", "cansado": "tired", "aberto": "open",
+  "fechado": "closed", "frio": "cold", "quente": "hot", "pronto": "ready", "casado": "married",
+  "vizinho": "neighbour", "simpático": "nice, friendly", "caro": "expensive", "barato": "cheap",
+  "médica": "doctor (f.)",
+
+  "comer": "to eat", "beber": "to drink", "viver": "to live", "aprender": "to learn",
+  "vender": "to sell", "perceber": "to understand", "peixe": "fish", "carne": "meat",
+  "vinho": "wine", "fruta": "fruit", "mercado": "market", "sandes": "sandwich", "almoço": "lunch",
+
+  "abrir": "to open", "partir": "to leave, depart", "dormir": "to sleep", "decidir": "to decide",
+  "preferir": "to prefer", "loja": "shop", "janela": "window", "porta": "door", "comboio": "train",
+  "voo": "flight", "museu": "museum", "farmácia": "pharmacy", "chá": "tea", "cerveja": "beer",
+
+  "ontem": "yesterday", "jantar": "to have dinner", "noite": "night, evening", "manhã": "morning",
+  "já": "already", "ainda": "still, yet", "quase": "almost", "fora": "out, not at home",
+  "comigo": "with me", "contigo": "with you", "alguma coisa": "something", "pastel de nata": "custard tart",
+
+  "começar": "to start", "ficar": "to stay, be located", "sair": "to go out", "gostar de": "to like",
+  "banco": "bank", "praia": "beach", "filme": "film", "sábado": "Saturday", "domingo": "Sunday",
+  "semana": "week", "a tempo": "on time",
+
+  "fazer": "to do, make", "ouvir": "to listen, hear", "tocar": "to ring, sound", "chover": "to rain",
+  "brincar": "to joke, play", "funcionar": "to work (machines)", "ferver": "to boil", "música": "music",
+  "telefone": "phone", "carro": "car", "água": "water", "agora": "now", "a sério": "seriously",
+
+  "poder": "to be able to", "querer": "to want", "dever": "to have to, should", "precisar de": "to need",
+  "ajudar": "to help", "repetir": "to repeat", "experimentar": "to try on/out", "provar": "to taste, try",
+  "deixar": "to leave (behind)", "dinheiro": "money", "mesa": "table", "saco": "bag", "açúcar": "sugar",
+  "mala": "suitcase, bag",
+
+  "supermercado": "supermarket", "ginásio": "gym", "escritório": "office", "centro": "centre",
+  "cidade": "city", "rua": "street", "esquina": "corner", "ponte": "bridge", "paragem": "bus stop",
+  "estação": "station", "correios": "post office", "leite": "milk", "frigorífico": "fridge",
+  "perto": "near", "há": "there is",
+
+  "ter": "to have", "apartamento": "flat", "casa": "house, home", "mulher": "wife, woman",
+  "marido": "husband", "filho": "son", "chave": "key", "telemóvel": "mobile phone",
+  "renda": "rent", "troco": "change", "número": "number", "reunião": "meeting", "jardim": "garden",
+  "médico": "doctor",
+
+  "ir": "to go", "vir": "to come", "apanhar": "to catch (transport)", "passar": "to pass",
+  "metro": "metro", "autocarro": "bus", "táxi": "taxi", "elétrico": "tram", "aeroporto": "airport",
+  "multibanco": "cash machine", "praça": "square", "último": "last", "a pé": "on foot",
+  "connosco": "with us",
+
+  "este": "this", "esse": "that (near you)", "aquele": "that (over there)", "ótimo": "great",
+  "bom": "good", "novo": "new", "velho": "old", "fresco": "fresh", "livre": "free, vacant",
+  "giro": "cool, nice", "sossegado": "quiet, calm", "camisola": "jumper", "casaco": "jacket, coat",
+  "bairro": "neighbourhood", "queijo": "cheese", "bacalhau": "cod",
+
+  "custar": "to cost", "fechar": "to close", "hora": "hour", "meio-dia": "noon", "meia-noite": "midnight",
+  "euro": "euro", "quilo": "kilo", "laranja": "orange", "jogo": "match, game", "consulta": "appointment",
+  "segunda-feira": "Monday", "quinta-feira": "Thursday", "dia": "day", "mês": "month", "ano": "year",
+
+  "antigamente": "in the past, formerly", "criança": "child", "escola": "school", "avô": "grandfather",
+  "avó": "grandmother", "cão": "dog", "gato": "cat", "mar": "sea", "livraria": "bookshop",
+  "verão": "summer", "inverno": "winter", "animal": "animal",
+
+  "dizer": "to say", "saber": "to know", "aceitar": "to accept, take", "levar": "to take away",
+  "obrigado": "thank you (m.)", "obrigada": "thank you (f.)", "desculpe": "excuse me, sorry",
+  "atraso": "delay, lateness", "ajuda": "help", "certeza": "certainty", "sentido": "sense, meaning",
+  "casa de banho": "toilet", "fim de semana": "weekend", "se calhar": "maybe"
+}

@@ -1,0 +1,418 @@
+{
+  "id": 4,
+  "number": 4,
+  "title": "Глаголы -er — настоящее время",
+  "topic": "comer, beber, viver, perceber, aprender",
+  "tags": [
+    "-er",
+    "presente"
+  ],
+  "free": false,
+  "theory": {
+    "intro": "Вторая группа глаголов — на -er. Логика та же, что у -ar, меняется только гласная в окончаниях: como, comes, come, comemos, comem.",
+    "blocks": [
+      {
+        "type": "text",
+        "content": "Comer (есть): eu como, tu comes, ele come, nós comemos, eles comem. Так же спрягаются beber (пить), viver (жить), aprender (учить), vender (продавать)."
+      },
+      {
+        "type": "note",
+        "content": "Perceber — главный португальский глагол «понимать» (compreender — книжный синоним). «Não percebo» — фраза выживания номер один."
+      },
+      {
+        "type": "note",
+        "content": "Сэндвич по-европейски — «uma sandes» (в Бразилии — sanduíche). Хозяин съёмной квартиры — «o senhorio»."
+      }
+    ]
+  },
+  "verbTable": {
+    "verb": "comer",
+    "translation": "есть, кушать",
+    "conjugation": "er",
+    "schema": {
+      "present": {
+        "affirm": "como",
+        "negate": "não como",
+        "question": "como?"
+      },
+      "past": {
+        "affirm": "comi",
+        "negate": "não comi",
+        "question": "comi?"
+      },
+      "future": {
+        "affirm": "vou comer",
+        "negate": "não vou comer",
+        "question": "vou comer?"
+      }
+    },
+    "presentFull": {
+      "eu": "como",
+      "tu": "comes",
+      "ele": "come",
+      "nos": "comemos",
+      "eles": "comem"
+    }
+  },
+  "phrases": [
+    {
+      "id": "l4-001",
+      "ru": "Я ем рыбу и рис.",
+      "pt": "Eu como peixe e arroz.",
+      "tense": "present",
+      "form": "affirm",
+      "conjugation": "er",
+      "verb": "comer",
+      "distractors": [
+        "comes",
+        "carne"
+      ]
+    },
+    {
+      "id": "l4-002",
+      "ru": "Ты пьёшь кофе по утрам.",
+      "pt": "Tu bebes café de manhã.",
+      "tense": "present",
+      "form": "affirm",
+      "conjugation": "er",
+      "verb": "beber",
+      "distractors": [
+        "bebo",
+        "chá"
+      ]
+    },
+    {
+      "id": "l4-003",
+      "ru": "Мы живём в Португалии.",
+      "pt": "Nós vivemos em Portugal.",
+      "tense": "present",
+      "form": "affirm",
+      "conjugation": "er",
+      "verb": "viver",
+      "distractors": [
+        "vivem",
+        "Espanha"
+      ]
+    },
+    {
+      "id": "l4-004",
+      "ru": "Я учу португальский.",
+      "pt": "Eu aprendo português.",
+      "tense": "present",
+      "form": "affirm",
+      "conjugation": "er",
+      "verb": "aprender",
+      "distractors": [
+        "aprendes",
+        "espanhol"
+      ]
+    },
+    {
+      "id": "l4-005",
+      "ru": "Она продаёт фрукты на рынке.",
+      "pt": "Ela vende fruta no mercado.",
+      "tense": "present",
+      "form": "affirm",
+      "conjugation": "er",
+      "verb": "vender",
+      "distractors": [
+        "vendes",
+        "peixe"
+      ]
+    },
+    {
+      "id": "l4-006",
+      "ru": "Я немного понимаю.",
+      "pt": "Eu percebo um pouco.",
+      "tense": "present",
+      "form": "affirm",
+      "conjugation": "er",
+      "verb": "perceber",
+      "distractors": [
+        "percebes",
+        "tudo"
+      ]
+    },
+    {
+      "id": "l4-007",
+      "ru": "Они едят не дома по субботам.",
+      "pt": "Eles comem fora aos sábados.",
+      "tense": "present",
+      "form": "affirm",
+      "conjugation": "er",
+      "verb": "comer",
+      "distractors": [
+        "comemos",
+        "domingos"
+      ]
+    },
+    {
+      "id": "l4-008",
+      "ru": "Мы пьём вино за ужином.",
+      "pt": "Nós bebemos vinho ao jantar.",
+      "tense": "present",
+      "form": "affirm",
+      "conjugation": "er",
+      "verb": "beber",
+      "distractors": [
+        "bebem",
+        "almoço"
+      ]
+    },
+    {
+      "id": "l4-009",
+      "ru": "Хозяин квартиры живёт на первом этаже.",
+      "pt": "O senhorio vive no primeiro andar.",
+      "tense": "present",
+      "form": "affirm",
+      "conjugation": "er",
+      "verb": "viver",
+      "distractors": [
+        "vives",
+        "segundo"
+      ]
+    },
+    {
+      "id": "l4-010",
+      "ru": "Я ем сэндвич на обед.",
+      "pt": "Eu como uma sandes ao almoço.",
+      "tense": "present",
+      "form": "affirm",
+      "conjugation": "er",
+      "verb": "comer",
+      "distractors": [
+        "come",
+        "jantar"
+      ]
+    },
+    {
+      "id": "l4-011",
+      "ru": "Я не ем мясо.",
+      "pt": "Eu não como carne.",
+      "tense": "present",
+      "form": "negate",
+      "conjugation": "er",
+      "verb": "comer",
+      "distractors": [
+        "comes",
+        "peixe"
+      ]
+    },
+    {
+      "id": "l4-012",
+      "ru": "Она не пьёт алкоголь.",
+      "pt": "Ela não bebe álcool.",
+      "tense": "present",
+      "form": "negate",
+      "conjugation": "er",
+      "verb": "beber",
+      "distractors": [
+        "bebes",
+        "café"
+      ]
+    },
+    {
+      "id": "l4-013",
+      "ru": "Мы ничего не понимаем.",
+      "pt": "Nós não percebemos nada.",
+      "tense": "present",
+      "form": "negate",
+      "conjugation": "er",
+      "verb": "perceber",
+      "distractors": [
+        "percebem",
+        "tudo"
+      ]
+    },
+    {
+      "id": "l4-014",
+      "ru": "Они здесь не живут.",
+      "pt": "Eles não vivem aqui.",
+      "tense": "present",
+      "form": "negate",
+      "conjugation": "er",
+      "verb": "viver",
+      "distractors": [
+        "vivemos",
+        "longe"
+      ]
+    },
+    {
+      "id": "l4-015",
+      "ru": "Ты не пьёшь кофе.",
+      "pt": "Tu não bebes café.",
+      "tense": "present",
+      "form": "negate",
+      "conjugation": "er",
+      "verb": "beber",
+      "distractors": [
+        "bebe",
+        "vinho"
+      ]
+    },
+    {
+      "id": "l4-016",
+      "ru": "Я ничего не продаю.",
+      "pt": "Eu não vendo nada.",
+      "tense": "present",
+      "form": "negate",
+      "conjugation": "er",
+      "verb": "vender",
+      "distractors": [
+        "vendes",
+        "tudo"
+      ]
+    },
+    {
+      "id": "l4-017",
+      "ru": "Ты ешь рыбу?",
+      "pt": "Tu comes peixe?",
+      "tense": "present",
+      "form": "question",
+      "conjugation": "er",
+      "verb": "comer",
+      "distractors": [
+        "como",
+        "carne"
+      ]
+    },
+    {
+      "id": "l4-018",
+      "ru": "Вы живёте в Лиссабоне?",
+      "pt": "Vocês vivem em Lisboa?",
+      "tense": "present",
+      "form": "question",
+      "conjugation": "er",
+      "verb": "viver",
+      "distractors": [
+        "vivo",
+        "Porto"
+      ]
+    },
+    {
+      "id": "l4-019",
+      "ru": "Что ты пьёшь?",
+      "pt": "O que é que tu bebes?",
+      "tense": "present",
+      "form": "question",
+      "conjugation": "er",
+      "verb": "beber",
+      "tags": [
+        "e-que"
+      ],
+      "distractors": [
+        "comes",
+        "onde"
+      ]
+    },
+    {
+      "id": "l4-020",
+      "ru": "Она понимает русский?",
+      "pt": "Ela percebe russo?",
+      "tense": "present",
+      "form": "question",
+      "conjugation": "er",
+      "verb": "perceber",
+      "distractors": [
+        "percebem",
+        "inglês"
+      ]
+    },
+    {
+      "id": "l4-021",
+      "ru": "Где вы сегодня едите?",
+      "pt": "Onde é que vocês comem hoje?",
+      "tense": "present",
+      "form": "question",
+      "conjugation": "er",
+      "verb": "comer",
+      "tags": [
+        "e-que"
+      ],
+      "distractors": [
+        "bebem",
+        "amanhã"
+      ]
+    },
+    {
+      "id": "l4-022",
+      "ru": "Где ты учишь португальский?",
+      "pt": "Onde é que tu aprendes português?",
+      "tense": "present",
+      "form": "question",
+      "conjugation": "er",
+      "verb": "aprender",
+      "tags": [
+        "e-que"
+      ],
+      "distractors": [
+        "aprendo",
+        "russo"
+      ]
+    },
+    {
+      "id": "l4-023",
+      "ru": "Здесь продают хлеб?",
+      "pt": "Eles vendem pão aqui?",
+      "tense": "present",
+      "form": "question",
+      "conjugation": "er",
+      "verb": "vender",
+      "distractors": [
+        "vende",
+        "fruta"
+      ]
+    },
+    {
+      "id": "l4-024",
+      "ru": "Понимаешь?",
+      "pt": "Tu percebes?",
+      "tense": "present",
+      "form": "question",
+      "conjugation": "er",
+      "verb": "perceber",
+      "distractors": [
+        "percebo",
+        "tudo"
+      ]
+    }
+  ],
+  "exam": {
+    "count": 10,
+    "passThreshold": 0.8
+  },
+  "tables": [
+    {
+      "type": "list",
+      "title": "Частые глаголы на -er",
+      "cols": 2,
+      "note": "Окончания -er: -o, -es, -e, -emos, -em.",
+      "items": [
+        {
+          "pt": "comer",
+          "ru": "есть"
+        },
+        {
+          "pt": "beber",
+          "ru": "пить"
+        },
+        {
+          "pt": "viver",
+          "ru": "жить"
+        },
+        {
+          "pt": "perceber",
+          "ru": "понимать"
+        },
+        {
+          "pt": "aprender",
+          "ru": "учить"
+        },
+        {
+          "pt": "vender",
+          "ru": "продавать"
+        }
+      ]
+    }
+  ]
+}

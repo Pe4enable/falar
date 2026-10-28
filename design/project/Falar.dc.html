@@ -1,0 +1,958 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:wght@500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  *{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+  *::-webkit-scrollbar{width:0;height:0;display:none}
+  body{margin:0;font-family:Inter,-apple-system,system-ui,sans-serif}
+  :root{
+    --page:#C6C3BA; --canvas:#FAF9F5; --surface:#FFFFFF; --sunk:#F0EEE6; --border:#E8E5DC;
+    --t1:#1F1E1B; --t2:#6B6862; --t3:#9B978D;
+    --accent:#D97757; --accent-press:#C25E3F; --accent-sunk:#F5E6DF;
+    --success:#4F7A52; --success-sunk:#E5EFE3; --error:#C2553D; --error-sunk:#F7E4DE;
+    --warning:#C99A3F; --lock:#B8B4A8;
+    --shadow:0 4px 16px rgba(31,30,27,0.06); --shadow-lg:0 10px 34px rgba(31,30,27,0.12);
+  }
+  [data-theme="dark"]{
+    --page:#100F0E; --canvas:#1B1A17; --surface:#26241F; --sunk:#1F1E1A; --border:#36332C;
+    --t1:#F2F0E9; --t2:#A8A398; --t3:#7E7A70;
+    --accent:#E08763; --accent-press:#C9714F; --accent-sunk:#3A2B24;
+    --success:#7FA67F; --success-sunk:#28332A; --error:#D77A62; --error-sunk:#3A2622;
+    --warning:#D2A85A; --lock:#5C584F;
+    --shadow:none; --shadow-lg:none;
+  }
+  @keyframes reveal{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+  @keyframes fadeup{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+  @keyframes pulse{0%,100%{transform:scale(1);opacity:1}50%{transform:scale(1.18);opacity:.7}}
+  @keyframes sheetup{from{transform:translateY(100%)}to{transform:none}}
+  @keyframes dim{from{opacity:0}to{opacity:1}}
+  @keyframes ping{0%{transform:scale(.7);opacity:.65}100%{transform:scale(1.7);opacity:0}}
+  @keyframes shimmer{0%{opacity:.55}50%{opacity:1}100%{opacity:.55}}
+  @keyframes slidein{from{opacity:0;transform:translateX(24px)}to{opacity:1;transform:none}}
+</style>
+</helmet>
+
+<div data-theme="{{ theme }}" style="min-height:100vh;background:var(--page);display:flex;flex-direction:column;align-items:center;gap:18px;padding:34px 20px 48px;transition:background .3s">
+
+  <div style="width:393px;display:flex;align-items:center;justify-content:space-between">
+    <div style="display:flex;align-items:baseline;gap:9px">
+      <span style="font-family:Lora,serif;font-weight:600;font-size:22px;color:var(--t1)">Falar</span>
+      <span style="font-size:12px;color:var(--t2)">iPhone · 393×852 pt</span>
+    </div>
+    <button onClick="{{ toggleTheme }}" style="height:36px;padding:0 14px;border-radius:99px;border:1px solid rgba(0,0,0,0.12);background:var(--surface);color:var(--t1);font:500 13px Inter;display:flex;align-items:center;gap:7px;cursor:pointer;box-shadow:var(--shadow)" style-active="transform:scale(0.97)">
+      <sc-if value="{{ themeIsDark }}" hint-placeholder-val="{{ false }}"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="12" r="4.5"/><path d="M12 2v2M12 20v2M4 12H2M22 12h-2M5.6 5.6 4.2 4.2M19.8 19.8l-1.4-1.4M18.4 5.6l1.4-1.4M4.2 19.8l1.4-1.4"/></svg>Светлая</sc-if>
+      <sc-if value="{{ themeLight }}" hint-placeholder-val="{{ true }}"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20 14.5A8 8 0 1 1 9.5 4 6.3 6.3 0 0 0 20 14.5Z"/></svg>Тёмная</sc-if>
+    </button>
+  </div>
+
+  <div data-theme="{{ theme }}" style="position:relative;width:393px;height:852px;border-radius:46px;background:var(--canvas);box-shadow:var(--shadow-lg);overflow:hidden;display:flex;flex-direction:column;transition:background .3s">
+
+    <!-- STATUS BAR -->
+    <div style="position:absolute;top:0;left:0;right:0;height:52px;z-index:40;display:flex;align-items:flex-end;justify-content:space-between;padding:0 30px 9px;pointer-events:none">
+      <span style="font-weight:600;font-size:15px;color:var(--t1)">9:41</span>
+      <div style="display:flex;align-items:center;gap:6px;color:var(--t1)">
+        <svg width="17" height="11" viewBox="0 0 17 11" fill="currentColor"><rect x="0" y="7" width="3" height="4" rx="1"/><rect x="4.5" y="5" width="3" height="6" rx="1"/><rect x="9" y="2.5" width="3" height="8.5" rx="1"/><rect x="13.5" y="0" width="3" height="11" rx="1"/></svg>
+        <svg width="16" height="11" viewBox="0 0 16 12" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><path d="M1 4.2A10 10 0 0 1 15 4.2"/><path d="M3.6 6.8A6.2 6.2 0 0 1 12.4 6.8"/><path d="M6.2 9.3A2.6 2.6 0 0 1 9.8 9.3"/><circle cx="8" cy="11" r="0.6" fill="currentColor"/></svg>
+        <svg width="25" height="12" viewBox="0 0 25 12" fill="none"><rect x="0.5" y="0.5" width="21" height="11" rx="3" stroke="currentColor" opacity="0.4"/><rect x="2" y="2" width="17" height="8" rx="1.6" fill="currentColor"/><rect x="23" y="3.5" width="1.5" height="5" rx="0.7" fill="currentColor" opacity="0.4"/></svg>
+      </div>
+    </div>
+
+    <!-- OFFLINE BANNER -->
+    <sc-if value="{{ offline }}" hint-placeholder-val="{{ false }}">
+    <div style="position:absolute;top:52px;left:0;right:0;z-index:45;background:var(--sunk);border-bottom:1px solid var(--border);padding:6px 20px;display:flex;align-items:center;gap:8px;justify-content:center;animation:fadeup .25s ease-out">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="var(--warning)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3l18 18"/><path d="M8.5 8.6A10 10 0 0 0 4.5 11.5"/><path d="M2 8.8A15 15 0 0 1 7 5.7"/><path d="M12 20h.01"/></svg>
+      <span style="font-size:12px;color:var(--t2)">Нет сети — озвучка работает офлайн</span>
+    </div>
+    </sc-if>
+
+    <!-- ============ HOME (D1) ============ -->
+    <sc-if value="{{ isHome }}" hint-placeholder-val="{{ true }}">
+
+    <!-- home: loading skeleton -->
+    <sc-if value="{{ homeLoading }}" hint-placeholder-val="{{ false }}">
+    <div style="flex:1;overflow-y:auto;padding:60px 20px 120px">
+      <div style="width:120px;height:30px;border-radius:8px;background:var(--sunk);animation:shimmer 1.4s infinite;margin-bottom:24px"></div>
+      <div style="height:108px;border-radius:20px;background:var(--sunk);animation:shimmer 1.4s infinite;margin-bottom:18px"></div>
+      <div style="height:96px;border-radius:20px;background:var(--sunk);animation:shimmer 1.4s .2s infinite;margin-bottom:26px"></div>
+      <div style="width:160px;height:22px;border-radius:8px;background:var(--sunk);animation:shimmer 1.4s infinite;margin-bottom:16px"></div>
+      <div style="display:flex;flex-direction:column;gap:10px">
+        <sc-for list="{{ skel }}" as="k" hint-placeholder-count="3"><div style="height:72px;border-radius:20px;background:var(--sunk);animation:shimmer 1.4s infinite"></div></sc-for>
+      </div>
+    </div>
+    </sc-if>
+
+    <!-- home: error -->
+    <sc-if value="{{ homeError }}" hint-placeholder-val="{{ false }}">
+    <div style="flex:1;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;padding:40px 34px">
+      <div style="width:72px;height:72px;border-radius:99px;background:var(--error-sunk);display:flex;align-items:center;justify-content:center;margin-bottom:18px"><svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="var(--error)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 8v5"/><path d="M12 16h.01"/><circle cx="12" cy="12" r="9"/></svg></div>
+      <div style="font-family:Lora,serif;font-size:21px;font-weight:500;color:var(--t1);margin-bottom:8px">Что-то пошло не так</div>
+      <div style="font-size:14px;color:var(--t2);margin-bottom:22px">Не удалось загрузить прогресс</div>
+      <button onClick="{{ cycleHome }}" style="height:50px;padding:0 28px;border-radius:14px;background:var(--accent);color:#fff;font:600 15px Inter;border:none;cursor:pointer" style-active="transform:scale(0.98);background:var(--accent-press)">Повторить</button>
+    </div>
+    </sc-if>
+
+    <!-- home: ready -->
+    <sc-if value="{{ homeReady }}" hint-placeholder-val="{{ true }}">
+    <div style="flex:1;overflow-y:auto;padding:60px 20px 120px;animation:fadeup .3s ease-out">
+      <div style="display:flex;align-items:flex-start;justify-content:space-between;margin-bottom:22px">
+        <div>
+          <div style="font-family:Lora,serif;font-weight:600;font-size:28px;color:var(--t1);line-height:1.1">Olá!</div>
+          <div style="font-size:14px;color:var(--t2);margin-top:4px">Продолжим португальский</div>
+        </div>
+        <div style="display:flex;align-items:center;gap:6px;height:34px;padding:0 13px;border-radius:99px;background:var(--accent-sunk)">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="var(--warning)"><path d="M12 2c1.2 3.4-1.8 4.6-1.8 7.6a3.8 3.8 0 0 0 7.6 0c0-1.4-.7-2.6-1.4-3.4.4 2.4-1.4 3.4-2 1.6C12.8 6 12 4 12 2Z"/><path d="M9.2 12.5c-.6 2.2.8 4.2 2.8 4.2s3.2-1.6 2.8-3.6c-.7 1.3-1.7 1.1-1.8-.2-.6.9-3.2.6-3.8-.4Z" fill="var(--accent)"/></svg>
+          <span style="font-weight:600;font-size:14px;color:var(--t1);font-variant-numeric:tabular-nums">{{ streak }}</span>
+        </div>
+      </div>
+
+      <!-- day goal ring -->
+      <div style="display:flex;align-items:center;gap:18px;background:var(--surface);border:1px solid var(--border);border-radius:20px;padding:18px 20px;box-shadow:var(--shadow);margin-bottom:18px">
+        <div style="position:relative;width:76px;height:76px;flex:none">
+          <svg width="76" height="76" viewBox="0 0 76 76">
+            <circle cx="38" cy="38" r="34" fill="none" stroke="var(--sunk)" stroke-width="7"/>
+            <circle cx="38" cy="38" r="34" fill="none" stroke="var(--accent)" stroke-width="7" stroke-linecap="round" stroke-dasharray="{{ ringDash }}" transform="rotate(-90 38 38)"/>
+          </svg>
+          <div style="position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center">
+            <span style="font-weight:600;font-size:18px;color:var(--t1);font-variant-numeric:tabular-nums">{{ dayDone }}</span>
+            <span style="font-size:11px;color:var(--t3)">/{{ dayGoal }}</span>
+          </div>
+        </div>
+        <div>
+          <div style="font-family:Lora,serif;font-size:17px;color:var(--t1);font-weight:500">Цель дня</div>
+          <div style="font-size:14px;color:var(--t2);margin-top:3px;line-height:1.4">Осталось <b style="color:var(--accent)">8 карточек</b>, чтобы закрыть сегодня</div>
+        </div>
+      </div>
+
+      <!-- continue card -->
+      <div onClick="{{ openLessonFromContinue }}" style="display:flex;align-items:center;gap:16px;background:var(--accent);border-radius:20px;padding:20px;box-shadow:var(--shadow);margin-bottom:26px;cursor:pointer" style-active="transform:scale(0.985)">
+        <div style="flex:1">
+          <div style="font-size:12px;color:rgba(255,255,255,0.78);letter-spacing:.04em;text-transform:uppercase;font-weight:600">Продолжить</div>
+          <div style="font-family:Lora,serif;font-weight:600;font-size:21px;color:#fff;margin-top:5px;line-height:1.15">Урок 3 · Практика</div>
+          <div style="font-size:13px;color:rgba(255,255,255,0.82);margin-top:4px">18 из 40 фраз · настоящее -ar</div>
+        </div>
+        <div style="width:46px;height:46px;border-radius:99px;background:rgba(255,255,255,0.18);display:flex;align-items:center;justify-content:center;flex:none">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 5l7 7-7 7"/></svg>
+        </div>
+      </div>
+
+      <div style="font-family:Lora,serif;font-size:18px;color:var(--t1);font-weight:500;margin-bottom:14px;padding-left:2px">Программа · 16 уроков</div>
+      <div style="display:flex;flex-direction:column;gap:10px">
+        <sc-for list="{{ lessons }}" as="ls" hint-placeholder-count="5">
+          <div onClick="{{ ls.onTap }}" style="{{ ls.rootStyle }}" style-active="transform:scale(0.99)">
+            <div style="width:42px;height:42px;border-radius:13px;flex:none;display:flex;align-items:center;justify-content:center;font-weight:600;font-size:15px;background:var(--sunk);color:var(--t2);font-variant-numeric:tabular-nums">{{ ls.n }}</div>
+            <div style="flex:1;min-width:0">
+              <div style="font-family:Lora,serif;font-size:16px;font-weight:500;color:var(--t1)">{{ ls.title }}</div>
+              <div style="font-size:12.5px;color:var(--t2);margin-top:2px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">{{ ls.topic }}</div>
+              <sc-if value="{{ ls.showBar }}" hint-placeholder-val="{{ false }}">
+                <div style="display:flex;align-items:center;gap:8px;margin-top:9px">
+                  <div style="flex:1;height:5px;border-radius:99px;background:var(--sunk);overflow:hidden"><div style="{{ ls.barStyle }}"></div></div>
+                  <span style="font-size:11px;color:var(--t3);font-variant-numeric:tabular-nums">{{ ls.progText }}</span>
+                </div>
+              </sc-if>
+            </div>
+            <sc-if value="{{ ls.done }}" hint-placeholder-val="{{ false }}">
+              <div style="width:26px;height:26px;border-radius:99px;background:var(--success-sunk);display:flex;align-items:center;justify-content:center;flex:none"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="var(--success)" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5 10 17.5 19 7"/></svg></div>
+            </sc-if>
+            <sc-if value="{{ ls.current }}" hint-placeholder-val="{{ false }}">
+              <div style="width:24px;height:24px;border-radius:99px;background:var(--accent);display:flex;align-items:center;justify-content:center;flex:none"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M9 5l7 7-7 7"/></svg></div>
+            </sc-if>
+            <sc-if value="{{ ls.locked }}" hint-placeholder-val="{{ false }}">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--lock)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="11" width="14" height="9" rx="2.2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></svg>
+            </sc-if>
+          </div>
+        </sc-for>
+      </div>
+    </div>
+    </sc-if>
+    </sc-if>
+
+    <!-- ============ REVIEW (D7) ============ -->
+    <sc-if value="{{ isReview }}" hint-placeholder-val="{{ false }}">
+    <div style="flex:1;overflow-y:auto;padding:64px 20px 120px;animation:fadeup .3s ease-out">
+      <div style="font-family:Lora,serif;font-weight:600;font-size:28px;color:var(--t1);margin-bottom:6px">Повторение</div>
+      <div style="font-size:14px;color:var(--t2);margin-bottom:24px">Интервальные повторения созревших карточек</div>
+
+      <sc-if value="{{ reviewEmpty }}" hint-placeholder-val="{{ false }}">
+      <div style="display:flex;flex-direction:column;align-items:center;text-align:center;padding:30px 24px">
+        <div style="width:96px;height:96px;border-radius:99px;background:var(--success-sunk);display:flex;align-items:center;justify-content:center;margin-bottom:20px"><svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="var(--success)" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5 10 17.5 19 7"/></svg></div>
+        <div style="font-family:Lora,serif;font-size:23px;font-weight:600;color:var(--t1);margin-bottom:8px">Всё повторено 🎉</div>
+        <div style="font-size:15px;color:var(--t2);line-height:1.5;margin-bottom:24px">Возвращайся завтра — повторения созреют по расписанию</div>
+        <div style="background:var(--surface);border:1px solid var(--border);border-radius:16px;padding:14px 20px;box-shadow:var(--shadow);font-size:14px;color:var(--t2)">Сегодня повторено: <b style="color:var(--t1)">5</b></div>
+      </div>
+      </sc-if>
+
+      <sc-if value="{{ reviewHas }}" hint-placeholder-val="{{ true }}">
+      <div style="background:var(--surface);border:1px solid var(--border);border-radius:24px;padding:26px 22px;box-shadow:var(--shadow);text-align:center">
+        <div style="width:80px;height:80px;border-radius:99px;background:var(--accent-sunk);display:flex;align-items:center;justify-content:center;margin:0 auto 16px">
+          <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 9a8 8 0 0 1 13-3l2.5 2.2"/><path d="M20 4.5V8h-3.5"/><path d="M20 15a8 8 0 0 1-13 3l-2.5-2.2"/><path d="M4 19.5V16h3.5"/></svg>
+        </div>
+        <div style="font-family:Lora,serif;font-size:30px;font-weight:600;color:var(--t1);font-variant-numeric:tabular-nums">8</div>
+        <div style="font-size:15px;color:var(--t2);margin:2px 0 20px">карточек к повторению</div>
+        <button onClick="{{ startReview }}" style="height:54px;width:100%;border-radius:14px;background:var(--accent);color:#fff;font:600 16px Inter;border:none;cursor:pointer;display:flex;align-items:center;justify-content:center;gap:8px" style-active="transform:scale(0.98);background:var(--accent-press)">Начать повторение</button>
+      </div>
+
+      <div style="display:flex;gap:10px;margin-top:16px">
+        <div style="flex:1;background:var(--surface);border:1px solid var(--border);border-radius:18px;padding:16px;box-shadow:var(--shadow)">
+          <div style="font-family:Lora,serif;font-size:24px;font-weight:600;color:var(--t1);font-variant-numeric:tabular-nums">5</div>
+          <div style="font-size:12.5px;color:var(--t2);margin-top:2px">Повторено сегодня</div>
+        </div>
+        <div style="flex:1;background:var(--surface);border:1px solid var(--border);border-radius:18px;padding:16px;box-shadow:var(--shadow)">
+          <div style="font-family:Lora,serif;font-size:24px;font-weight:600;color:var(--accent);font-variant-numeric:tabular-nums">12</div>
+          <div style="font-size:12.5px;color:var(--t2);margin-top:2px">Серия повторений</div>
+        </div>
+      </div>
+      </sc-if>
+    </div>
+    </sc-if>
+
+    <!-- ============ PROFILE (D8) ============ -->
+    <sc-if value="{{ isProfile }}" hint-placeholder-val="{{ false }}">
+    <div style="flex:1;overflow-y:auto;padding:64px 20px 120px;animation:fadeup .3s ease-out">
+      <div style="display:flex;align-items:center;gap:16px;margin-bottom:24px">
+        <div style="width:64px;height:64px;border-radius:99px;background:var(--accent-sunk);display:flex;align-items:center;justify-content:center;font-family:Lora,serif;font-size:26px;font-weight:600;color:var(--accent);flex:none">A</div>
+        <div>
+          <div style="display:flex;align-items:center;gap:8px">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="var(--warning)"><path d="M12 2c1.2 3.4-1.8 4.6-1.8 7.6a3.8 3.8 0 0 0 7.6 0c0-1.4-.7-2.6-1.4-3.4.4 2.4-1.4 3.4-2 1.6C12.8 6 12 4 12 2Z"/></svg>
+            <span style="font-family:Lora,serif;font-size:26px;font-weight:600;color:var(--t1);font-variant-numeric:tabular-nums">7</span>
+            <span style="font-size:15px;color:var(--t2)">дней подряд</span>
+          </div>
+          <div style="font-size:13px;color:var(--t3);margin-top:2px">23 дня в приложении</div>
+        </div>
+      </div>
+
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:18px">
+        <div style="background:var(--surface);border:1px solid var(--border);border-radius:18px;padding:16px;box-shadow:var(--shadow)"><div style="font-family:Lora,serif;font-size:26px;font-weight:600;color:var(--t1);font-variant-numeric:tabular-nums">248</div><div style="font-size:12.5px;color:var(--t2);margin-top:2px">Освоено фраз</div></div>
+        <div style="background:var(--surface);border:1px solid var(--border);border-radius:18px;padding:16px;box-shadow:var(--shadow)"><div style="font-family:Lora,serif;font-size:26px;font-weight:600;color:var(--accent);font-variant-numeric:tabular-nums">18%</div><div style="font-size:12.5px;color:var(--t2);margin-top:2px">Пройдено курса</div></div>
+        <div style="background:var(--surface);border:1px solid var(--border);border-radius:18px;padding:16px;box-shadow:var(--shadow)"><div style="font-family:Lora,serif;font-size:26px;font-weight:600;color:var(--t1);font-variant-numeric:tabular-nums">4ч 30м</div><div style="font-size:12.5px;color:var(--t2);margin-top:2px">Всего времени</div></div>
+        <div style="background:var(--surface);border:1px solid var(--border);border-radius:18px;padding:16px;box-shadow:var(--shadow)"><div style="font-family:Lora,serif;font-size:26px;font-weight:600;color:var(--t1);font-variant-numeric:tabular-nums">14</div><div style="font-size:12.5px;color:var(--t2);margin-top:2px">Лучшая серия</div></div>
+      </div>
+
+      <div style="background:var(--surface);border:1px solid var(--border);border-radius:18px;padding:18px;box-shadow:var(--shadow);margin-bottom:18px">
+        <div style="font-size:13px;color:var(--t2);margin-bottom:12px">Активность за 10 недель</div>
+        <div style="display:flex;flex-wrap:wrap;gap:5px">
+          <sc-for list="{{ heat }}" as="h" hint-placeholder-count="70"><div style="{{ h.style }}"></div></sc-for>
+        </div>
+      </div>
+
+      <div onClick="{{ openVerbmap }}" style="display:flex;align-items:center;gap:14px;background:var(--surface);border:1px solid var(--border);border-radius:18px;padding:18px;box-shadow:var(--shadow);margin-bottom:10px;cursor:pointer" style-active="transform:scale(0.99)">
+        <div style="width:38px;height:38px;border-radius:11px;background:var(--accent-sunk);display:grid;grid-template-columns:1fr 1fr 1fr;gap:2px;padding:7px;flex:none"><div style="background:var(--accent);border-radius:1.5px"></div><div style="background:var(--success);border-radius:1.5px"></div><div style="background:var(--lock);opacity:.4;border-radius:1.5px"></div><div style="background:var(--success);border-radius:1.5px"></div><div style="background:var(--accent);border-radius:1.5px"></div><div style="background:var(--lock);opacity:.4;border-radius:1.5px"></div></div>
+        <div style="flex:1"><div style="font-family:Lora,serif;font-size:16px;font-weight:500;color:var(--t1)">Карта базовой таблицы</div><div style="font-size:12.5px;color:var(--t2);margin-top:1px">Какие структуры на автомате</div></div>
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--t3)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 5l7 7-7 7"/></svg>
+      </div>
+      <div onClick="{{ openSettings }}" style="display:flex;align-items:center;gap:14px;background:var(--surface);border:1px solid var(--border);border-radius:18px;padding:18px;box-shadow:var(--shadow);cursor:pointer" style-active="transform:scale(0.99)">
+        <div style="width:38px;height:38px;border-radius:11px;background:var(--sunk);display:flex;align-items:center;justify-content:center;flex:none"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--t2)" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.6 1.6 0 0 0 .3 1.8l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.6 1.6 0 0 0-2.7 1.1V21a2 2 0 1 1-4 0v-.1A1.6 1.6 0 0 0 7 19.4a1.6 1.6 0 0 0-1.8.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.6 1.6 0 0 0-1.1-2.7H1a2 2 0 1 1 0-4h.1A1.6 1.6 0 0 0 2.6 7a1.6 1.6 0 0 0-.3-1.8l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.6 1.6 0 0 0 1.8.3H7a1.6 1.6 0 0 0 1-1.5V1a2 2 0 1 1 4 0v.1a1.6 1.6 0 0 0 2.7 1.1l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.6 1.6 0 0 0-.3 1.8V7a1.6 1.6 0 0 0 1.5 1H23a2 2 0 1 1 0 4h-.1a1.6 1.6 0 0 0-1.5 1Z"/></svg></div>
+        <div style="flex:1"><div style="font-family:Lora,serif;font-size:16px;font-weight:500;color:var(--t1)">Настройки</div><div style="font-size:12.5px;color:var(--t2);margin-top:1px">Озвучка, тема, напоминания</div></div>
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--t3)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 5l7 7-7 7"/></svg>
+      </div>
+    </div>
+    </sc-if>
+
+    <!-- ============ LESSON DETAIL (D2) ============ -->
+    <sc-if value="{{ isLesson }}" hint-placeholder-val="{{ false }}">
+    <div style="flex:1;overflow-y:auto;padding:52px 20px 60px;animation:fadeup .3s ease-out">
+      <button onClick="{{ pop }}" style="width:44px;height:44px;border-radius:99px;background:var(--sunk);border:none;display:flex;align-items:center;justify-content:center;cursor:pointer;margin-bottom:18px" style-active="transform:scale(0.94)"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--t1)" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 5l-7 7 7 7"/></svg></button>
+      <div style="display:flex;gap:8px;margin-bottom:10px">
+        <span style="height:26px;padding:0 11px;border-radius:99px;background:var(--accent-sunk);color:var(--accent);font-size:12.5px;font-weight:500;display:flex;align-items:center">Урок 03</span>
+        <span style="height:26px;padding:0 11px;border-radius:99px;background:var(--sunk);color:var(--t2);font-size:12.5px;font-weight:500;display:flex;align-items:center">-ar</span>
+      </div>
+      <div style="font-family:Lora,serif;font-weight:600;font-size:28px;color:var(--t1);line-height:1.15">Настоящее время -ar</div>
+      <div style="font-size:15px;color:var(--t2);margin:8px 0 26px;line-height:1.5">Спряжение falar, morar, trabalhar. Доводим утверждение, отрицание и вопрос до автоматизма.</div>
+
+      <div style="display:flex;flex-direction:column;gap:12px">
+        <div onClick="{{ openTheory }}" style="display:flex;align-items:center;gap:16px;background:var(--surface);border:1px solid var(--border);border-radius:20px;padding:18px;box-shadow:var(--shadow);cursor:pointer" style-active="transform:scale(0.99)">
+          <div style="width:48px;height:48px;border-radius:14px;background:var(--accent-sunk);display:flex;align-items:center;justify-content:center;flex:none"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5.5C4 4.7 4.7 4 5.5 4H12v15H5.5C4.7 19 4 18.3 4 17.5z"/><path d="M20 5.5C20 4.7 19.3 4 18.5 4H12v15h6.5c.8 0 1.5-.7 1.5-1.5z"/></svg></div>
+          <div style="flex:1"><div style="font-family:Lora,serif;font-size:18px;font-weight:500;color:var(--t1)">Теория</div><div style="font-size:13px;color:var(--t2);margin-top:2px">Таблица глагола · 4 мин</div></div>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--t3)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 5l7 7-7 7"/></svg>
+        </div>
+
+        <div onClick="{{ openPractice }}" style="display:flex;align-items:center;gap:16px;background:var(--surface);border:1.5px solid var(--accent);border-radius:20px;padding:18px;box-shadow:var(--shadow);cursor:pointer" style-active="transform:scale(0.99)">
+          <div style="width:48px;height:48px;border-radius:14px;background:var(--accent);display:flex;align-items:center;justify-content:center;flex:none"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="7" width="13" height="14" rx="2.5"/><path d="M8 7V5.5A2.5 2.5 0 0 1 10.5 3h8A2.5 2.5 0 0 1 21 5.5v11a2.5 2.5 0 0 1-2.5 2.5H17"/></svg></div>
+          <div style="flex:1">
+            <div style="font-family:Lora,serif;font-size:18px;font-weight:500;color:var(--t1)">Практика</div>
+            <div style="display:flex;align-items:center;gap:8px;margin-top:6px">
+              <div style="flex:1;height:6px;border-radius:99px;background:var(--sunk);overflow:hidden"><div style="height:100%;width:45%;background:var(--accent);border-radius:99px"></div></div>
+              <span style="font-size:12px;color:var(--t2);font-variant-numeric:tabular-nums">18/40</span>
+            </div>
+          </div>
+        </div>
+
+        <div onClick="{{ startExam }}" style="display:flex;align-items:center;gap:16px;background:var(--surface);border:1px solid var(--border);border-radius:20px;padding:18px;box-shadow:var(--shadow);cursor:pointer" style-active="transform:scale(0.99)">
+          <div style="width:48px;height:48px;border-radius:14px;background:var(--accent-sunk);display:flex;align-items:center;justify-content:center;flex:none"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="9" r="5"/><path d="M9 13l-2 8 5-3 5 3-2-8"/></svg></div>
+          <div style="flex:1"><div style="font-family:Lora,serif;font-size:18px;font-weight:500;color:var(--t1)">Экзамен</div><div style="font-size:13px;color:var(--t2);margin-top:2px">10 заданий · строгий режим</div></div>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--t3)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 5l7 7-7 7"/></svg>
+        </div>
+      </div>
+    </div>
+    </sc-if>
+
+    <!-- ============ THEORY (D3) ============ -->
+    <sc-if value="{{ isTheory }}" hint-placeholder-val="{{ false }}">
+    <div style="flex:1;display:flex;flex-direction:column;animation:fadeup .3s ease-out">
+      <div style="padding:52px 20px 4px">
+        <button onClick="{{ pop }}" style="width:44px;height:44px;border-radius:99px;background:var(--sunk);border:none;display:flex;align-items:center;justify-content:center;cursor:pointer" style-active="transform:scale(0.94)"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--t1)" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 5l-7 7 7 7"/></svg></button>
+      </div>
+      <div style="flex:1;overflow-y:auto;padding:14px 20px 20px">
+        <div style="font-family:Lora,serif;font-weight:600;font-size:26px;color:var(--t1);line-height:1.15">Структура глагола</div>
+        <div style="font-size:16px;color:var(--t2);margin:10px 0 22px;line-height:1.55">Один глагол — девять рабочих форм. Сначала видим всю таблицу, потом доводим до автоматизма. Нажми ячейку, чтобы услышать.</div>
+
+        <div style="display:flex;background:var(--sunk);border-radius:14px;padding:4px;margin-bottom:18px">
+          <button onClick="{{ setAr }}" style="{{ segArStyle }}">-ar</button>
+          <button onClick="{{ setEr }}" style="{{ segErStyle }}">-er</button>
+          <button onClick="{{ setIr }}" style="{{ segIrStyle }}">-ir</button>
+        </div>
+
+        <div style="text-align:center;font-family:Lora,serif;font-size:20px;color:var(--accent);font-weight:500;margin-bottom:14px">{{ verbLabel }}</div>
+
+        <div style="background:var(--surface);border:1px solid var(--border);border-radius:20px;padding:14px;box-shadow:var(--shadow)">
+          <div style="display:grid;grid-template-columns:64px 1fr 1fr 1fr;gap:6px;align-items:center;margin-bottom:6px">
+            <div></div>
+            <sc-for list="{{ cols }}" as="cl" hint-placeholder-count="3"><div style="text-align:center;font-size:11px;color:var(--t3);font-weight:500">{{ cl }}</div></sc-for>
+          </div>
+          <div style="display:flex;flex-direction:column;gap:6px">
+            <sc-for list="{{ theoryRows }}" as="row" hint-placeholder-count="3">
+              <div style="display:grid;grid-template-columns:64px 1fr 1fr 1fr;gap:6px;align-items:center">
+                <div style="display:flex;align-items:center;gap:6px"><span style="width:22px;height:22px;border-radius:7px;background:var(--sunk);color:var(--t2);font-weight:600;font-size:14px;display:flex;align-items:center;justify-content:center">{{ row.sign }}</span></div>
+                <sc-for list="{{ row.cells }}" as="c" hint-placeholder-count="3">
+                  <div onClick="{{ c.onTap }}" style="{{ c.style }}" style-active="transform:scale(0.96)">{{ c.t }}</div>
+                </sc-for>
+              </div>
+            </sc-for>
+          </div>
+        </div>
+
+        <div style="display:flex;align-items:center;gap:6px;justify-content:center;margin-top:14px;font-size:12.5px;color:var(--t3)">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M4 9v6h4l5 4V5L8 9H4Z"/><path d="M16.5 9a4 4 0 0 1 0 6"/></svg>
+          Тап по ячейке — озвучка PT
+        </div>
+      </div>
+
+      <div style="padding:14px 20px 30px;background:linear-gradient(to top, var(--canvas) 60%, transparent);border-top:1px solid var(--border)">
+        <button onClick="{{ openPractice }}" style="height:54px;width:100%;border-radius:14px;background:var(--accent);color:#fff;font:600 16px Inter;border:none;cursor:pointer" style-active="transform:scale(0.98);background:var(--accent-press)">К практике</button>
+      </div>
+    </div>
+    </sc-if>
+
+    <!-- ============ PRACTICE (D4) + EXAM body (D6) ============ -->
+    <sc-if value="{{ isPracticeBody }}" hint-placeholder-val="{{ false }}">
+    <div style="flex:1;display:flex;flex-direction:column;padding-top:52px;animation:fadeup .25s ease-out">
+      <div style="display:flex;align-items:center;gap:12px;padding:10px 20px 6px">
+        <button onClick="{{ exitAsk }}" style="width:44px;height:44px;margin-left:-6px;border-radius:99px;background:none;border:none;display:flex;align-items:center;justify-content:center;cursor:pointer;flex:none" style-active="transform:scale(0.92)"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--t1)" stroke-width="2.2" stroke-linecap="round"><path d="M6 6l12 12M18 6 6 18"/></svg></button>
+        <div style="flex:1;height:8px;border-radius:99px;background:var(--sunk);overflow:hidden"><div style="height:100%;width:{{ sessPct }}%;background:var(--accent);border-radius:99px;transition:width .4s ease-out"></div></div>
+        <span style="font-size:13px;color:var(--t2);font-variant-numeric:tabular-nums;flex:none">{{ pNum }}/{{ pTotal }}</span>
+      </div>
+      <sc-if value="{{ examMode }}" hint-placeholder-val="{{ false }}">
+        <div style="text-align:center;font-size:12px;color:var(--accent);letter-spacing:.06em;text-transform:uppercase;font-weight:700;padding:8px 0 4px">Экзамен · строгий режим</div>
+      </sc-if>
+      <sc-if value="{{ practiceModeBar }}" hint-placeholder-val="{{ true }}">
+        <div style="display:flex;gap:3px;background:var(--sunk);border-radius:12px;padding:4px;margin:8px 20px 0">
+          <button onClick="{{ setModeTr }}" style="{{ modeSegT }}">Перевод</button>
+          <button onClick="{{ setModeAu }}" style="{{ modeSegA }}">Аудио</button>
+          <button onClick="{{ setModeBu }}" style="{{ modeSegB }}">Слова</button>
+          <button onClick="{{ setModeSp }}" style="{{ modeSegS }}">Речь</button>
+        </div>
+      </sc-if>
+
+      <!-- QUESTION -->
+      <sc-if value="{{ phaseQ }}" hint-placeholder-val="{{ true }}">
+
+        <!-- mode 1: translate -->
+        <sc-if value="{{ modeTranslate }}" hint-placeholder-val="{{ true }}">
+        <div style="flex:1;display:flex;flex-direction:column;justify-content:center;align-items:center;padding:20px 26px;text-align:center">
+          <div style="font-size:13px;color:var(--t3);margin-bottom:18px">Переведите вслух</div>
+          <div style="font-size:24px;line-height:1.35;color:var(--t1);font-weight:400">{{ curRu }}</div>
+        </div>
+        <div style="padding:16px 20px 34px"><button onClick="{{ showAnswer }}" style="height:54px;width:100%;border-radius:14px;background:var(--accent);color:#fff;font:600 16px Inter;border:none;cursor:pointer" style-active="transform:scale(0.98);background:var(--accent-press)">Показать ответ</button></div>
+        </sc-if>
+
+        <!-- mode 2: audio -->
+        <sc-if value="{{ modeAudio }}" hint-placeholder-val="{{ false }}">
+        <div style="flex:1;display:flex;flex-direction:column;justify-content:center;align-items:center;padding:20px 26px;text-align:center">
+          <button onClick="{{ play }}" style="width:96px;height:96px;border-radius:99px;background:var(--accent-sunk);border:none;display:flex;align-items:center;justify-content:center;cursor:pointer;margin-bottom:20px" style-active="transform:scale(0.95)">
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" style="{{ spkStyle }}"><path d="M4 9v6h4l5 4V5L8 9H4Z"/><path d="M16.5 8.5a5 5 0 0 1 0 7"/><path d="M19.5 6a9 9 0 0 1 0 12"/></svg>
+          </button>
+          <div style="font-size:16px;color:var(--t2)">Прослушайте и переведите</div>
+          <button onClick="{{ play }}" style="margin-top:14px;background:none;border:none;color:var(--accent);font:500 14px Inter;cursor:pointer">Прослушать ещё раз</button>
+        </div>
+        <div style="padding:16px 20px 34px"><button onClick="{{ showAnswer }}" style="height:54px;width:100%;border-radius:14px;background:var(--accent);color:#fff;font:600 16px Inter;border:none;cursor:pointer" style-active="transform:scale(0.98);background:var(--accent-press)">Показать ответ</button></div>
+        </sc-if>
+
+        <!-- mode 3: builder -->
+        <sc-if value="{{ modeBuilder }}" hint-placeholder-val="{{ false }}">
+        <div style="flex:1;display:flex;flex-direction:column;padding:18px 20px 0;overflow-y:auto">
+          <div style="font-size:20px;line-height:1.3;color:var(--t1);text-align:center;margin-bottom:20px">{{ curRu }}</div>
+          <div style="min-height:58px;border-radius:14px;background:var(--sunk);border:1.5px dashed var(--border);padding:10px;display:flex;flex-wrap:wrap;gap:8px;align-content:flex-start;margin-bottom:6px">
+            <sc-for list="{{ slotCells }}" as="t" hint-placeholder-count="0"><button onClick="{{ t.onTap }}" style="{{ t.style }}" style-active="transform:scale(0.95)">{{ t.w }}</button></sc-for>
+          </div>
+          <div style="flex:1;display:flex;flex-wrap:wrap;gap:8px;align-content:flex-start;padding-top:18px">
+            <sc-for list="{{ bankCells }}" as="t" hint-placeholder-count="5"><button onClick="{{ t.onTap }}" style="{{ t.style }}" style-active="transform:scale(0.95)">{{ t.w }}</button></sc-for>
+          </div>
+        </div>
+        <div style="padding:16px 20px 34px"><button onClick="{{ checkBuilder }}" style="{{ checkBtnStyle }}" style-active="transform:scale(0.98)">Проверить</button></div>
+        </sc-if>
+
+        <!-- mode 4: speak -->
+        <sc-if value="{{ modeSpeak }}" hint-placeholder-val="{{ false }}">
+          <sc-if value="{{ micGate }}" hint-placeholder-val="{{ true }}">
+          <div style="flex:1;display:flex;flex-direction:column;justify-content:center;align-items:center;padding:30px 34px;text-align:center">
+            <div style="width:76px;height:76px;border-radius:99px;background:var(--sunk);display:flex;align-items:center;justify-content:center;margin-bottom:20px"><svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="var(--t2)" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5 11a7 7 0 0 0 14 0"/><path d="M12 18v3"/></svg></div>
+            <div style="font-family:Lora,serif;font-size:20px;color:var(--t1);font-weight:500;margin-bottom:8px">Доступ к микрофону</div>
+            <div style="font-size:15px;color:var(--t2);line-height:1.5;margin-bottom:24px">Нужен доступ к микрофону и распознаванию речи, чтобы проверять произношение.</div>
+            <button onClick="{{ grantMic }}" style="height:54px;width:100%;border-radius:14px;background:var(--accent);color:#fff;font:600 16px Inter;border:none;cursor:pointer" style-active="transform:scale(0.98);background:var(--accent-press)">Разрешить</button>
+          </div>
+          </sc-if>
+          <sc-if value="{{ micGranted }}" hint-placeholder-val="{{ false }}">
+          <div style="flex:1;display:flex;flex-direction:column;justify-content:center;align-items:center;padding:20px 26px;text-align:center">
+            <div style="font-size:26px;line-height:1.3;color:var(--t1);font-weight:500;margin-bottom:8px">{{ curPtPlain }}</div>
+            <button onClick="{{ play }}" style="margin-bottom:30px;background:none;border:none;color:var(--accent);font:500 14px Inter;cursor:pointer;display:flex;align-items:center;gap:7px"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 9v6h4l5 4V5L8 9H4Z"/><path d="M16.5 9a4 4 0 0 1 0 6"/></svg>Слушать эталон</button>
+            <sc-if value="{{ recRec }}" hint-placeholder-val="{{ false }}">
+              <div style="position:relative;width:120px;height:120px;display:flex;align-items:center;justify-content:center;margin-bottom:16px">
+                <div style="position:absolute;inset:8px;border-radius:99px;background:var(--accent-sunk);animation:ping 1.4s ease-out infinite"></div>
+                <div style="position:absolute;inset:8px;border-radius:99px;background:var(--accent-sunk);animation:ping 1.4s ease-out .5s infinite"></div>
+                <button onClick="{{ stopRec }}" style="position:relative;width:88px;height:88px;border-radius:99px;background:var(--accent);border:none;display:flex;align-items:center;justify-content:center;cursor:pointer;z-index:2" style-active="transform:scale(0.95)"><div style="width:26px;height:26px;border-radius:6px;background:#fff"></div></button>
+              </div>
+              <div style="font-size:18px;color:var(--t1)">Eu falo<span style="color:var(--t3)"> …</span></div>
+            </sc-if>
+            <sc-if value="{{ recIdle }}" hint-placeholder-val="{{ true }}">
+              <button onClick="{{ startRec }}" style="width:96px;height:96px;border-radius:99px;background:var(--accent);border:none;display:flex;align-items:center;justify-content:center;cursor:pointer;box-shadow:var(--shadow)" style-active="transform:scale(0.95);background:var(--accent-press)"><svg width="38" height="38" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5 11a7 7 0 0 0 14 0"/><path d="M12 18v3"/></svg></button>
+              <div style="font-size:15px;color:var(--t2);margin-top:16px">Нажмите и произнесите</div>
+            </sc-if>
+          </div>
+          </sc-if>
+        </sc-if>
+
+      </sc-if>
+
+      <!-- ANSWER -->
+      <sc-if value="{{ phaseA }}" hint-placeholder-val="{{ false }}">
+
+        <!-- translate + audio: self-check -->
+        <sc-if value="{{ ansSelfCheck }}" hint-placeholder-val="{{ true }}">
+        <div style="flex:1;display:flex;flex-direction:column;justify-content:center;align-items:center;padding:20px 26px;text-align:center;animation:reveal .32s ease-out both">
+          <div style="font-size:14px;color:var(--t3);margin-bottom:16px">{{ curRu }}</div>
+          <div style="display:flex;align-items:center;gap:12px;margin-bottom:22px">
+            <span style="font-size:27px;line-height:1.3;color:var(--t1);font-weight:500;letter-spacing:.01em">{{ curPt }}</span>
+          </div>
+          <div style="display:flex;gap:10px">
+            <button onClick="{{ play }}" style="height:42px;padding:0 16px;border-radius:99px;background:var(--accent-sunk);border:none;display:flex;align-items:center;gap:8px;cursor:pointer;color:var(--accent);font:500 14px Inter" style-active="transform:scale(0.96)">
+              <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" style="{{ spkStyle }}"><path d="M4 9v6h4l5 4V5L8 9H4Z"/><path d="M16.5 9a4 4 0 0 1 0 6"/></svg>
+              Слушать
+            </button>
+            <button onClick="{{ play }}" style="height:42px;padding:0 16px;border-radius:99px;background:var(--sunk);border:none;display:flex;align-items:center;gap:6px;cursor:pointer;color:var(--t2);font:500 14px Inter" style-active="transform:scale(0.96)">0.5×</button>
+          </div>
+        </div>
+        <div style="display:flex;gap:12px;padding:16px 20px 34px">
+          <button onClick="{{ answerNo }}" style="flex:1;height:54px;border-radius:14px;background:transparent;border:1px solid var(--border);color:var(--t1);font:600 16px Inter;cursor:pointer;display:flex;align-items:center;justify-content:center;gap:8px" style-active="transform:scale(0.98);background:var(--error-sunk)">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--error)" stroke-width="2.2" stroke-linecap="round"><path d="M6 6l12 12M18 6 6 18"/></svg>Ошибся
+          </button>
+          <button onClick="{{ answerOk }}" style="flex:1;height:54px;border-radius:14px;background:var(--success);border:none;color:#fff;font:600 16px Inter;cursor:pointer;display:flex;align-items:center;justify-content:center;gap:8px" style-active="transform:scale(0.98);filter:brightness(0.94)">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5 10 17.5 19 7"/></svg>Знал
+          </button>
+        </div>
+        </sc-if>
+
+        <!-- builder answer -->
+        <sc-if value="{{ modeBuilder }}" hint-placeholder-val="{{ false }}">
+        <div style="flex:1;display:flex;flex-direction:column;padding:18px 20px 0;animation:reveal .32s ease-out both">
+          <div style="font-size:20px;line-height:1.3;color:var(--t1);text-align:center;margin-bottom:20px">{{ curRu }}</div>
+          <div style="border-radius:14px;background:var(--sunk);padding:11px;display:flex;flex-wrap:wrap;gap:8px;margin-bottom:18px;min-height:58px;align-content:flex-start">
+            <sc-for list="{{ slotCells }}" as="t" hint-placeholder-count="3"><span style="{{ t.style }}">{{ t.w }}</span></sc-for>
+          </div>
+          <div style="background:var(--success-sunk);border-radius:14px;padding:14px 16px;display:flex;align-items:center;justify-content:space-between;gap:12px">
+            <div><div style="font-size:12px;color:var(--success);font-weight:600;margin-bottom:2px">Правильный вариант</div><div style="font-size:18px;color:var(--t1)">{{ curPt }}</div></div>
+            <button onClick="{{ play }}" style="width:40px;height:40px;border-radius:99px;background:var(--surface);border:none;display:flex;align-items:center;justify-content:center;cursor:pointer;flex:none" style-active="transform:scale(0.94)"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--success)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" style="{{ spkStyle }}"><path d="M4 9v6h4l5 4V5L8 9H4Z"/><path d="M16.5 9a4 4 0 0 1 0 6"/></svg></button>
+          </div>
+        </div>
+        <div style="padding:16px 20px 34px"><button onClick="{{ nextBuilder }}" style="height:54px;width:100%;border-radius:14px;background:var(--accent);color:#fff;font:600 16px Inter;border:none;cursor:pointer" style-active="transform:scale(0.98);background:var(--accent-press)">Дальше</button></div>
+        </sc-if>
+
+        <!-- speak answer -->
+        <sc-if value="{{ modeSpeak }}" hint-placeholder-val="{{ false }}">
+        <div style="flex:1;display:flex;flex-direction:column;justify-content:center;align-items:center;padding:20px 26px;text-align:center;animation:reveal .32s ease-out both">
+          <div style="position:relative;width:96px;height:96px;margin-bottom:18px">
+            <svg width="96" height="96" viewBox="0 0 96 96"><circle cx="48" cy="48" r="42" fill="none" stroke="var(--sunk)" stroke-width="7"/><circle cx="48" cy="48" r="42" fill="none" stroke="var(--success)" stroke-width="7" stroke-linecap="round" stroke-dasharray="{{ speakDash }}" transform="rotate(-90 48 48)"/></svg>
+            <div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-family:Lora,serif;font-size:24px;font-weight:600;color:var(--t1)">{{ speakPct }}%</div>
+          </div>
+          <div style="font-size:13px;color:var(--t3);margin-bottom:16px">совпадение с эталоном</div>
+          <div style="display:flex;flex-wrap:wrap;gap:8px;justify-content:center">
+            <sc-for list="{{ speakCells }}" as="t" hint-placeholder-count="3"><span style="{{ t.style }}">{{ t.w }}</span></sc-for>
+          </div>
+        </div>
+        <div style="display:flex;gap:12px;padding:16px 20px 34px">
+          <button onClick="{{ startRec }}" style="flex:1;height:54px;border-radius:14px;background:transparent;border:1px solid var(--border);color:var(--t1);font:600 16px Inter;cursor:pointer" style-active="transform:scale(0.98)">Ещё раз</button>
+          <button onClick="{{ nextSpeak }}" style="flex:1;height:54px;border-radius:14px;background:var(--accent);border:none;color:#fff;font:600 16px Inter;cursor:pointer" style-active="transform:scale(0.98);background:var(--accent-press)">Дальше</button>
+        </div>
+        </sc-if>
+
+      </sc-if>
+    </div>
+    </sc-if>
+
+    <!-- ============ RESULTS (D5) ============ -->
+    <sc-if value="{{ isResults }}" hint-placeholder-val="{{ false }}">
+    <div style="flex:1;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;padding:40px 26px;animation:reveal .4s ease-out both">
+      <div style="width:96px;height:96px;border-radius:99px;background:var(--success-sunk);display:flex;align-items:center;justify-content:center;margin-bottom:22px">
+        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="var(--success)" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5 10 17.5 19 7"/></svg>
+      </div>
+      <div style="font-family:Lora,serif;font-weight:600;font-size:30px;color:var(--t1)">Готово!</div>
+      <div style="font-size:16px;color:var(--t2);margin:8px 0 26px">Верно <b style="color:var(--t1);font-variant-numeric:tabular-nums">{{ correct }}</b> из <span style="font-variant-numeric:tabular-nums">{{ total }}</span></div>
+
+      <div style="width:100%;background:var(--surface);border:1px solid var(--border);border-radius:20px;padding:18px 20px;box-shadow:var(--shadow);margin-bottom:14px">
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:10px"><span style="font-size:14px;color:var(--t2)">Прогресс урока 3</span><span style="font-size:14px;color:var(--accent);font-weight:600;font-variant-numeric:tabular-nums">57%</span></div>
+        <div style="height:8px;border-radius:99px;background:var(--sunk);overflow:hidden"><div style="height:100%;width:57%;background:var(--accent);border-radius:99px"></div></div>
+      </div>
+      <div style="width:100%;display:flex;gap:10px;margin-bottom:30px">
+        <div style="flex:1;background:var(--accent-sunk);border-radius:16px;padding:14px;display:flex;align-items:center;gap:8px;justify-content:center">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="var(--warning)"><path d="M12 2c1.2 3.4-1.8 4.6-1.8 7.6a3.8 3.8 0 0 0 7.6 0c0-1.4-.7-2.6-1.4-3.4.4 2.4-1.4 3.4-2 1.6C12.8 6 12 4 12 2Z"/></svg>
+          <span style="font-size:14px;color:var(--t1);font-weight:500">Серия 7 дней</span>
+        </div>
+        <div style="flex:1;background:var(--success-sunk);border-radius:16px;padding:14px;text-align:center"><span style="font-size:14px;color:var(--t1);font-weight:500">Цель дня +{{ correct }}</span></div>
+      </div>
+
+      <button onClick="{{ openPractice }}" style="height:54px;width:100%;border-radius:14px;background:var(--accent);color:#fff;font:600 16px Inter;border:none;cursor:pointer;margin-bottom:10px" style-active="transform:scale(0.98);background:var(--accent-press)">Продолжить урок</button>
+      <button onClick="{{ confirmExit }}" style="height:54px;width:100%;border-radius:14px;background:transparent;border:none;color:var(--accent);font:600 16px Inter;cursor:pointer" style-active="opacity:0.6">На главную</button>
+    </div>
+    </sc-if>
+
+    <!-- ============ EXAM RESULT (D6) ============ -->
+    <sc-if value="{{ isExamResult }}" hint-placeholder-val="{{ false }}">
+    <div style="flex:1;overflow-y:auto;padding:54px 20px 40px;animation:reveal .4s ease-out both">
+      <div style="display:flex;flex-direction:column;align-items:center;text-align:center">
+        <div style="position:relative;width:120px;height:120px;margin:8px 0 16px">
+          <svg width="120" height="120" viewBox="0 0 120 120"><circle cx="60" cy="60" r="52" fill="none" stroke="var(--sunk)" stroke-width="9"/><circle cx="60" cy="60" r="52" fill="none" stroke="{{ examRingColor }}" stroke-width="9" stroke-linecap="round" stroke-dasharray="{{ examDash }}" transform="rotate(-90 60 60)"/></svg>
+          <div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-family:Lora,serif;font-size:34px;font-weight:600;color:var(--t1);font-variant-numeric:tabular-nums">{{ examPct }}%</div>
+        </div>
+        <div style="font-size:13px;color:var(--t3);margin-bottom:6px">Урок 3 · Экзамен</div>
+        <sc-if value="{{ examPass }}" hint-placeholder-val="{{ false }}">
+          <div style="display:flex;align-items:center;gap:8px"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--success)" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5 10 17.5 19 7"/></svg><span style="font-family:Lora,serif;font-size:22px;font-weight:600;color:var(--success)">Сдано! Урок 4 открыт</span></div>
+        </sc-if>
+        <sc-if value="{{ examFail }}" hint-placeholder-val="{{ false }}">
+          <div style="font-family:Lora,serif;font-size:22px;font-weight:600;color:var(--t1)">Почти! Нужно 80%</div>
+        </sc-if>
+      </div>
+
+      <div style="font-size:13px;color:var(--t3);font-weight:500;padding:22px 4px 8px">РАЗБОР</div>
+      <div style="background:var(--surface);border:1px solid var(--border);border-radius:18px;box-shadow:var(--shadow);overflow:hidden;margin-bottom:24px">
+        <sc-for list="{{ examBreakdown }}" as="q" hint-placeholder-count="5">
+          <div onClick="{{ play }}" style="{{ q.rowStyle }}" style-active="background:var(--sunk)">
+            <sc-if value="{{ q.ok }}" hint-placeholder-val="{{ true }}"><div style="width:26px;height:26px;border-radius:99px;flex:none;display:flex;align-items:center;justify-content:center;background:var(--success-sunk)"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="var(--success)" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5 10 17.5 19 7"/></svg></div></sc-if>
+            <sc-if value="{{ q.bad }}" hint-placeholder-val="{{ false }}"><div style="width:26px;height:26px;border-radius:99px;flex:none;display:flex;align-items:center;justify-content:center;background:var(--error-sunk)"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="var(--error)" stroke-width="2.6" stroke-linecap="round"><path d="M6 6l12 12M18 6 6 18"/></svg></div></sc-if>
+            <div style="flex:1;font-size:15px;color:var(--t1);text-align:left">{{ q.pt }}</div>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--t3)" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M4 9v6h4l5 4V5L8 9H4Z"/><path d="M16.5 9a4 4 0 0 1 0 6"/></svg>
+          </div>
+        </sc-for>
+      </div>
+
+      <div style="display:flex;gap:12px">
+        <button onClick="{{ examRetry }}" style="flex:1;height:54px;border-radius:14px;background:transparent;border:1px solid var(--border);color:var(--t1);font:600 15px Inter;cursor:pointer" style-active="transform:scale(0.98)">Повторить</button>
+        <button onClick="{{ examNext }}" style="flex:1;height:54px;border-radius:14px;background:var(--accent);border:none;color:#fff;font:600 15px Inter;cursor:pointer" style-active="transform:scale(0.98);background:var(--accent-press)">Дальше</button>
+      </div>
+    </div>
+    </sc-if>
+
+    <!-- ============ VERB MAP (D9) ============ -->
+    <sc-if value="{{ isVerbmap }}" hint-placeholder-val="{{ false }}">
+    <div style="flex:1;overflow-y:auto;padding:52px 20px 40px;animation:fadeup .3s ease-out">
+      <button onClick="{{ pop }}" style="width:44px;height:44px;border-radius:99px;background:var(--sunk);border:none;display:flex;align-items:center;justify-content:center;cursor:pointer;margin-bottom:18px" style-active="transform:scale(0.94)"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--t1)" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 5l-7 7 7 7"/></svg></button>
+      <div style="font-family:Lora,serif;font-weight:600;font-size:26px;color:var(--t1)">Карта таблицы</div>
+      <div style="font-size:15px;color:var(--t2);margin:8px 0 20px;line-height:1.5">Насыщенность ячейки = уровень освоения структуры.</div>
+
+      <div style="display:flex;background:var(--sunk);border-radius:14px;padding:4px;margin-bottom:20px">
+        <button onClick="{{ mapSetAr }}" style="{{ mapSegArStyle }}">-ar</button>
+        <button onClick="{{ mapSetEr }}" style="{{ mapSegErStyle }}">-er</button>
+        <button onClick="{{ mapSetIr }}" style="{{ mapSegIrStyle }}">-ir</button>
+      </div>
+
+      <div style="background:var(--surface);border:1px solid var(--border);border-radius:20px;padding:16px;box-shadow:var(--shadow)">
+        <div style="display:grid;grid-template-columns:40px 1fr 1fr 1fr;gap:8px;margin-bottom:8px;align-items:center">
+          <div></div>
+          <sc-for list="{{ cols }}" as="cl" hint-placeholder-count="3"><div style="text-align:center;font-size:11px;color:var(--t3);font-weight:500">{{ cl }}</div></sc-for>
+        </div>
+        <div style="display:flex;flex-direction:column;gap:8px">
+          <sc-for list="{{ mapRows }}" as="row" hint-placeholder-count="3">
+            <div style="display:grid;grid-template-columns:40px 1fr 1fr 1fr;gap:8px;align-items:center">
+              <span style="width:26px;height:26px;border-radius:8px;background:var(--sunk);color:var(--t2);font-weight:600;font-size:15px;display:flex;align-items:center;justify-content:center">{{ row.sign }}</span>
+              <sc-for list="{{ row.cells }}" as="c" hint-placeholder-count="3"><div style="{{ c.style }}">{{ c.label }}</div></sc-for>
+            </div>
+          </sc-for>
+        </div>
+      </div>
+
+      <div style="display:flex;flex-wrap:wrap;gap:12px;margin-top:18px;justify-content:center">
+        <sc-for list="{{ legend }}" as="lg" hint-placeholder-count="4"><div style="display:flex;align-items:center;gap:6px"><span style="{{ lg.dot }}"></span><span style="font-size:12px;color:var(--t2)">{{ lg.label }}</span></div></sc-for>
+      </div>
+    </div>
+    </sc-if>
+
+    <!-- ============ SETTINGS (D10) ============ -->
+    <sc-if value="{{ isSettings }}" hint-placeholder-val="{{ false }}">
+    <div style="flex:1;overflow-y:auto;padding:52px 20px 40px;animation:fadeup .3s ease-out">
+      <button onClick="{{ pop }}" style="width:44px;height:44px;border-radius:99px;background:var(--sunk);border:none;display:flex;align-items:center;justify-content:center;cursor:pointer;margin-bottom:18px" style-active="transform:scale(0.94)"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--t1)" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 5l-7 7 7 7"/></svg></button>
+      <div style="font-family:Lora,serif;font-weight:600;font-size:26px;color:var(--t1);margin-bottom:20px">Настройки</div>
+
+      <div style="font-size:13px;color:var(--t3);font-weight:500;padding:0 4px 8px">ОЗВУЧКА</div>
+      <div style="background:var(--surface);border:1px solid var(--border);border-radius:18px;box-shadow:var(--shadow);overflow:hidden;margin-bottom:22px">
+        <div style="display:flex;align-items:center;justify-content:space-between;padding:15px 18px;border-bottom:1px solid var(--border)"><span style="font-size:15px;color:var(--t1)">Голос</span><span style="font-size:14px;color:var(--t2)">Joana ›</span></div>
+        <div style="display:flex;align-items:center;justify-content:space-between;padding:15px 18px;border-bottom:1px solid var(--border)"><span style="font-size:15px;color:var(--t1)">Авто-озвучка</span><div style="width:46px;height:28px;border-radius:99px;background:var(--accent);position:relative"><div style="position:absolute;top:3px;right:3px;width:22px;height:22px;border-radius:99px;background:#fff"></div></div></div>
+        <div style="padding:15px 18px"><div style="font-size:15px;color:var(--t1);margin-bottom:10px">Скорость речи</div><div style="height:6px;border-radius:99px;background:var(--sunk);position:relative"><div style="height:100%;width:60%;background:var(--accent);border-radius:99px"></div><div style="position:absolute;top:50%;left:60%;transform:translate(-50%,-50%);width:20px;height:20px;border-radius:99px;background:#fff;box-shadow:var(--shadow);border:1px solid var(--border)"></div></div></div>
+      </div>
+
+      <div style="font-size:13px;color:var(--t3);font-weight:500;padding:0 4px 8px">ОБУЧЕНИЕ</div>
+      <div style="background:var(--surface);border:1px solid var(--border);border-radius:18px;box-shadow:var(--shadow);overflow:hidden;margin-bottom:22px">
+        <div style="padding:15px 18px;border-bottom:1px solid var(--border)">
+          <div style="font-size:15px;color:var(--t1);margin-bottom:12px">Цель в день</div>
+          <div style="display:flex;background:var(--sunk);border-radius:12px;padding:4px;gap:4px">
+            <button onClick="{{ setGoal10 }}" style="{{ goalSeg10 }}">10</button>
+            <button onClick="{{ setGoal20 }}" style="{{ goalSeg20 }}">20</button>
+            <button onClick="{{ setGoal30 }}" style="{{ goalSeg30 }}">30</button>
+          </div>
+        </div>
+        <div style="display:flex;align-items:center;justify-content:space-between;padding:15px 18px;border-bottom:1px solid var(--border)"><span style="font-size:15px;color:var(--t1)">Режим по умолчанию</span><span style="font-size:14px;color:var(--t2)">Перевод ›</span></div>
+        <div style="padding:15px 18px">
+          <div style="font-size:15px;color:var(--t1);margin-bottom:12px">Обращение по умолчанию</div>
+          <div style="display:flex;background:var(--sunk);border-radius:12px;padding:4px;gap:4px">
+            <button onClick="{{ setAddrTu }}" style="{{ addrTu }}">tu</button>
+            <button onClick="{{ setAddrVoce }}" style="{{ addrVoce }}">você</button>
+          </div>
+        </div>
+      </div>
+
+      <div style="font-size:13px;color:var(--t3);font-weight:500;padding:0 4px 8px">ВНЕШНИЙ ВИД</div>
+      <div style="background:var(--surface);border:1px solid var(--border);border-radius:18px;box-shadow:var(--shadow);padding:16px 18px;margin-bottom:22px">
+        <div style="font-size:15px;color:var(--t1);margin-bottom:12px">Тема</div>
+        <div style="display:flex;background:var(--sunk);border-radius:12px;padding:4px;gap:4px">
+          <button onClick="{{ setPrefSys }}" style="{{ themePrefSys }}">Системная</button>
+          <button onClick="{{ setPrefLight }}" style="{{ themePrefLight }}">Светлая</button>
+          <button onClick="{{ setPrefDark }}" style="{{ themePrefDark }}">Тёмная</button>
+        </div>
+      </div>
+
+      <div style="font-size:13px;color:var(--t3);font-weight:500;padding:0 4px 8px">НАПОМИНАНИЯ</div>
+      <div style="background:var(--surface);border:1px solid var(--border);border-radius:18px;box-shadow:var(--shadow);overflow:hidden;margin-bottom:22px">
+        <div style="display:flex;align-items:center;justify-content:space-between;padding:15px 18px;border-bottom:1px solid var(--border)"><span style="font-size:15px;color:var(--t1)">Напоминать заниматься</span><button onClick="{{ toggleRemind }}" style="{{ remindToggle }}"><div style="{{ remindKnob }}"></div></button></div>
+        <div style="display:flex;align-items:center;justify-content:space-between;padding:15px 18px"><span style="font-size:15px;color:var(--t1)">Время</span><span style="font-size:14px;color:var(--t2)">19:00 ›</span></div>
+      </div>
+
+      <div style="font-size:13px;color:var(--t3);font-weight:500;padding:0 4px 8px">ПОКУПКИ</div>
+      <div style="background:var(--surface);border:1px solid var(--border);border-radius:18px;box-shadow:var(--shadow);overflow:hidden">
+        <div style="display:flex;align-items:center;justify-content:space-between;padding:15px 18px;border-bottom:1px solid var(--border)"><span style="font-size:15px;color:var(--accent);font-weight:500">Разблокировать всё</span><span style="font-size:14px;color:var(--t3)">›</span></div>
+        <div style="display:flex;align-items:center;justify-content:space-between;padding:15px 18px"><span style="font-size:15px;color:var(--t1)">Версия</span><span style="font-size:14px;color:var(--t3)">1.0</span></div>
+      </div>
+    </div>
+    </sc-if>
+
+    <!-- ============ TAB BAR ============ -->
+    <sc-if value="{{ showTabBar }}" hint-placeholder-val="{{ true }}">
+    <div style="position:absolute;bottom:0;left:0;right:0;background:var(--surface);border-top:1px solid var(--border);padding:8px 30px 0;display:flex;z-index:30;backdrop-filter:blur(10px)">
+      <button onClick="{{ goHome }}" style="{{ tabHomeStyle }}">
+        <svg width="25" height="25" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M3 10.5 12 4l9 6.5"/><path d="M5 9.5V20h14V9.5"/></svg>
+        <span style="font-size:11px;font-weight:500">Дом</span>
+      </button>
+      <button onClick="{{ goReview }}" style="{{ tabReviewStyle }}">
+        <svg width="25" height="25" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M4 9a8 8 0 0 1 13-3l2.5 2.2"/><path d="M20 4.5V8h-3.5"/><path d="M20 15a8 8 0 0 1-13 3l-2.5-2.2"/><path d="M4 19.5V16h3.5"/></svg>
+        <span style="font-size:11px;font-weight:500">Повторение</span>
+      </button>
+      <button onClick="{{ goProfile }}" style="{{ tabProfileStyle }}">
+        <svg width="25" height="25" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="3.4"/><path d="M5.5 20c0-3.6 2.9-6 6.5-6s6.5 2.4 6.5 6"/></svg>
+        <span style="font-size:11px;font-weight:500">Профиль</span>
+      </button>
+    </div>
+    </sc-if>
+
+    <!-- HOME INDICATOR -->
+    <div style="position:absolute;bottom:8px;left:0;right:0;display:flex;justify-content:center;z-index:50;pointer-events:none"><div style="width:140px;height:5px;border-radius:99px;background:var(--t1);opacity:0.22"></div></div>
+
+    <!-- ============ SHEETS ============ -->
+    <sc-if value="{{ sheetActive }}" hint-placeholder-val="{{ false }}">
+    <div onClick="{{ sheetClose }}" style="position:absolute;inset:0;background:rgba(20,18,15,0.42);z-index:60;display:flex;align-items:flex-end;animation:dim .25s ease-out">
+
+      <sc-if value="{{ sheetPaywall }}" hint-placeholder-val="{{ false }}">
+      <div onClick="{{ stop }}" style="width:100%;background:var(--surface);border-radius:28px 28px 0 0;padding:10px 24px 40px;animation:sheetup .32s cubic-bezier(.2,.8,.2,1)">
+        <div style="width:40px;height:5px;border-radius:99px;background:var(--border);margin:0 auto 22px"></div>
+        <div style="font-family:Lora,serif;font-weight:600;font-size:25px;color:var(--t1);text-align:center;line-height:1.2">Открой все 16 уроков</div>
+        <div style="font-size:15px;color:var(--t2);text-align:center;margin:8px 0 22px">Первые уроки бесплатны навсегда</div>
+        <div style="display:flex;flex-direction:column;gap:10px;margin-bottom:22px">
+          <sc-for list="{{ perks }}" as="p" hint-placeholder-count="3"><div style="display:flex;align-items:center;gap:11px"><div style="width:24px;height:24px;border-radius:99px;background:var(--success-sunk);display:flex;align-items:center;justify-content:center;flex:none"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="var(--success)" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5 10 17.5 19 7"/></svg></div><span style="font-size:15px;color:var(--t1)">{{ p }}</span></div></sc-for>
+        </div>
+        <button onClick="{{ sheetClose }}" style="position:relative;height:58px;width:100%;border-radius:16px;background:var(--accent);color:#fff;border:none;cursor:pointer;display:flex;flex-direction:column;align-items:center;justify-content:center;margin-bottom:10px" style-active="transform:scale(0.98);background:var(--accent-press)">
+          <span style="position:absolute;top:-10px;right:14px;background:var(--warning);color:#fff;font-size:11px;font-weight:600;padding:3px 9px;border-radius:99px">Лучший выбор</span>
+          <span style="font:600 16px Inter">Все уроки — $2.99</span>
+        </button>
+        <button onClick="{{ sheetClose }}" style="height:54px;width:100%;border-radius:14px;background:transparent;border:1px solid var(--border);color:var(--t1);font:600 16px Inter;cursor:pointer" style-active="transform:scale(0.98)">Этот урок — $0.99</button>
+        <div style="text-align:center;font-size:13px;color:var(--t3);margin-top:16px">Восстановить покупки · Условия</div>
+      </div>
+      </sc-if>
+
+      <sc-if value="{{ sheetExit }}" hint-placeholder-val="{{ false }}">
+      <div onClick="{{ stop }}" style="width:100%;background:var(--surface);border-radius:28px 28px 0 0;padding:10px 24px 40px;animation:sheetup .32s cubic-bezier(.2,.8,.2,1)">
+        <div style="width:40px;height:5px;border-radius:99px;background:var(--border);margin:0 auto 22px"></div>
+        <div style="font-family:Lora,serif;font-weight:600;font-size:23px;color:var(--t1);text-align:center">Прервать сессию?</div>
+        <div style="font-size:15px;color:var(--t2);text-align:center;margin:8px 0 24px">Прогресс этой сессии не сохранится</div>
+        <button onClick="{{ confirmExit }}" style="height:54px;width:100%;border-radius:14px;background:var(--error-sunk);color:var(--error);font:600 16px Inter;border:none;cursor:pointer;margin-bottom:10px" style-active="transform:scale(0.98)">Выйти</button>
+        <button onClick="{{ sheetClose }}" style="height:54px;width:100%;border-radius:14px;background:var(--accent);color:#fff;font:600 16px Inter;border:none;cursor:pointer" style-active="transform:scale(0.98);background:var(--accent-press)">Продолжить</button>
+      </div>
+      </sc-if>
+
+    </div>
+    </sc-if>
+
+    <!-- ============ ONBOARDING (D0) ============ -->
+    <sc-if value="{{ onboarding }}" hint-placeholder-val="{{ false }}">
+    <div style="position:absolute;inset:0;z-index:70;background:var(--canvas);display:flex;flex-direction:column;animation:fadeup .3s ease-out">
+      <div style="display:flex;justify-content:flex-end;padding:56px 20px 0"><button onClick="{{ onbSkip }}" style="background:none;border:none;color:var(--t2);font:500 15px Inter;cursor:pointer;padding:8px">Пропустить</button></div>
+      <div style="flex:1;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;padding:20px 34px">
+        <sc-if value="{{ onb0 }}" hint-placeholder-val="{{ true }}">
+          <div style="font-family:Lora,serif;font-size:36px;font-weight:600;color:var(--accent);margin-bottom:18px">Falar</div>
+          <div style="font-family:Lora,serif;font-size:27px;font-weight:500;color:var(--t1);line-height:1.25;margin-bottom:14px">Говорить с первого урока</div>
+          <div style="font-size:16px;color:var(--t2);line-height:1.5">Метод Петрова: доводим базовые структуры языка до автоматизма, а не зубрим списки слов.</div>
+        </sc-if>
+        <sc-if value="{{ onb1 }}" hint-placeholder-val="{{ false }}">
+          <div style="font-family:Lora,serif;font-size:26px;font-weight:600;color:var(--t1);margin-bottom:30px">Как это работает</div>
+          <div style="display:flex;flex-direction:column;gap:20px;text-align:left;width:100%">
+            <div style="display:flex;align-items:center;gap:15px"><div style="width:48px;height:48px;border-radius:14px;background:var(--accent-sunk);display:flex;align-items:center;justify-content:center;flex:none"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M4 7h16M4 12h16M4 17h10"/></svg></div><div><div style="font-size:16px;color:var(--t1);font-weight:500">Структуры до автоматизма</div><div style="font-size:13px;color:var(--t2);margin-top:2px">+ / − / ? в трёх временах</div></div></div>
+            <div style="display:flex;align-items:center;gap:15px"><div style="width:48px;height:48px;border-radius:14px;background:var(--accent-sunk);display:flex;align-items:center;justify-content:center;flex:none"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5 11a7 7 0 0 0 14 0"/><path d="M12 18v3"/></svg></div><div><div style="font-size:16px;color:var(--t1);font-weight:500">Говорим вслух</div><div style="font-size:13px;color:var(--t2);margin-top:2px">Произношение с проверкой</div></div></div>
+            <div style="display:flex;align-items:center;gap:15px"><div style="width:48px;height:48px;border-radius:14px;background:var(--accent-sunk);display:flex;align-items:center;justify-content:center;flex:none"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></div><div><div style="font-size:16px;color:var(--t1);font-weight:500">5 минут в день</div><div style="font-size:13px;color:var(--t2);margin-top:2px">Короткие сессии и повторения</div></div></div>
+          </div>
+        </sc-if>
+        <sc-if value="{{ onb2 }}" hint-placeholder-val="{{ false }}">
+          <div style="font-family:Lora,serif;font-size:26px;font-weight:600;color:var(--t1);margin-bottom:10px">Цель на день</div>
+          <div style="font-size:15px;color:var(--t2);margin-bottom:26px">Сколько карточек в день вам комфортно? Можно изменить потом.</div>
+          <div style="display:flex;background:var(--sunk);border-radius:14px;padding:4px;gap:4px;width:100%">
+            <button onClick="{{ setGoal10 }}" style="{{ goalSeg10 }}">10</button>
+            <button onClick="{{ setGoal20 }}" style="{{ goalSeg20 }}">20</button>
+            <button onClick="{{ setGoal30 }}" style="{{ goalSeg30 }}">30</button>
+          </div>
+        </sc-if>
+        <sc-if value="{{ onb3 }}" hint-placeholder-val="{{ false }}">
+          <div style="width:96px;height:96px;border-radius:99px;background:var(--success-sunk);display:flex;align-items:center;justify-content:center;margin-bottom:24px"><svg width="46" height="46" viewBox="0 0 24 24" fill="none" stroke="var(--success)" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5 10 17.5 19 7"/></svg></div>
+          <div style="font-family:Lora,serif;font-size:28px;font-weight:600;color:var(--t1);margin-bottom:10px">Всё готово</div>
+          <div style="font-size:16px;color:var(--t2);line-height:1.5">Начнём с самого нужного — глагола в трёх временах.</div>
+        </sc-if>
+      </div>
+      <div style="display:flex;justify-content:center;gap:8px;margin-bottom:22px"><sc-for list="{{ onbDots }}" as="d" hint-placeholder-count="4"><div style="{{ d.style }}"></div></sc-for></div>
+      <div style="padding:0 20px 40px">
+        <sc-if value="{{ onbNotLast }}" hint-placeholder-val="{{ true }}"><button onClick="{{ onbNext }}" style="height:54px;width:100%;border-radius:14px;background:var(--accent);color:#fff;font:600 16px Inter;border:none;cursor:pointer" style-active="transform:scale(0.98);background:var(--accent-press)">Далее</button></sc-if>
+        <sc-if value="{{ onbLast }}" hint-placeholder-val="{{ false }}"><button onClick="{{ onbDone }}" style="height:54px;width:100%;border-radius:14px;background:var(--accent);color:#fff;font:600 16px Inter;border:none;cursor:pointer" style-active="transform:scale(0.98);background:var(--accent-press)">Начать с Урока 1</button></sc-if>
+      </div>
+    </div>
+    </sc-if>
+
+  </div>
+
+  <div style="width:393px;display:flex;flex-wrap:wrap;gap:7px;justify-content:center">
+    <button onClick="{{ openOnb }}" style="{{ devOnb }}">▸ Онбординг</button>
+    <button onClick="{{ toggleOffline }}" style="{{ devOffline }}">Offline</button>
+    <button onClick="{{ setHomeReady }}" style="{{ devReady }}">Дом: готов</button>
+    <button onClick="{{ setHomeLoading }}" style="{{ devLoading }}">Загрузка</button>
+    <button onClick="{{ setHomeError }}" style="{{ devError }}">Ошибка</button>
+    <button onClick="{{ toggleEmpty }}" style="{{ devEmpty }}">Повтор: пусто</button>
+  </div>
+  <div style="font-size:11px;color:rgba(31,30,27,0.45);max-width:393px;text-align:center">Демо-состояния (B8/D12) для хэндоффа · 4 режима практики и экзамен — внутри урока</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script>
+class Component extends DCLogic {
+  state = { theme:'light', themePref:'light', tab:'home', stack:[], sheet:null, conj:'ar', cell:null, mapConj:'ar', mode:'translate', pIndex:0, phase:'q', results:[], playing:false, dayDone:12, dayGoal:20, streak:7, slot:[], bank:[], recState:'idle', micGranted:false, unlocked4:false, offline:false, homeState:'ready', reviewEmpty:false, addr:'voce', remind:true, onboarding:false, onbIndex:0 };
+
+  PHRASES = [
+    {ru:'Я говорю по-португальски.', pt:'Eu falo português.', words:['Eu','falo','português'], distract:['falamos','hoje']},
+    {ru:'Ты не говоришь медленно.', pt:'Tu não falas devagar.', words:['Tu','não','falas','devagar'], distract:['falo']},
+    {ru:'Мы говорим дома.', pt:'Nós falamos em casa.', words:['Nós','falamos','em','casa'], distract:['hoje','comer']},
+    {ru:'Они работают сегодня.', pt:'Eles trabalham hoje.', words:['Eles','trabalham','hoje'], distract:['falam','casa']},
+    {ru:'Вы говорите со мной?', pt:'Vocês falam comigo?', words:['Vocês','falam','comigo'], distract:['não','falo']},
+  ];
+  VERBS = {
+    ar:{label:'falar — говорить', cells:[['falo','não falo','falo?'],['falei','não falei','falei?'],['vou falar','não vou falar','vou falar?']]},
+    er:{label:'comer — есть', cells:[['como','não como','como?'],['comi','não comi','comi?'],['vou comer','não vou comer','vou comer?']]},
+    ir:{label:'partir — уезжать', cells:[['parto','não parto','parto?'],['parti','não parti','parti?'],['vou partir','não vou partir','vou partir?']]},
+  };
+  ROWS = [{l:'Утверждение',s:'+'},{l:'Отрицание',s:'–'},{l:'Вопрос',s:'?'}];
+  COLS = ['Настоящее','Прошедшее','Будущее'];
+  MAP = { ar:[[3,2,1],[2,2,1],[1,1,0]], er:[[2,1,1],[1,1,0],[1,0,0]], ir:[[1,1,0],[1,0,0],[0,0,0]] };
+  LESSONS = [
+    {n:1,t:'Глагол falar',topic:'Структура -ar в трёх временах',st:'done'},
+    {n:2,t:'Ser / Estar',topic:'Два «быть» — когда какой',st:'done'},
+    {n:3,t:'Настоящее -ar',topic:'falar, morar, trabalhar',st:'current',prog:45},
+    {n:4,t:'Отрицание',topic:'não перед глаголом',st:'locked'},
+    {n:5,t:'Вопрос',topic:'Интонация и порядок слов',st:'locked'},
+    {n:6,t:'Глаголы -er',topic:'comer, beber, viver',st:'locked'},
+    {n:7,t:'Глаголы -ir',topic:'partir, abrir, dormir',st:'locked'},
+    {n:8,t:'Прошедшее (PPS)',topic:'falei, comi, parti',st:'locked'},
+    {n:9,t:'Будущее ir + inf',topic:'vou falar, vais comer',st:'locked'},
+    {n:10,t:'Estar a + inf',topic:'Длящееся действие',st:'locked'},
+    {n:11,t:'Местоимения',topic:'me, te, lhe, nos',st:'locked'},
+    {n:12,t:'Предлоги',topic:'em, de, a, para',st:'locked'},
+    {n:13,t:'Притяжательные',topic:'o meu, a tua',st:'locked'},
+    {n:14,t:'Числа и время',topic:'horas, datas',st:'locked'},
+    {n:15,t:'Фразы дня',topic:'no café, na rua',st:'locked'},
+    {n:16,t:'Большой обзор',topic:'Экзамен курса',st:'locked'},
+  ];
+  HEAT_LV = [0,1,2,3,1,0,2,3,2,1,0,1,3,2,1,0,2,1,3,3,1,0,1,2,3,2,0,1,2,1,3,2,1,0,2,3,1,2,0,1,3,2,1,0,1,2,3,1,0,2,1,3,2,1,0,1,2,3,2,1,0,2,1,3,2,1,3,2,1,0];
+
+  push(sc){ this.setState(s=>({stack:[...s.stack,sc]})); }
+  pop(){ this.setState(s=>({stack:s.stack.slice(0,-1)})); }
+  goTab(t){ this.setState({tab:t, stack:[], sheet:null}); }
+  toggleTheme(){ this.setState(s=>({theme:s.theme==='light'?'dark':'light'})); }
+  setTheme(t){ this.setState({theme:t}); }
+  play(){ this.setState({playing:true}); clearTimeout(this._t); this._t=setTimeout(()=>this.setState({playing:false}),900); }
+  showAnswer(){ this.setState({phase:'a'}); this.play(); }
+  answer(ok){ this.setState(s=>{ const results=[...s.results,ok]; if(s.pIndex < this.PHRASES.length-1){ return {results,pIndex:s.pIndex+1,phase:'q'}; } return {results, stack:['lesson','results'], dayDone:Math.min(s.dayGoal, s.dayDone + Math.max(1, results.filter(Boolean).length))}; }); }
+  confirmExit(){ this.setState({tab:'home',stack:[],sheet:null}); }
+
+  initBuilder(idx){ const p=this.PHRASES[idx]; const w=p.words.map((x,i)=>({id:'w'+i,w:x})); const d=p.distract.map((x,i)=>({id:'d'+i,w:x})); const arr=[...w,...d]; let seed=idx*97+13; for(let i=arr.length-1;i>0;i--){ seed=(seed*9301+49297)%233280; const j=Math.floor(seed/233280*(i+1)); const t=arr[i];arr[i]=arr[j];arr[j]=t; } return {slot:[],bank:arr}; }
+  setMode(m){ this.setState(s=>{ const b={mode:m,phase:'q',recState:'idle',cell:null}; if(m==='builder'){ const x=this.initBuilder(s.pIndex); b.slot=x.slot; b.bank=x.bank; } return b; }); }
+  tapBank(id){ this.setState(s=>{ const it=s.bank.find(b=>b.id===id); if(!it) return null; return {bank:s.bank.filter(b=>b.id!==id), slot:[...s.slot,it]}; }); }
+  tapSlot(id){ this.setState(s=>{ const it=s.slot.find(b=>b.id===id); if(!it) return null; return {slot:s.slot.filter(b=>b.id!==id), bank:[...s.bank,it]}; }); }
+  checkBuilder(){ if(this.state.slot.length===0) return; this.setState({phase:'a'}); this.play(); }
+  startRec(){ this.setState({recState:'recording',phase:'q'}); clearTimeout(this._r); this._r=setTimeout(()=>this.setState({recState:'done',phase:'a'}),1800); }
+  stopRec(){ clearTimeout(this._r); this.setState({recState:'done',phase:'a'}); }
+  grantMic(){ this.setState({micGranted:true}); }
+  advance(ok){ this.setState(s=>{ const results=[...s.results,ok]; const total=this.PHRASES.length; const exam=s.stack[s.stack.length-1]==='exam'; if(s.pIndex<total-1){ const ni=s.pIndex+1; const x=this.initBuilder(ni); return {results,pIndex:ni,phase:'q',recState:'idle',slot:x.slot,bank:x.bank}; } if(exam){ const pct=Math.round(results.filter(Boolean).length/total*100); return {results, stack:[...s.stack.slice(0,-1),'examresult'], unlocked4: s.unlocked4 || pct>=80}; } return {results, stack:['lesson','results'], dayDone:Math.min(s.dayGoal, s.dayDone+Math.max(1,results.filter(Boolean).length))}; }); }
+  startExam(){ const x=this.initBuilder(0); this.setState({pIndex:0,phase:'q',results:[],recState:'idle',slot:x.slot,bank:x.bank,stack:['lesson','exam']}); }
+  setGoal(n){ this.setState({dayGoal:n}); }
+  setThemePref(p){ this.setState({themePref:p, theme: p==='dark'?'dark':'light'}); }
+  devChip(active){ return 'height:30px;padding:0 12px;border-radius:99px;border:1px solid var(--border);background:'+(active?'var(--accent)':'var(--surface)')+';color:'+(active?'#fff':'var(--t2)')+';font:500 12px Inter;cursor:pointer'; }
+
+  seg(active){ return active
+    ? 'flex:1;height:38px;border:none;border-radius:10px;background:var(--surface);color:var(--accent);font:600 14px Inter;cursor:pointer;box-shadow:var(--shadow)'
+    : 'flex:1;height:38px;border:none;border-radius:10px;background:transparent;color:var(--t2);font:500 14px Inter;cursor:pointer'; }
+  tab(active){ return 'flex:1;background:none;border:none;cursor:pointer;display:flex;flex-direction:column;align-items:center;gap:3px;padding:4px 0 14px;color:'+(active?'var(--accent)':'var(--t3)'); }
+
+  renderVals(){
+    const s=this.state, P=this.PHRASES, top=s.stack[s.stack.length-1];
+    const C=2*Math.PI*34;
+    const dayPct=Math.min(100,Math.round(s.dayDone/s.dayGoal*100));
+    const lessons=this.LESSONS.map(L=>{
+      let st=L.st;
+      if(L.n===4 && s.unlocked4) st='current';
+      const locked=st==='locked';
+      const done=st==='done', current=st==='current';
+      const pct = done?100:(L.prog||0);
+      return {
+        n:String(L.n).padStart(2,'0'), title:L.t, topic:L.topic,
+        done, current, locked,
+        showBar: done||current,
+        barStyle: 'height:100%;border-radius:99px;background:var(--accent);width:'+pct+'%',
+        progText: done?'40/40':'18/40',
+        rootStyle: 'background:var(--surface);border-radius:20px;padding:14px 16px;display:flex;align-items:center;gap:14px;cursor:pointer;'
+          + (current ? 'border:1.5px solid var(--accent);box-shadow:var(--shadow);' : 'border:1px solid var(--border);')
+          + (locked ? 'opacity:0.6;' : ''),
+        onTap: locked ? ()=>this.setState({sheet:'paywall'}) : ()=>this.push('lesson'),
+      };
+    });
+    const verb=this.VERBS[s.conj];
+    const theoryRows=this.ROWS.map((R,ri)=>({ sign:R.s, cells:this.COLS.map((_,ci)=>{ const active=s.cell===ri+'-'+ci; return {
+      t:verb.cells[ri][ci], active,
+      style:'background:'+(active?'var(--accent)':'var(--sunk)')+';color:'+(active?'#fff':'var(--t1)')+';border-radius:11px;padding:11px 4px;text-align:center;font-weight:'+(active?600:500)+';cursor:pointer;transition:all .18s;font-size:14.5px',
+      onTap:()=>{ this.setState({cell:ri+'-'+ci}); this.play(); }
+    }; }) }));
+    const mapColors=['var(--sunk)','var(--accent-sunk)','var(--accent)','var(--success)'];
+    const mapRows=this.ROWS.map((R,ri)=>({ sign:R.s, cells:this.COLS.map((_,ci)=>{ const lv=this.MAP[s.mapConj][ri][ci]; return {
+      label:R.s,
+      style:'background:'+mapColors[lv]+';color:'+(lv>=2?'#fff':'var(--t3)')+';border-radius:13px;aspect-ratio:1;display:flex;align-items:center;justify-content:center;font-weight:600;font-size:14px'
+    }; }) }));
+    const legend=['Не начато','Учится','Уверенно','Автомат'].map((label,i)=>({ label, dot:'width:14px;height:14px;border-radius:5px;background:'+mapColors[i] }));
+    const heatColors=['var(--sunk)','var(--accent-sunk)','var(--accent)','var(--accent-press)'];
+    const heat=this.HEAT_LV.map(lv=>({ style:'width:11px;height:11px;border-radius:3px;background:'+heatColors[lv] }));
+    const cur=P[s.pIndex];
+    const correct=s.results.filter(Boolean).length;
+    const total=s.results.length||P.length;
+
+    const examMode = top==='exam';
+    const effMode = examMode ? 'builder' : s.mode;
+    const bp = P[s.pIndex];
+    const cw = bp.words;
+    const slotCells = s.slot.map((it,i)=>({ w:it.w, id:it.id, onTap:()=>this.tapSlot(it.id),
+      style:'padding:10px 14px;border-radius:11px;font:500 17px Inter;cursor:pointer;border:1px solid transparent;'+(s.phase==='a'?(cw[i]===it.w?'background:var(--success-sunk);color:var(--success);':'background:var(--error-sunk);color:var(--error);'):'background:var(--accent-sunk);color:var(--accent);') }));
+    const bankCells = s.bank.map(it=>({ w:it.w, id:it.id, onTap:()=>this.tapBank(it.id), style:'padding:10px 14px;border-radius:11px;font:500 17px Inter;cursor:pointer;background:var(--surface);border:1px solid var(--border);color:var(--t1)' }));
+    const builderEmpty = s.slot.length===0;
+    const builderFull = s.slot.length===cw.length && s.slot.every((it,i)=>it.w===cw[i]);
+    const speakWords = bp.pt.replace(/[.?!]/g,'').split(' ');
+    const speakCells = speakWords.map((w,i)=>({ w, style:'font:500 23px Inter;color:'+(i===speakWords.length-1?'var(--error)':'var(--success)') }));
+    const speakSC = 2*Math.PI*42;
+    const examPct = Math.round(correct/Math.max(1,s.results.length)*100);
+    const examPass = examPct>=80;
+    const examSC = 2*Math.PI*52;
+    const examBreakdown = s.results.map((ok,i)=>({ pt:P[i].pt, ok, bad:!ok, rowStyle:'display:flex;align-items:center;gap:12px;padding:13px 14px;'+(i<s.results.length-1?'border-bottom:1px solid var(--border);':'')+'cursor:pointer' }));
+
+    return {
+      theme:s.theme, themeIsDark:s.theme==='dark', themeLight:s.theme==='light',
+      isHome:!top&&s.tab==='home', isReview:!top&&s.tab==='review', isProfile:!top&&s.tab==='profile',
+      isLesson:top==='lesson', isTheory:top==='theory', isPracticeBody:top==='practice'||top==='exam', isResults:top==='results', isVerbmap:top==='verbmap', isSettings:top==='settings', isExamResult:top==='examresult',
+      showTabBar:!top,
+      tabHomeStyle:this.tab(!top&&s.tab==='home'), tabReviewStyle:this.tab(!top&&s.tab==='review'), tabProfileStyle:this.tab(!top&&s.tab==='profile'),
+      lessons, streak:s.streak, dayDone:s.dayDone, dayGoal:s.dayGoal, ringDash:(dayPct/100*C)+' '+C,
+      verbLabel:verb.label, theoryRows, cols:this.COLS,
+      segArStyle:this.seg(s.conj==='ar'), segErStyle:this.seg(s.conj==='er'), segIrStyle:this.seg(s.conj==='ir'),
+      mapRows, legend,
+      mapSegArStyle:this.seg(s.mapConj==='ar'), mapSegErStyle:this.seg(s.mapConj==='er'), mapSegIrStyle:this.seg(s.mapConj==='ir'),
+      heat,
+      pNum:s.pIndex+1, pTotal:P.length, sessPct:Math.round(s.pIndex/P.length*100), phaseQ:s.phase==='q', phaseA:s.phase==='a',
+      curRu:cur.ru, curPt:cur.pt, spkStyle:s.playing?'animation:pulse .9s ease-in-out infinite':'',
+      correct, total,
+      examMode, practiceModeBar:!examMode,
+      modeTranslate:effMode==='translate', modeAudio:effMode==='audio', modeBuilder:effMode==='builder', modeSpeak:effMode==='speak',
+      ansSelfCheck: effMode==='translate'||effMode==='audio',
+      modeSegT:this.seg(effMode==='translate'), modeSegA:this.seg(effMode==='audio'), modeSegB:this.seg(effMode==='builder'), modeSegS:this.seg(effMode==='speak'),
+      slotCells, bankCells, builderEmpty, builderFull,
+      checkBtnStyle: builderEmpty
+        ? 'height:54px;width:100%;border-radius:14px;background:var(--sunk);color:var(--t3);font:600 16px Inter;border:none;cursor:default'
+        : 'height:54px;width:100%;border-radius:14px;background:var(--accent);color:#fff;font:600 16px Inter;border:none;cursor:pointer',
+      micGranted:s.micGranted, micGate:!s.micGranted, recIdle:s.recState==='idle', recRec:s.recState==='recording', recDone:s.recState==='done',
+      speakCells, speakPct:87, speakDash:(87/100*speakSC)+' '+speakSC, curPtPlain:bp.pt,
+      examPct, examPass, examFail:!examPass, examBreakdown,
+      examRingColor: examPass?'var(--success)':'var(--accent)', examDash:(examPct/100*examSC)+' '+examSC,
+      goalSeg10:this.seg(s.dayGoal===10), goalSeg20:this.seg(s.dayGoal===20), goalSeg30:this.seg(s.dayGoal===30),
+      themePrefSys:this.seg(s.themePref==='system'), themePrefLight:this.seg(s.themePref==='light'), themePrefDark:this.seg(s.themePref==='dark'),
+      addrTu:this.seg(s.addr==='tu'), addrVoce:this.seg(s.addr==='voce'),
+      remindToggle:'width:46px;height:28px;border-radius:99px;border:none;cursor:pointer;position:relative;background:'+(s.remind?'var(--accent)':'var(--border)'),
+      remindKnob:'position:absolute;top:3px;'+(s.remind?'right:3px':'left:3px')+';width:22px;height:22px;border-radius:99px;background:#fff',
+      offline:s.offline, homeLoading:s.homeState==='loading', homeError:s.homeState==='error', homeReady:s.homeState==='ready',
+      reviewEmpty:s.reviewEmpty, reviewHas:!s.reviewEmpty,
+      onboarding:s.onboarding, onb0:s.onbIndex===0, onb1:s.onbIndex===1, onb2:s.onbIndex===2, onb3:s.onbIndex===3, onbLast:s.onbIndex===3, onbNotLast:s.onbIndex<3,
+      onbDots:[0,1,2,3].map(i=>({style:'width:8px;height:8px;border-radius:99px;transition:all .2s;background:'+(i===s.onbIndex?'var(--accent)':'var(--border)')})),
+      skel:[0,1,2],
+      devOnb:this.devChip(false), devOffline:this.devChip(s.offline), devReady:this.devChip(s.homeState==='ready'), devLoading:this.devChip(s.homeState==='loading'), devError:this.devChip(s.homeState==='error'), devEmpty:this.devChip(s.reviewEmpty),
+      themeSegLight:this.seg(s.theme==='light'), themeSegDark:this.seg(s.theme==='dark'),
+      sheet:s.sheet, sheetActive:!!s.sheet, sheetPaywall:s.sheet==='paywall', sheetExit:s.sheet==='exit',
+      perks:['Все 16 уроков и экзамены','Интервальные повторения','Карта таблицы целиком'],
+      // handlers
+      toggleTheme:()=>this.toggleTheme(), setLight:()=>this.setTheme('light'), setDark:()=>this.setTheme('dark'),
+      goHome:()=>this.goTab('home'), goReview:()=>this.goTab('review'), goProfile:()=>this.goTab('profile'),
+      pop:()=>this.pop(),
+      openLessonFromContinue:()=>this.push('lesson'),
+      openTheory:()=>this.push('theory'), openPractice:()=>this.setState({pIndex:0,phase:'q',results:[],mode:'translate',recState:'idle',stack:['lesson','practice']}),
+      openVerbmap:()=>this.push('verbmap'), openSettings:()=>this.push('settings'),
+      showAnswer:()=>this.showAnswer(), answerOk:()=>this.answer(true), answerNo:()=>this.answer(false), play:()=>this.play(),
+      exitAsk:()=>this.setState({sheet:'exit'}), confirmExit:()=>this.confirmExit(), sheetClose:()=>this.setState({sheet:null}),
+      setAr:()=>this.setState({conj:'ar',cell:null}), setEr:()=>this.setState({conj:'er',cell:null}), setIr:()=>this.setState({conj:'ir',cell:null}),
+      mapSetAr:()=>this.setState({mapConj:'ar'}), mapSetEr:()=>this.setState({mapConj:'er'}), mapSetIr:()=>this.setState({mapConj:'ir'}),
+      stop:(e)=>{ if(e&&e.stopPropagation) e.stopPropagation(); },
+      startReview:()=>this.setState({pIndex:0,phase:'q',results:[],mode:'translate',recState:'idle',stack:['lesson','practice']}),
+      setModeTr:()=>this.setMode('translate'), setModeAu:()=>this.setMode('audio'), setModeBu:()=>this.setMode('builder'), setModeSp:()=>this.setMode('speak'),
+      checkBuilder:()=>this.checkBuilder(), nextBuilder:()=>this.advance(builderFull),
+      startRec:()=>this.startRec(), stopRec:()=>this.stopRec(), grantMic:()=>this.grantMic(), nextSpeak:()=>this.advance(true),
+      startExam:()=>this.startExam(), examRetry:()=>this.startExam(), examNext:()=>this.setState({tab:'home',stack:[],sheet:null}),
+      setGoal10:()=>this.setGoal(10), setGoal20:()=>this.setGoal(20), setGoal30:()=>this.setGoal(30),
+      setPrefSys:()=>this.setThemePref('system'), setPrefLight:()=>this.setThemePref('light'), setPrefDark:()=>this.setThemePref('dark'),
+      setAddrTu:()=>this.setState({addr:'tu'}), setAddrVoce:()=>this.setState({addr:'voce'}),
+      toggleRemind:()=>this.setState(s=>({remind:!s.remind})),
+      toggleOffline:()=>this.setState(s=>({offline:!s.offline})),
+      setHomeReady:()=>this.setState({homeState:'ready'}), setHomeLoading:()=>this.setState({homeState:'loading'}), setHomeError:()=>this.setState({homeState:'error'}),
+      toggleEmpty:()=>this.setState(s=>({reviewEmpty:!s.reviewEmpty})),
+      openOnb:()=>this.setState({onboarding:true,onbIndex:0}), onbNext:()=>this.setState(s=>({onbIndex:Math.min(3,s.onbIndex+1)})), onbSkip:()=>this.setState({onboarding:false}), onbDone:()=>this.setState({onboarding:false,tab:'home',stack:[]}),
+    };
+  }
+}
+</script>
+</body>
+</html>

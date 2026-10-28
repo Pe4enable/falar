@@ -1,0 +1,436 @@
+{
+  "id": 7,
+  "number": 7,
+  "title": "Будущее время — ir + инфинитив",
+  "topic": "Планы: vou trabalhar, vamos jantar",
+  "tags": [
+    "futuro",
+    "ir+inf"
+  ],
+  "free": false,
+  "theory": {
+    "intro": "Будущее в разговорном португальском — это глагол ir (идти) + инфинитив: «vou falar» — «буду говорить / поговорю». Точно как английское going to.",
+    "blocks": [
+      {
+        "type": "text",
+        "content": "Ir: eu vou, tu vais, ele vai, nós vamos, eles vão. Дальше любой инфинитив: vou comprar (куплю), vais gostar (тебе понравится), vamos jantar (поужинаем)."
+      },
+      {
+        "type": "note",
+        "content": "Само настоящее тоже служит будущим, если есть слово-маркер: «Amanhã trabalho» — «Завтра работаю»."
+      },
+      {
+        "type": "note",
+        "content": "«Vamos beber um café?» — дежурное португальское приглашение. Соглашаться: «Vamos!»"
+      },
+      {
+        "type": "note",
+        "content": "Есть и второй, «книжный» способ — синтетическое будущее: falarei (поговорю), comerei (поем), partirei (уеду). В разговоре чаще ir + инфинитив, но синтетическое встречается в текстах и официальной речи. В тренажёре «Формы глаголов» отрабатываются обе формы."
+      }
+    ]
+  },
+  "verbTable": {
+    "verb": "ir",
+    "translation": "идти, ехать",
+    "conjugation": "irregular",
+    "schema": {
+      "present": {
+        "affirm": "vou",
+        "negate": "não vou",
+        "question": "vou?"
+      },
+      "past": {
+        "affirm": "fui",
+        "negate": "não fui",
+        "question": "fui?"
+      },
+      "future": {
+        "affirm": "vou amanhã",
+        "negate": "não vou amanhã",
+        "question": "vou amanhã?"
+      }
+    },
+    "presentFull": {
+      "eu": "vou",
+      "tu": "vais",
+      "ele": "vai",
+      "nos": "vamos",
+      "eles": "vão"
+    }
+  },
+  "phrases": [
+    {
+      "id": "l7-001",
+      "ru": "Завтра я буду работать.",
+      "pt": "Amanhã vou trabalhar.",
+      "tense": "future",
+      "form": "affirm",
+      "conjugation": "ar",
+      "verb": "trabalhar",
+      "distractors": [
+        "vais",
+        "hoje"
+      ]
+    },
+    {
+      "id": "l7-002",
+      "ru": "Я куплю хлеб.",
+      "pt": "Vou comprar pão.",
+      "tense": "future",
+      "form": "affirm",
+      "conjugation": "ar",
+      "verb": "comprar",
+      "distractors": [
+        "vais",
+        "fruta"
+      ]
+    },
+    {
+      "id": "l7-003",
+      "ru": "Сегодня мы ужинаем не дома.",
+      "pt": "Vamos jantar fora hoje.",
+      "tense": "future",
+      "form": "affirm",
+      "conjugation": "ar",
+      "verb": "jantar",
+      "distractors": [
+        "vão",
+        "amanhã"
+      ]
+    },
+    {
+      "id": "l7-004",
+      "ru": "Она приедет поздно.",
+      "pt": "Ela vai chegar tarde.",
+      "tense": "future",
+      "form": "affirm",
+      "conjugation": "ar",
+      "verb": "chegar",
+      "distractors": [
+        "vais",
+        "cedo"
+      ]
+    },
+    {
+      "id": "l7-005",
+      "ru": "Вечером я буду заниматься.",
+      "pt": "Vou estudar à noite.",
+      "tense": "future",
+      "form": "affirm",
+      "conjugation": "ar",
+      "verb": "estudar",
+      "distractors": [
+        "vamos",
+        "tarde"
+      ]
+    },
+    {
+      "id": "l7-006",
+      "ru": "Они будут жить в Порту.",
+      "pt": "Eles vão morar no Porto.",
+      "tense": "future",
+      "form": "affirm",
+      "conjugation": "ar",
+      "verb": "morar",
+      "distractors": [
+        "vamos",
+        "Lisboa"
+      ]
+    },
+    {
+      "id": "l7-007",
+      "ru": "Тебе понравится Лиссабон.",
+      "pt": "Vais gostar de Lisboa.",
+      "tense": "future",
+      "form": "affirm",
+      "conjugation": "ar",
+      "verb": "gostar",
+      "distractors": [
+        "vou",
+        "Porto"
+      ]
+    },
+    {
+      "id": "l7-008",
+      "ru": "Завтра я с ним поговорю.",
+      "pt": "Vou falar com ele amanhã.",
+      "tense": "future",
+      "form": "affirm",
+      "conjugation": "ar",
+      "verb": "falar",
+      "distractors": [
+        "vais",
+        "ela"
+      ]
+    },
+    {
+      "id": "l7-009",
+      "ru": "В воскресенье мы едем на пляж.",
+      "pt": "No domingo vamos à praia.",
+      "tense": "future",
+      "form": "affirm",
+      "conjugation": "irregular",
+      "verb": "ir",
+      "distractors": [
+        "vão",
+        "sábado"
+      ]
+    },
+    {
+      "id": "l7-010",
+      "ru": "Я открою счёт в банке.",
+      "pt": "Vou abrir uma conta no banco.",
+      "tense": "future",
+      "form": "affirm",
+      "conjugation": "ir",
+      "verb": "abrir",
+      "distractors": [
+        "vais",
+        "loja"
+      ]
+    },
+    {
+      "id": "l7-011",
+      "ru": "Завтра я не работаю.",
+      "pt": "Não vou trabalhar amanhã.",
+      "tense": "future",
+      "form": "negate",
+      "conjugation": "ar",
+      "verb": "trabalhar",
+      "distractors": [
+        "vais",
+        "hoje"
+      ]
+    },
+    {
+      "id": "l7-012",
+      "ru": "Ей это не понравится.",
+      "pt": "Ela não vai gostar disto.",
+      "tense": "future",
+      "form": "negate",
+      "conjugation": "ar",
+      "verb": "gostar",
+      "distractors": [
+        "vou",
+        "disso"
+      ]
+    },
+    {
+      "id": "l7-013",
+      "ru": "Сегодня мы не едим не дома.",
+      "pt": "Não vamos comer fora hoje.",
+      "tense": "future",
+      "form": "negate",
+      "conjugation": "er",
+      "verb": "comer",
+      "distractors": [
+        "vou",
+        "amanhã"
+      ]
+    },
+    {
+      "id": "l7-014",
+      "ru": "Они не успеют вовремя.",
+      "pt": "Eles não vão chegar a tempo.",
+      "tense": "future",
+      "form": "negate",
+      "conjugation": "ar",
+      "verb": "chegar",
+      "distractors": [
+        "vamos",
+        "tarde"
+      ]
+    },
+    {
+      "id": "l7-015",
+      "ru": "Сегодня я не буду пить кофе.",
+      "pt": "Não vou beber café hoje.",
+      "tense": "future",
+      "form": "negate",
+      "conjugation": "er",
+      "verb": "beber",
+      "distractors": [
+        "vais",
+        "vinho"
+      ]
+    },
+    {
+      "id": "l7-016",
+      "ru": "Ты не будешь спать?",
+      "pt": "Tu não vais dormir?",
+      "tense": "future",
+      "form": "question",
+      "conjugation": "ir",
+      "verb": "dormir",
+      "distractors": [
+        "vou",
+        "comer"
+      ]
+    },
+    {
+      "id": "l7-017",
+      "ru": "Ты работаешь в субботу?",
+      "pt": "Vais trabalhar no sábado?",
+      "tense": "future",
+      "form": "question",
+      "conjugation": "ar",
+      "verb": "trabalhar",
+      "distractors": [
+        "vou",
+        "domingo"
+      ]
+    },
+    {
+      "id": "l7-018",
+      "ru": "Что ты будешь покупать?",
+      "pt": "O que é que vais comprar?",
+      "tense": "future",
+      "form": "question",
+      "conjugation": "ar",
+      "verb": "comprar",
+      "tags": [
+        "e-que"
+      ],
+      "distractors": [
+        "vou",
+        "onde"
+      ]
+    },
+    {
+      "id": "l7-019",
+      "ru": "Когда вы уезжаете?",
+      "pt": "Quando é que vocês vão partir?",
+      "tense": "future",
+      "form": "question",
+      "conjugation": "ir",
+      "verb": "partir",
+      "tags": [
+        "e-que"
+      ],
+      "distractors": [
+        "vamos",
+        "onde"
+      ]
+    },
+    {
+      "id": "l7-020",
+      "ru": "Выпьем кофе?",
+      "pt": "Vamos beber um café?",
+      "tense": "future",
+      "form": "question",
+      "conjugation": "er",
+      "verb": "beber",
+      "tags": [
+        "chunk"
+      ],
+      "distractors": [
+        "vão",
+        "chá"
+      ]
+    },
+    {
+      "id": "l7-021",
+      "ru": "Она будет учиться в Коимбре?",
+      "pt": "Ela vai estudar em Coimbra?",
+      "tense": "future",
+      "form": "question",
+      "conjugation": "ar",
+      "verb": "estudar",
+      "distractors": [
+        "vais",
+        "Lisboa"
+      ]
+    },
+    {
+      "id": "l7-022",
+      "ru": "Ты сегодня останешься дома?",
+      "pt": "Vais ficar em casa hoje?",
+      "tense": "future",
+      "form": "question",
+      "conjugation": "ar",
+      "verb": "ficar",
+      "distractors": [
+        "vou",
+        "amanhã"
+      ]
+    },
+    {
+      "id": "l7-023",
+      "ru": "Во сколько начнётся фильм?",
+      "pt": "A que horas vai começar o filme?",
+      "tense": "future",
+      "form": "question",
+      "conjugation": "ar",
+      "verb": "começar",
+      "distractors": [
+        "vão",
+        "jogo"
+      ]
+    },
+    {
+      "id": "l7-024",
+      "ru": "Кто будет платить по счёту?",
+      "pt": "Quem vai pagar a conta?",
+      "tense": "future",
+      "form": "question",
+      "conjugation": "ar",
+      "verb": "pagar",
+      "distractors": [
+        "vais",
+        "café"
+      ]
+    }
+  ],
+  "exam": {
+    "count": 10,
+    "passThreshold": 0.8
+  },
+  "tables": [
+    {
+      "type": "list",
+      "title": "Планы: ir + инфинитив",
+      "cols": 1,
+      "note": "Будущее = ir (спряж.) + инфинитив: vou trabalhar — я буду работать.",
+      "items": [
+        {
+          "pt": "Vou trabalhar.",
+          "ru": "Я буду работать."
+        },
+        {
+          "pt": "Vais comer?",
+          "ru": "Ты будешь есть?"
+        },
+        {
+          "pt": "Vamos jantar.",
+          "ru": "Мы поужинаем."
+        }
+      ]
+    },
+    {
+      "type": "compare",
+      "title": "Два способа сказать о будущем",
+      "cols": [
+        "Разговорный · ir + инф.",
+        "Книжный · Futuro"
+      ],
+      "note": "Смысл один. В речи — ir + инфинитив; синтетическое будущее (falarei) — формальнее.",
+      "rows": [
+        [
+          "я буду говорить",
+          "vou falar",
+          "falarei"
+        ],
+        [
+          "ты будешь есть",
+          "vais comer",
+          "comerás"
+        ],
+        [
+          "мы уедем",
+          "vamos partir",
+          "partiremos"
+        ]
+      ]
+    }
+  ]
+}

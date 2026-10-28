@@ -1,0 +1,438 @@
+{
+  "id": 3,
+  "number": 3,
+  "title": "Ser и Estar — два глагола «быть»",
+  "topic": "Постоянное (ser) и состояние/место (estar)",
+  "tags": [
+    "ser",
+    "estar"
+  ],
+  "free": false,
+  "theory": {
+    "intro": "В португальском два глагола «быть». Ser — для постоянного: кто ты, откуда, профессия. Estar — для состояния и местоположения: как ты себя чувствуешь, где ты сейчас, открыто ли кафе.",
+    "blocks": [
+      {
+        "type": "text",
+        "content": "Ser: eu sou, tu és, ele/ela é, nós somos, eles são. Estar: eu estou, tu estás, ele/ela está, nós estamos, eles estão."
+      },
+      {
+        "type": "text",
+        "content": "Сравни: «O café é ótimo» — это кафе вообще отличное (свойство). «O café está fechado» — кафе сейчас закрыто (состояние)."
+      },
+      {
+        "type": "note",
+        "content": "Представляясь, португальцы ставят артикль перед именем: «Eu sou o Alex», «Ela é a Ana». Это норма, а не ошибка."
+      }
+    ]
+  },
+  "verbTable": {
+    "verb": "ser",
+    "translation": "быть (постоянно)",
+    "conjugation": "irregular",
+    "schema": {
+      "present": {
+        "affirm": "sou",
+        "negate": "não sou",
+        "question": "sou?"
+      },
+      "past": {
+        "affirm": "fui",
+        "negate": "não fui",
+        "question": "fui?"
+      },
+      "future": {
+        "affirm": "vou ser",
+        "negate": "não vou ser",
+        "question": "vou ser?"
+      }
+    },
+    "presentFull": {
+      "eu": "sou",
+      "tu": "és",
+      "ele": "é",
+      "nos": "somos",
+      "eles": "são"
+    }
+  },
+  "phrases": [
+    {
+      "id": "l3-001",
+      "ru": "Я русский.",
+      "pt": "Eu sou russo.",
+      "tense": "present",
+      "form": "affirm",
+      "conjugation": "irregular",
+      "verb": "ser",
+      "distractors": [
+        "és",
+        "português"
+      ]
+    },
+    {
+      "id": "l3-002",
+      "ru": "Ты очень приятный человек.",
+      "pt": "Tu és muito simpático.",
+      "tense": "present",
+      "form": "affirm",
+      "conjugation": "irregular",
+      "verb": "ser",
+      "distractors": [
+        "é",
+        "cansado"
+      ]
+    },
+    {
+      "id": "l3-003",
+      "ru": "Она врач.",
+      "pt": "Ela é médica.",
+      "tense": "present",
+      "form": "affirm",
+      "conjugation": "irregular",
+      "verb": "ser",
+      "distractors": [
+        "está",
+        "professora"
+      ]
+    },
+    {
+      "id": "l3-004",
+      "ru": "Мы соседи.",
+      "pt": "Nós somos vizinhos.",
+      "tense": "present",
+      "form": "affirm",
+      "conjugation": "irregular",
+      "verb": "ser",
+      "distractors": [
+        "são",
+        "amigos"
+      ]
+    },
+    {
+      "id": "l3-005",
+      "ru": "Они из Лиссабона.",
+      "pt": "Eles são de Lisboa.",
+      "tense": "present",
+      "form": "affirm",
+      "conjugation": "irregular",
+      "verb": "ser",
+      "distractors": [
+        "somos",
+        "Porto"
+      ]
+    },
+    {
+      "id": "l3-006",
+      "ru": "Я устал.",
+      "pt": "Eu estou cansado.",
+      "tense": "present",
+      "form": "affirm",
+      "conjugation": "irregular",
+      "verb": "estar",
+      "distractors": [
+        "sou",
+        "doente"
+      ]
+    },
+    {
+      "id": "l3-007",
+      "ru": "Кафе закрыто.",
+      "pt": "O café está fechado.",
+      "tense": "present",
+      "form": "affirm",
+      "conjugation": "irregular",
+      "verb": "estar",
+      "distractors": [
+        "é",
+        "aberto"
+      ]
+    },
+    {
+      "id": "l3-008",
+      "ru": "Вода холодная.",
+      "pt": "A água está fria.",
+      "tense": "present",
+      "form": "affirm",
+      "conjugation": "irregular",
+      "verb": "estar",
+      "distractors": [
+        "é",
+        "quente"
+      ]
+    },
+    {
+      "id": "l3-009",
+      "ru": "Я дома.",
+      "pt": "Estou em casa.",
+      "tense": "present",
+      "form": "affirm",
+      "conjugation": "irregular",
+      "verb": "estar",
+      "distractors": [
+        "estás",
+        "aqui"
+      ]
+    },
+    {
+      "id": "l3-010",
+      "ru": "Погода сегодня отличная.",
+      "pt": "O tempo está ótimo hoje.",
+      "tense": "present",
+      "form": "affirm",
+      "conjugation": "irregular",
+      "verb": "estar",
+      "distractors": [
+        "é",
+        "frio"
+      ]
+    },
+    {
+      "id": "l3-011",
+      "ru": "Я не португалец.",
+      "pt": "Eu não sou português.",
+      "tense": "present",
+      "form": "negate",
+      "conjugation": "irregular",
+      "verb": "ser",
+      "distractors": [
+        "estou",
+        "russo"
+      ]
+    },
+    {
+      "id": "l3-012",
+      "ru": "Он не местный.",
+      "pt": "Ele não é daqui.",
+      "tense": "present",
+      "form": "negate",
+      "conjugation": "irregular",
+      "verb": "ser",
+      "distractors": [
+        "está",
+        "aqui"
+      ]
+    },
+    {
+      "id": "l3-013",
+      "ru": "Нас нет дома.",
+      "pt": "Nós não estamos em casa.",
+      "tense": "present",
+      "form": "negate",
+      "conjugation": "irregular",
+      "verb": "estar",
+      "distractors": [
+        "somos",
+        "hoje"
+      ]
+    },
+    {
+      "id": "l3-014",
+      "ru": "Магазин не открыт.",
+      "pt": "A loja não está aberta.",
+      "tense": "present",
+      "form": "negate",
+      "conjugation": "irregular",
+      "verb": "estar",
+      "distractors": [
+        "é",
+        "fechada"
+      ]
+    },
+    {
+      "id": "l3-015",
+      "ru": "Это не дорого.",
+      "pt": "Isto não é caro.",
+      "tense": "present",
+      "form": "negate",
+      "conjugation": "irregular",
+      "verb": "ser",
+      "distractors": [
+        "está",
+        "barato"
+      ]
+    },
+    {
+      "id": "l3-016",
+      "ru": "Ты из Лиссабона?",
+      "pt": "Tu és de Lisboa?",
+      "tense": "present",
+      "form": "question",
+      "conjugation": "irregular",
+      "verb": "ser",
+      "distractors": [
+        "é",
+        "Porto"
+      ]
+    },
+    {
+      "id": "l3-017",
+      "ru": "Вы господин Силва?",
+      "pt": "Você é o senhor Silva?",
+      "tense": "present",
+      "form": "question",
+      "conjugation": "irregular",
+      "verb": "ser",
+      "tags": [
+        "voce"
+      ],
+      "distractors": [
+        "está",
+        "senhora"
+      ]
+    },
+    {
+      "id": "l3-018",
+      "ru": "Где ты (сейчас)?",
+      "pt": "Onde é que tu estás?",
+      "tense": "present",
+      "form": "question",
+      "conjugation": "irregular",
+      "verb": "estar",
+      "tags": [
+        "e-que"
+      ],
+      "distractors": [
+        "és",
+        "quando"
+      ]
+    },
+    {
+      "id": "l3-019",
+      "ru": "Ресторан открыт?",
+      "pt": "O restaurante está aberto?",
+      "tense": "present",
+      "form": "question",
+      "conjugation": "irregular",
+      "verb": "estar",
+      "distractors": [
+        "é",
+        "fechado"
+      ]
+    },
+    {
+      "id": "l3-020",
+      "ru": "Какая сегодня погода?",
+      "pt": "Como está o tempo hoje?",
+      "tense": "present",
+      "form": "question",
+      "conjugation": "irregular",
+      "verb": "estar",
+      "distractors": [
+        "é",
+        "amanhã"
+      ]
+    },
+    {
+      "id": "l3-021",
+      "ru": "Всё хорошо?",
+      "pt": "Está tudo bem?",
+      "tense": "present",
+      "form": "question",
+      "conjugation": "irregular",
+      "verb": "estar",
+      "tags": [
+        "chunk"
+      ],
+      "distractors": [
+        "é",
+        "mal"
+      ]
+    },
+    {
+      "id": "l3-022",
+      "ru": "Я Алекс.",
+      "pt": "Eu sou o Alex.",
+      "tense": "present",
+      "form": "affirm",
+      "conjugation": "irregular",
+      "verb": "ser",
+      "distractors": [
+        "estou",
+        "senhor"
+      ]
+    },
+    {
+      "id": "l3-023",
+      "ru": "Вы женаты?",
+      "pt": "Vocês são casados?",
+      "tense": "present",
+      "form": "question",
+      "conjugation": "irregular",
+      "verb": "ser",
+      "distractors": [
+        "estão",
+        "solteiros"
+      ]
+    },
+    {
+      "id": "l3-024",
+      "ru": "Ужин готов?",
+      "pt": "O jantar está pronto?",
+      "tense": "present",
+      "form": "question",
+      "conjugation": "irregular",
+      "verb": "estar",
+      "distractors": [
+        "é",
+        "almoço"
+      ]
+    }
+  ],
+  "exam": {
+    "count": 10,
+    "passThreshold": 0.8
+  },
+  "tables": [
+    {
+      "type": "compare",
+      "title": "ser или estar?",
+      "cols": [
+        "ser — суть",
+        "estar — состояние/место"
+      ],
+      "note": "ser — то, что определяет (характер, профессия, происхождение); estar — временное состояние и местонахождение.",
+      "rows": [
+        [
+          "профессия / состояние",
+          "Ela é médica.",
+          "Eu estou cansado."
+        ],
+        [
+          "откуда / где сейчас",
+          "Eles são de Lisboa.",
+          "Estou em casa."
+        ],
+        [
+          "кто по сути / где все",
+          "Nós somos vizinhos.",
+          "Nós não estamos em casa."
+        ]
+      ]
+    },
+    {
+      "title": "estar — настоящее время",
+      "type": "paradigm",
+      "forms": [
+        [
+          "eu",
+          "estou"
+        ],
+        [
+          "tu",
+          "estás"
+        ],
+        [
+          "ele/ela",
+          "está"
+        ],
+        [
+          "nós",
+          "estamos"
+        ],
+        [
+          "eles/elas",
+          "estão"
+        ]
+      ]
+    }
+  ]
+}

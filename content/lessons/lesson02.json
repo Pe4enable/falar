@@ -1,0 +1,483 @@
+{
+  "id": 2,
+  "number": 2,
+  "title": "Местоимения и вопросительные слова",
+  "topic": "eu, tu, ele… + onde, quando, quem, o que, como, porquê",
+  "tags": [
+    "perguntas",
+    "pronomes"
+  ],
+  "free": true,
+  "theory": {
+    "intro": "Семь личных местоимений и шесть вопросительных слов открывают почти любой разговор. Вопрос в европейском португальском чаще всего строится через связку «é que».",
+    "blocks": [
+      {
+        "type": "text",
+        "content": "Местоимения: eu (я), tu (ты), ele/ela (он/она), você (Вы, вежливое), nós (мы), eles/elas (они), vocês (вы)."
+      },
+      {
+        "type": "text",
+        "content": "Вопросительные слова: onde (где), quando (когда), quem (кто), o que (что), como (как), porque/porquê (почему). Схема вопроса: «Onde é que tu moras?» — дословно «Где есть что ты живёшь?»."
+      },
+      {
+        "type": "note",
+        "content": "В Португалии «tu» — нормальное обращение к друзьям и ровесникам. «Você» — вежливо-нейтральное, и его часто вообще опускают: «Mora aqui?» — «Вы живёте здесь?»."
+      }
+    ]
+  },
+  "verbTable": {
+    "verb": "trabalhar",
+    "translation": "работать",
+    "conjugation": "ar",
+    "schema": {
+      "present": {
+        "affirm": "trabalho",
+        "negate": "não trabalho",
+        "question": "trabalho?"
+      },
+      "past": {
+        "affirm": "trabalhei",
+        "negate": "não trabalhei",
+        "question": "trabalhei?"
+      },
+      "future": {
+        "affirm": "vou trabalhar",
+        "negate": "não vou trabalhar",
+        "question": "vou trabalhar?"
+      }
+    },
+    "presentFull": {
+      "eu": "trabalho",
+      "tu": "trabalhas",
+      "ele": "trabalha",
+      "nos": "trabalhamos",
+      "eles": "trabalham"
+    }
+  },
+  "phrases": [
+    {
+      "id": "l2-001",
+      "ru": "Где ты работаешь?",
+      "pt": "Onde é que tu trabalhas?",
+      "tense": "present",
+      "form": "question",
+      "conjugation": "ar",
+      "verb": "trabalhar",
+      "tags": [
+        "e-que"
+      ],
+      "distractors": [
+        "quando",
+        "moras"
+      ]
+    },
+    {
+      "id": "l2-002",
+      "ru": "Я работаю в Лиссабоне.",
+      "pt": "Eu trabalho em Lisboa.",
+      "tense": "present",
+      "form": "affirm",
+      "conjugation": "ar",
+      "verb": "trabalhar",
+      "distractors": [
+        "trabalhas",
+        "Porto"
+      ]
+    },
+    {
+      "id": "l2-003",
+      "ru": "Кто здесь говорит по-русски?",
+      "pt": "Quem é que fala russo aqui?",
+      "tense": "present",
+      "form": "question",
+      "conjugation": "ar",
+      "verb": "falar",
+      "tags": [
+        "e-que"
+      ],
+      "distractors": [
+        "onde",
+        "falas"
+      ]
+    },
+    {
+      "id": "l2-004",
+      "ru": "Что вы изучаете?",
+      "pt": "O que é que vocês estudam?",
+      "tense": "present",
+      "form": "question",
+      "conjugation": "ar",
+      "verb": "estudar",
+      "tags": [
+        "e-que"
+      ],
+      "distractors": [
+        "quem",
+        "trabalham"
+      ]
+    },
+    {
+      "id": "l2-005",
+      "ru": "Когда она приезжает?",
+      "pt": "Quando é que ela chega?",
+      "tense": "present",
+      "form": "question",
+      "conjugation": "ar",
+      "verb": "chegar",
+      "tags": [
+        "e-que"
+      ],
+      "distractors": [
+        "onde",
+        "chegas"
+      ]
+    },
+    {
+      "id": "l2-006",
+      "ru": "Как это работает?",
+      "pt": "Como é que isto funciona?",
+      "tense": "present",
+      "form": "question",
+      "conjugation": "ar",
+      "verb": "funcionar",
+      "tags": [
+        "e-que"
+      ],
+      "distractors": [
+        "quando",
+        "funcionam"
+      ]
+    },
+    {
+      "id": "l2-007",
+      "ru": "Почему ты учишь португальский?",
+      "pt": "Porque é que estudas português?",
+      "tense": "present",
+      "form": "question",
+      "conjugation": "ar",
+      "verb": "estudar",
+      "tags": [
+        "e-que"
+      ],
+      "distractors": [
+        "como",
+        "estudo"
+      ]
+    },
+    {
+      "id": "l2-008",
+      "ru": "Потому что я живу в Португалии.",
+      "pt": "Porque moro em Portugal.",
+      "tense": "present",
+      "form": "affirm",
+      "conjugation": "ar",
+      "verb": "morar",
+      "distractors": [
+        "moras",
+        "Espanha"
+      ]
+    },
+    {
+      "id": "l2-009",
+      "ru": "Мы живём в Кашкайше.",
+      "pt": "Nós moramos em Cascais.",
+      "tense": "present",
+      "form": "affirm",
+      "conjugation": "ar",
+      "verb": "morar",
+      "distractors": [
+        "moram",
+        "Lisboa"
+      ]
+    },
+    {
+      "id": "l2-010",
+      "ru": "Они работают вместе.",
+      "pt": "Eles trabalham juntos.",
+      "tense": "present",
+      "form": "affirm",
+      "conjugation": "ar",
+      "verb": "trabalhar",
+      "distractors": [
+        "trabalha",
+        "sozinhos"
+      ]
+    },
+    {
+      "id": "l2-011",
+      "ru": "Она приезжает завтра.",
+      "pt": "Ela chega amanhã.",
+      "tense": "present",
+      "form": "affirm",
+      "conjugation": "ar",
+      "verb": "chegar",
+      "distractors": [
+        "chegam",
+        "hoje"
+      ]
+    },
+    {
+      "id": "l2-012",
+      "ru": "Я занимаюсь по утрам.",
+      "pt": "Eu estudo de manhã.",
+      "tense": "present",
+      "form": "affirm",
+      "conjugation": "ar",
+      "verb": "estudar",
+      "distractors": [
+        "estudas",
+        "tarde"
+      ]
+    },
+    {
+      "id": "l2-013",
+      "ru": "Вы живёте здесь?",
+      "pt": "Vocês moram aqui?",
+      "tense": "present",
+      "form": "question",
+      "conjugation": "ar",
+      "verb": "morar",
+      "distractors": [
+        "moras",
+        "longe"
+      ]
+    },
+    {
+      "id": "l2-014",
+      "ru": "Я сегодня не работаю.",
+      "pt": "Eu não trabalho hoje.",
+      "tense": "present",
+      "form": "negate",
+      "conjugation": "ar",
+      "verb": "trabalhar",
+      "distractors": [
+        "trabalhas",
+        "amanhã"
+      ]
+    },
+    {
+      "id": "l2-015",
+      "ru": "Он не говорит по-русски.",
+      "pt": "Ele não fala russo.",
+      "tense": "present",
+      "form": "negate",
+      "conjugation": "ar",
+      "verb": "falar",
+      "distractors": [
+        "falam",
+        "inglês"
+      ]
+    },
+    {
+      "id": "l2-016",
+      "ru": "Мы не занимаемся вместе.",
+      "pt": "Nós não estudamos juntos.",
+      "tense": "present",
+      "form": "negate",
+      "conjugation": "ar",
+      "verb": "estudar",
+      "distractors": [
+        "estudam",
+        "hoje"
+      ]
+    },
+    {
+      "id": "l2-017",
+      "ru": "Где вы живёте?",
+      "pt": "Onde é que vocês moram?",
+      "tense": "present",
+      "form": "question",
+      "conjugation": "ar",
+      "verb": "morar",
+      "tags": [
+        "e-que"
+      ],
+      "distractors": [
+        "quando",
+        "trabalham"
+      ]
+    },
+    {
+      "id": "l2-018",
+      "ru": "Когда ты работаешь?",
+      "pt": "Quando é que tu trabalhas?",
+      "tense": "present",
+      "form": "question",
+      "conjugation": "ar",
+      "verb": "trabalhar",
+      "tags": [
+        "e-que"
+      ],
+      "distractors": [
+        "onde",
+        "chegas"
+      ]
+    },
+    {
+      "id": "l2-019",
+      "ru": "Она сегодня не приезжает.",
+      "pt": "Ela não chega hoje.",
+      "tense": "present",
+      "form": "negate",
+      "conjugation": "ar",
+      "verb": "chegar",
+      "distractors": [
+        "chego",
+        "amanhã"
+      ]
+    },
+    {
+      "id": "l2-020",
+      "ru": "Кто здесь работает?",
+      "pt": "Quem trabalha aqui?",
+      "tense": "present",
+      "form": "question",
+      "conjugation": "ar",
+      "verb": "trabalhar",
+      "distractors": [
+        "mora",
+        "quando"
+      ]
+    },
+    {
+      "id": "l2-021",
+      "ru": "Я прихожу домой рано.",
+      "pt": "Eu chego a casa cedo.",
+      "tense": "present",
+      "form": "affirm",
+      "conjugation": "ar",
+      "verb": "chegar",
+      "distractors": [
+        "chegas",
+        "tarde"
+      ]
+    },
+    {
+      "id": "l2-022",
+      "ru": "Ты не говоришь по-испански?",
+      "pt": "Tu não falas espanhol?",
+      "tense": "present",
+      "form": "question",
+      "conjugation": "ar",
+      "verb": "falar",
+      "distractors": [
+        "falo",
+        "russo"
+      ]
+    },
+    {
+      "id": "l2-023",
+      "ru": "Как ты добираешься домой?",
+      "pt": "Como é que tu chegas a casa?",
+      "tense": "present",
+      "form": "question",
+      "conjugation": "ar",
+      "verb": "chegar",
+      "tags": [
+        "e-que"
+      ],
+      "distractors": [
+        "quando",
+        "moras"
+      ]
+    },
+    {
+      "id": "l2-024",
+      "ru": "Вы завтра работаете?",
+      "pt": "Vocês trabalham amanhã?",
+      "tense": "present",
+      "form": "question",
+      "conjugation": "ar",
+      "verb": "trabalhar",
+      "distractors": [
+        "trabalhamos",
+        "hoje"
+      ]
+    }
+  ],
+  "exam": {
+    "count": 10,
+    "passThreshold": 0.8
+  },
+  "tables": [
+    {
+      "type": "list",
+      "title": "Личные местоимения",
+      "cols": 2,
+      "items": [
+        {
+          "pt": "eu",
+          "ru": "я"
+        },
+        {
+          "pt": "tu",
+          "ru": "ты"
+        },
+        {
+          "pt": "ele",
+          "ru": "он"
+        },
+        {
+          "pt": "ela",
+          "ru": "она"
+        },
+        {
+          "pt": "você",
+          "ru": "Вы (вежл.)"
+        },
+        {
+          "pt": "nós",
+          "ru": "мы"
+        },
+        {
+          "pt": "eles",
+          "ru": "они (м.)"
+        },
+        {
+          "pt": "elas",
+          "ru": "они (ж.)"
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": "Вопросительные слова",
+      "cols": 2,
+      "note": "porquê — «почему?»; porque — «потому что».",
+      "items": [
+        {
+          "pt": "onde?",
+          "ru": "где?"
+        },
+        {
+          "pt": "quando?",
+          "ru": "когда?"
+        },
+        {
+          "pt": "quem?",
+          "ru": "кто?"
+        },
+        {
+          "pt": "o que?",
+          "ru": "что?"
+        },
+        {
+          "pt": "como?",
+          "ru": "как?"
+        },
+        {
+          "pt": "porquê?",
+          "ru": "почему?"
+        },
+        {
+          "pt": "qual?",
+          "ru": "какой?"
+        },
+        {
+          "pt": "quanto?",
+          "ru": "сколько?"
+        }
+      ]
+    }
+  ]
+}

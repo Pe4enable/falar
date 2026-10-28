@@ -1,0 +1,12 @@
+{
+  "name": "falar-progress",
+  "version": "1.0.0",
+  "private": true,
+  "type": "commonjs",
+  "description": "Серверное хранилище прогресса Falar (анонимные аккаунты + код восстановления + email). Без npm-зависимостей: node:http + node:sqlite (Node >= 22).",
+  "main": "index.js",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "start": "node index.js"
+  }
+}

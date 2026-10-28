@@ -1,0 +1,710 @@
+{
+  "id": 1,
+  "number": 1,
+  "title": "Глагол falar — настоящее время -ar",
+  "topic": "Спряжение -ar: утверждение, отрицание, вопрос",
+  "tags": [
+    "-ar",
+    "presente"
+  ],
+  "free": true,
+  "theory": {
+    "intro": "Один глагол даёт девять рабочих форм: три формы предложения (утверждение, отрицание, вопрос) в трёх временах. Сначала видим всю схему, потом доводим до автоматизма. В этом уроке берём настоящее время глаголов на -ar.",
+    "blocks": [
+      {
+        "type": "text",
+        "content": "Глаголы на -ar в настоящем времени меняют окончание по лицу: eu falo, tu falas, ele/ela/você fala, nós falamos, eles/elas/vocês falam."
+      },
+      {
+        "type": "text",
+        "content": "Отрицание — частица «não» перед глаголом: eu não falo. Вопрос — тот же порядок слов, но с вопросительной интонацией: tu falas?"
+      },
+      {
+        "type": "text",
+        "content": "В этом уроке восемь глаголов на -ar, и все спрягаются одинаково: falar (говорить), morar (жить), trabalhar (работать), estudar (учиться), comprar (покупать), tomar (брать, пить/есть), almoçar (обедать), pagar (платить)."
+      },
+      {
+        "type": "note",
+        "content": "Европейская норма: «tu» (ты) активно используется в быту. Вопрос часто строят через «é que»: «Onde é que tu moras?» — «Где ты живёшь?»."
+      },
+      {
+        "type": "note",
+        "content": "Местоимение можно опускать — окончание глагола уже показывает лицо: «Falo português» = «Eu falo português». В заданиях оба варианта засчитываются."
+      }
+    ]
+  },
+  "verbTable": {
+    "verb": "falar",
+    "translation": "говорить",
+    "conjugation": "ar",
+    "schema": {
+      "present": {
+        "affirm": "falo",
+        "negate": "não falo",
+        "question": "falo?"
+      },
+      "past": {
+        "affirm": "falei",
+        "negate": "não falei",
+        "question": "falei?"
+      },
+      "future": {
+        "affirm": "vou falar",
+        "negate": "não vou falar",
+        "question": "vou falar?"
+      }
+    },
+    "presentFull": {
+      "eu": "falo",
+      "tu": "falas",
+      "ele": "fala",
+      "nos": "falamos",
+      "eles": "falam"
+    }
+  },
+  "phrases": [
+    {
+      "id": "l1-001",
+      "ru": "Я говорю по-португальски.",
+      "pt": "Eu falo português.",
+      "tense": "present",
+      "form": "affirm",
+      "conjugation": "ar",
+      "verb": "falar",
+      "distractors": [
+        "falas",
+        "inglês"
+      ]
+    },
+    {
+      "id": "l1-002",
+      "ru": "Ты говоришь очень хорошо.",
+      "pt": "Tu falas muito bem.",
+      "tense": "present",
+      "form": "affirm",
+      "conjugation": "ar",
+      "verb": "falar",
+      "distractors": [
+        "falo",
+        "mal"
+      ]
+    },
+    {
+      "id": "l1-003",
+      "ru": "Она живёт в Лиссабоне.",
+      "pt": "Ela mora em Lisboa.",
+      "tense": "present",
+      "form": "affirm",
+      "conjugation": "ar",
+      "verb": "morar",
+      "distractors": [
+        "moras",
+        "Porto"
+      ]
+    },
+    {
+      "id": "l1-004",
+      "ru": "Мы работаем сегодня.",
+      "pt": "Nós trabalhamos hoje.",
+      "tense": "present",
+      "form": "affirm",
+      "conjugation": "ar",
+      "verb": "trabalhar",
+      "distractors": [
+        "trabalham",
+        "amanhã"
+      ]
+    },
+    {
+      "id": "l1-005",
+      "ru": "Они учат португальский.",
+      "pt": "Eles estudam português.",
+      "tense": "present",
+      "form": "affirm",
+      "conjugation": "ar",
+      "verb": "estudar",
+      "distractors": [
+        "estudo",
+        "francês"
+      ]
+    },
+    {
+      "id": "l1-006",
+      "ru": "Я живу здесь.",
+      "pt": "Eu moro aqui.",
+      "tense": "present",
+      "form": "affirm",
+      "conjugation": "ar",
+      "verb": "morar",
+      "distractors": [
+        "mora",
+        "longe"
+      ]
+    },
+    {
+      "id": "l1-007",
+      "ru": "Вы говорите медленно.",
+      "pt": "Você fala devagar.",
+      "tense": "present",
+      "form": "affirm",
+      "conjugation": "ar",
+      "verb": "falar",
+      "tags": [
+        "voce"
+      ],
+      "distractors": [
+        "falas",
+        "rápido"
+      ]
+    },
+    {
+      "id": "l1-008",
+      "ru": "Мы живём в Португалии.",
+      "pt": "Nós moramos em Portugal.",
+      "tense": "present",
+      "form": "affirm",
+      "conjugation": "ar",
+      "verb": "morar",
+      "distractors": [
+        "moram",
+        "Espanha"
+      ]
+    },
+    {
+      "id": "l1-009",
+      "ru": "Жуан много работает.",
+      "pt": "O João trabalha muito.",
+      "tense": "present",
+      "form": "affirm",
+      "conjugation": "ar",
+      "verb": "trabalhar",
+      "distractors": [
+        "trabalho",
+        "pouco"
+      ]
+    },
+    {
+      "id": "l1-010",
+      "ru": "Я занимаюсь каждый день.",
+      "pt": "Eu estudo todos os dias.",
+      "tense": "present",
+      "form": "affirm",
+      "conjugation": "ar",
+      "verb": "estudar",
+      "distractors": [
+        "estudas",
+        "nunca"
+      ]
+    },
+    {
+      "id": "l1-011",
+      "ru": "Я говорю немного.",
+      "pt": "Eu falo um pouco.",
+      "tense": "present",
+      "form": "affirm",
+      "conjugation": "ar",
+      "verb": "falar",
+      "distractors": [
+        "falamos",
+        "muito"
+      ]
+    },
+    {
+      "id": "l1-012",
+      "ru": "Мы занимаемся вместе.",
+      "pt": "Nós estudamos juntos.",
+      "tense": "present",
+      "form": "affirm",
+      "conjugation": "ar",
+      "verb": "estudar",
+      "distractors": [
+        "estudam",
+        "hoje"
+      ]
+    },
+    {
+      "id": "l1-013",
+      "ru": "Я не говорю по-испански.",
+      "pt": "Eu não falo espanhol.",
+      "tense": "present",
+      "form": "negate",
+      "conjugation": "ar",
+      "verb": "falar",
+      "distractors": [
+        "falas",
+        "português"
+      ]
+    },
+    {
+      "id": "l1-014",
+      "ru": "Ты сегодня не работаешь.",
+      "pt": "Tu não trabalhas hoje.",
+      "tense": "present",
+      "form": "negate",
+      "conjugation": "ar",
+      "verb": "trabalhar",
+      "distractors": [
+        "trabalho",
+        "amanhã"
+      ]
+    },
+    {
+      "id": "l1-015",
+      "ru": "Она здесь не живёт.",
+      "pt": "Ela não mora aqui.",
+      "tense": "present",
+      "form": "negate",
+      "conjugation": "ar",
+      "verb": "morar",
+      "distractors": [
+        "moram",
+        "Lisboa"
+      ]
+    },
+    {
+      "id": "l1-016",
+      "ru": "Мы не говорим быстро.",
+      "pt": "Nós não falamos rápido.",
+      "tense": "present",
+      "form": "negate",
+      "conjugation": "ar",
+      "verb": "falar",
+      "distractors": [
+        "falam",
+        "devagar"
+      ]
+    },
+    {
+      "id": "l1-017",
+      "ru": "Они сегодня не занимаются.",
+      "pt": "Eles não estudam hoje.",
+      "tense": "present",
+      "form": "negate",
+      "conjugation": "ar",
+      "verb": "estudar",
+      "distractors": [
+        "estudamos",
+        "agora"
+      ]
+    },
+    {
+      "id": "l1-018",
+      "ru": "Я не живу в Лиссабоне.",
+      "pt": "Eu não moro em Lisboa.",
+      "tense": "present",
+      "form": "negate",
+      "conjugation": "ar",
+      "verb": "morar",
+      "distractors": [
+        "moras",
+        "Porto"
+      ]
+    },
+    {
+      "id": "l1-019",
+      "ru": "Вы не говорите по-французски.",
+      "pt": "Você não fala francês.",
+      "tense": "present",
+      "form": "negate",
+      "conjugation": "ar",
+      "verb": "falar",
+      "tags": [
+        "voce"
+      ],
+      "distractors": [
+        "falo",
+        "inglês"
+      ]
+    },
+    {
+      "id": "l1-020",
+      "ru": "Я не работаю по воскресеньям.",
+      "pt": "Eu não trabalho aos domingos.",
+      "tense": "present",
+      "form": "negate",
+      "conjugation": "ar",
+      "verb": "trabalhar",
+      "distractors": [
+        "trabalhas",
+        "sábados"
+      ]
+    },
+    {
+      "id": "l1-021",
+      "ru": "Ты говоришь по-португальски?",
+      "pt": "Tu falas português?",
+      "tense": "present",
+      "form": "question",
+      "conjugation": "ar",
+      "verb": "falar",
+      "distractors": [
+        "fala",
+        "espanhol"
+      ]
+    },
+    {
+      "id": "l1-022",
+      "ru": "Вы живёте в Лиссабоне?",
+      "pt": "Você mora em Lisboa?",
+      "tense": "present",
+      "form": "question",
+      "conjugation": "ar",
+      "verb": "morar",
+      "tags": [
+        "voce"
+      ],
+      "distractors": [
+        "moras",
+        "Faro"
+      ]
+    },
+    {
+      "id": "l1-023",
+      "ru": "Они здесь работают?",
+      "pt": "Eles trabalham aqui?",
+      "tense": "present",
+      "form": "question",
+      "conjugation": "ar",
+      "verb": "trabalhar",
+      "distractors": [
+        "trabalha",
+        "longe"
+      ]
+    },
+    {
+      "id": "l1-024",
+      "ru": "Где ты живёшь?",
+      "pt": "Onde é que tu moras?",
+      "tense": "present",
+      "form": "question",
+      "conjugation": "ar",
+      "verb": "morar",
+      "tags": [
+        "e-que"
+      ],
+      "distractors": [
+        "quando",
+        "trabalhas"
+      ]
+    },
+    {
+      "id": "l1-025",
+      "ru": "Вы говорите по-английски?",
+      "pt": "Você fala inglês?",
+      "tense": "present",
+      "form": "question",
+      "conjugation": "ar",
+      "verb": "falar",
+      "tags": [
+        "voce"
+      ],
+      "distractors": [
+        "falas",
+        "russo"
+      ]
+    },
+    {
+      "id": "l1-026",
+      "ru": "Что ты изучаешь?",
+      "pt": "O que é que tu estudas?",
+      "tense": "present",
+      "form": "question",
+      "conjugation": "ar",
+      "verb": "estudar",
+      "tags": [
+        "e-que"
+      ],
+      "distractors": [
+        "onde",
+        "falas"
+      ]
+    },
+    {
+      "id": "l1-027",
+      "ru": "Она много работает?",
+      "pt": "Ela trabalha muito?",
+      "tense": "present",
+      "form": "question",
+      "conjugation": "ar",
+      "verb": "trabalhar",
+      "distractors": [
+        "trabalham",
+        "pouco"
+      ]
+    },
+    {
+      "id": "l1-028",
+      "ru": "Ты живёшь далеко?",
+      "pt": "Tu moras longe?",
+      "tense": "present",
+      "form": "question",
+      "conjugation": "ar",
+      "verb": "morar",
+      "distractors": [
+        "mora",
+        "aqui"
+      ]
+    },
+    {
+      "id": "l1-029",
+      "ru": "Я покупаю свежий хлеб.",
+      "pt": "Eu compro pão fresco.",
+      "tense": "present",
+      "form": "affirm",
+      "conjugation": "ar",
+      "verb": "comprar",
+      "distractors": [
+        "compras",
+        "velho"
+      ]
+    },
+    {
+      "id": "l1-030",
+      "ru": "Мы покупаем фрукты на рынке.",
+      "pt": "Nós compramos fruta no mercado.",
+      "tense": "present",
+      "form": "affirm",
+      "conjugation": "ar",
+      "verb": "comprar",
+      "distractors": [
+        "compram",
+        "peixe"
+      ]
+    },
+    {
+      "id": "l1-031",
+      "ru": "Они покупают рыбу здесь.",
+      "pt": "Eles compram peixe aqui.",
+      "tense": "present",
+      "form": "affirm",
+      "conjugation": "ar",
+      "verb": "comprar",
+      "distractors": [
+        "compro",
+        "carne"
+      ]
+    },
+    {
+      "id": "l1-032",
+      "ru": "Я пью кофе по утрам.",
+      "pt": "Eu tomo café de manhã.",
+      "tense": "present",
+      "form": "affirm",
+      "conjugation": "ar",
+      "verb": "tomar",
+      "distractors": [
+        "tomas",
+        "chá"
+      ]
+    },
+    {
+      "id": "l1-033",
+      "ru": "Мы завтракаем в восемь.",
+      "pt": "Nós tomamos o pequeno-almoço às oito.",
+      "tense": "present",
+      "form": "affirm",
+      "conjugation": "ar",
+      "verb": "tomar",
+      "distractors": [
+        "tomam",
+        "nove"
+      ]
+    },
+    {
+      "id": "l1-034",
+      "ru": "Она обедает в полдень.",
+      "pt": "Ela almoça ao meio-dia.",
+      "tense": "present",
+      "form": "affirm",
+      "conjugation": "ar",
+      "verb": "almoçar",
+      "distractors": [
+        "almoças",
+        "tarde"
+      ]
+    },
+    {
+      "id": "l1-035",
+      "ru": "Мы обедаем дома.",
+      "pt": "Nós almoçamos em casa.",
+      "tense": "present",
+      "form": "affirm",
+      "conjugation": "ar",
+      "verb": "almoçar",
+      "distractors": [
+        "almoçam",
+        "fora"
+      ]
+    },
+    {
+      "id": "l1-036",
+      "ru": "Я плачу по счёту.",
+      "pt": "Eu pago a conta.",
+      "tense": "present",
+      "form": "affirm",
+      "conjugation": "ar",
+      "verb": "pagar",
+      "distractors": [
+        "pagas",
+        "mesa"
+      ]
+    },
+    {
+      "id": "l1-037",
+      "ru": "Мы платим картой.",
+      "pt": "Nós pagamos com cartão.",
+      "tense": "present",
+      "form": "affirm",
+      "conjugation": "ar",
+      "verb": "pagar",
+      "distractors": [
+        "pagam",
+        "dinheiro"
+      ]
+    },
+    {
+      "id": "l1-038",
+      "ru": "Я сегодня ничего не покупаю.",
+      "pt": "Eu não compro nada hoje.",
+      "tense": "present",
+      "form": "negate",
+      "conjugation": "ar",
+      "verb": "comprar",
+      "distractors": [
+        "compras",
+        "amanhã"
+      ]
+    },
+    {
+      "id": "l1-039",
+      "ru": "Я не пью кофе с сахаром.",
+      "pt": "Eu não tomo café com açúcar.",
+      "tense": "present",
+      "form": "negate",
+      "conjugation": "ar",
+      "verb": "tomar",
+      "distractors": [
+        "tomas",
+        "leite"
+      ]
+    },
+    {
+      "id": "l1-040",
+      "ru": "Сегодня я не обедаю не дома.",
+      "pt": "Hoje não almoço fora.",
+      "tense": "present",
+      "form": "negate",
+      "conjugation": "ar",
+      "verb": "almoçar",
+      "distractors": [
+        "almoças",
+        "casa"
+      ]
+    },
+    {
+      "id": "l1-041",
+      "ru": "Я не плачу сейчас.",
+      "pt": "Eu não pago agora.",
+      "tense": "present",
+      "form": "negate",
+      "conjugation": "ar",
+      "verb": "pagar",
+      "distractors": [
+        "pagas",
+        "depois"
+      ]
+    },
+    {
+      "id": "l1-042",
+      "ru": "Ты покупаешь газету?",
+      "pt": "Tu compras o jornal?",
+      "tense": "present",
+      "form": "question",
+      "conjugation": "ar",
+      "verb": "comprar",
+      "distractors": [
+        "compro",
+        "pão"
+      ]
+    },
+    {
+      "id": "l1-043",
+      "ru": "Выпьешь со мной кофе?",
+      "pt": "Tomas um café comigo?",
+      "tense": "present",
+      "form": "question",
+      "conjugation": "ar",
+      "verb": "tomar",
+      "tags": [
+        "chunk"
+      ],
+      "distractors": [
+        "tomo",
+        "chá"
+      ]
+    },
+    {
+      "id": "l1-044",
+      "ru": "Во сколько ты обедаешь?",
+      "pt": "A que horas almoças?",
+      "tense": "present",
+      "form": "question",
+      "conjugation": "ar",
+      "verb": "almoçar",
+      "tags": [
+        "chunk"
+      ],
+      "distractors": [
+        "jantas",
+        "onde"
+      ]
+    },
+    {
+      "id": "l1-045",
+      "ru": "Кто платит по счёту?",
+      "pt": "Quem paga a conta?",
+      "tense": "present",
+      "form": "question",
+      "conjugation": "ar",
+      "verb": "pagar",
+      "distractors": [
+        "pagas",
+        "café"
+      ]
+    }
+  ],
+  "exam": {
+    "count": 10,
+    "passThreshold": 0.8
+  },
+  "tables": [
+    {
+      "type": "list",
+      "title": "Глаголы -ar из этого урока",
+      "cols": 2,
+      "note": "Окончания -ar одни для всех: -o, -as, -a, -amos, -am. falo → trabalho → estudo.",
+      "items": [
+        {
+          "pt": "trabalhar",
+          "ru": "работать"
+        },
+        {
+          "pt": "estudar",
+          "ru": "учиться"
+        },
+        {
+          "pt": "morar",
+          "ru": "жить"
+        },
+        {
+          "pt": "comprar",
+          "ru": "покупать"
+        },
+        {
+          "pt": "tomar",
+          "ru": "брать; пить"
+        }
+      ]
+    }
+  ]
+}

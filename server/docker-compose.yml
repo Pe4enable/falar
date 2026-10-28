@@ -1,0 +1,26 @@
+# Сервис хранения прогресса Falar — отдельный стек, подключён к существующей сети Caddy (falar_default).
+# Caddy обращается к нему как falar-progress:8080. Caddyfile-маршрут /api/* добавляется отдельно.
+services:
+  falar-progress:
+    build: .
+    image: falar-progress:latest
+    container_name: falar-progress
+    restart: unless-stopped
+    environment:
+      - PORT=8080
+      - DB_PATH=/data/data.db
+      # Email (опционально, этап 2): задать ключ Resend, чтобы включить привязку email.
+      # - RESEND_API_KEY=re_xxxxxxxx
+      # - EMAIL_FROM=Falar <noreply@ваш-домен>
+    volumes:
+      - progress_data:/data
+    networks:
+      - falar_default
+    logging: { driver: json-file, options: { max-size: "10m", max-file: "3" } }
+
+volumes:
+  progress_data:
+
+networks:
+  falar_default:
+    external: true

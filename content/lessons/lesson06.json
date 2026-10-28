@@ -1,0 +1,427 @@
+{
+  "id": 6,
+  "number": 6,
+  "title": "Прошедшее время — Pretérito Perfeito",
+  "topic": "Завершённые действия: falei, comi, parti",
+  "tags": [
+    "passado",
+    "PPS"
+  ],
+  "free": false,
+  "theory": {
+    "intro": "Pretérito Perfeito — главное прошедшее время: законченные действия. «Вчера я работал, поел, лёг спать» — всё это PPS.",
+    "blocks": [
+      {
+        "type": "text",
+        "content": "Окончания -ar: falei, falaste, falou, falámos, falaram. Окончания -er: comi, comeste, comeu, comemos, comeram. Окончания -ir: parti, partiste, partiu, partimos, partiram."
+      },
+      {
+        "type": "note",
+        "content": "Европейская деталь: в форме «мы» прошедшее от -ar пишется с акцентом — «jantámos» (поужинали), а настоящее без — «jantamos» (ужинаем)."
+      },
+      {
+        "type": "note",
+        "content": "Самая нужная неправильная форма: fui — «я был» и «я сходил/съездил» (ser и ir совпадают в прошедшем): «Fui ao supermercado» — «Я сходил в супермаркет»."
+      }
+    ]
+  },
+  "verbTable": {
+    "verb": "jantar",
+    "translation": "ужинать",
+    "conjugation": "ar",
+    "schema": {
+      "present": {
+        "affirm": "janto",
+        "negate": "não janto",
+        "question": "janto?"
+      },
+      "past": {
+        "affirm": "jantei",
+        "negate": "não jantei",
+        "question": "jantei?"
+      },
+      "future": {
+        "affirm": "vou jantar",
+        "negate": "não vou jantar",
+        "question": "vou jantar?"
+      }
+    },
+    "presentFull": {
+      "eu": "janto",
+      "tu": "jantas",
+      "ele": "janta",
+      "nos": "jantamos",
+      "eles": "jantam"
+    }
+  },
+  "phrases": [
+    {
+      "id": "l6-001",
+      "ru": "Вчера я много работал.",
+      "pt": "Ontem trabalhei muito.",
+      "tense": "past",
+      "form": "affirm",
+      "conjugation": "ar",
+      "verb": "trabalhar",
+      "distractors": [
+        "trabalhaste",
+        "pouco"
+      ]
+    },
+    {
+      "id": "l6-002",
+      "ru": "Я поговорил с хозяином квартиры.",
+      "pt": "Eu falei com o senhorio.",
+      "tense": "past",
+      "form": "affirm",
+      "conjugation": "ar",
+      "verb": "falar",
+      "distractors": [
+        "falaste",
+        "vizinho"
+      ]
+    },
+    {
+      "id": "l6-003",
+      "ru": "Я съел паштел-де-ната.",
+      "pt": "Comi um pastel de nata.",
+      "tense": "past",
+      "form": "affirm",
+      "conjugation": "er",
+      "verb": "comer",
+      "distractors": [
+        "comeste",
+        "bolo"
+      ]
+    },
+    {
+      "id": "l6-004",
+      "ru": "Я выпил кофе с Аной.",
+      "pt": "Bebi um café com a Ana.",
+      "tense": "past",
+      "form": "affirm",
+      "conjugation": "er",
+      "verb": "beber",
+      "distractors": [
+        "bebeste",
+        "chá"
+      ]
+    },
+    {
+      "id": "l6-005",
+      "ru": "Я поздно пришёл домой.",
+      "pt": "Cheguei tarde a casa.",
+      "tense": "past",
+      "form": "affirm",
+      "conjugation": "ar",
+      "verb": "chegar",
+      "distractors": [
+        "chegaste",
+        "cedo"
+      ]
+    },
+    {
+      "id": "l6-006",
+      "ru": "Этой ночью я плохо спал.",
+      "pt": "Dormi mal esta noite.",
+      "tense": "past",
+      "form": "affirm",
+      "conjugation": "ir",
+      "verb": "dormir",
+      "distractors": [
+        "dormiste",
+        "bem"
+      ]
+    },
+    {
+      "id": "l6-007",
+      "ru": "Вчера мы поужинали не дома.",
+      "pt": "Nós jantámos fora ontem.",
+      "tense": "past",
+      "form": "affirm",
+      "conjugation": "ar",
+      "verb": "jantar",
+      "distractors": [
+        "jantaram",
+        "hoje"
+      ]
+    },
+    {
+      "id": "l6-008",
+      "ru": "Она рано открыла магазин.",
+      "pt": "Ela abriu a loja cedo.",
+      "tense": "past",
+      "form": "affirm",
+      "conjugation": "ir",
+      "verb": "abrir",
+      "distractors": [
+        "abriste",
+        "tarde"
+      ]
+    },
+    {
+      "id": "l6-009",
+      "ru": "Они уехали утром.",
+      "pt": "Eles partiram de manhã.",
+      "tense": "past",
+      "form": "affirm",
+      "conjugation": "ir",
+      "verb": "partir",
+      "distractors": [
+        "partiu",
+        "tarde"
+      ]
+    },
+    {
+      "id": "l6-010",
+      "ru": "Я всё понял.",
+      "pt": "Eu percebi tudo.",
+      "tense": "past",
+      "form": "affirm",
+      "conjugation": "er",
+      "verb": "perceber",
+      "distractors": [
+        "percebeste",
+        "nada"
+      ]
+    },
+    {
+      "id": "l6-011",
+      "ru": "В воскресенье я не работал.",
+      "pt": "Não trabalhei no domingo.",
+      "tense": "past",
+      "form": "negate",
+      "conjugation": "ar",
+      "verb": "trabalhar",
+      "distractors": [
+        "trabalhou",
+        "sábado"
+      ]
+    },
+    {
+      "id": "l6-012",
+      "ru": "Я сегодня ничего не ел.",
+      "pt": "Não comi nada hoje.",
+      "tense": "past",
+      "form": "negate",
+      "conjugation": "er",
+      "verb": "comer",
+      "distractors": [
+        "comeu",
+        "tudo"
+      ]
+    },
+    {
+      "id": "l6-013",
+      "ru": "Она со мной не поговорила.",
+      "pt": "Ela não falou comigo.",
+      "tense": "past",
+      "form": "negate",
+      "conjugation": "ar",
+      "verb": "falar",
+      "distractors": [
+        "falei",
+        "contigo"
+      ]
+    },
+    {
+      "id": "l6-014",
+      "ru": "Я почти не спал.",
+      "pt": "Não dormi quase nada.",
+      "tense": "past",
+      "form": "negate",
+      "conjugation": "ir",
+      "verb": "dormir",
+      "distractors": [
+        "dormiu",
+        "muito"
+      ]
+    },
+    {
+      "id": "l6-015",
+      "ru": "Они ещё не приехали.",
+      "pt": "Eles ainda não chegaram.",
+      "tense": "past",
+      "form": "negate",
+      "conjugation": "ar",
+      "verb": "chegar",
+      "distractors": [
+        "chegou",
+        "já"
+      ]
+    },
+    {
+      "id": "l6-016",
+      "ru": "Вчера я не пил вино.",
+      "pt": "Não bebi vinho ontem.",
+      "tense": "past",
+      "form": "negate",
+      "conjugation": "er",
+      "verb": "beber",
+      "distractors": [
+        "bebeu",
+        "hoje"
+      ]
+    },
+    {
+      "id": "l6-017",
+      "ru": "Ты с ней поговорил?",
+      "pt": "Tu falaste com ela?",
+      "tense": "past",
+      "form": "question",
+      "conjugation": "ar",
+      "verb": "falar",
+      "distractors": [
+        "falei",
+        "ele"
+      ]
+    },
+    {
+      "id": "l6-018",
+      "ru": "Ты что-нибудь ел?",
+      "pt": "Comeste alguma coisa?",
+      "tense": "past",
+      "form": "question",
+      "conjugation": "er",
+      "verb": "comer",
+      "distractors": [
+        "comi",
+        "nada"
+      ]
+    },
+    {
+      "id": "l6-019",
+      "ru": "Во сколько ты пришёл?",
+      "pt": "A que horas é que tu chegaste?",
+      "tense": "past",
+      "form": "question",
+      "conjugation": "ar",
+      "verb": "chegar",
+      "tags": [
+        "e-que"
+      ],
+      "distractors": [
+        "cheguei",
+        "onde"
+      ]
+    },
+    {
+      "id": "l6-020",
+      "ru": "Ты вчера работал?",
+      "pt": "Trabalhaste ontem?",
+      "tense": "past",
+      "form": "question",
+      "conjugation": "ar",
+      "verb": "trabalhar",
+      "distractors": [
+        "trabalhei",
+        "hoje"
+      ]
+    },
+    {
+      "id": "l6-021",
+      "ru": "Они уже уехали?",
+      "pt": "Eles já partiram?",
+      "tense": "past",
+      "form": "question",
+      "conjugation": "ir",
+      "verb": "partir",
+      "distractors": [
+        "partiu",
+        "ainda"
+      ]
+    },
+    {
+      "id": "l6-022",
+      "ru": "Где вы ужинали?",
+      "pt": "Onde é que vocês jantaram?",
+      "tense": "past",
+      "form": "question",
+      "conjugation": "ar",
+      "verb": "jantar",
+      "tags": [
+        "e-que"
+      ],
+      "distractors": [
+        "jantámos",
+        "quando"
+      ]
+    },
+    {
+      "id": "l6-023",
+      "ru": "Хорошо спал?",
+      "pt": "Dormiste bem?",
+      "tense": "past",
+      "form": "question",
+      "conjugation": "ir",
+      "verb": "dormir",
+      "distractors": [
+        "dormi",
+        "mal"
+      ]
+    },
+    {
+      "id": "l6-024",
+      "ru": "Кто открыл окно?",
+      "pt": "Quem abriu a janela?",
+      "tense": "past",
+      "form": "question",
+      "conjugation": "ir",
+      "verb": "abrir",
+      "distractors": [
+        "abriste",
+        "porta"
+      ]
+    }
+  ],
+  "exam": {
+    "count": 10,
+    "passThreshold": 0.8
+  },
+  "tables": [
+    {
+      "type": "contractions",
+      "title": "Pretérito Perfeito — окончания",
+      "cols": [
+        "falar",
+        "comer",
+        "partir"
+      ],
+      "rows": [
+        "eu",
+        "tu",
+        "ele/ela",
+        "nós",
+        "eles/elas"
+      ],
+      "note": "Завершённое действие: Ontem falei. — Вчера я поговорил.",
+      "cells": [
+        [
+          "falei",
+          "comi",
+          "parti"
+        ],
+        [
+          "falaste",
+          "comeste",
+          "partiste"
+        ],
+        [
+          "falou",
+          "comeu",
+          "partiu"
+        ],
+        [
+          "falámos",
+          "comemos",
+          "partimos"
+        ],
+        [
+          "falaram",
+          "comeram",
+          "partiram"
+        ]
+      ]
+    }
+  ]
+}

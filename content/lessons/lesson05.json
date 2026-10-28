@@ -1,0 +1,411 @@
+{
+  "id": 5,
+  "number": 5,
+  "title": "Глаголы -ir — настоящее время",
+  "topic": "abrir, partir, dormir, decidir, preferir",
+  "tags": [
+    "-ir",
+    "presente"
+  ],
+  "free": false,
+  "theory": {
+    "intro": "Третья и последняя группа — глаголы на -ir. Окончания почти как у -er, отличается только форма «мы»: abrimos.",
+    "blocks": [
+      {
+        "type": "text",
+        "content": "Abrir (открывать): eu abro, tu abres, ele abre, nós abrimos, eles abrem. Так же: partir (отправляться), decidir (решать)."
+      },
+      {
+        "type": "note",
+        "content": "Два полезных глагола чуть меняют корень в форме «я»: dormir → durmo (сплю), preferir → prefiro (предпочитаю). Остальные формы обычные: dormes, prefere…"
+      },
+      {
+        "type": "note",
+        "content": "«A que horas abre…?» — «Во сколько открывается…?» — дежурный вопрос про магазины, музеи и аптеки."
+      }
+    ]
+  },
+  "verbTable": {
+    "verb": "abrir",
+    "translation": "открывать(ся)",
+    "conjugation": "ir",
+    "schema": {
+      "present": {
+        "affirm": "abro",
+        "negate": "não abro",
+        "question": "abro?"
+      },
+      "past": {
+        "affirm": "abri",
+        "negate": "não abri",
+        "question": "abri?"
+      },
+      "future": {
+        "affirm": "vou abrir",
+        "negate": "não vou abrir",
+        "question": "vou abrir?"
+      }
+    },
+    "presentFull": {
+      "eu": "abro",
+      "tu": "abres",
+      "ele": "abre",
+      "nos": "abrimos",
+      "eles": "abrem"
+    }
+  },
+  "phrases": [
+    {
+      "id": "l5-001",
+      "ru": "Магазин открывается в девять.",
+      "pt": "A loja abre às nove.",
+      "tense": "present",
+      "form": "affirm",
+      "conjugation": "ir",
+      "verb": "abrir",
+      "distractors": [
+        "abrem",
+        "dez"
+      ]
+    },
+    {
+      "id": "l5-002",
+      "ru": "Я открываю окно.",
+      "pt": "Eu abro a janela.",
+      "tense": "present",
+      "form": "affirm",
+      "conjugation": "ir",
+      "verb": "abrir",
+      "distractors": [
+        "abres",
+        "porta"
+      ]
+    },
+    {
+      "id": "l5-003",
+      "ru": "Поезд отправляется в восемь.",
+      "pt": "O comboio parte às oito.",
+      "tense": "present",
+      "form": "affirm",
+      "conjugation": "ir",
+      "verb": "partir",
+      "distractors": [
+        "partem",
+        "nove"
+      ]
+    },
+    {
+      "id": "l5-004",
+      "ru": "Я сплю восемь часов.",
+      "pt": "Eu durmo oito horas.",
+      "tense": "present",
+      "form": "affirm",
+      "conjugation": "ir",
+      "verb": "dormir",
+      "distractors": [
+        "dormes",
+        "dez"
+      ]
+    },
+    {
+      "id": "l5-005",
+      "ru": "Мы решаем сегодня.",
+      "pt": "Nós decidimos hoje.",
+      "tense": "present",
+      "form": "affirm",
+      "conjugation": "ir",
+      "verb": "decidir",
+      "distractors": [
+        "decidem",
+        "amanhã"
+      ]
+    },
+    {
+      "id": "l5-006",
+      "ru": "Я предпочитаю чай.",
+      "pt": "Eu prefiro chá.",
+      "tense": "present",
+      "form": "affirm",
+      "conjugation": "ir",
+      "verb": "preferir",
+      "distractors": [
+        "preferes",
+        "café"
+      ]
+    },
+    {
+      "id": "l5-007",
+      "ru": "Она много спит.",
+      "pt": "Ela dorme muito.",
+      "tense": "present",
+      "form": "affirm",
+      "conjugation": "ir",
+      "verb": "dormir",
+      "distractors": [
+        "dormem",
+        "pouco"
+      ]
+    },
+    {
+      "id": "l5-008",
+      "ru": "Магазины открыты по субботам.",
+      "pt": "As lojas abrem aos sábados.",
+      "tense": "present",
+      "form": "affirm",
+      "conjugation": "ir",
+      "verb": "abrir",
+      "distractors": [
+        "abre",
+        "domingos"
+      ]
+    },
+    {
+      "id": "l5-009",
+      "ru": "Я уезжаю завтра.",
+      "pt": "Eu parto amanhã.",
+      "tense": "present",
+      "form": "affirm",
+      "conjugation": "ir",
+      "verb": "partir",
+      "distractors": [
+        "partes",
+        "hoje"
+      ]
+    },
+    {
+      "id": "l5-010",
+      "ru": "Ты всегда всё решаешь.",
+      "pt": "Tu decides sempre tudo.",
+      "tense": "present",
+      "form": "affirm",
+      "conjugation": "ir",
+      "verb": "decidir",
+      "distractors": [
+        "decido",
+        "nada"
+      ]
+    },
+    {
+      "id": "l5-011",
+      "ru": "Аптека сегодня не работает.",
+      "pt": "A farmácia não abre hoje.",
+      "tense": "present",
+      "form": "negate",
+      "conjugation": "ir",
+      "verb": "abrir",
+      "distractors": [
+        "abrem",
+        "amanhã"
+      ]
+    },
+    {
+      "id": "l5-012",
+      "ru": "Я плохо сплю.",
+      "pt": "Eu não durmo bem.",
+      "tense": "present",
+      "form": "negate",
+      "conjugation": "ir",
+      "verb": "dormir",
+      "distractors": [
+        "dormes",
+        "mal"
+      ]
+    },
+    {
+      "id": "l5-013",
+      "ru": "Автобус отсюда не отправляется.",
+      "pt": "O autocarro não parte daqui.",
+      "tense": "present",
+      "form": "negate",
+      "conjugation": "ir",
+      "verb": "partir",
+      "distractors": [
+        "partes",
+        "aqui"
+      ]
+    },
+    {
+      "id": "l5-014",
+      "ru": "Мы ничего не решаем.",
+      "pt": "Nós não decidimos nada.",
+      "tense": "present",
+      "form": "negate",
+      "conjugation": "ir",
+      "verb": "decidir",
+      "distractors": [
+        "decides",
+        "tudo"
+      ]
+    },
+    {
+      "id": "l5-015",
+      "ru": "Она не спит днём.",
+      "pt": "Ela não dorme à tarde.",
+      "tense": "present",
+      "form": "negate",
+      "conjugation": "ir",
+      "verb": "dormir",
+      "distractors": [
+        "durmo",
+        "noite"
+      ]
+    },
+    {
+      "id": "l5-016",
+      "ru": "Я сегодня не уезжаю.",
+      "pt": "Eu não parto hoje.",
+      "tense": "present",
+      "form": "negate",
+      "conjugation": "ir",
+      "verb": "partir",
+      "distractors": [
+        "parte",
+        "amanhã"
+      ]
+    },
+    {
+      "id": "l5-017",
+      "ru": "Во сколько открывается музей?",
+      "pt": "A que horas abre o museu?",
+      "tense": "present",
+      "form": "question",
+      "conjugation": "ir",
+      "verb": "abrir",
+      "tags": [
+        "chunk"
+      ],
+      "distractors": [
+        "fecha",
+        "loja"
+      ]
+    },
+    {
+      "id": "l5-018",
+      "ru": "Ты хорошо спишь?",
+      "pt": "Tu dormes bem?",
+      "tense": "present",
+      "form": "question",
+      "conjugation": "ir",
+      "verb": "dormir",
+      "distractors": [
+        "durmo",
+        "mal"
+      ]
+    },
+    {
+      "id": "l5-019",
+      "ru": "Когда ты уезжаешь?",
+      "pt": "Quando é que tu partes?",
+      "tense": "present",
+      "form": "question",
+      "conjugation": "ir",
+      "verb": "partir",
+      "tags": [
+        "e-que"
+      ],
+      "distractors": [
+        "onde",
+        "parto"
+      ]
+    },
+    {
+      "id": "l5-020",
+      "ru": "Вы предпочитаете вино или пиво?",
+      "pt": "Vocês preferem vinho ou cerveja?",
+      "tense": "present",
+      "form": "question",
+      "conjugation": "ir",
+      "verb": "preferir",
+      "distractors": [
+        "prefiro",
+        "água"
+      ]
+    },
+    {
+      "id": "l5-021",
+      "ru": "Магазин работает по воскресеньям?",
+      "pt": "A loja abre ao domingo?",
+      "tense": "present",
+      "form": "question",
+      "conjugation": "ir",
+      "verb": "abrir",
+      "distractors": [
+        "abrem",
+        "sábado"
+      ]
+    },
+    {
+      "id": "l5-022",
+      "ru": "Ты предпочитаешь кофе или чай?",
+      "pt": "Tu preferes café ou chá?",
+      "tense": "present",
+      "form": "question",
+      "conjugation": "ir",
+      "verb": "preferir",
+      "distractors": [
+        "prefere",
+        "vinho"
+      ]
+    },
+    {
+      "id": "l5-023",
+      "ru": "Рейс вылетает из Лиссабона?",
+      "pt": "O voo parte de Lisboa?",
+      "tense": "present",
+      "form": "question",
+      "conjugation": "ir",
+      "verb": "partir",
+      "distractors": [
+        "partem",
+        "Porto"
+      ]
+    },
+    {
+      "id": "l5-024",
+      "ru": "Кто завтра открывает магазин?",
+      "pt": "Quem abre a loja amanhã?",
+      "tense": "present",
+      "form": "question",
+      "conjugation": "ir",
+      "verb": "abrir",
+      "distractors": [
+        "abres",
+        "hoje"
+      ]
+    }
+  ],
+  "exam": {
+    "count": 10,
+    "passThreshold": 0.8
+  },
+  "tables": [
+    {
+      "type": "list",
+      "title": "Частые глаголы на -ir",
+      "cols": 2,
+      "note": "Окончания -ir: -o, -es, -e, -imos, -em. У dormir/preferir в «eu» меняется корень: durmo, prefiro.",
+      "items": [
+        {
+          "pt": "abrir",
+          "ru": "открывать"
+        },
+        {
+          "pt": "partir",
+          "ru": "уезжать"
+        },
+        {
+          "pt": "dormir",
+          "ru": "спать"
+        },
+        {
+          "pt": "decidir",
+          "ru": "решать"
+        },
+        {
+          "pt": "preferir",
+          "ru": "предпочитать"
+        }
+      ]
+    }
+  ]
+}
