@@ -1,1620 +1,2352 @@
 [
-{"pt":"o","ru":"артикль","pos":"det"},
-{"pt":"a","ru":"артикль","pos":"det"},
-{"pt":"de","ru":"от","pos":"prep"},
-{"pt":"que","ru":"что","pos":"conj"},
-{"pt":"e","ru":"и","pos":"conj"},
-{"pt":"um","ru":"один","pos":"det"},
-{"pt":"uma","ru":"одна","pos":"det"},
-{"pt":"em","ru":"в","pos":"prep"},
-{"pt":"para","ru":"для","pos":"prep"},
-{"pt":"com","ru":"с","pos":"prep"},
-{"pt":"não","ru":"нет","pos":"adv"},
-{"pt":"se","ru":"если","pos":"conj"},
-{"pt":"por","ru":"через","pos":"prep"},
-{"pt":"mas","ru":"но","pos":"conj"},
-{"pt":"como","ru":"как","pos":"adv"},
-{"pt":"mais","ru":"больше","pos":"adv"},
-{"pt":"ou","ru":"или","pos":"conj"},
-{"pt":"este","ru":"этот","pos":"det"},
-{"pt":"esta","ru":"эта","pos":"det"},
-{"pt":"isso","ru":"это","pos":"pron"},
-{"pt":"isto","ru":"это","pos":"pron"},
-{"pt":"esse","ru":"тот","pos":"det"},
-{"pt":"aquele","ru":"тот","pos":"det"},
-{"pt":"muito","ru":"очень","pos":"adv"},
-{"pt":"também","ru":"тоже","pos":"adv"},
-{"pt":"já","ru":"уже","pos":"adv"},
-{"pt":"só","ru":"только","pos":"adv"},
-{"pt":"quando","ru":"когда","pos":"conj"},
-{"pt":"porque","ru":"потому что","pos":"conj"},
-{"pt":"tudo","ru":"всё","pos":"pron"},
-{"pt":"nada","ru":"ничего","pos":"pron"},
-{"pt":"todo","ru":"весь","pos":"det"},
-{"pt":"outro","ru":"другой","pos":"det"},
-{"pt":"mesmo","ru":"тот же","pos":"adj"},
-{"pt":"bem","ru":"хорошо","pos":"adv"},
-{"pt":"ainda","ru":"ещё","pos":"adv"},
-{"pt":"depois","ru":"потом","pos":"adv"},
-{"pt":"sempre","ru":"всегда","pos":"adv"},
-{"pt":"então","ru":"тогда","pos":"adv"},
-{"pt":"agora","ru":"сейчас","pos":"adv"},
-{"pt":"aqui","ru":"здесь","pos":"adv"},
-{"pt":"ali","ru":"там","pos":"adv"},
-{"pt":"aí","ru":"там","pos":"adv"},
-{"pt":"lá","ru":"там","pos":"adv"},
-{"pt":"onde","ru":"где","pos":"adv"},
-{"pt":"quem","ru":"кто","pos":"pron"},
-{"pt":"qual","ru":"какой","pos":"pron"},
-{"pt":"quanto","ru":"сколько","pos":"pron"},
-{"pt":"eu","ru":"я","pos":"pron"},
-{"pt":"tu","ru":"ты","pos":"pron"},
-{"pt":"ele","ru":"он","pos":"pron"},
-{"pt":"ela","ru":"она","pos":"pron"},
-{"pt":"nós","ru":"мы","pos":"pron"},
-{"pt":"eles","ru":"они","pos":"pron"},
-{"pt":"elas","ru":"они","pos":"pron"},
-{"pt":"você","ru":"вы","pos":"pron"},
-{"pt":"me","ru":"меня","pos":"pron"},
-{"pt":"te","ru":"тебя","pos":"pron"},
-{"pt":"lhe","ru":"ему","pos":"pron"},
-{"pt":"nos","ru":"нас","pos":"pron"},
-{"pt":"meu","ru":"мой","pos":"det"},
-{"pt":"minha","ru":"моя","pos":"det"},
-{"pt":"teu","ru":"твой","pos":"det"},
-{"pt":"seu","ru":"его","pos":"det"},
-{"pt":"nosso","ru":"наш","pos":"det"},
-{"pt":"dele","ru":"его","pos":"pron"},
-{"pt":"dela","ru":"её","pos":"pron"},
-{"pt":"ser","ru":"быть","pos":"verb"},
-{"pt":"estar","ru":"находиться","pos":"verb"},
-{"pt":"ter","ru":"иметь","pos":"verb"},
-{"pt":"haver","ru":"иметься","pos":"verb"},
-{"pt":"fazer","ru":"делать","pos":"verb"},
-{"pt":"poder","ru":"мочь","pos":"verb"},
-{"pt":"dizer","ru":"говорить","pos":"verb"},
-{"pt":"ir","ru":"идти","pos":"verb"},
-{"pt":"ver","ru":"видеть","pos":"verb"},
-{"pt":"dar","ru":"давать","pos":"verb"},
-{"pt":"saber","ru":"знать","pos":"verb"},
-{"pt":"querer","ru":"хотеть","pos":"verb"},
-{"pt":"ficar","ru":"оставаться","pos":"verb"},
-{"pt":"dever","ru":"быть должным","pos":"verb"},
-{"pt":"passar","ru":"проходить","pos":"verb"},
-{"pt":"vir","ru":"приходить","pos":"verb"},
-{"pt":"falar","ru":"разговаривать","pos":"verb"},
-{"pt":"achar","ru":"считать","pos":"verb"},
-{"pt":"começar","ru":"начинать","pos":"verb"},
-{"pt":"chegar","ru":"прибывать","pos":"verb"},
-{"pt":"deixar","ru":"оставлять","pos":"verb"},
-{"pt":"pensar","ru":"думать","pos":"verb"},
-{"pt":"encontrar","ru":"находить","pos":"verb"},
-{"pt":"conhecer","ru":"знать","pos":"verb"},
-{"pt":"parecer","ru":"казаться","pos":"verb"},
-{"pt":"levar","ru":"нести","pos":"verb"},
-{"pt":"trazer","ru":"приносить","pos":"verb"},
-{"pt":"olhar","ru":"смотреть","pos":"verb"},
-{"pt":"precisar","ru":"нуждаться","pos":"verb"},
-{"pt":"tornar","ru":"становиться","pos":"verb"},
-{"pt":"viver","ru":"жить","pos":"verb"},
-{"pt":"sentir","ru":"чувствовать","pos":"verb"},
-{"pt":"voltar","ru":"возвращаться","pos":"verb"},
-{"pt":"trabalhar","ru":"работать","pos":"verb"},
-{"pt":"comer","ru":"есть","pos":"verb"},
-{"pt":"beber","ru":"пить","pos":"verb"},
-{"pt":"comprar","ru":"покупать","pos":"verb"},
-{"pt":"pagar","ru":"платить","pos":"verb"},
-{"pt":"abrir","ru":"открывать","pos":"verb"},
-{"pt":"fechar","ru":"закрывать","pos":"verb"},
-{"pt":"entrar","ru":"входить","pos":"verb"},
-{"pt":"sair","ru":"выходить","pos":"verb"},
-{"pt":"ouvir","ru":"слышать","pos":"verb"},
-{"pt":"escrever","ru":"писать","pos":"verb"},
-{"pt":"ler","ru":"читать","pos":"verb"},
-{"pt":"perder","ru":"терять","pos":"verb"},
-{"pt":"ganhar","ru":"выигрывать","pos":"verb"},
-{"pt":"esperar","ru":"ждать","pos":"verb"},
-{"pt":"ajudar","ru":"помогать","pos":"verb"},
-{"pt":"gostar","ru":"нравиться","pos":"verb"},
-{"pt":"usar","ru":"использовать","pos":"verb"},
-{"pt":"mostrar","ru":"показывать","pos":"verb"},
-{"pt":"lembrar","ru":"помнить","pos":"verb"},
-{"pt":"tentar","ru":"пытаться","pos":"verb"},
-{"pt":"conseguir","ru":"удаваться","pos":"verb"},
-{"pt":"acabar","ru":"заканчивать","pos":"verb"},
-{"pt":"andar","ru":"ходить","pos":"verb"},
-{"pt":"correr","ru":"бежать","pos":"verb"},
-{"pt":"dormir","ru":"спать","pos":"verb"},
-{"pt":"acordar","ru":"просыпаться","pos":"verb"},
-{"pt":"morar","ru":"проживать","pos":"verb"},
-{"pt":"estudar","ru":"учиться","pos":"verb"},
-{"pt":"aprender","ru":"учить","pos":"verb"},
-{"pt":"ensinar","ru":"обучать","pos":"verb"},
-{"pt":"perguntar","ru":"спрашивать","pos":"verb"},
-{"pt":"responder","ru":"отвечать","pos":"verb"},
-{"pt":"chamar","ru":"звать","pos":"verb"},
-{"pt":"telefonar","ru":"звонить","pos":"verb"},
-{"pt":"jogar","ru":"играть","pos":"verb"},
-{"pt":"brincar","ru":"играть","pos":"verb"},
-{"pt":"pôr","ru":"класть","pos":"verb"},
-{"pt":"tirar","ru":"вынимать","pos":"verb"},
-{"pt":"mudar","ru":"менять","pos":"verb"},
-{"pt":"parar","ru":"останавливаться","pos":"verb"},
-{"pt":"seguir","ru":"следовать","pos":"verb"},
-{"pt":"subir","ru":"подниматься","pos":"verb"},
-{"pt":"descer","ru":"спускаться","pos":"verb"},
-{"pt":"cair","ru":"падать","pos":"verb"},
-{"pt":"nascer","ru":"рождаться","pos":"verb"},
-{"pt":"morrer","ru":"умирать","pos":"verb"},
-{"pt":"matar","ru":"убивать","pos":"verb"},
-{"pt":"casar","ru":"жениться","pos":"verb"},
-{"pt":"lavar","ru":"мыть","pos":"verb"},
-{"pt":"limpar","ru":"чистить","pos":"verb"},
-{"pt":"cozinhar","ru":"готовить","pos":"verb"},
-{"pt":"vender","ru":"продавать","pos":"verb"},
-{"pt":"custar","ru":"стоить","pos":"verb"},
-{"pt":"gastar","ru":"тратить","pos":"verb"},
-{"pt":"viajar","ru":"путешествовать","pos":"verb"},
-{"pt":"conduzir","ru":"водить","pos":"verb"},
-{"pt":"apanhar","ru":"ловить","pos":"verb"},
-{"pt":"guardar","ru":"хранить","pos":"verb"},
-{"pt":"receber","ru":"получать","pos":"verb"},
-{"pt":"enviar","ru":"отправлять","pos":"verb"},
-{"pt":"mandar","ru":"посылать","pos":"verb"},
-{"pt":"procurar","ru":"искать","pos":"verb"},
-{"pt":"escolher","ru":"выбирать","pos":"verb"},
-{"pt":"decidir","ru":"решать","pos":"verb"},
-{"pt":"explicar","ru":"объяснять","pos":"verb"},
-{"pt":"contar","ru":"рассказывать","pos":"verb"},
-{"pt":"entender","ru":"понимать","pos":"verb"},
-{"pt":"compreender","ru":"понимать","pos":"verb"},
-{"pt":"acreditar","ru":"верить","pos":"verb"},
-{"pt":"esquecer","ru":"забывать","pos":"verb"},
-{"pt":"continuar","ru":"продолжать","pos":"verb"},
-{"pt":"terminar","ru":"заканчивать","pos":"verb"},
-{"pt":"criar","ru":"создавать","pos":"verb"},
-{"pt":"construir","ru":"строить","pos":"verb"},
-{"pt":"cortar","ru":"резать","pos":"verb"},
-{"pt":"partir","ru":"уезжать","pos":"verb"},
-{"pt":"pegar","ru":"брать","pos":"verb"},
-{"pt":"segurar","ru":"держать","pos":"verb"},
-{"pt":"puxar","ru":"тянуть","pos":"verb"},
-{"pt":"empurrar","ru":"толкать","pos":"verb"},
-{"pt":"atirar","ru":"бросать","pos":"verb"},
-{"pt":"saltar","ru":"прыгать","pos":"verb"},
-{"pt":"nadar","ru":"плавать","pos":"verb"},
-{"pt":"cantar","ru":"петь","pos":"verb"},
-{"pt":"dançar","ru":"танцевать","pos":"verb"},
-{"pt":"rir","ru":"смеяться","pos":"verb"},
-{"pt":"chorar","ru":"плакать","pos":"verb"},
-{"pt":"sorrir","ru":"улыбаться","pos":"verb"},
-{"pt":"gritar","ru":"кричать","pos":"verb"},
-{"pt":"beijar","ru":"целовать","pos":"verb"},
-{"pt":"abraçar","ru":"обнимать","pos":"verb"},
-{"pt":"tocar","ru":"трогать","pos":"verb"},
-{"pt":"sentar","ru":"садиться","pos":"verb"},
-{"pt":"levantar","ru":"поднимать","pos":"verb"},
-{"pt":"deitar","ru":"ложиться","pos":"verb"},
-{"pt":"vestir","ru":"одевать","pos":"verb"},
-{"pt":"calçar","ru":"обувать","pos":"verb"},
-{"pt":"crescer","ru":"расти","pos":"verb"},
-{"pt":"pessoa","ru":"человек","pos":"noun"},
-{"pt":"homem","ru":"мужчина","pos":"noun"},
-{"pt":"mulher","ru":"женщина","pos":"noun"},
-{"pt":"criança","ru":"ребёнок","pos":"noun"},
-{"pt":"miúdo","ru":"ребёнок","pos":"noun"},
-{"pt":"rapaz","ru":"парень","pos":"noun"},
-{"pt":"rapariga","ru":"девушка","pos":"noun"},
-{"pt":"menino","ru":"мальчик","pos":"noun"},
-{"pt":"menina","ru":"девочка","pos":"noun"},
-{"pt":"bebé","ru":"младенец","pos":"noun"},
-{"pt":"gente","ru":"люди","pos":"noun"},
-{"pt":"amigo","ru":"друг","pos":"noun"},
-{"pt":"amiga","ru":"подруга","pos":"noun"},
-{"pt":"família","ru":"семья","pos":"noun"},
-{"pt":"pai","ru":"отец","pos":"noun"},
-{"pt":"mãe","ru":"мать","pos":"noun"},
-{"pt":"filho","ru":"сын","pos":"noun"},
-{"pt":"filha","ru":"дочь","pos":"noun"},
-{"pt":"irmão","ru":"брат","pos":"noun"},
-{"pt":"irmã","ru":"сестра","pos":"noun"},
-{"pt":"avô","ru":"дедушка","pos":"noun"},
-{"pt":"avó","ru":"бабушка","pos":"noun"},
-{"pt":"neto","ru":"внук","pos":"noun"},
-{"pt":"tio","ru":"дядя","pos":"noun"},
-{"pt":"tia","ru":"тётя","pos":"noun"},
-{"pt":"primo","ru":"двоюродный брат","pos":"noun"},
-{"pt":"sobrinho","ru":"племянник","pos":"noun"},
-{"pt":"marido","ru":"муж","pos":"noun"},
-{"pt":"esposa","ru":"жена","pos":"noun"},
-{"pt":"namorado","ru":"парень","pos":"noun"},
-{"pt":"namorada","ru":"девушка","pos":"noun"},
-{"pt":"vizinho","ru":"сосед","pos":"noun"},
-{"pt":"senhor","ru":"господин","pos":"noun"},
-{"pt":"senhora","ru":"госпожа","pos":"noun"},
-{"pt":"nome","ru":"имя","pos":"noun"},
-{"pt":"casa","ru":"дом","pos":"noun"},
-{"pt":"apartamento","ru":"квартира","pos":"noun"},
-{"pt":"quarto","ru":"комната","pos":"noun"},
-{"pt":"sala","ru":"гостиная","pos":"noun"},
-{"pt":"cozinha","ru":"кухня","pos":"noun"},
-{"pt":"casa de banho","ru":"ванная","pos":"noun"},
-{"pt":"porta","ru":"дверь","pos":"noun"},
-{"pt":"janela","ru":"окно","pos":"noun"},
-{"pt":"parede","ru":"стена","pos":"noun"},
-{"pt":"chão","ru":"пол","pos":"noun"},
-{"pt":"teto","ru":"потолок","pos":"noun"},
-{"pt":"telhado","ru":"крыша","pos":"noun"},
-{"pt":"escada","ru":"лестница","pos":"noun"},
-{"pt":"mesa","ru":"стол","pos":"noun"},
-{"pt":"cadeira","ru":"стул","pos":"noun"},
-{"pt":"cama","ru":"кровать","pos":"noun"},
-{"pt":"sofá","ru":"диван","pos":"noun"},
-{"pt":"armário","ru":"шкаф","pos":"noun"},
-{"pt":"frigorífico","ru":"холодильник","pos":"noun"},
-{"pt":"fogão","ru":"плита","pos":"noun"},
-{"pt":"forno","ru":"духовка","pos":"noun"},
-{"pt":"espelho","ru":"зеркало","pos":"noun"},
-{"pt":"candeeiro","ru":"лампа","pos":"noun"},
-{"pt":"tapete","ru":"ковёр","pos":"noun"},
-{"pt":"cortina","ru":"штора","pos":"noun"},
-{"pt":"chave","ru":"ключ","pos":"noun"},
-{"pt":"lâmpada","ru":"лампочка","pos":"noun"},
-{"pt":"relógio","ru":"часы","pos":"noun"},
-{"pt":"quadro","ru":"картина","pos":"noun"},
-{"pt":"livro","ru":"книга","pos":"noun"},
-{"pt":"caderno","ru":"тетрадь","pos":"noun"},
-{"pt":"caneta","ru":"ручка","pos":"noun"},
-{"pt":"lápis","ru":"карандаш","pos":"noun"},
-{"pt":"papel","ru":"бумага","pos":"noun"},
-{"pt":"carta","ru":"письмо","pos":"noun"},
-{"pt":"jornal","ru":"газета","pos":"noun"},
-{"pt":"revista","ru":"журнал","pos":"noun"},
-{"pt":"telemóvel","ru":"мобильник","pos":"noun"},
-{"pt":"telefone","ru":"телефон","pos":"noun"},
-{"pt":"computador","ru":"компьютер","pos":"noun"},
-{"pt":"ecrã","ru":"экран","pos":"noun"},
-{"pt":"televisão","ru":"телевизор","pos":"noun"},
-{"pt":"rádio","ru":"радио","pos":"noun"},
-{"pt":"máquina","ru":"машина","pos":"noun"},
-{"pt":"comida","ru":"еда","pos":"noun"},
-{"pt":"refeição","ru":"приём пищи","pos":"noun"},
-{"pt":"pequeno-almoço","ru":"завтрак","pos":"noun"},
-{"pt":"almoço","ru":"обед","pos":"noun"},
-{"pt":"jantar","ru":"ужин","pos":"noun"},
-{"pt":"lanche","ru":"перекус","pos":"noun"},
-{"pt":"pão","ru":"хлеб","pos":"noun"},
-{"pt":"manteiga","ru":"масло","pos":"noun"},
-{"pt":"queijo","ru":"сыр","pos":"noun"},
-{"pt":"fiambre","ru":"ветчина","pos":"noun"},
-{"pt":"ovo","ru":"яйцо","pos":"noun"},
-{"pt":"leite","ru":"молоко","pos":"noun"},
-{"pt":"café","ru":"кофе","pos":"noun"},
-{"pt":"chá","ru":"чай","pos":"noun"},
-{"pt":"água","ru":"вода","pos":"noun"},
-{"pt":"sumo","ru":"сок","pos":"noun"},
-{"pt":"vinho","ru":"вино","pos":"noun"},
-{"pt":"cerveja","ru":"пиво","pos":"noun"},
-{"pt":"açúcar","ru":"сахар","pos":"noun"},
-{"pt":"sal","ru":"соль","pos":"noun"},
-{"pt":"pimenta","ru":"перец","pos":"noun"},
-{"pt":"azeite","ru":"оливковое масло","pos":"noun"},
-{"pt":"carne","ru":"мясо","pos":"noun"},
-{"pt":"peixe","ru":"рыба","pos":"noun"},
-{"pt":"frango","ru":"курица","pos":"noun"},
-{"pt":"bacalhau","ru":"треска","pos":"noun"},
-{"pt":"arroz","ru":"рис","pos":"noun"},
-{"pt":"batata","ru":"картофель","pos":"noun"},
-{"pt":"massa","ru":"макароны","pos":"noun"},
-{"pt":"sopa","ru":"суп","pos":"noun"},
-{"pt":"salada","ru":"салат","pos":"noun"},
-{"pt":"legume","ru":"овощ","pos":"noun"},
-{"pt":"fruta","ru":"фрукт","pos":"noun"},
-{"pt":"maçã","ru":"яблоко","pos":"noun"},
-{"pt":"laranja","ru":"апельсин","pos":"noun"},
-{"pt":"banana","ru":"банан","pos":"noun"},
-{"pt":"uva","ru":"виноград","pos":"noun"},
-{"pt":"morango","ru":"клубника","pos":"noun"},
-{"pt":"limão","ru":"лимон","pos":"noun"},
-{"pt":"tomate","ru":"помидор","pos":"noun"},
-{"pt":"cebola","ru":"лук","pos":"noun"},
-{"pt":"alho","ru":"чеснок","pos":"noun"},
-{"pt":"cenoura","ru":"морковь","pos":"noun"},
-{"pt":"alface","ru":"салат","pos":"noun"},
-{"pt":"bolo","ru":"торт","pos":"noun"},
-{"pt":"bolacha","ru":"печенье","pos":"noun"},
-{"pt":"gelado","ru":"мороженое","pos":"noun"},
-{"pt":"chocolate","ru":"шоколад","pos":"noun"},
-{"pt":"doce","ru":"сладость","pos":"noun"},
-{"pt":"prato","ru":"тарелка","pos":"noun"},
-{"pt":"copo","ru":"стакан","pos":"noun"},
-{"pt":"chávena","ru":"чашка","pos":"noun"},
-{"pt":"garrafa","ru":"бутылка","pos":"noun"},
-{"pt":"garfo","ru":"вилка","pos":"noun"},
-{"pt":"faca","ru":"нож","pos":"noun"},
-{"pt":"colher","ru":"ложка","pos":"noun"},
-{"pt":"guardanapo","ru":"салфетка","pos":"noun"},
-{"pt":"restaurante","ru":"ресторан","pos":"noun"},
-{"pt":"ementa","ru":"меню","pos":"noun"},
-{"pt":"conta","ru":"счёт","pos":"noun"},
-{"pt":"loja","ru":"магазин","pos":"noun"},
-{"pt":"mercado","ru":"рынок","pos":"noun"},
-{"pt":"supermercado","ru":"супермаркет","pos":"noun"},
-{"pt":"padaria","ru":"пекарня","pos":"noun"},
-{"pt":"farmácia","ru":"аптека","pos":"noun"},
-{"pt":"dinheiro","ru":"деньги","pos":"noun"},
-{"pt":"preço","ru":"цена","pos":"noun"},
-{"pt":"troco","ru":"сдача","pos":"noun"},
-{"pt":"cartão","ru":"карта","pos":"noun"},
-{"pt":"moeda","ru":"монета","pos":"noun"},
-{"pt":"nota","ru":"купюра","pos":"noun"},
-{"pt":"cidade","ru":"город","pos":"noun"},
-{"pt":"aldeia","ru":"деревня","pos":"noun"},
-{"pt":"vila","ru":"посёлок","pos":"noun"},
-{"pt":"país","ru":"страна","pos":"noun"},
-{"pt":"rua","ru":"улица","pos":"noun"},
-{"pt":"avenida","ru":"проспект","pos":"noun"},
-{"pt":"praça","ru":"площадь","pos":"noun"},
-{"pt":"estrada","ru":"дорога","pos":"noun"},
-{"pt":"caminho","ru":"путь","pos":"noun"},
-{"pt":"ponte","ru":"мост","pos":"noun"},
-{"pt":"edifício","ru":"здание","pos":"noun"},
-{"pt":"prédio","ru":"здание","pos":"noun"},
-{"pt":"igreja","ru":"церковь","pos":"noun"},
-{"pt":"escola","ru":"школа","pos":"noun"},
-{"pt":"universidade","ru":"университет","pos":"noun"},
-{"pt":"hospital","ru":"больница","pos":"noun"},
-{"pt":"banco","ru":"банк","pos":"noun"},
-{"pt":"correio","ru":"почта","pos":"noun"},
-{"pt":"esquadra","ru":"полицейский участок","pos":"noun"},
-{"pt":"hotel","ru":"отель","pos":"noun"},
-{"pt":"museu","ru":"музей","pos":"noun"},
-{"pt":"cinema","ru":"кино","pos":"noun"},
-{"pt":"teatro","ru":"театр","pos":"noun"},
-{"pt":"parque","ru":"парк","pos":"noun"},
-{"pt":"jardim","ru":"сад","pos":"noun"},
-{"pt":"praia","ru":"пляж","pos":"noun"},
-{"pt":"campo","ru":"поле","pos":"noun"},
-{"pt":"quinta","ru":"ферма","pos":"noun"},
-{"pt":"aeroporto","ru":"аэропорт","pos":"noun"},
-{"pt":"estação","ru":"вокзал","pos":"noun"},
-{"pt":"paragem","ru":"остановка","pos":"noun"},
-{"pt":"carro","ru":"машина","pos":"noun"},
-{"pt":"autocarro","ru":"автобус","pos":"noun"},
-{"pt":"comboio","ru":"поезд","pos":"noun"},
-{"pt":"elétrico","ru":"трамвай","pos":"noun"},
-{"pt":"metro","ru":"метро","pos":"noun"},
-{"pt":"avião","ru":"самолёт","pos":"noun"},
-{"pt":"barco","ru":"лодка","pos":"noun"},
-{"pt":"navio","ru":"корабль","pos":"noun"},
-{"pt":"bicicleta","ru":"велосипед","pos":"noun"},
-{"pt":"mota","ru":"мотоцикл","pos":"noun"},
-{"pt":"táxi","ru":"такси","pos":"noun"},
-{"pt":"camião","ru":"грузовик","pos":"noun"},
-{"pt":"boleia","ru":"попутка","pos":"noun"},
-{"pt":"bilhete","ru":"билет","pos":"noun"},
-{"pt":"viagem","ru":"поездка","pos":"noun"},
-{"pt":"mapa","ru":"карта","pos":"noun"},
-{"pt":"trabalho","ru":"работа","pos":"noun"},
-{"pt":"emprego","ru":"работа","pos":"noun"},
-{"pt":"escritório","ru":"офис","pos":"noun"},
-{"pt":"empresa","ru":"компания","pos":"noun"},
-{"pt":"fábrica","ru":"завод","pos":"noun"},
-{"pt":"chefe","ru":"начальник","pos":"noun"},
-{"pt":"colega","ru":"коллега","pos":"noun"},
-{"pt":"cliente","ru":"клиент","pos":"noun"},
-{"pt":"reunião","ru":"встреча","pos":"noun"},
-{"pt":"professor","ru":"учитель","pos":"noun"},
-{"pt":"aluno","ru":"ученик","pos":"noun"},
-{"pt":"estudante","ru":"студент","pos":"noun"},
-{"pt":"médico","ru":"врач","pos":"noun"},
-{"pt":"enfermeiro","ru":"медбрат","pos":"noun"},
-{"pt":"advogado","ru":"адвокат","pos":"noun"},
-{"pt":"engenheiro","ru":"инженер","pos":"noun"},
-{"pt":"polícia","ru":"полицейский","pos":"noun"},
-{"pt":"bombeiro","ru":"пожарный","pos":"noun"},
-{"pt":"cozinheiro","ru":"повар","pos":"noun"},
-{"pt":"empregado","ru":"сотрудник","pos":"noun"},
-{"pt":"motorista","ru":"водитель","pos":"noun"},
-{"pt":"agricultor","ru":"фермер","pos":"noun"},
-{"pt":"vendedor","ru":"продавец","pos":"noun"},
-{"pt":"tempo","ru":"время","pos":"noun"},
-{"pt":"hora","ru":"час","pos":"noun"},
-{"pt":"minuto","ru":"минута","pos":"noun"},
-{"pt":"segundo","ru":"секунда","pos":"noun"},
-{"pt":"dia","ru":"день","pos":"noun"},
-{"pt":"semana","ru":"неделя","pos":"noun"},
-{"pt":"mês","ru":"месяц","pos":"noun"},
-{"pt":"ano","ru":"год","pos":"noun"},
-{"pt":"manhã","ru":"утро","pos":"noun"},
-{"pt":"tarde","ru":"день","pos":"noun"},
-{"pt":"noite","ru":"ночь","pos":"noun"},
-{"pt":"meio-dia","ru":"полдень","pos":"noun"},
-{"pt":"meia-noite","ru":"полночь","pos":"noun"},
-{"pt":"hoje","ru":"сегодня","pos":"adv"},
-{"pt":"ontem","ru":"вчера","pos":"adv"},
-{"pt":"amanhã","ru":"завтра","pos":"adv"},
-{"pt":"segunda-feira","ru":"понедельник","pos":"noun"},
-{"pt":"terça-feira","ru":"вторник","pos":"noun"},
-{"pt":"quarta-feira","ru":"среда","pos":"noun"},
-{"pt":"quinta-feira","ru":"четверг","pos":"noun"},
-{"pt":"sexta-feira","ru":"пятница","pos":"noun"},
-{"pt":"sábado","ru":"суббота","pos":"noun"},
-{"pt":"domingo","ru":"воскресенье","pos":"noun"},
-{"pt":"janeiro","ru":"январь","pos":"noun"},
-{"pt":"fevereiro","ru":"февраль","pos":"noun"},
-{"pt":"março","ru":"март","pos":"noun"},
-{"pt":"abril","ru":"апрель","pos":"noun"},
-{"pt":"maio","ru":"май","pos":"noun"},
-{"pt":"junho","ru":"июнь","pos":"noun"},
-{"pt":"julho","ru":"июль","pos":"noun"},
-{"pt":"agosto","ru":"август","pos":"noun"},
-{"pt":"setembro","ru":"сентябрь","pos":"noun"},
-{"pt":"outubro","ru":"октябрь","pos":"noun"},
-{"pt":"novembro","ru":"ноябрь","pos":"noun"},
-{"pt":"dezembro","ru":"декабрь","pos":"noun"},
-{"pt":"primavera","ru":"весна","pos":"noun"},
-{"pt":"verão","ru":"лето","pos":"noun"},
-{"pt":"outono","ru":"осень","pos":"noun"},
-{"pt":"inverno","ru":"зима","pos":"noun"},
-{"pt":"fim de semana","ru":"выходные","pos":"noun"},
-{"pt":"feriado","ru":"праздник","pos":"noun"},
-{"pt":"férias","ru":"отпуск","pos":"noun"},
-{"pt":"aniversário","ru":"день рождения","pos":"noun"},
-{"pt":"festa","ru":"праздник","pos":"noun"},
-{"pt":"corpo","ru":"тело","pos":"noun"},
-{"pt":"cabeça","ru":"голова","pos":"noun"},
-{"pt":"cabelo","ru":"волосы","pos":"noun"},
-{"pt":"cara","ru":"лицо","pos":"noun"},
-{"pt":"rosto","ru":"лицо","pos":"noun"},
-{"pt":"olho","ru":"глаз","pos":"noun"},
-{"pt":"nariz","ru":"нос","pos":"noun"},
-{"pt":"boca","ru":"рот","pos":"noun"},
-{"pt":"dente","ru":"зуб","pos":"noun"},
-{"pt":"língua","ru":"язык","pos":"noun"},
-{"pt":"orelha","ru":"ухо","pos":"noun"},
-{"pt":"pescoço","ru":"шея","pos":"noun"},
-{"pt":"ombro","ru":"плечо","pos":"noun"},
-{"pt":"braço","ru":"рука","pos":"noun"},
-{"pt":"mão","ru":"кисть","pos":"noun"},
-{"pt":"dedo","ru":"палец","pos":"noun"},
-{"pt":"perna","ru":"нога","pos":"noun"},
-{"pt":"pé","ru":"ступня","pos":"noun"},
-{"pt":"joelho","ru":"колено","pos":"noun"},
-{"pt":"costas","ru":"спина","pos":"noun"},
-{"pt":"barriga","ru":"живот","pos":"noun"},
-{"pt":"peito","ru":"грудь","pos":"noun"},
-{"pt":"coração","ru":"сердце","pos":"noun"},
-{"pt":"sangue","ru":"кровь","pos":"noun"},
-{"pt":"osso","ru":"кость","pos":"noun"},
-{"pt":"pele","ru":"кожа","pos":"noun"},
-{"pt":"saúde","ru":"здоровье","pos":"noun"},
-{"pt":"doença","ru":"болезнь","pos":"noun"},
-{"pt":"dor","ru":"боль","pos":"noun"},
-{"pt":"febre","ru":"лихорадка","pos":"noun"},
-{"pt":"gripe","ru":"грипп","pos":"noun"},
-{"pt":"remédio","ru":"лекарство","pos":"noun"},
-{"pt":"roupa","ru":"одежда","pos":"noun"},
-{"pt":"camisa","ru":"рубашка","pos":"noun"},
-{"pt":"camisola","ru":"свитер","pos":"noun"},
-{"pt":"t-shirt","ru":"футболка","pos":"noun"},
-{"pt":"calças","ru":"брюки","pos":"noun"},
-{"pt":"calção","ru":"шорты","pos":"noun"},
-{"pt":"saia","ru":"юбка","pos":"noun"},
-{"pt":"vestido","ru":"платье","pos":"noun"},
-{"pt":"casaco","ru":"куртка","pos":"noun"},
-{"pt":"fato","ru":"костюм","pos":"noun"},
-{"pt":"sapato","ru":"туфля","pos":"noun"},
-{"pt":"ténis","ru":"кроссовки","pos":"noun"},
-{"pt":"meia","ru":"носок","pos":"noun"},
-{"pt":"chapéu","ru":"шляпа","pos":"noun"},
-{"pt":"luva","ru":"перчатка","pos":"noun"},
-{"pt":"cachecol","ru":"шарф","pos":"noun"},
-{"pt":"cinto","ru":"ремень","pos":"noun"},
-{"pt":"óculos","ru":"очки","pos":"noun"},
-{"pt":"mala","ru":"сумка","pos":"noun"},
-{"pt":"bolso","ru":"карман","pos":"noun"},
-{"pt":"anel","ru":"кольцо","pos":"noun"},
-{"pt":"natureza","ru":"природа","pos":"noun"},
-{"pt":"céu","ru":"небо","pos":"noun"},
-{"pt":"sol","ru":"солнце","pos":"noun"},
-{"pt":"lua","ru":"луна","pos":"noun"},
-{"pt":"estrela","ru":"звезда","pos":"noun"},
-{"pt":"nuvem","ru":"облако","pos":"noun"},
-{"pt":"chuva","ru":"дождь","pos":"noun"},
-{"pt":"neve","ru":"снег","pos":"noun"},
-{"pt":"vento","ru":"ветер","pos":"noun"},
-{"pt":"trovoada","ru":"гроза","pos":"noun"},
-{"pt":"calor","ru":"жара","pos":"noun"},
-{"pt":"frio","ru":"холод","pos":"noun"},
-{"pt":"fogo","ru":"огонь","pos":"noun"},
-{"pt":"terra","ru":"земля","pos":"noun"},
-{"pt":"mar","ru":"море","pos":"noun"},
-{"pt":"rio","ru":"река","pos":"noun"},
-{"pt":"lago","ru":"озеро","pos":"noun"},
-{"pt":"montanha","ru":"гора","pos":"noun"},
-{"pt":"serra","ru":"горный хребет","pos":"noun"},
-{"pt":"floresta","ru":"лес","pos":"noun"},
-{"pt":"árvore","ru":"дерево","pos":"noun"},
-{"pt":"flor","ru":"цветок","pos":"noun"},
-{"pt":"erva","ru":"трава","pos":"noun"},
-{"pt":"folha","ru":"лист","pos":"noun"},
-{"pt":"planta","ru":"растение","pos":"noun"},
-{"pt":"pedra","ru":"камень","pos":"noun"},
-{"pt":"areia","ru":"песок","pos":"noun"},
-{"pt":"ilha","ru":"остров","pos":"noun"},
-{"pt":"animal","ru":"животное","pos":"noun"},
-{"pt":"cão","ru":"собака","pos":"noun"},
-{"pt":"gato","ru":"кошка","pos":"noun"},
-{"pt":"cavalo","ru":"лошадь","pos":"noun"},
-{"pt":"vaca","ru":"корова","pos":"noun"},
-{"pt":"porco","ru":"свинья","pos":"noun"},
-{"pt":"ovelha","ru":"овца","pos":"noun"},
-{"pt":"galinha","ru":"курица","pos":"noun"},
-{"pt":"pássaro","ru":"птица","pos":"noun"},
-{"pt":"rato","ru":"мышь","pos":"noun"},
-{"pt":"coelho","ru":"кролик","pos":"noun"},
-{"pt":"leão","ru":"лев","pos":"noun"},
-{"pt":"urso","ru":"медведь","pos":"noun"},
-{"pt":"lobo","ru":"волк","pos":"noun"},
-{"pt":"abelha","ru":"пчела","pos":"noun"},
-{"pt":"mosca","ru":"муха","pos":"noun"},
-{"pt":"aranha","ru":"паук","pos":"noun"},
-{"pt":"cobra","ru":"змея","pos":"noun"},
-{"pt":"cor","ru":"цвет","pos":"noun"},
-{"pt":"branco","ru":"белый","pos":"adj"},
-{"pt":"preto","ru":"чёрный","pos":"adj"},
-{"pt":"vermelho","ru":"красный","pos":"adj"},
-{"pt":"azul","ru":"синий","pos":"adj"},
-{"pt":"verde","ru":"зелёный","pos":"adj"},
-{"pt":"amarelo","ru":"жёлтый","pos":"adj"},
-{"pt":"cor-de-rosa","ru":"розовый","pos":"adj"},
-{"pt":"castanho","ru":"коричневый","pos":"adj"},
-{"pt":"cinzento","ru":"серый","pos":"adj"},
-{"pt":"roxo","ru":"фиолетовый","pos":"adj"},
-{"pt":"dourado","ru":"золотой","pos":"adj"},
-{"pt":"claro","ru":"светлый","pos":"adj"},
-{"pt":"escuro","ru":"тёмный","pos":"adj"},
-{"pt":"grande","ru":"большой","pos":"adj"},
-{"pt":"pequeno","ru":"маленький","pos":"adj"},
-{"pt":"alto","ru":"высокий","pos":"adj"},
-{"pt":"baixo","ru":"низкий","pos":"adj"},
-{"pt":"longo","ru":"длинный","pos":"adj"},
-{"pt":"curto","ru":"короткий","pos":"adj"},
-{"pt":"largo","ru":"широкий","pos":"adj"},
-{"pt":"estreito","ru":"узкий","pos":"adj"},
-{"pt":"gordo","ru":"толстый","pos":"adj"},
-{"pt":"magro","ru":"худой","pos":"adj"},
-{"pt":"novo","ru":"новый","pos":"adj"},
-{"pt":"velho","ru":"старый","pos":"adj"},
-{"pt":"jovem","ru":"молодой","pos":"adj"},
-{"pt":"bom","ru":"хороший","pos":"adj"},
-{"pt":"mau","ru":"плохой","pos":"adj"},
-{"pt":"bonito","ru":"красивый","pos":"adj"},
-{"pt":"feio","ru":"уродливый","pos":"adj"},
-{"pt":"giro","ru":"симпатичный","pos":"adj"},
-{"pt":"fixe","ru":"классный","pos":"adj"},
-{"pt":"fácil","ru":"лёгкий","pos":"adj"},
-{"pt":"difícil","ru":"трудный","pos":"adj"},
-{"pt":"rápido","ru":"быстрый","pos":"adj"},
-{"pt":"lento","ru":"медленный","pos":"adj"},
-{"pt":"forte","ru":"сильный","pos":"adj"},
-{"pt":"fraco","ru":"слабый","pos":"adj"},
-{"pt":"quente","ru":"горячий","pos":"adj"},
-{"pt":"morno","ru":"тёплый","pos":"adj"},
-{"pt":"seco","ru":"сухой","pos":"adj"},
-{"pt":"molhado","ru":"мокрый","pos":"adj"},
-{"pt":"limpo","ru":"чистый","pos":"adj"},
-{"pt":"sujo","ru":"грязный","pos":"adj"},
-{"pt":"cheio","ru":"полный","pos":"adj"},
-{"pt":"vazio","ru":"пустой","pos":"adj"},
-{"pt":"caro","ru":"дорогой","pos":"adj"},
-{"pt":"barato","ru":"дешёвый","pos":"adj"},
-{"pt":"rico","ru":"богатый","pos":"adj"},
-{"pt":"pobre","ru":"бедный","pos":"adj"},
-{"pt":"certo","ru":"правильный","pos":"adj"},
-{"pt":"errado","ru":"неправильный","pos":"adj"},
-{"pt":"verdadeiro","ru":"истинный","pos":"adj"},
-{"pt":"falso","ru":"ложный","pos":"adj"},
-{"pt":"importante","ru":"важный","pos":"adj"},
-{"pt":"interessante","ru":"интересный","pos":"adj"},
-{"pt":"perigoso","ru":"опасный","pos":"adj"},
-{"pt":"seguro","ru":"безопасный","pos":"adj"},
-{"pt":"feliz","ru":"счастливый","pos":"adj"},
-{"pt":"triste","ru":"грустный","pos":"adj"},
-{"pt":"contente","ru":"довольный","pos":"adj"},
-{"pt":"cansado","ru":"усталый","pos":"adj"},
-{"pt":"doente","ru":"больной","pos":"adj"},
-{"pt":"zangado","ru":"сердитый","pos":"adj"},
-{"pt":"nervoso","ru":"нервный","pos":"adj"},
-{"pt":"calmo","ru":"спокойный","pos":"adj"},
-{"pt":"simpático","ru":"приветливый","pos":"adj"},
-{"pt":"amável","ru":"любезный","pos":"adj"},
-{"pt":"inteligente","ru":"умный","pos":"adj"},
-{"pt":"estúpido","ru":"глупый","pos":"adj"},
-{"pt":"engraçado","ru":"забавный","pos":"adj"},
-{"pt":"sério","ru":"серьёзный","pos":"adj"},
-{"pt":"ocupado","ru":"занятый","pos":"adj"},
-{"pt":"livre","ru":"свободный","pos":"adj"},
-{"pt":"pronto","ru":"готовый","pos":"adj"},
-{"pt":"aberto","ru":"открытый","pos":"adj"},
-{"pt":"fechado","ru":"закрытый","pos":"adj"},
-{"pt":"duro","ru":"твёрдый","pos":"adj"},
-{"pt":"mole","ru":"мягкий","pos":"adj"},
-{"pt":"pesado","ru":"тяжёлый","pos":"adj"},
-{"pt":"leve","ru":"лёгкий","pos":"adj"},
-{"pt":"amargo","ru":"горький","pos":"adj"},
-{"pt":"salgado","ru":"солёный","pos":"adj"},
-{"pt":"azedo","ru":"кислый","pos":"adj"},
-{"pt":"saboroso","ru":"вкусный","pos":"adj"},
-{"pt":"fresco","ru":"свежий","pos":"adj"},
-{"pt":"maduro","ru":"спелый","pos":"adj"},
-{"pt":"primeiro","ru":"первый","pos":"num"},
-{"pt":"terceiro","ru":"третий","pos":"num"},
-{"pt":"último","ru":"последний","pos":"adj"},
-{"pt":"próximo","ru":"следующий","pos":"adj"},
-{"pt":"zero","ru":"ноль","pos":"num"},
-{"pt":"dois","ru":"два","pos":"num"},
-{"pt":"três","ru":"три","pos":"num"},
-{"pt":"quatro","ru":"четыре","pos":"num"},
-{"pt":"cinco","ru":"пять","pos":"num"},
-{"pt":"seis","ru":"шесть","pos":"num"},
-{"pt":"sete","ru":"семь","pos":"num"},
-{"pt":"oito","ru":"восемь","pos":"num"},
-{"pt":"nove","ru":"девять","pos":"num"},
-{"pt":"dez","ru":"десять","pos":"num"},
-{"pt":"onze","ru":"одиннадцать","pos":"num"},
-{"pt":"doze","ru":"двенадцать","pos":"num"},
-{"pt":"treze","ru":"тринадцать","pos":"num"},
-{"pt":"catorze","ru":"четырнадцать","pos":"num"},
-{"pt":"quinze","ru":"пятнадцать","pos":"num"},
-{"pt":"dezasseis","ru":"шестнадцать","pos":"num"},
-{"pt":"dezassete","ru":"семнадцать","pos":"num"},
-{"pt":"dezoito","ru":"восемнадцать","pos":"num"},
-{"pt":"dezanove","ru":"девятнадцать","pos":"num"},
-{"pt":"vinte","ru":"двадцать","pos":"num"},
-{"pt":"trinta","ru":"тридцать","pos":"num"},
-{"pt":"quarenta","ru":"сорок","pos":"num"},
-{"pt":"cinquenta","ru":"пятьдесят","pos":"num"},
-{"pt":"sessenta","ru":"шестьдесят","pos":"num"},
-{"pt":"setenta","ru":"семьдесят","pos":"num"},
-{"pt":"oitenta","ru":"восемьдесят","pos":"num"},
-{"pt":"noventa","ru":"девяносто","pos":"num"},
-{"pt":"cem","ru":"сто","pos":"num"},
-{"pt":"mil","ru":"тысяча","pos":"num"},
-{"pt":"milhão","ru":"миллион","pos":"num"},
-{"pt":"metade","ru":"половина","pos":"noun"},
-{"pt":"número","ru":"число","pos":"noun"},
-{"pt":"quantidade","ru":"количество","pos":"noun"},
-{"pt":"parte","ru":"часть","pos":"noun"},
-{"pt":"pedaço","ru":"кусок","pos":"noun"},
-{"pt":"pouco","ru":"немного","pos":"adv"},
-{"pt":"bastante","ru":"достаточно","pos":"adv"},
-{"pt":"demais","ru":"слишком","pos":"adv"},
-{"pt":"vez","ru":"раз","pos":"noun"},
-{"pt":"coisa","ru":"вещь","pos":"noun"},
-{"pt":"objeto","ru":"предмет","pos":"noun"},
-{"pt":"ideia","ru":"идея","pos":"noun"},
-{"pt":"palavra","ru":"слово","pos":"noun"},
-{"pt":"frase","ru":"фраза","pos":"noun"},
-{"pt":"pergunta","ru":"вопрос","pos":"noun"},
-{"pt":"resposta","ru":"ответ","pos":"noun"},
-{"pt":"problema","ru":"проблема","pos":"noun"},
-{"pt":"solução","ru":"решение","pos":"noun"},
-{"pt":"razão","ru":"причина","pos":"noun"},
-{"pt":"motivo","ru":"повод","pos":"noun"},
-{"pt":"história","ru":"история","pos":"noun"},
-{"pt":"vida","ru":"жизнь","pos":"noun"},
-{"pt":"morte","ru":"смерть","pos":"noun"},
-{"pt":"amor","ru":"любовь","pos":"noun"},
-{"pt":"verdade","ru":"правда","pos":"noun"},
-{"pt":"mentira","ru":"ложь","pos":"noun"},
-{"pt":"sorte","ru":"удача","pos":"noun"},
-{"pt":"medo","ru":"страх","pos":"noun"},
-{"pt":"alegria","ru":"радость","pos":"noun"},
-{"pt":"esperança","ru":"надежда","pos":"noun"},
-{"pt":"sonho","ru":"мечта","pos":"noun"},
-{"pt":"jogo","ru":"игра","pos":"noun"},
-{"pt":"música","ru":"музыка","pos":"noun"},
-{"pt":"canção","ru":"песня","pos":"noun"},
-{"pt":"filme","ru":"фильм","pos":"noun"},
-{"pt":"desporto","ru":"спорт","pos":"noun"},
-{"pt":"futebol","ru":"футбол","pos":"noun"},
-{"pt":"bola","ru":"мяч","pos":"noun"},
-{"pt":"equipa","ru":"команда","pos":"noun"},
-{"pt":"arte","ru":"искусство","pos":"noun"},
-{"pt":"foto","ru":"фотография","pos":"noun"},
-{"pt":"imagem","ru":"изображение","pos":"noun"},
-{"pt":"luz","ru":"свет","pos":"noun"},
-{"pt":"som","ru":"звук","pos":"noun"},
-{"pt":"voz","ru":"голос","pos":"noun"},
-{"pt":"barulho","ru":"шум","pos":"noun"},
-{"pt":"silêncio","ru":"тишина","pos":"noun"},
-{"pt":"lugar","ru":"место","pos":"noun"},
-{"pt":"sítio","ru":"место","pos":"noun"},
-{"pt":"espaço","ru":"пространство","pos":"noun"},
-{"pt":"ponto","ru":"точка","pos":"noun"},
-{"pt":"lado","ru":"сторона","pos":"noun"},
-{"pt":"meio","ru":"середина","pos":"noun"},
-{"pt":"fim","ru":"конец","pos":"noun"},
-{"pt":"início","ru":"начало","pos":"noun"},
-{"pt":"centro","ru":"центр","pos":"noun"},
-{"pt":"linha","ru":"линия","pos":"noun"},
-{"pt":"forma","ru":"форма","pos":"noun"},
-{"pt":"tamanho","ru":"размер","pos":"noun"},
-{"pt":"peso","ru":"вес","pos":"noun"},
-{"pt":"quilo","ru":"килограмм","pos":"noun"},
-{"pt":"grau","ru":"градус","pos":"noun"},
-{"pt":"nível","ru":"уровень","pos":"noun"},
-{"pt":"grupo","ru":"группа","pos":"noun"},
-{"pt":"fila","ru":"очередь","pos":"noun"},
-{"pt":"ordem","ru":"порядок","pos":"noun"},
-{"pt":"lista","ru":"список","pos":"noun"},
-{"pt":"exemplo","ru":"пример","pos":"noun"},
-{"pt":"caso","ru":"случай","pos":"noun"},
-{"pt":"facto","ru":"факт","pos":"noun"},
-{"pt":"notícia","ru":"новость","pos":"noun"},
-{"pt":"informação","ru":"информация","pos":"noun"},
-{"pt":"conhecimento","ru":"знание","pos":"noun"},
-{"pt":"experiência","ru":"опыт","pos":"noun"},
-{"pt":"erro","ru":"ошибка","pos":"noun"},
-{"pt":"mudança","ru":"изменение","pos":"noun"},
-{"pt":"diferença","ru":"разница","pos":"noun"},
-{"pt":"ajuda","ru":"помощь","pos":"noun"},
-{"pt":"favor","ru":"услуга","pos":"noun"},
-{"pt":"presente","ru":"подарок","pos":"noun"},
-{"pt":"surpresa","ru":"сюрприз","pos":"noun"},
-{"pt":"segredo","ru":"секрет","pos":"noun"},
-{"pt":"plano","ru":"план","pos":"noun"},
-{"pt":"projeto","ru":"проект","pos":"noun"},
-{"pt":"objetivo","ru":"цель","pos":"noun"},
-{"pt":"resultado","ru":"результат","pos":"noun"},
-{"pt":"sucesso","ru":"успех","pos":"noun"},
-{"pt":"fracasso","ru":"провал","pos":"noun"},
-{"pt":"tipo","ru":"тип","pos":"noun"},
-{"pt":"modo","ru":"способ","pos":"noun"},
-{"pt":"maneira","ru":"образ","pos":"noun"},
-{"pt":"estado","ru":"состояние","pos":"noun"},
-{"pt":"situação","ru":"ситуация","pos":"noun"},
-{"pt":"condição","ru":"условие","pos":"noun"},
-{"pt":"qualidade","ru":"качество","pos":"noun"},
-{"pt":"valor","ru":"ценность","pos":"noun"},
-{"pt":"direito","ru":"право","pos":"noun"},
-{"pt":"lei","ru":"закон","pos":"noun"},
-{"pt":"regra","ru":"правило","pos":"noun"},
-{"pt":"governo","ru":"правительство","pos":"noun"},
-{"pt":"guerra","ru":"война","pos":"noun"},
-{"pt":"paz","ru":"мир","pos":"noun"},
-{"pt":"mundo","ru":"мир","pos":"noun"},
-{"pt":"povo","ru":"народ","pos":"noun"},
-{"pt":"sociedade","ru":"общество","pos":"noun"},
-{"pt":"negócio","ru":"бизнес","pos":"noun"},
-{"pt":"serviço","ru":"услуга","pos":"noun"},
-{"pt":"produto","ru":"продукт","pos":"noun"},
-{"pt":"ferramenta","ru":"инструмент","pos":"noun"},
-{"pt":"material","ru":"материал","pos":"noun"},
-{"pt":"ferro","ru":"железо","pos":"noun"},
-{"pt":"ouro","ru":"золото","pos":"noun"},
-{"pt":"prata","ru":"серебро","pos":"noun"},
-{"pt":"madeira","ru":"дерево","pos":"noun"},
-{"pt":"vidro","ru":"стекло","pos":"noun"},
-{"pt":"plástico","ru":"пластик","pos":"noun"},
-{"pt":"máquina fotográfica","ru":"фотоаппарат","pos":"noun"},
-{"pt":"chuveiro","ru":"душ","pos":"noun"},
-{"pt":"sabonete","ru":"мыло","pos":"noun"},
-{"pt":"toalha","ru":"полотенце","pos":"noun"},
-{"pt":"escova","ru":"щётка","pos":"noun"},
-{"pt":"pente","ru":"расчёска","pos":"noun"},
-{"pt":"carteira","ru":"кошелёк","pos":"noun"},
-{"pt":"mochila","ru":"рюкзак","pos":"noun"},
-{"pt":"saco","ru":"пакет","pos":"noun"},
-{"pt":"caixa","ru":"коробка","pos":"noun"},
-{"pt":"garagem","ru":"гараж","pos":"noun"},
-{"pt":"elevador","ru":"лифт","pos":"noun"},
-{"pt":"varanda","ru":"балкон","pos":"noun"},
-{"pt":"morada","ru":"адрес","pos":"noun"},
-{"pt":"código","ru":"код","pos":"noun"},
-{"pt":"palavra-passe","ru":"пароль","pos":"noun"},
-{"pt":"rede","ru":"сеть","pos":"noun"},
-{"pt":"internet","ru":"интернет","pos":"noun"},
-{"pt":"mensagem","ru":"сообщение","pos":"noun"},
-{"pt":"correio eletrónico","ru":"электронная почта","pos":"noun"},
-{"pt":"ficheiro","ru":"файл","pos":"noun"},
-{"pt":"página","ru":"страница","pos":"noun"},
-{"pt":"documento","ru":"документ","pos":"noun"},
-{"pt":"passaporte","ru":"паспорт","pos":"noun"},
-{"pt":"bagagem","ru":"багаж","pos":"noun"},
-{"pt":"data","ru":"дата","pos":"noun"},
-{"pt":"idade","ru":"возраст","pos":"noun"},
-{"pt":"horário","ru":"расписание","pos":"noun"},
-{"pt":"momento","ru":"момент","pos":"noun"},
-{"pt":"instante","ru":"мгновение","pos":"noun"},
-{"pt":"século","ru":"век","pos":"noun"},
-{"pt":"futuro","ru":"будущее","pos":"noun"},
-{"pt":"passado","ru":"прошлое","pos":"noun"},
-{"pt":"antes","ru":"до","pos":"adv"},
-{"pt":"cedo","ru":"рано","pos":"adv"},
-{"pt":"logo","ru":"сразу","pos":"adv"},
-{"pt":"nunca","ru":"никогда","pos":"adv"},
-{"pt":"às vezes","ru":"иногда","pos":"adv"},
-{"pt":"raramente","ru":"редко","pos":"adv"},
-{"pt":"frequentemente","ru":"часто","pos":"adv"},
-{"pt":"novamente","ru":"снова","pos":"adv"},
-{"pt":"finalmente","ru":"наконец","pos":"adv"},
-{"pt":"rapidamente","ru":"быстро","pos":"adv"},
-{"pt":"devagar","ru":"медленно","pos":"adv"},
-{"pt":"juntos","ru":"вместе","pos":"adv"},
-{"pt":"sozinho","ru":"один","pos":"adj"},
-{"pt":"talvez","ru":"может быть","pos":"adv"},
-{"pt":"certamente","ru":"конечно","pos":"adv"},
-{"pt":"realmente","ru":"действительно","pos":"adv"},
-{"pt":"quase","ru":"почти","pos":"adv"},
-{"pt":"apenas","ru":"лишь","pos":"adv"},
-{"pt":"demasiado","ru":"чересчур","pos":"adv"},
-{"pt":"tão","ru":"так","pos":"adv"},
-{"pt":"menos","ru":"меньше","pos":"adv"},
-{"pt":"assim","ru":"так","pos":"adv"},
-{"pt":"melhor","ru":"лучше","pos":"adv"},
-{"pt":"pior","ru":"хуже","pos":"adv"},
-{"pt":"perto","ru":"близко","pos":"adv"},
-{"pt":"longe","ru":"далеко","pos":"adv"},
-{"pt":"dentro","ru":"внутри","pos":"adv"},
-{"pt":"fora","ru":"снаружи","pos":"adv"},
-{"pt":"cima","ru":"вверху","pos":"adv"},
-{"pt":"frente","ru":"впереди","pos":"adv"},
-{"pt":"atrás","ru":"сзади","pos":"adv"},
-{"pt":"direita","ru":"направо","pos":"noun"},
-{"pt":"esquerda","ru":"налево","pos":"noun"},
-{"pt":"sobre","ru":"о","pos":"prep"},
-{"pt":"entre","ru":"между","pos":"prep"},
-{"pt":"contra","ru":"против","pos":"prep"},
-{"pt":"sem","ru":"без","pos":"prep"},
-{"pt":"até","ru":"до","pos":"prep"},
-{"pt":"desde","ru":"с","pos":"prep"},
-{"pt":"durante","ru":"во время","pos":"prep"},
-{"pt":"perante","ru":"перед","pos":"prep"},
-{"pt":"conforme","ru":"в соответствии","pos":"prep"},
-{"pt":"embora","ru":"хотя","pos":"conj"},
-{"pt":"enquanto","ru":"пока","pos":"conj"},
-{"pt":"portanto","ru":"поэтому","pos":"conj"},
-{"pt":"contudo","ru":"однако","pos":"conj"},
-{"pt":"porém","ru":"однако","pos":"conj"},
-{"pt":"pois","ru":"ведь","pos":"conj"},
-{"pt":"sim","ru":"да","pos":"adv"},
-{"pt":"olá","ru":"привет","pos":"interj"},
-{"pt":"adeus","ru":"пока","pos":"interj"},
-{"pt":"obrigado","ru":"спасибо","pos":"interj"},
-{"pt":"obrigada","ru":"спасибо","pos":"interj"},
-{"pt":"desculpa","ru":"извини","pos":"interj"},
-{"pt":"bom dia","ru":"доброе утро","pos":"phrase"},
-{"pt":"boa tarde","ru":"добрый день","pos":"phrase"},
-{"pt":"boa noite","ru":"доброй ночи","pos":"phrase"},
-{"pt":"por favor","ru":"пожалуйста","pos":"phrase"},
-{"pt":"de nada","ru":"пожалуйста","pos":"phrase"},
-{"pt":"se faz favor","ru":"пожалуйста","pos":"phrase"},
-{"pt":"com licença","ru":"разрешите","pos":"phrase"},
-{"pt":"até logo","ru":"до встречи","pos":"phrase"},
-{"pt":"até amanhã","ru":"до завтра","pos":"phrase"},
-{"pt":"parabéns","ru":"поздравляю","pos":"interj"},
-{"pt":"pois é","ru":"вот именно","pos":"phrase"},
-{"pt":"se calhar","ru":"возможно","pos":"phrase"},
-{"pt":"está bem","ru":"хорошо","pos":"phrase"},
-{"pt":"de acordo","ru":"согласен","pos":"phrase"},
-{"pt":"não faz mal","ru":"ничего страшного","pos":"phrase"},
-{"pt":"boa sorte","ru":"удачи","pos":"phrase"},
-{"pt":"bem-vindo","ru":"добро пожаловать","pos":"interj"},
-{"pt":"cuidado","ru":"осторожно","pos":"interj"},
-{"pt":"socorro","ru":"помогите","pos":"interj"},
-{"pt":"pena","ru":"жаль","pos":"noun"},
-{"pt":"esquina","ru":"угол","pos":"noun"},
-{"pt":"semáforo","ru":"светофор","pos":"noun"},
-{"pt":"passeio","ru":"тротуар","pos":"noun"},
-{"pt":"trânsito","ru":"движение","pos":"noun"},
-{"pt":"acidente","ru":"авария","pos":"noun"},
-{"pt":"gasolina","ru":"бензин","pos":"noun"},
-{"pt":"roda","ru":"колесо","pos":"noun"},
-{"pt":"motor","ru":"двигатель","pos":"noun"},
-{"pt":"porta-bagagens","ru":"багажник","pos":"noun"},
-{"pt":"viatura","ru":"автомобиль","pos":"noun"},
-{"pt":"condutor","ru":"водитель","pos":"noun"},
-{"pt":"passageiro","ru":"пассажир","pos":"noun"},
-{"pt":"turista","ru":"турист","pos":"noun"},
-{"pt":"estrangeiro","ru":"иностранец","pos":"noun"},
-{"pt":"fronteira","ru":"граница","pos":"noun"},
-{"pt":"região","ru":"регион","pos":"noun"},
-{"pt":"norte","ru":"север","pos":"noun"},
-{"pt":"sul","ru":"юг","pos":"noun"},
-{"pt":"oeste","ru":"запад","pos":"noun"},
-{"pt":"distância","ru":"расстояние","pos":"noun"},
-{"pt":"quilómetro","ru":"километр","pos":"noun"},
-{"pt":"altura","ru":"высота","pos":"noun"},
-{"pt":"largura","ru":"ширина","pos":"noun"},
-{"pt":"profundidade","ru":"глубина","pos":"noun"},
-{"pt":"temperatura","ru":"температура","pos":"noun"},
-{"pt":"clima","ru":"климат","pos":"noun"},
-{"pt":"tempestade","ru":"буря","pos":"noun"},
-{"pt":"nevoeiro","ru":"туман","pos":"noun"},
-{"pt":"gelo","ru":"лёд","pos":"noun"},
-{"pt":"sombra","ru":"тень","pos":"noun"},
-{"pt":"raio","ru":"молния","pos":"noun"},
-{"pt":"onda","ru":"волна","pos":"noun"},
-{"pt":"vale","ru":"долина","pos":"noun"},
-{"pt":"colina","ru":"холм","pos":"noun"},
-{"pt":"deserto","ru":"пустыня","pos":"noun"},
-{"pt":"caverna","ru":"пещера","pos":"noun"},
-{"pt":"buraco","ru":"дыра","pos":"noun"},
-{"pt":"ninho","ru":"гнездо","pos":"noun"},
-{"pt":"asa","ru":"крыло","pos":"noun"},
-{"pt":"cauda","ru":"хвост","pos":"noun"},
-{"pt":"rabo","ru":"хвост","pos":"noun"},
-{"pt":"pata","ru":"лапа","pos":"noun"},
-{"pt":"fruto","ru":"плод","pos":"noun"},
-{"pt":"semente","ru":"семя","pos":"noun"},
-{"pt":"raiz","ru":"корень","pos":"noun"},
-{"pt":"ramo","ru":"ветка","pos":"noun"},
-{"pt":"tronco","ru":"ствол","pos":"noun"},
-{"pt":"horta","ru":"огород","pos":"noun"},
-{"pt":"pomar","ru":"сад","pos":"noun"},
-{"pt":"trigo","ru":"пшеница","pos":"noun"},
-{"pt":"milho","ru":"кукуруза","pos":"noun"},
-{"pt":"azeitona","ru":"оливка","pos":"noun"},
-{"pt":"feijão","ru":"фасоль","pos":"noun"},
-{"pt":"ervilha","ru":"горох","pos":"noun"},
-{"pt":"couve","ru":"капуста","pos":"noun"},
-{"pt":"pepino","ru":"огурец","pos":"noun"},
-{"pt":"pimento","ru":"перец","pos":"noun"},
-{"pt":"cogumelo","ru":"гриб","pos":"noun"},
-{"pt":"pera","ru":"груша","pos":"noun"},
-{"pt":"pêssego","ru":"персик","pos":"noun"},
-{"pt":"cereja","ru":"вишня","pos":"noun"},
-{"pt":"melancia","ru":"арбуз","pos":"noun"},
-{"pt":"melão","ru":"дыня","pos":"noun"},
-{"pt":"ananás","ru":"ананас","pos":"noun"},
-{"pt":"noz","ru":"орех","pos":"noun"},
-{"pt":"amêndoa","ru":"миндаль","pos":"noun"},
-{"pt":"mel","ru":"мёд","pos":"noun"},
-{"pt":"farinha","ru":"мука","pos":"noun"},
-{"pt":"iogurte","ru":"йогурт","pos":"noun"},
-{"pt":"natas","ru":"сливки","pos":"noun"},
-{"pt":"presunto","ru":"хамон","pos":"noun"},
-{"pt":"salsicha","ru":"сосиска","pos":"noun"},
-{"pt":"atum","ru":"тунец","pos":"noun"},
-{"pt":"camarão","ru":"креветка","pos":"noun"},
-{"pt":"marisco","ru":"морепродукты","pos":"noun"},
-{"pt":"sandes","ru":"бутерброд","pos":"noun"},
-{"pt":"pizza","ru":"пицца","pos":"noun"},
-{"pt":"sobremesa","ru":"десерт","pos":"noun"},
-{"pt":"pastel","ru":"пирожок","pos":"noun"},
-{"pt":"torrada","ru":"тост","pos":"noun"},
-{"pt":"refrigerante","ru":"газировка","pos":"noun"},
-{"pt":"tabuleiro","ru":"поднос","pos":"noun"},
-{"pt":"panela","ru":"кастрюля","pos":"noun"},
-{"pt":"frigideira","ru":"сковорода","pos":"noun"},
-{"pt":"tigela","ru":"миска","pos":"noun"},
-{"pt":"fatia","ru":"ломтик","pos":"noun"},
-{"pt":"receita","ru":"рецепт","pos":"noun"},
-{"pt":"fome","ru":"голод","pos":"noun"},
-{"pt":"sede","ru":"жажда","pos":"noun"},
-{"pt":"sabor","ru":"вкус","pos":"noun"},
-{"pt":"cheiro","ru":"запах","pos":"noun"},
-{"pt":"trabalhador","ru":"работник","pos":"noun"},
-{"pt":"patrão","ru":"хозяин","pos":"noun"},
-{"pt":"salário","ru":"зарплата","pos":"noun"},
-{"pt":"contrato","ru":"контракт","pos":"noun"},
-{"pt":"tarefa","ru":"задача","pos":"noun"},
-{"pt":"função","ru":"функция","pos":"noun"},
-{"pt":"cargo","ru":"должность","pos":"noun"},
-{"pt":"carreira","ru":"карьера","pos":"noun"},
-{"pt":"formação","ru":"обучение","pos":"noun"},
-{"pt":"curso","ru":"курс","pos":"noun"},
-{"pt":"aula","ru":"урок","pos":"noun"},
-{"pt":"lição","ru":"урок","pos":"noun"},
-{"pt":"exame","ru":"экзамен","pos":"noun"},
-{"pt":"teste","ru":"тест","pos":"noun"},
-{"pt":"trabalho de casa","ru":"домашнее задание","pos":"noun"},
-{"pt":"turma","ru":"класс","pos":"noun"},
-{"pt":"matemática","ru":"математика","pos":"noun"},
-{"pt":"geografia","ru":"география","pos":"noun"},
-{"pt":"ciência","ru":"наука","pos":"noun"},
-{"pt":"letra","ru":"буква","pos":"noun"},
-{"pt":"dúvida","ru":"сомнение","pos":"noun"},
-{"pt":"consulta","ru":"приём","pos":"noun"},
-{"pt":"tratamento","ru":"лечение","pos":"noun"},
-{"pt":"vacina","ru":"вакцина","pos":"noun"},
-{"pt":"ferida","ru":"рана","pos":"noun"},
-{"pt":"tosse","ru":"кашель","pos":"noun"},
-{"pt":"constipação","ru":"простуда","pos":"noun"},
-{"pt":"dentista","ru":"стоматолог","pos":"noun"},
-{"pt":"farmacêutico","ru":"фармацевт","pos":"noun"},
-{"pt":"paciente","ru":"пациент","pos":"noun"},
-{"pt":"ambulância","ru":"скорая помощь","pos":"noun"},
-{"pt":"emergência","ru":"чрезвычайная ситуация","pos":"noun"},
-{"pt":"risco","ru":"риск","pos":"noun"},
-{"pt":"perigo","ru":"опасность","pos":"noun"},
-{"pt":"segurança","ru":"безопасность","pos":"noun"},
-{"pt":"soldado","ru":"солдат","pos":"noun"},
-{"pt":"exército","ru":"армия","pos":"noun"},
-{"pt":"rei","ru":"король","pos":"noun"},
-{"pt":"rainha","ru":"королева","pos":"noun"},
-{"pt":"presidente","ru":"президент","pos":"noun"},
-{"pt":"político","ru":"политик","pos":"noun"},
-{"pt":"cidadão","ru":"гражданин","pos":"noun"},
-{"pt":"imposto","ru":"налог","pos":"noun"},
-{"pt":"economia","ru":"экономика","pos":"noun"},
-{"pt":"fatura","ru":"счёт","pos":"noun"},
-{"pt":"recibo","ru":"квитанция","pos":"noun"},
-{"pt":"desconto","ru":"скидка","pos":"noun"},
-{"pt":"compra","ru":"покупка","pos":"noun"},
-{"pt":"venda","ru":"продажа","pos":"noun"},
-{"pt":"talho","ru":"мясная лавка","pos":"noun"},
-{"pt":"peixaria","ru":"рыбный магазин","pos":"noun"},
-{"pt":"mercearia","ru":"бакалея","pos":"noun"},
-{"pt":"livraria","ru":"книжный магазин","pos":"noun"},
-{"pt":"biblioteca","ru":"библиотека","pos":"noun"},
-{"pt":"cabeleireiro","ru":"парикмахер","pos":"noun"},
-{"pt":"centro comercial","ru":"торговый центр","pos":"noun"},
-{"pt":"montra","ru":"витрина","pos":"noun"},
-{"pt":"balcão","ru":"прилавок","pos":"noun"},
-{"pt":"carrinho","ru":"тележка","pos":"noun"},
-{"pt":"embrulho","ru":"свёрток","pos":"noun"},
-{"pt":"marca","ru":"марка","pos":"noun"},
-{"pt":"moda","ru":"мода","pos":"noun"},
-{"pt":"cabide","ru":"вешалка","pos":"noun"},
-{"pt":"botão","ru":"пуговица","pos":"noun"},
-{"pt":"fecho","ru":"молния","pos":"noun"},
-{"pt":"bota","ru":"сапог","pos":"noun"},
-{"pt":"sandália","ru":"сандалия","pos":"noun"},
-{"pt":"pijama","ru":"пижама","pos":"noun"},
-{"pt":"roupa interior","ru":"нижнее бельё","pos":"noun"},
-{"pt":"guarda-chuva","ru":"зонт","pos":"noun"},
-{"pt":"relógio de pulso","ru":"наручные часы","pos":"noun"},
-{"pt":"colar","ru":"ожерелье","pos":"noun"},
-{"pt":"brinco","ru":"серьга","pos":"noun"},
-{"pt":"pulseira","ru":"браслет","pos":"noun"},
-{"pt":"tecido","ru":"ткань","pos":"noun"},
-{"pt":"algodão","ru":"хлопок","pos":"noun"},
-{"pt":"lã","ru":"шерсть","pos":"noun"},
-{"pt":"seda","ru":"шёлк","pos":"noun"},
-{"pt":"couro","ru":"кожа","pos":"noun"},
-{"pt":"agulha","ru":"игла","pos":"noun"},
-{"pt":"tesoura","ru":"ножницы","pos":"noun"},
-{"pt":"martelo","ru":"молоток","pos":"noun"},
-{"pt":"prego","ru":"гвоздь","pos":"noun"},
-{"pt":"chave de fendas","ru":"отвёртка","pos":"noun"},
-{"pt":"corda","ru":"верёвка","pos":"noun"},
-{"pt":"fio","ru":"провод","pos":"noun"},
-{"pt":"pilha","ru":"батарейка","pos":"noun"},
-{"pt":"tomada","ru":"розетка","pos":"noun"},
-{"pt":"interruptor","ru":"выключатель","pos":"noun"},
-{"pt":"torneira","ru":"кран","pos":"noun"},
-{"pt":"tubo","ru":"труба","pos":"noun"},
-{"pt":"caixote","ru":"ящик","pos":"noun"},
-{"pt":"lixo","ru":"мусор","pos":"noun"},
-{"pt":"poeira","ru":"пыль","pos":"noun"},
-{"pt":"vassoura","ru":"метла","pos":"noun"},
-{"pt":"balde","ru":"ведро","pos":"noun"},
-{"pt":"lençol","ru":"простыня","pos":"noun"},
-{"pt":"cobertor","ru":"одеяло","pos":"noun"},
-{"pt":"almofada","ru":"подушка","pos":"noun"},
-{"pt":"manta","ru":"плед","pos":"noun"},
-{"pt":"vela","ru":"свеча","pos":"noun"},
-{"pt":"fósforo","ru":"спичка","pos":"noun"},
-{"pt":"isqueiro","ru":"зажигалка","pos":"noun"},
-{"pt":"cigarro","ru":"сигарета","pos":"noun"},
-{"pt":"anúncio","ru":"объявление","pos":"noun"},
-{"pt":"publicidade","ru":"реклама","pos":"noun"},
-{"pt":"cartaz","ru":"плакат","pos":"noun"},
-{"pt":"selo","ru":"марка","pos":"noun"},
-{"pt":"envelope","ru":"конверт","pos":"noun"},
-{"pt":"encomenda","ru":"посылка","pos":"noun"},
-{"pt":"telefonema","ru":"телефонный звонок","pos":"noun"},
-{"pt":"ligação","ru":"соединение","pos":"noun"},
-{"pt":"tecla","ru":"клавиша","pos":"noun"},
-{"pt":"teclado","ru":"клавиатура","pos":"noun"},
-{"pt":"auscultadores","ru":"наушники","pos":"noun"},
-{"pt":"carregador","ru":"зарядка","pos":"noun"},
-{"pt":"aplicação","ru":"приложение","pos":"noun"},
-{"pt":"vídeo","ru":"видео","pos":"noun"},
-{"pt":"canal","ru":"канал","pos":"noun"},
-{"pt":"programa","ru":"программа","pos":"noun"},
-{"pt":"notícias","ru":"новости","pos":"noun"},
-{"pt":"ator","ru":"актёр","pos":"noun"},
-{"pt":"cantor","ru":"певец","pos":"noun"},
-{"pt":"artista","ru":"художник","pos":"noun"},
-{"pt":"escritor","ru":"писатель","pos":"noun"},
-{"pt":"pintor","ru":"художник","pos":"noun"},
-{"pt":"instrumento","ru":"инструмент","pos":"noun"},
-{"pt":"guitarra","ru":"гитара","pos":"noun"},
-{"pt":"piano","ru":"пианино","pos":"noun"},
-{"pt":"tambor","ru":"барабан","pos":"noun"},
-{"pt":"concerto","ru":"концерт","pos":"noun"},
-{"pt":"espetáculo","ru":"представление","pos":"noun"},
-{"pt":"palco","ru":"сцена","pos":"noun"},
-{"pt":"público","ru":"публика","pos":"noun"},
-{"pt":"jogador","ru":"игрок","pos":"noun"},
-{"pt":"treinador","ru":"тренер","pos":"noun"},
-{"pt":"árbitro","ru":"судья","pos":"noun"},
-{"pt":"golo","ru":"гол","pos":"noun"},
-{"pt":"campeonato","ru":"чемпионат","pos":"noun"},
-{"pt":"estádio","ru":"стадион","pos":"noun"},
-{"pt":"ginásio","ru":"спортзал","pos":"noun"},
-{"pt":"piscina","ru":"бассейн","pos":"noun"},
-{"pt":"corrida","ru":"бег","pos":"noun"},
-{"pt":"natação","ru":"плавание","pos":"noun"},
-{"pt":"ciclismo","ru":"велоспорт","pos":"noun"},
-{"pt":"caminhada","ru":"поход","pos":"noun"},
-{"pt":"aventura","ru":"приключение","pos":"noun"},
-{"pt":"hobby","ru":"хобби","pos":"noun"},
-{"pt":"leitura","ru":"чтение","pos":"noun"},
-{"pt":"pintura","ru":"живопись","pos":"noun"},
-{"pt":"dança","ru":"танец","pos":"noun"},
-{"pt":"brinquedo","ru":"игрушка","pos":"noun"},
-{"pt":"boneca","ru":"кукла","pos":"noun"},
-{"pt":"balão","ru":"воздушный шар","pos":"noun"},
-{"pt":"casamento","ru":"свадьба","pos":"noun"},
-{"pt":"funeral","ru":"похороны","pos":"noun"},
-{"pt":"batizado","ru":"крещение","pos":"noun"},
-{"pt":"convidado","ru":"гость","pos":"noun"},
-{"pt":"convite","ru":"приглашение","pos":"noun"},
-{"pt":"tradição","ru":"традиция","pos":"noun"},
-{"pt":"costume","ru":"обычай","pos":"noun"},
-{"pt":"religião","ru":"религия","pos":"noun"},
-{"pt":"deus","ru":"бог","pos":"noun"},
-{"pt":"padre","ru":"священник","pos":"noun"},
-{"pt":"alma","ru":"душа","pos":"noun"},
-{"pt":"anjo","ru":"ангел","pos":"noun"},
-{"pt":"sino","ru":"колокол","pos":"noun"},
-{"pt":"oração","ru":"молитва","pos":"noun"},
-{"pt":"saudade","ru":"тоска","pos":"noun"},
-{"pt":"carinho","ru":"нежность","pos":"noun"},
-{"pt":"beijo","ru":"поцелуй","pos":"noun"},
-{"pt":"abraço","ru":"объятие","pos":"noun"},
-{"pt":"raiva","ru":"гнев","pos":"noun"},
-{"pt":"ciúme","ru":"ревность","pos":"noun"},
-{"pt":"vergonha","ru":"стыд","pos":"noun"},
-{"pt":"orgulho","ru":"гордость","pos":"noun"},
-{"pt":"preguiça","ru":"лень","pos":"noun"},
-{"pt":"coragem","ru":"смелость","pos":"noun"},
-{"pt":"paciência","ru":"терпение","pos":"noun"},
-{"pt":"confiança","ru":"доверие","pos":"noun"},
-{"pt":"respeito","ru":"уважение","pos":"noun"},
-{"pt":"amizade","ru":"дружба","pos":"noun"},
-{"pt":"ódio","ru":"ненависть","pos":"noun"},
-{"pt":"desejo","ru":"желание","pos":"noun"},
-{"pt":"vontade","ru":"воля","pos":"noun"},
-{"pt":"opinião","ru":"мнение","pos":"noun"},
-{"pt":"pensamento","ru":"мысль","pos":"noun"},
-{"pt":"memória","ru":"память","pos":"noun"},
-{"pt":"atenção","ru":"внимание","pos":"noun"},
-{"pt":"pressa","ru":"спешка","pos":"noun"},
-{"pt":"calma","ru":"спокойствие","pos":"noun"},
-{"pt":"esforço","ru":"усилие","pos":"noun"},
-{"pt":"força","ru":"сила","pos":"noun"},
-{"pt":"energia","ru":"энергия","pos":"noun"},
-{"pt":"liberdade","ru":"свобода","pos":"noun"},
-{"pt":"felicidade","ru":"счастье","pos":"noun"},
-{"pt":"tristeza","ru":"печаль","pos":"noun"},
-{"pt":"prazer","ru":"удовольствие","pos":"noun"},
-{"pt":"interesse","ru":"интерес","pos":"noun"},
-{"pt":"gosto","ru":"вкус","pos":"noun"},
-{"pt":"escolha","ru":"выбор","pos":"noun"},
-{"pt":"decisão","ru":"решение","pos":"noun"},
-{"pt":"acordo","ru":"соглашение","pos":"noun"},
-{"pt":"promessa","ru":"обещание","pos":"noun"},
-{"pt":"conselho","ru":"совет","pos":"noun"},
-{"pt":"aviso","ru":"предупреждение","pos":"noun"},
-{"pt":"pedido","ru":"просьба","pos":"noun"},
-{"pt":"queixa","ru":"жалоба","pos":"noun"},
-{"pt":"discussão","ru":"спор","pos":"noun"},
-{"pt":"conversa","ru":"разговор","pos":"noun"},
-{"pt":"diálogo","ru":"диалог","pos":"noun"},
-{"pt":"encontro","ru":"встреча","pos":"noun"},
-{"pt":"visita","ru":"визит","pos":"noun"},
-{"pt":"convívio","ru":"общение","pos":"noun"},
-{"pt":"relação","ru":"отношение","pos":"noun"},
-{"pt":"contacto","ru":"контакт","pos":"noun"},
-{"pt":"vizinhança","ru":"соседство","pos":"noun"},
-{"pt":"comunidade","ru":"сообщество","pos":"noun"},
-{"pt":"geração","ru":"поколение","pos":"noun"},
-{"pt":"infância","ru":"детство","pos":"noun"},
-{"pt":"juventude","ru":"молодость","pos":"noun"},
-{"pt":"velhice","ru":"старость","pos":"noun"},
-{"pt":"ser humano","ru":"человек","pos":"noun"},
-{"pt":"ambiente","ru":"окружающая среда","pos":"noun"},
-{"pt":"poluição","ru":"загрязнение","pos":"noun"},
-{"pt":"eletricidade","ru":"электричество","pos":"noun"},
-{"pt":"ar","ru":"воздух","pos":"noun"},
-{"pt":"espécie","ru":"вид","pos":"noun"},
-{"pt":"inseto","ru":"насекомое","pos":"noun"},
-{"pt":"borboleta","ru":"бабочка","pos":"noun"},
-{"pt":"formiga","ru":"муравей","pos":"noun"},
-{"pt":"mosquito","ru":"комар","pos":"noun"},
-{"pt":"tartaruga","ru":"черепаха","pos":"noun"},
-{"pt":"golfinho","ru":"дельфин","pos":"noun"},
-{"pt":"baleia","ru":"кит","pos":"noun"},
-{"pt":"tubarão","ru":"акула","pos":"noun"},
-{"pt":"águia","ru":"орёл","pos":"noun"},
-{"pt":"pomba","ru":"голубь","pos":"noun"},
-{"pt":"pato","ru":"утка","pos":"noun"},
-{"pt":"galo","ru":"петух","pos":"noun"},
-{"pt":"burro","ru":"осёл","pos":"noun"},
-{"pt":"cabra","ru":"коза","pos":"noun"},
-{"pt":"touro","ru":"бык","pos":"noun"},
-{"pt":"macaco","ru":"обезьяна","pos":"noun"},
-{"pt":"elefante","ru":"слон","pos":"noun"},
-{"pt":"girafa","ru":"жираф","pos":"noun"},
-{"pt":"raposa","ru":"лиса","pos":"noun"},
-{"pt":"esquilo","ru":"белка","pos":"noun"},
-{"pt":"sapo","ru":"лягушка","pos":"noun"},
-{"pt":"caracol","ru":"улитка","pos":"noun"},
-{"pt":"antigo","ru":"старинный","pos":"adj"},
-{"pt":"moderno","ru":"современный","pos":"adj"},
-{"pt":"atual","ru":"нынешний","pos":"adj"},
-{"pt":"comum","ru":"обычный","pos":"adj"},
-{"pt":"normal","ru":"нормальный","pos":"adj"},
-{"pt":"estranho","ru":"странный","pos":"adj"},
-{"pt":"especial","ru":"особенный","pos":"adj"},
-{"pt":"diferente","ru":"другой","pos":"adj"},
-{"pt":"igual","ru":"одинаковый","pos":"adj"},
-{"pt":"parecido","ru":"похожий","pos":"adj"},
-{"pt":"único","ru":"единственный","pos":"adj"},
-{"pt":"real","ru":"реальный","pos":"adj"},
-{"pt":"possível","ru":"возможный","pos":"adj"},
-{"pt":"impossível","ru":"невозможный","pos":"adj"},
-{"pt":"necessário","ru":"необходимый","pos":"adj"},
-{"pt":"útil","ru":"полезный","pos":"adj"},
-{"pt":"inútil","ru":"бесполезный","pos":"adj"},
-{"pt":"perfeito","ru":"идеальный","pos":"adj"},
-{"pt":"completo","ru":"полный","pos":"adj"},
-{"pt":"inteiro","ru":"целый","pos":"adj"},
-{"pt":"simples","ru":"простой","pos":"adj"},
-{"pt":"complicado","ru":"сложный","pos":"adj"},
-{"pt":"profundo","ru":"глубокий","pos":"adj"},
-{"pt":"vasto","ru":"обширный","pos":"adj"},
-{"pt":"enorme","ru":"огромный","pos":"adj"},
-{"pt":"minúsculo","ru":"крошечный","pos":"adj"},
-{"pt":"médio","ru":"средний","pos":"adj"},
-{"pt":"redondo","ru":"круглый","pos":"adj"},
-{"pt":"quadrado","ru":"квадратный","pos":"adj"},
-{"pt":"reto","ru":"прямой","pos":"adj"},
-{"pt":"torto","ru":"кривой","pos":"adj"},
-{"pt":"liso","ru":"гладкий","pos":"adj"},
-{"pt":"áspero","ru":"шершавый","pos":"adj"},
-{"pt":"macio","ru":"мягкий","pos":"adj"},
-{"pt":"afiado","ru":"острый","pos":"adj"},
-{"pt":"barulhento","ru":"шумный","pos":"adj"},
-{"pt":"silencioso","ru":"беззвучный","pos":"adj"},
-{"pt":"luminoso","ru":"светлый","pos":"adj"},
-{"pt":"brilhante","ru":"блестящий","pos":"adj"},
-{"pt":"famoso","ru":"знаменитый","pos":"adj"},
-{"pt":"conhecido","ru":"известный","pos":"adj"},
-{"pt":"desconhecido","ru":"неизвестный","pos":"adj"},
-{"pt":"privado","ru":"частный","pos":"adj"},
-{"pt":"nacional","ru":"национальный","pos":"adj"},
-{"pt":"internacional","ru":"международный","pos":"adj"},
-{"pt":"local","ru":"местный","pos":"adj"},
-{"pt":"geral","ru":"общий","pos":"adj"},
-{"pt":"principal","ru":"главный","pos":"adj"},
-{"pt":"central","ru":"центральный","pos":"adj"},
-{"pt":"final","ru":"окончательный","pos":"adj"},
-{"pt":"seguinte","ru":"следующий","pos":"adj"},
-{"pt":"anterior","ru":"предыдущий","pos":"adj"},
-{"pt":"recente","ru":"недавний","pos":"adj"},
-{"pt":"ausente","ru":"отсутствующий","pos":"adj"},
-{"pt":"vivo","ru":"живой","pos":"adj"},
-{"pt":"morto","ru":"мёртвый","pos":"adj"},
-{"pt":"saudável","ru":"здоровый","pos":"adj"},
-{"pt":"perdido","ru":"потерянный","pos":"adj"},
-{"pt":"encontrado","ru":"найденный","pos":"adj"},
-{"pt":"quebrado","ru":"сломанный","pos":"adj"},
-{"pt":"partido","ru":"разбитый","pos":"adj"},
-{"pt":"estragado","ru":"испорченный","pos":"adj"},
-{"pt":"usado","ru":"подержанный","pos":"adj"},
-{"pt":"gratuito","ru":"бесплатный","pos":"adj"},
-{"pt":"incrível","ru":"невероятный","pos":"adj"},
-{"pt":"terrível","ru":"ужасный","pos":"adj"},
-{"pt":"horrível","ru":"отвратительный","pos":"adj"},
-{"pt":"maravilhoso","ru":"чудесный","pos":"adj"},
-{"pt":"excelente","ru":"отличный","pos":"adj"},
-{"pt":"ótimo","ru":"превосходный","pos":"adj"},
-{"pt":"péssimo","ru":"ужасный","pos":"adj"},
-{"pt":"agradável","ru":"приятный","pos":"adj"},
-{"pt":"desagradável","ru":"неприятный","pos":"adj"},
-{"pt":"confortável","ru":"удобный","pos":"adj"},
-{"pt":"elegante","ru":"элегантный","pos":"adj"},
-{"pt":"tranquilo","ru":"спокойный","pos":"adj"},
-{"pt":"alegre","ru":"весёлый","pos":"adj"},
-{"pt":"preocupado","ru":"обеспокоенный","pos":"adj"},
-{"pt":"assustado","ru":"испуганный","pos":"adj"},
-{"pt":"surpreendido","ru":"удивлённый","pos":"adj"},
-{"pt":"aborrecido","ru":"скучающий","pos":"adj"},
-{"pt":"entediado","ru":"скучный","pos":"adj"},
-{"pt":"orgulhoso","ru":"гордый","pos":"adj"},
-{"pt":"tímido","ru":"застенчивый","pos":"adj"},
-{"pt":"corajoso","ru":"храбрый","pos":"adj"},
-{"pt":"honesto","ru":"честный","pos":"adj"},
-{"pt":"generoso","ru":"щедрый","pos":"adj"},
-{"pt":"egoísta","ru":"эгоистичный","pos":"adj"},
-{"pt":"educado","ru":"вежливый","pos":"adj"},
-{"pt":"malcriado","ru":"грубый","pos":"adj"},
-{"pt":"preguiçoso","ru":"ленивый","pos":"adj"},
-{"pt":"responsável","ru":"ответственный","pos":"adj"},
-{"pt":"cuidadoso","ru":"осторожный","pos":"adj"},
-{"pt":"atento","ru":"внимательный","pos":"adj"},
-{"pt":"distraído","ru":"рассеянный","pos":"adj"},
-{"pt":"esperto","ru":"сообразительный","pos":"adj"},
-{"pt":"louco","ru":"сумасшедший","pos":"adj"},
-{"pt":"doido","ru":"безумный","pos":"adj"},
-{"pt":"sortudo","ru":"везучий","pos":"adj"},
-{"pt":"casado","ru":"женатый","pos":"adj"},
-{"pt":"solteiro","ru":"холостой","pos":"adj"},
-{"pt":"grávida","ru":"беременная","pos":"adj"},
-{"pt":"careca","ru":"лысый","pos":"adj"},
-{"pt":"loiro","ru":"светловолосый","pos":"adj"},
-{"pt":"moreno","ru":"темноволосый","pos":"adj"},
-{"pt":"cego","ru":"слепой","pos":"adj"},
-{"pt":"surdo","ru":"глухой","pos":"adj"},
-{"pt":"comprido","ru":"длинный","pos":"adj"},
-{"pt":"fundo","ru":"глубокий","pos":"adj"},
-{"pt":"raso","ru":"мелкий","pos":"adj"},
-{"pt":"apertado","ru":"тесный","pos":"adj"},
-{"pt":"solto","ru":"свободный","pos":"adj"},
-{"pt":"quieto","ru":"неподвижный","pos":"adj"},
-{"pt":"imóvel","ru":"неподвижный","pos":"adj"},
-{"pt":"móvel","ru":"подвижный","pos":"adj"},
-{"pt":"acontecer","ru":"случаться","pos":"verb"},
-{"pt":"aceitar","ru":"принимать","pos":"verb"},
-{"pt":"recusar","ru":"отказывать","pos":"verb"},
-{"pt":"permitir","ru":"разрешать","pos":"verb"},
-{"pt":"proibir","ru":"запрещать","pos":"verb"},
-{"pt":"obrigar","ru":"заставлять","pos":"verb"},
-{"pt":"evitar","ru":"избегать","pos":"verb"},
-{"pt":"falhar","ru":"терпеть неудачу","pos":"verb"},
-{"pt":"acertar","ru":"угадывать","pos":"verb"},
-{"pt":"errar","ru":"ошибаться","pos":"verb"},
-{"pt":"corrigir","ru":"исправлять","pos":"verb"},
-{"pt":"melhorar","ru":"улучшать","pos":"verb"},
-{"pt":"piorar","ru":"ухудшать","pos":"verb"},
-{"pt":"aumentar","ru":"увеличивать","pos":"verb"},
-{"pt":"diminuir","ru":"уменьшать","pos":"verb"},
-{"pt":"encolher","ru":"сжиматься","pos":"verb"},
-{"pt":"juntar","ru":"соединять","pos":"verb"},
-{"pt":"separar","ru":"разделять","pos":"verb"},
-{"pt":"misturar","ru":"смешивать","pos":"verb"},
-{"pt":"encher","ru":"наполнять","pos":"verb"},
-{"pt":"esvaziar","ru":"опустошать","pos":"verb"},
-{"pt":"ligar","ru":"включать","pos":"verb"},
-{"pt":"desligar","ru":"выключать","pos":"verb"},
-{"pt":"acender","ru":"зажигать","pos":"verb"},
-{"pt":"apagar","ru":"гасить","pos":"verb"},
-{"pt":"estragar","ru":"портить","pos":"verb"},
-{"pt":"arranjar","ru":"чинить","pos":"verb"},
-{"pt":"consertar","ru":"ремонтировать","pos":"verb"},
-{"pt":"destruir","ru":"разрушать","pos":"verb"},
-{"pt":"cobrir","ru":"накрывать","pos":"verb"},
-{"pt":"esconder","ru":"прятать","pos":"verb"},
-{"pt":"apontar","ru":"указывать","pos":"verb"},
-{"pt":"marcar","ru":"отмечать","pos":"verb"},
-{"pt":"assinar","ru":"подписывать","pos":"verb"},
-{"pt":"desenhar","ru":"рисовать","pos":"verb"},
-{"pt":"pintar","ru":"красить","pos":"verb"},
-{"pt":"fotografar","ru":"фотографировать","pos":"verb"},
-{"pt":"filmar","ru":"снимать","pos":"verb"},
-{"pt":"gravar","ru":"записывать","pos":"verb"},
-{"pt":"soar","ru":"звучать","pos":"verb"},
-{"pt":"escutar","ru":"слушать","pos":"verb"},
-{"pt":"calar","ru":"молчать","pos":"verb"},
-{"pt":"sussurrar","ru":"шептать","pos":"verb"},
-{"pt":"repetir","ru":"повторять","pos":"verb"},
-{"pt":"traduzir","ru":"переводить","pos":"verb"},
-{"pt":"soletrar","ru":"произносить по буквам","pos":"verb"},
-{"pt":"descrever","ru":"описывать","pos":"verb"},
-{"pt":"discutir","ru":"обсуждать","pos":"verb"},
-{"pt":"concordar","ru":"соглашаться","pos":"verb"},
-{"pt":"discordar","ru":"возражать","pos":"verb"},
-{"pt":"convidar","ru":"приглашать","pos":"verb"},
-{"pt":"visitar","ru":"посещать","pos":"verb"},
-{"pt":"apresentar","ru":"представлять","pos":"verb"},
-{"pt":"cumprimentar","ru":"приветствовать","pos":"verb"},
-{"pt":"despedir","ru":"прощаться","pos":"verb"},
-{"pt":"agradecer","ru":"благодарить","pos":"verb"},
-{"pt":"desculpar","ru":"извиняться","pos":"verb"},
-{"pt":"prometer","ru":"обещать","pos":"verb"},
-{"pt":"avisar","ru":"предупреждать","pos":"verb"},
-{"pt":"aconselhar","ru":"советовать","pos":"verb"},
-{"pt":"mentir","ru":"лгать","pos":"verb"},
-{"pt":"enganar","ru":"обманывать","pos":"verb"},
-{"pt":"roubar","ru":"красть","pos":"verb"},
-{"pt":"lutar","ru":"драться","pos":"verb"},
-{"pt":"defender","ru":"защищать","pos":"verb"},
-{"pt":"atacar","ru":"нападать","pos":"verb"},
-{"pt":"ferir","ru":"ранить","pos":"verb"},
-{"pt":"magoar","ru":"причинять боль","pos":"verb"},
-{"pt":"doer","ru":"болеть","pos":"verb"},
-{"pt":"curar","ru":"лечить","pos":"verb"},
-{"pt":"sarar","ru":"выздоравливать","pos":"verb"},
-{"pt":"descansar","ru":"отдыхать","pos":"verb"},
-{"pt":"relaxar","ru":"расслабляться","pos":"verb"},
-{"pt":"respirar","ru":"дышать","pos":"verb"},
-{"pt":"engolir","ru":"глотать","pos":"verb"},
-{"pt":"mastigar","ru":"жевать","pos":"verb"},
-{"pt":"provar","ru":"пробовать","pos":"verb"},
-{"pt":"cheirar","ru":"нюхать","pos":"verb"},
-{"pt":"agarrar","ru":"хватать","pos":"verb"},
-{"pt":"largar","ru":"отпускать","pos":"verb"},
-{"pt":"arrastar","ru":"тащить","pos":"verb"},
-{"pt":"carregar","ru":"нести","pos":"verb"},
-{"pt":"baixar","ru":"опускать","pos":"verb"},
-{"pt":"virar","ru":"поворачивать","pos":"verb"},
-{"pt":"dobrar","ru":"сгибать","pos":"verb"},
-{"pt":"esticar","ru":"растягивать","pos":"verb"},
-{"pt":"apertar","ru":"сжимать","pos":"verb"},
-{"pt":"bater","ru":"бить","pos":"verb"},
-{"pt":"atravessar","ru":"переходить","pos":"verb"},
-{"pt":"afastar","ru":"отдалять","pos":"verb"},
-{"pt":"aproximar","ru":"приближать","pos":"verb"},
-{"pt":"perseguir","ru":"преследовать","pos":"verb"},
-{"pt":"escapar","ru":"сбегать","pos":"verb"},
-{"pt":"aparecer","ru":"появляться","pos":"verb"},
-{"pt":"desaparecer","ru":"исчезать","pos":"verb"},
-{"pt":"notar","ru":"замечать","pos":"verb"},
-{"pt":"reparar","ru":"обращать внимание","pos":"verb"},
-{"pt":"observar","ru":"наблюдать","pos":"verb"},
-{"pt":"imaginar","ru":"воображать","pos":"verb"},
-{"pt":"sonhar","ru":"мечтать","pos":"verb"},
-{"pt":"desejar","ru":"желать","pos":"verb"},
-{"pt":"preferir","ru":"предпочитать","pos":"verb"},
-{"pt":"odiar","ru":"ненавидеть","pos":"verb"},
-{"pt":"amar","ru":"любить","pos":"verb"},
-{"pt":"adorar","ru":"обожать","pos":"verb"},
-{"pt":"interessar","ru":"интересовать","pos":"verb"},
-{"pt":"aborrecer","ru":"надоедать","pos":"verb"},
-{"pt":"assustar","ru":"пугать","pos":"verb"},
-{"pt":"preocupar","ru":"беспокоить","pos":"verb"},
-{"pt":"surpreender","ru":"удивлять","pos":"verb"},
-{"pt":"divertir","ru":"развлекать","pos":"verb"},
-{"pt":"aproveitar","ru":"пользоваться","pos":"verb"},
-{"pt":"festejar","ru":"праздновать","pos":"verb"},
-{"pt":"celebrar","ru":"отмечать","pos":"verb"},
-{"pt":"convencer","ru":"убеждать","pos":"verb"},
-{"pt":"impedir","ru":"препятствовать","pos":"verb"},
-{"pt":"servir","ru":"обслуживать","pos":"verb"},
-{"pt":"oferecer","ru":"предлагать","pos":"verb"},
-{"pt":"emprestar","ru":"одалживать","pos":"verb"},
-{"pt":"devolver","ru":"возвращать","pos":"verb"},
-{"pt":"partilhar","ru":"делиться","pos":"verb"},
-{"pt":"distribuir","ru":"распределять","pos":"verb"},
-{"pt":"trocar","ru":"обменивать","pos":"verb"},
-{"pt":"alugar","ru":"арендовать","pos":"verb"},
-{"pt":"poupar","ru":"экономить","pos":"verb"},
-{"pt":"investir","ru":"вкладывать","pos":"verb"},
-{"pt":"medir","ru":"измерять","pos":"verb"},
-{"pt":"pesar","ru":"взвешивать","pos":"verb"},
-{"pt":"calcular","ru":"вычислять","pos":"verb"},
-{"pt":"somar","ru":"складывать","pos":"verb"},
-{"pt":"comparar","ru":"сравнивать","pos":"verb"},
-{"pt":"verificar","ru":"проверять","pos":"verb"},
-{"pt":"controlar","ru":"контролировать","pos":"verb"},
-{"pt":"organizar","ru":"организовывать","pos":"verb"},
-{"pt":"arrumar","ru":"убирать","pos":"verb"},
-{"pt":"preparar","ru":"готовить","pos":"verb"},
-{"pt":"planear","ru":"планировать","pos":"verb"},
-{"pt":"adiar","ru":"откладывать","pos":"verb"},
-{"pt":"apressar","ru":"торопить","pos":"verb"},
-{"pt":"demorar","ru":"медлить","pos":"verb"},
-{"pt":"durar","ru":"длиться","pos":"verb"},
-{"pt":"interromper","ru":"прерывать","pos":"verb"},
-{"pt":"depender","ru":"зависеть","pos":"verb"},
-{"pt":"pertencer","ru":"принадлежать","pos":"verb"},
-{"pt":"incluir","ru":"включать","pos":"verb"},
-{"pt":"conter","ru":"содержать","pos":"verb"},
-{"pt":"existir","ru":"существовать","pos":"verb"},
-{"pt":"faltar","ru":"не хватать","pos":"verb"},
-{"pt":"sobrar","ru":"оставаться","pos":"verb"},
-{"pt":"bastar","ru":"хватать","pos":"verb"},
-{"pt":"valer","ru":"стоить","pos":"verb"},
-{"pt":"significar","ru":"означать","pos":"verb"},
-{"pt":"representar","ru":"представлять","pos":"verb"},
-{"pt":"causar","ru":"вызывать","pos":"verb"},
-{"pt":"provocar","ru":"провоцировать","pos":"verb"},
-{"pt":"resultar","ru":"приводить","pos":"verb"},
-{"pt":"afetar","ru":"влиять","pos":"verb"},
-{"pt":"influenciar","ru":"воздействовать","pos":"verb"},
-{"pt":"permanecer","ru":"оставаться","pos":"verb"},
-{"pt":"manter","ru":"поддерживать","pos":"verb"},
-{"pt":"conservar","ru":"сохранять","pos":"verb"},
-{"pt":"proteger","ru":"защищать","pos":"verb"},
-{"pt":"salvar","ru":"спасать","pos":"verb"},
-{"pt":"arriscar","ru":"рисковать","pos":"verb"},
-{"pt":"atrever","ru":"осмеливаться","pos":"verb"},
-{"pt":"conquistar","ru":"завоёвывать","pos":"verb"},
-{"pt":"alcançar","ru":"достигать","pos":"verb"},
-{"pt":"atingir","ru":"поражать","pos":"verb"},
-{"pt":"funcionar","ru":"работать","pos":"verb"},
-{"pt":"queimar","ru":"жечь","pos":"verb"},
-{"pt":"gelar","ru":"замораживать","pos":"verb"},
-{"pt":"aquecer","ru":"нагревать","pos":"verb"},
-{"pt":"arrefecer","ru":"охлаждать","pos":"verb"},
-{"pt":"secar","ru":"сушить","pos":"verb"},
-{"pt":"molhar","ru":"мочить","pos":"verb"},
-{"pt":"chover","ru":"идти дождю","pos":"verb"},
-{"pt":"nevar","ru":"идти снегу","pos":"verb"},
-{"pt":"brilhar","ru":"сиять","pos":"verb"},
-{"pt":"soprar","ru":"дуть","pos":"verb"},
-{"pt":"voar","ru":"летать","pos":"verb"},
-{"pt":"flutuar","ru":"плавать","pos":"verb"},
-{"pt":"afundar","ru":"тонуть","pos":"verb"},
-{"pt":"rolar","ru":"катиться","pos":"verb"},
-{"pt":"escorregar","ru":"скользить","pos":"verb"},
-{"pt":"tropeçar","ru":"спотыкаться","pos":"verb"},
-{"pt":"trepar","ru":"карабкаться","pos":"verb"},
-{"pt":"rastejar","ru":"ползти","pos":"verb"},
-{"pt":"morder","ru":"кусать","pos":"verb"},
-{"pt":"ladrar","ru":"лаять","pos":"verb"},
-{"pt":"miar","ru":"мяукать","pos":"verb"},
-{"pt":"plantar","ru":"сажать","pos":"verb"},
-{"pt":"regar","ru":"поливать","pos":"verb"},
-{"pt":"cavar","ru":"копать","pos":"verb"},
-{"pt":"semear","ru":"сеять","pos":"verb"},
-{"pt":"passear","ru":"гулять","pos":"verb"},
-{"pt":"regressar","ru":"возвращаться","pos":"verb"},
-{"pt":"mudar-se","ru":"переезжать","pos":"verb"},
-{"pt":"estacionar","ru":"парковаться","pos":"verb"},
-{"pt":"embarcar","ru":"садиться","pos":"verb"},
-{"pt":"aterrar","ru":"приземляться","pos":"verb"},
-{"pt":"descolar","ru":"взлетать","pos":"verb"},
-{"pt":"reservar","ru":"бронировать","pos":"verb"},
-{"pt":"vestir-se","ru":"одеваться","pos":"verb"},
-{"pt":"despir","ru":"раздевать","pos":"verb"},
-{"pt":"pentear","ru":"причёсывать","pos":"verb"},
-{"pt":"barbear","ru":"брить","pos":"verb"},
-{"pt":"maquilhar","ru":"краситься","pos":"verb"},
-{"pt":"tomar banho","ru":"принимать ванну","pos":"verb"},
-{"pt":"escovar","ru":"чистить щёткой","pos":"verb"},
-{"pt":"varrer","ru":"подметать","pos":"verb"},
-{"pt":"passar a ferro","ru":"гладить","pos":"verb"},
-{"pt":"estender","ru":"развешивать","pos":"verb"},
-{"pt":"assar","ru":"запекать","pos":"verb"},
-{"pt":"fritar","ru":"жарить","pos":"verb"},
-{"pt":"ferver","ru":"кипятить","pos":"verb"},
-{"pt":"cozer","ru":"варить","pos":"verb"},
-{"pt":"descascar","ru":"чистить","pos":"verb"},
-{"pt":"temperar","ru":"приправлять","pos":"verb"},
-{"pt":"encomendar","ru":"заказывать","pos":"verb"},
-{"pt":"experimentar","ru":"пробовать","pos":"verb"},
-{"pt":"embrulhar","ru":"заворачивать","pos":"verb"},
-{"pt":"decorar","ru":"запоминать","pos":"verb"},
-{"pt":"praticar","ru":"практиковаться","pos":"verb"},
-{"pt":"anotar","ru":"записывать","pos":"verb"},
-{"pt":"sublinhar","ru":"подчёркивать","pos":"verb"},
-{"pt":"copiar","ru":"копировать","pos":"verb"},
-{"pt":"imprimir","ru":"печатать","pos":"verb"},
-{"pt":"clicar","ru":"нажимать","pos":"verb"},
-{"pt":"navegar","ru":"просматривать","pos":"verb"},
-{"pt":"pesquisar","ru":"искать","pos":"verb"},
-{"pt":"publicar","ru":"публиковать","pos":"verb"},
-{"pt":"atender","ru":"отвечать","pos":"verb"},
-{"pt":"tudo bem","ru":"всё хорошо","pos":"phrase"},
-{"pt":"como está","ru":"как дела","pos":"phrase"},
-{"pt":"muito prazer","ru":"очень приятно","pos":"phrase"},
-{"pt":"até já","ru":"до скорого","pos":"phrase"},
-{"pt":"com certeza","ru":"разумеется","pos":"phrase"},
-{"pt":"tenha cuidado","ru":"берегите себя","pos":"phrase"},
-{"pt":"bom apetite","ru":"приятного аппетита","pos":"phrase"},
-{"pt":"boa viagem","ru":"счастливого пути","pos":"phrase"},
-{"pt":"feliz aniversário","ru":"с днём рождения","pos":"phrase"},
-{"pt":"boas festas","ru":"с праздником","pos":"phrase"},
-{"pt":"feliz natal","ru":"счастливого рождества","pos":"phrase"},
-{"pt":"ainda bem","ru":"вот и хорошо","pos":"phrase"},
-{"pt":"que pena","ru":"как жаль","pos":"phrase"},
-{"pt":"não sei","ru":"не знаю","pos":"phrase"},
-{"pt":"não percebo","ru":"не понимаю","pos":"phrase"},
-{"pt":"tem razão","ru":"вы правы","pos":"phrase"},
-{"pt":"vamos","ru":"пойдём","pos":"interj"},
-{"pt":"espera","ru":"подожди","pos":"interj"},
-{"pt":"ouve","ru":"слушай","pos":"interj"},
-{"pt":"olha","ru":"смотри","pos":"interj"},
-{"pt":"anda","ru":"давай","pos":"interj"},
-{"pt":"toma","ru":"держи","pos":"interj"},
-{"pt":"ena","ru":"ого","pos":"interj"}
+  {
+    "pt": "chamar-se",
+    "ru": "называться",
+    "pos": "verb"
+  },
+  {
+    "pt": "ser",
+    "ru": "быть",
+    "pos": "verb"
+  },
+  {
+    "pt": "a segunda-feira",
+    "ru": "понедельник",
+    "pos": "noun"
+  },
+  {
+    "pt": "a terça-feira",
+    "ru": "вторник",
+    "pos": "noun"
+  },
+  {
+    "pt": "a quarta-feira",
+    "ru": "среда",
+    "pos": "noun"
+  },
+  {
+    "pt": "a quinta-feira",
+    "ru": "четверг",
+    "pos": "noun"
+  },
+  {
+    "pt": "a sexta-feira",
+    "ru": "пятница",
+    "pos": "noun"
+  },
+  {
+    "pt": "o sábado",
+    "ru": "суббота",
+    "pos": "noun"
+  },
+  {
+    "pt": "o domingo",
+    "ru": "воскресенье",
+    "pos": "noun"
+  },
+  {
+    "pt": "zero",
+    "ru": "ноль",
+    "pos": "num"
+  },
+  {
+    "pt": "um",
+    "ru": "один",
+    "pos": "num"
+  },
+  {
+    "pt": "dois",
+    "ru": "два",
+    "pos": "num"
+  },
+  {
+    "pt": "três",
+    "ru": "три",
+    "pos": "num"
+  },
+  {
+    "pt": "quatro",
+    "ru": "четыре",
+    "pos": "num"
+  },
+  {
+    "pt": "cinco",
+    "ru": "пять",
+    "pos": "num"
+  },
+  {
+    "pt": "seis",
+    "ru": "шесть",
+    "pos": "num"
+  },
+  {
+    "pt": "sete",
+    "ru": "семь",
+    "pos": "num"
+  },
+  {
+    "pt": "oito",
+    "ru": "восемь",
+    "pos": "num"
+  },
+  {
+    "pt": "nove",
+    "ru": "девять",
+    "pos": "num"
+  },
+  {
+    "pt": "dez",
+    "ru": "десять",
+    "pos": "num"
+  },
+  {
+    "pt": "onze",
+    "ru": "одиннадцать",
+    "pos": "num"
+  },
+  {
+    "pt": "doze",
+    "ru": "двенадцать",
+    "pos": "num"
+  },
+  {
+    "pt": "treze",
+    "ru": "тринадцать",
+    "pos": "num"
+  },
+  {
+    "pt": "catorze",
+    "ru": "четырнадцать",
+    "pos": "num"
+  },
+  {
+    "pt": "quinze",
+    "ru": "пятнадцать",
+    "pos": "num"
+  },
+  {
+    "pt": "dezasseis",
+    "ru": "шестнадцать",
+    "pos": "num"
+  },
+  {
+    "pt": "dezassete",
+    "ru": "семнадцать",
+    "pos": "num"
+  },
+  {
+    "pt": "dezoito",
+    "ru": "восемнадцать",
+    "pos": "num"
+  },
+  {
+    "pt": "dezanove",
+    "ru": "девятнадцать",
+    "pos": "num"
+  },
+  {
+    "pt": "vinte",
+    "ru": "двадцать",
+    "pos": "num"
+  },
+  {
+    "pt": "eu",
+    "ru": "я",
+    "pos": "pron"
+  },
+  {
+    "pt": "tu",
+    "ru": "ты",
+    "pos": "pron"
+  },
+  {
+    "pt": "você",
+    "ru": "вы (вежливо)",
+    "pos": "pron"
+  },
+  {
+    "pt": "ele",
+    "ru": "он",
+    "pos": "pron"
+  },
+  {
+    "pt": "ela",
+    "ru": "она",
+    "pos": "pron"
+  },
+  {
+    "pt": "o senhor",
+    "ru": "господин",
+    "pos": "noun"
+  },
+  {
+    "pt": "a senhora",
+    "ru": "госпожа",
+    "pos": "noun"
+  },
+  {
+    "pt": "Dr.",
+    "ru": "доктор",
+    "pos": "noun"
+  },
+  {
+    "pt": "Dr.ª",
+    "ru": "доктор (женщина)",
+    "pos": "noun"
+  },
+  {
+    "pt": "sim",
+    "ru": "да",
+    "pos": "adv"
+  },
+  {
+    "pt": "e",
+    "ru": "и",
+    "pos": "conj"
+  },
+  {
+    "pt": "Adeus!",
+    "ru": "пока",
+    "pos": "phrase"
+  },
+  {
+    "pt": "Até à próxima!",
+    "ru": "до следующего раза",
+    "pos": "phrase"
+  },
+  {
+    "pt": "Até amanhã!",
+    "ru": "до завтра",
+    "pos": "phrase"
+  },
+  {
+    "pt": "Até já!",
+    "ru": "до скорого",
+    "pos": "phrase"
+  },
+  {
+    "pt": "Até logo!",
+    "ru": "до встречи",
+    "pos": "phrase"
+  },
+  {
+    "pt": "Bem-vindo",
+    "ru": "добро пожаловать (м.)",
+    "pos": "phrase"
+  },
+  {
+    "pt": "Bem-vinda",
+    "ru": "добро пожаловать (ж.)",
+    "pos": "phrase"
+  },
+  {
+    "pt": "Boa noite!",
+    "ru": "добрый вечер",
+    "pos": "phrase"
+  },
+  {
+    "pt": "Boa tarde!",
+    "ru": "добрый день",
+    "pos": "phrase"
+  },
+  {
+    "pt": "Bom dia!",
+    "ru": "доброе утро",
+    "pos": "phrase"
+  },
+  {
+    "pt": "Como está?",
+    "ru": "как поживаете?",
+    "pos": "phrase"
+  },
+  {
+    "pt": "Desculpe!",
+    "ru": "извините",
+    "pos": "phrase"
+  },
+  {
+    "pt": "Muito gosto!",
+    "ru": "мне тоже приятно",
+    "pos": "phrase"
+  },
+  {
+    "pt": "Muito prazer!",
+    "ru": "очень приятно",
+    "pos": "phrase"
+  },
+  {
+    "pt": "Não sei",
+    "ru": "не знаю",
+    "pos": "phrase"
+  },
+  {
+    "pt": "Obrigado!",
+    "ru": "спасибо (м.)",
+    "pos": "phrase"
+  },
+  {
+    "pt": "Obrigada!",
+    "ru": "спасибо (ж.)",
+    "pos": "phrase"
+  },
+  {
+    "pt": "Olá!",
+    "ru": "привет",
+    "pos": "phrase"
+  },
+  {
+    "pt": "Tudo bem?",
+    "ru": "как дела?",
+    "pos": "phrase"
+  },
+  {
+    "pt": "Como?",
+    "ru": "как?",
+    "pos": "phrase"
+  },
+  {
+    "pt": "Quem?",
+    "ru": "кто?",
+    "pos": "phrase"
+  },
+  {
+    "pt": "a Alemanha",
+    "ru": "Германия",
+    "pos": "noun"
+  },
+  {
+    "pt": "Angola",
+    "ru": "Ангола",
+    "pos": "noun"
+  },
+  {
+    "pt": "o Brasil",
+    "ru": "Бразилия",
+    "pos": "noun"
+  },
+  {
+    "pt": "a China",
+    "ru": "Китай",
+    "pos": "noun"
+  },
+  {
+    "pt": "a Espanha",
+    "ru": "Испания",
+    "pos": "noun"
+  },
+  {
+    "pt": "os Estados Unidos",
+    "ru": "США",
+    "pos": "noun"
+  },
+  {
+    "pt": "a França",
+    "ru": "Франция",
+    "pos": "noun"
+  },
+  {
+    "pt": "a Grécia",
+    "ru": "Греция",
+    "pos": "noun"
+  },
+  {
+    "pt": "a Índia",
+    "ru": "Индия",
+    "pos": "noun"
+  },
+  {
+    "pt": "a Inglaterra",
+    "ru": "Англия",
+    "pos": "noun"
+  },
+  {
+    "pt": "a Itália",
+    "ru": "Италия",
+    "pos": "noun"
+  },
+  {
+    "pt": "o Japão",
+    "ru": "Япония",
+    "pos": "noun"
+  },
+  {
+    "pt": "Marrocos",
+    "ru": "Марокко",
+    "pos": "noun"
+  },
+  {
+    "pt": "o México",
+    "ru": "Мексика",
+    "pos": "noun"
+  },
+  {
+    "pt": "a Polónia",
+    "ru": "Польша",
+    "pos": "noun"
+  },
+  {
+    "pt": "Portugal",
+    "ru": "Португалия",
+    "pos": "noun"
+  },
+  {
+    "pt": "a Rússia",
+    "ru": "Россия",
+    "pos": "noun"
+  },
+  {
+    "pt": "a Suécia",
+    "ru": "Швеция",
+    "pos": "noun"
+  },
+  {
+    "pt": "a Ucrânia",
+    "ru": "Украина",
+    "pos": "noun"
+  },
+  {
+    "pt": "trinta",
+    "ru": "тридцать",
+    "pos": "num"
+  },
+  {
+    "pt": "quarenta",
+    "ru": "сорок",
+    "pos": "num"
+  },
+  {
+    "pt": "cinquenta",
+    "ru": "пятьдесят",
+    "pos": "num"
+  },
+  {
+    "pt": "sessenta",
+    "ru": "шестьдесят",
+    "pos": "num"
+  },
+  {
+    "pt": "setenta",
+    "ru": "семьдесят",
+    "pos": "num"
+  },
+  {
+    "pt": "oitenta",
+    "ru": "восемьдесят",
+    "pos": "num"
+  },
+  {
+    "pt": "noventa",
+    "ru": "девяносто",
+    "pos": "num"
+  },
+  {
+    "pt": "cem",
+    "ru": "сто",
+    "pos": "num"
+  },
+  {
+    "pt": "nós",
+    "ru": "мы",
+    "pos": "pron"
+  },
+  {
+    "pt": "vocês",
+    "ru": "вы (несколько)",
+    "pos": "pron"
+  },
+  {
+    "pt": "eles",
+    "ru": "они (м.)",
+    "pos": "pron"
+  },
+  {
+    "pt": "elas",
+    "ru": "они (ж.)",
+    "pos": "pron"
+  },
+  {
+    "pt": "não",
+    "ru": "нет",
+    "pos": "adv"
+  },
+  {
+    "pt": "isto",
+    "ru": "это (рядом)",
+    "pos": "pron"
+  },
+  {
+    "pt": "de",
+    "ru": "из, от",
+    "pos": "prep"
+  },
+  {
+    "pt": "em",
+    "ru": "в",
+    "pos": "prep"
+  },
+  {
+    "pt": "Onde fica?",
+    "ru": "где находится?",
+    "pos": "phrase"
+  },
+  {
+    "pt": "estar",
+    "ru": "быть (состояние)",
+    "pos": "verb"
+  },
+  {
+    "pt": "falar",
+    "ru": "говорить",
+    "pos": "verb"
+  },
+  {
+    "pt": "morar",
+    "ru": "жить",
+    "pos": "verb"
+  },
+  {
+    "pt": "a língua",
+    "ru": "язык",
+    "pos": "noun"
+  },
+  {
+    "pt": "alemão",
+    "ru": "немецкий",
+    "pos": "adj"
+  },
+  {
+    "pt": "angolano",
+    "ru": "ангольский",
+    "pos": "adj"
+  },
+  {
+    "pt": "árabe",
+    "ru": "арабский",
+    "pos": "adj"
+  },
+  {
+    "pt": "brasileiro",
+    "ru": "бразильский",
+    "pos": "adj"
+  },
+  {
+    "pt": "chinês",
+    "ru": "китайский",
+    "pos": "adj"
+  },
+  {
+    "pt": "espanhol",
+    "ru": "испанский",
+    "pos": "adj"
+  },
+  {
+    "pt": "francês",
+    "ru": "французский",
+    "pos": "adj"
+  },
+  {
+    "pt": "grego",
+    "ru": "греческий",
+    "pos": "adj"
+  },
+  {
+    "pt": "indiano",
+    "ru": "индийский",
+    "pos": "adj"
+  },
+  {
+    "pt": "inglês",
+    "ru": "английский",
+    "pos": "adj"
+  },
+  {
+    "pt": "italiano",
+    "ru": "итальянский",
+    "pos": "adj"
+  },
+  {
+    "pt": "japonês",
+    "ru": "японский",
+    "pos": "adj"
+  },
+  {
+    "pt": "marroquino",
+    "ru": "марокканский",
+    "pos": "adj"
+  },
+  {
+    "pt": "mexicano",
+    "ru": "мексиканский",
+    "pos": "adj"
+  },
+  {
+    "pt": "norte-americano",
+    "ru": "американский",
+    "pos": "adj"
+  },
+  {
+    "pt": "polaco",
+    "ru": "польский",
+    "pos": "adj"
+  },
+  {
+    "pt": "português",
+    "ru": "португальский",
+    "pos": "adj"
+  },
+  {
+    "pt": "russo",
+    "ru": "русский",
+    "pos": "adj"
+  },
+  {
+    "pt": "sueco",
+    "ru": "шведский",
+    "pos": "adj"
+  },
+  {
+    "pt": "ucraniano",
+    "ru": "украинский",
+    "pos": "adj"
+  },
+  {
+    "pt": "cento",
+    "ru": "сто (в составных)",
+    "pos": "num"
+  },
+  {
+    "pt": "duzentos",
+    "ru": "двести",
+    "pos": "num"
+  },
+  {
+    "pt": "trezentos",
+    "ru": "триста",
+    "pos": "num"
+  },
+  {
+    "pt": "quatrocentos",
+    "ru": "четыреста",
+    "pos": "num"
+  },
+  {
+    "pt": "quinhentos",
+    "ru": "пятьсот",
+    "pos": "num"
+  },
+  {
+    "pt": "seiscentos",
+    "ru": "шестьсот",
+    "pos": "num"
+  },
+  {
+    "pt": "setecentos",
+    "ru": "семьсот",
+    "pos": "num"
+  },
+  {
+    "pt": "oitocentos",
+    "ru": "восемьсот",
+    "pos": "num"
+  },
+  {
+    "pt": "novecentos",
+    "ru": "девятьсот",
+    "pos": "num"
+  },
+  {
+    "pt": "mil",
+    "ru": "тысяча",
+    "pos": "num"
+  },
+  {
+    "pt": "agora",
+    "ru": "сейчас",
+    "pos": "adv"
+  },
+  {
+    "pt": "bem",
+    "ru": "хорошо",
+    "pos": "adv"
+  },
+  {
+    "pt": "mas",
+    "ru": "но",
+    "pos": "conj"
+  },
+  {
+    "pt": "muito",
+    "ru": "очень, много",
+    "pos": "adv"
+  },
+  {
+    "pt": "só",
+    "ru": "только",
+    "pos": "adv"
+  },
+  {
+    "pt": "também",
+    "ru": "тоже",
+    "pos": "adv"
+  },
+  {
+    "pt": "um pouco",
+    "ru": "немного",
+    "pos": "adv"
+  },
+  {
+    "pt": "Que?",
+    "ru": "что именно?",
+    "pos": "phrase"
+  },
+  {
+    "pt": "a bandeira",
+    "ru": "флаг",
+    "pos": "noun"
+  },
+  {
+    "pt": "a cadeira",
+    "ru": "стул",
+    "pos": "noun"
+  },
+  {
+    "pt": "o computador",
+    "ru": "компьютер",
+    "pos": "noun"
+  },
+  {
+    "pt": "a cor",
+    "ru": "цвет",
+    "pos": "noun"
+  },
+  {
+    "pt": "o dicionário",
+    "ru": "словарь",
+    "pos": "noun"
+  },
+  {
+    "pt": "a janela",
+    "ru": "окно",
+    "pos": "noun"
+  },
+  {
+    "pt": "o jornal",
+    "ru": "газета",
+    "pos": "noun"
+  },
+  {
+    "pt": "o livro",
+    "ru": "книга",
+    "pos": "noun"
+  },
+  {
+    "pt": "o mapa",
+    "ru": "карта",
+    "pos": "noun"
+  },
+  {
+    "pt": "a mesa",
+    "ru": "стол",
+    "pos": "noun"
+  },
+  {
+    "pt": "a parede",
+    "ru": "стена",
+    "pos": "noun"
+  },
+  {
+    "pt": "a porta",
+    "ru": "дверь",
+    "pos": "noun"
+  },
+  {
+    "pt": "o quadro",
+    "ru": "доска",
+    "pos": "noun"
+  },
+  {
+    "pt": "o relógio",
+    "ru": "часы",
+    "pos": "noun"
+  },
+  {
+    "pt": "a sala de aula",
+    "ru": "класс",
+    "pos": "noun"
+  },
+  {
+    "pt": "a secretária",
+    "ru": "письменный стол",
+    "pos": "noun"
+  },
+  {
+    "pt": "amarelo",
+    "ru": "жёлтый",
+    "pos": "adj"
+  },
+  {
+    "pt": "azul",
+    "ru": "синий",
+    "pos": "adj"
+  },
+  {
+    "pt": "branco",
+    "ru": "белый",
+    "pos": "adj"
+  },
+  {
+    "pt": "castanho",
+    "ru": "коричневый",
+    "pos": "adj"
+  },
+  {
+    "pt": "cinzento",
+    "ru": "серый",
+    "pos": "adj"
+  },
+  {
+    "pt": "cor de laranja",
+    "ru": "оранжевый",
+    "pos": "adj"
+  },
+  {
+    "pt": "cor-de-rosa",
+    "ru": "розовый",
+    "pos": "adj"
+  },
+  {
+    "pt": "preto",
+    "ru": "чёрный",
+    "pos": "adj"
+  },
+  {
+    "pt": "verde",
+    "ru": "зелёный",
+    "pos": "adj"
+  },
+  {
+    "pt": "vermelho",
+    "ru": "красный",
+    "pos": "adj"
+  },
+  {
+    "pt": "aquilo",
+    "ru": "то (далеко)",
+    "pos": "pron"
+  },
+  {
+    "pt": "isso",
+    "ru": "это (у вас)",
+    "pos": "pron"
+  },
+  {
+    "pt": "Como se diz?",
+    "ru": "как сказать?",
+    "pos": "phrase"
+  },
+  {
+    "pt": "Como se escreve?",
+    "ru": "как пишется?",
+    "pos": "phrase"
+  },
+  {
+    "pt": "Não compreendo!",
+    "ru": "я не понимаю",
+    "pos": "phrase"
+  },
+  {
+    "pt": "Não me lembro!",
+    "ru": "не помню",
+    "pos": "phrase"
+  },
+  {
+    "pt": "Não percebo!",
+    "ru": "до меня не доходит",
+    "pos": "phrase"
+  },
+  {
+    "pt": "O que significa?",
+    "ru": "что значит?",
+    "pos": "phrase"
+  },
+  {
+    "pt": "Pode escrever?",
+    "ru": "можете написать?",
+    "pos": "phrase"
+  },
+  {
+    "pt": "Pode repetir?",
+    "ru": "можете повторить?",
+    "pos": "phrase"
+  },
+  {
+    "pt": "Qual é a página?",
+    "ru": "какая страница?",
+    "pos": "phrase"
+  },
+  {
+    "pt": "O que?",
+    "ru": "что?",
+    "pos": "phrase"
+  },
+  {
+    "pt": "ter",
+    "ru": "иметь",
+    "pos": "verb"
+  },
+  {
+    "pt": "a caneta",
+    "ru": "ручка",
+    "pos": "noun"
+  },
+  {
+    "pt": "o carro",
+    "ru": "машина",
+    "pos": "noun"
+  },
+  {
+    "pt": "a carta de condução",
+    "ru": "водительские права",
+    "pos": "noun"
+  },
+  {
+    "pt": "o Cartão de Cidadão",
+    "ru": "удостоверение личности",
+    "pos": "noun"
+  },
+  {
+    "pt": "a carteira",
+    "ru": "бумажник",
+    "pos": "noun"
+  },
+  {
+    "pt": "a casa",
+    "ru": "дом",
+    "pos": "noun"
+  },
+  {
+    "pt": "a chave",
+    "ru": "ключ",
+    "pos": "noun"
+  },
+  {
+    "pt": "a cidade",
+    "ru": "город",
+    "pos": "noun"
+  },
+  {
+    "pt": "o dinheiro",
+    "ru": "деньги",
+    "pos": "noun"
+  },
+  {
+    "pt": "a escola",
+    "ru": "школа",
+    "pos": "noun"
+  },
+  {
+    "pt": "o escritório",
+    "ru": "офис",
+    "pos": "noun"
+  },
+  {
+    "pt": "a garrafa",
+    "ru": "бутылка",
+    "pos": "noun"
+  },
+  {
+    "pt": "o lápis",
+    "ru": "карандаш",
+    "pos": "noun"
+  },
+  {
+    "pt": "a mala",
+    "ru": "сумка",
+    "pos": "noun"
+  },
+  {
+    "pt": "a mochila",
+    "ru": "рюкзак",
+    "pos": "noun"
+  },
+  {
+    "pt": "a moeda",
+    "ru": "монета",
+    "pos": "noun"
+  },
+  {
+    "pt": "a nota",
+    "ru": "купюра",
+    "pos": "noun"
+  },
+  {
+    "pt": "os óculos de sol",
+    "ru": "солнечные очки",
+    "pos": "noun"
+  },
+  {
+    "pt": "o país",
+    "ru": "страна",
+    "pos": "noun"
+  },
+  {
+    "pt": "o passaporte",
+    "ru": "паспорт",
+    "pos": "noun"
+  },
+  {
+    "pt": "a pasta",
+    "ru": "папка",
+    "pos": "noun"
+  },
+  {
+    "pt": "a rua",
+    "ru": "улица",
+    "pos": "noun"
+  },
+  {
+    "pt": "o telemóvel",
+    "ru": "мобильный",
+    "pos": "noun"
+  },
+  {
+    "pt": "aí",
+    "ru": "там (у вас)",
+    "pos": "adv"
+  },
+  {
+    "pt": "ali",
+    "ru": "вон там",
+    "pos": "adv"
+  },
+  {
+    "pt": "aqui",
+    "ru": "здесь",
+    "pos": "adv"
+  },
+  {
+    "pt": "meu",
+    "ru": "мой",
+    "pos": "det"
+  },
+  {
+    "pt": "minha",
+    "ru": "моя",
+    "pos": "det"
+  },
+  {
+    "pt": "teu",
+    "ru": "твой",
+    "pos": "det"
+  },
+  {
+    "pt": "tua",
+    "ru": "твоя",
+    "pos": "det"
+  },
+  {
+    "pt": "seu",
+    "ru": "ваш",
+    "pos": "det"
+  },
+  {
+    "pt": "sua",
+    "ru": "ваша",
+    "pos": "det"
+  },
+  {
+    "pt": "dele",
+    "ru": "его",
+    "pos": "det"
+  },
+  {
+    "pt": "dela",
+    "ru": "её",
+    "pos": "det"
+  },
+  {
+    "pt": "nosso",
+    "ru": "наш",
+    "pos": "det"
+  },
+  {
+    "pt": "nossa",
+    "ru": "наша",
+    "pos": "det"
+  },
+  {
+    "pt": "vosso",
+    "ru": "ваш (мн.)",
+    "pos": "det"
+  },
+  {
+    "pt": "vossa",
+    "ru": "ваша (мн.)",
+    "pos": "det"
+  },
+  {
+    "pt": "deles",
+    "ru": "их (м.)",
+    "pos": "det"
+  },
+  {
+    "pt": "delas",
+    "ru": "их (ж.)",
+    "pos": "det"
+  },
+  {
+    "pt": "se calhar",
+    "ru": "может быть",
+    "pos": "adv"
+  },
+  {
+    "pt": "Pois!",
+    "ru": "вот именно",
+    "pos": "phrase"
+  },
+  {
+    "pt": "o advogado",
+    "ru": "адвокат",
+    "pos": "noun"
+  },
+  {
+    "pt": "o aluno",
+    "ru": "ученик",
+    "pos": "noun"
+  },
+  {
+    "pt": "o ator",
+    "ru": "актёр",
+    "pos": "noun"
+  },
+  {
+    "pt": "a atriz",
+    "ru": "актриса",
+    "pos": "noun"
+  },
+  {
+    "pt": "o cantor",
+    "ru": "певец",
+    "pos": "noun"
+  },
+  {
+    "pt": "a dona de casa",
+    "ru": "домохозяйка",
+    "pos": "noun"
+  },
+  {
+    "pt": "o empregado de mesa",
+    "ru": "официант",
+    "pos": "noun"
+  },
+  {
+    "pt": "o enfermeiro",
+    "ru": "медбрат",
+    "pos": "noun"
+  },
+  {
+    "pt": "o engenheiro",
+    "ru": "инженер",
+    "pos": "noun"
+  },
+  {
+    "pt": "o estudante",
+    "ru": "студент",
+    "pos": "noun"
+  },
+  {
+    "pt": "a estudante",
+    "ru": "студентка",
+    "pos": "noun"
+  },
+  {
+    "pt": "o informático",
+    "ru": "айтишник",
+    "pos": "noun"
+  },
+  {
+    "pt": "o jornalista",
+    "ru": "журналист",
+    "pos": "noun"
+  },
+  {
+    "pt": "a jornalista",
+    "ru": "журналистка",
+    "pos": "noun"
+  },
+  {
+    "pt": "o médico",
+    "ru": "врач",
+    "pos": "noun"
+  },
+  {
+    "pt": "o professor",
+    "ru": "преподаватель",
+    "pos": "noun"
+  },
+  {
+    "pt": "o secretário",
+    "ru": "секретарь",
+    "pos": "noun"
+  },
+  {
+    "pt": "o andar",
+    "ru": "этаж",
+    "pos": "noun"
+  },
+  {
+    "pt": "o apartamento",
+    "ru": "квартира",
+    "pos": "noun"
+  },
+  {
+    "pt": "o prédio",
+    "ru": "здание",
+    "pos": "noun"
+  },
+  {
+    "pt": "o rés do chão",
+    "ru": "первый этаж",
+    "pos": "noun"
+  },
+  {
+    "pt": "Dto.",
+    "ru": "справа",
+    "pos": "adv"
+  },
+  {
+    "pt": "Esq.",
+    "ru": "слева",
+    "pos": "adv"
+  },
+  {
+    "pt": "o ano",
+    "ru": "год",
+    "pos": "noun"
+  },
+  {
+    "pt": "o apelido",
+    "ru": "фамилия",
+    "pos": "noun"
+  },
+  {
+    "pt": "o código postal",
+    "ru": "почтовый индекс",
+    "pos": "noun"
+  },
+  {
+    "pt": "o estado civil",
+    "ru": "семейное положение",
+    "pos": "noun"
+  },
+  {
+    "pt": "a idade",
+    "ru": "возраст",
+    "pos": "noun"
+  },
+  {
+    "pt": "a letra",
+    "ru": "буква",
+    "pos": "noun"
+  },
+  {
+    "pt": "a morada",
+    "ru": "адрес",
+    "pos": "noun"
+  },
+  {
+    "pt": "a nacionalidade",
+    "ru": "национальность",
+    "pos": "noun"
+  },
+  {
+    "pt": "o nome",
+    "ru": "имя",
+    "pos": "noun"
+  },
+  {
+    "pt": "o número",
+    "ru": "номер",
+    "pos": "noun"
+  },
+  {
+    "pt": "a profissão",
+    "ru": "профессия",
+    "pos": "noun"
+  },
+  {
+    "pt": "o telefone",
+    "ru": "телефон",
+    "pos": "noun"
+  },
+  {
+    "pt": "primeiro",
+    "ru": "первый",
+    "pos": "num"
+  },
+  {
+    "pt": "segundo",
+    "ru": "второй",
+    "pos": "num"
+  },
+  {
+    "pt": "terceiro",
+    "ru": "третий",
+    "pos": "num"
+  },
+  {
+    "pt": "quarto",
+    "ru": "четвёртый",
+    "pos": "num"
+  },
+  {
+    "pt": "quinto",
+    "ru": "пятый",
+    "pos": "num"
+  },
+  {
+    "pt": "sexto",
+    "ru": "шестой",
+    "pos": "num"
+  },
+  {
+    "pt": "sétimo",
+    "ru": "седьмой",
+    "pos": "num"
+  },
+  {
+    "pt": "oitavo",
+    "ru": "восьмой",
+    "pos": "num"
+  },
+  {
+    "pt": "nono",
+    "ru": "девятый",
+    "pos": "num"
+  },
+  {
+    "pt": "décimo",
+    "ru": "десятый",
+    "pos": "num"
+  },
+  {
+    "pt": "casado",
+    "ru": "женатый",
+    "pos": "adj"
+  },
+  {
+    "pt": "completo",
+    "ru": "полный",
+    "pos": "adj"
+  },
+  {
+    "pt": "divorciado",
+    "ru": "разведённый",
+    "pos": "adj"
+  },
+  {
+    "pt": "solteiro",
+    "ru": "холостой",
+    "pos": "adj"
+  },
+  {
+    "pt": "último",
+    "ru": "последний",
+    "pos": "adj"
+  },
+  {
+    "pt": "Qual?",
+    "ru": "какой?",
+    "pos": "phrase"
+  },
+  {
+    "pt": "Quanto?",
+    "ru": "сколько?",
+    "pos": "phrase"
+  },
+  {
+    "pt": "gostar",
+    "ru": "нравиться",
+    "pos": "verb"
+  },
+  {
+    "pt": "o centro",
+    "ru": "центр",
+    "pos": "noun"
+  },
+  {
+    "pt": "o hotel",
+    "ru": "отель",
+    "pos": "noun"
+  },
+  {
+    "pt": "a parte",
+    "ru": "часть",
+    "pos": "noun"
+  },
+  {
+    "pt": "a pessoa",
+    "ru": "человек",
+    "pos": "noun"
+  },
+  {
+    "pt": "o quarto",
+    "ru": "комната",
+    "pos": "noun"
+  },
+  {
+    "pt": "o restaurante",
+    "ru": "ресторан",
+    "pos": "noun"
+  },
+  {
+    "pt": "antigo",
+    "ru": "старинный",
+    "pos": "adj"
+  },
+  {
+    "pt": "antipático",
+    "ru": "неприятный",
+    "pos": "adj"
+  },
+  {
+    "pt": "barato",
+    "ru": "дешёвый",
+    "pos": "adj"
+  },
+  {
+    "pt": "bom",
+    "ru": "хороший",
+    "pos": "adj"
+  },
+  {
+    "pt": "boa",
+    "ru": "хорошая",
+    "pos": "adj"
+  },
+  {
+    "pt": "bonito",
+    "ru": "красивый",
+    "pos": "adj"
+  },
+  {
+    "pt": "caro",
+    "ru": "дорогой",
+    "pos": "adj"
+  },
+  {
+    "pt": "feio",
+    "ru": "некрасивый",
+    "pos": "adj"
+  },
+  {
+    "pt": "grande",
+    "ru": "большой",
+    "pos": "adj"
+  },
+  {
+    "pt": "histórico",
+    "ru": "исторический",
+    "pos": "adj"
+  },
+  {
+    "pt": "lindo",
+    "ru": "прекрасный",
+    "pos": "adj"
+  },
+  {
+    "pt": "mau",
+    "ru": "плохой",
+    "pos": "adj"
+  },
+  {
+    "pt": "má",
+    "ru": "плохая",
+    "pos": "adj"
+  },
+  {
+    "pt": "moderno",
+    "ru": "современный",
+    "pos": "adj"
+  },
+  {
+    "pt": "novo",
+    "ru": "новый",
+    "pos": "adj"
+  },
+  {
+    "pt": "pequeno",
+    "ru": "маленький",
+    "pos": "adj"
+  },
+  {
+    "pt": "pobre",
+    "ru": "бедный",
+    "pos": "adj"
+  },
+  {
+    "pt": "rico",
+    "ru": "богатый",
+    "pos": "adj"
+  },
+  {
+    "pt": "simpático",
+    "ru": "приятный",
+    "pos": "adj"
+  },
+  {
+    "pt": "velho",
+    "ru": "старый",
+    "pos": "adj"
+  },
+  {
+    "pt": "bastante",
+    "ru": "довольно",
+    "pos": "adv"
+  },
+  {
+    "pt": "fora",
+    "ru": "снаружи",
+    "pos": "adv"
+  },
+  {
+    "pt": "longe",
+    "ru": "далеко",
+    "pos": "adv"
+  },
+  {
+    "pt": "perto",
+    "ru": "близко",
+    "pos": "adv"
+  },
+  {
+    "pt": "de férias",
+    "ru": "в отпуске",
+    "pos": "phrase"
+  },
+  {
+    "pt": "Boas férias!",
+    "ru": "хорошего отпуска",
+    "pos": "phrase"
+  },
+  {
+    "pt": "Porque?",
+    "ru": "почему?",
+    "pos": "phrase"
+  },
+  {
+    "pt": "achar",
+    "ru": "считать",
+    "pos": "verb"
+  },
+  {
+    "pt": "estudar",
+    "ru": "учиться",
+    "pos": "verb"
+  },
+  {
+    "pt": "ganhar",
+    "ru": "зарабатывать",
+    "pos": "verb"
+  },
+  {
+    "pt": "trabalhar",
+    "ru": "работать",
+    "pos": "verb"
+  },
+  {
+    "pt": "usar",
+    "ru": "использовать",
+    "pos": "verb"
+  },
+  {
+    "pt": "viajar",
+    "ru": "путешествовать",
+    "pos": "verb"
+  },
+  {
+    "pt": "o agente da polícia",
+    "ru": "полицейский",
+    "pos": "noun"
+  },
+  {
+    "pt": "a agente da polícia",
+    "ru": "полицейская",
+    "pos": "noun"
+  },
+  {
+    "pt": "o arquiteto",
+    "ru": "архитектор",
+    "pos": "noun"
+  },
+  {
+    "pt": "o ateliê",
+    "ru": "мастерская",
+    "pos": "noun"
+  },
+  {
+    "pt": "o chefe",
+    "ru": "начальник",
+    "pos": "noun"
+  },
+  {
+    "pt": "a chefe",
+    "ru": "начальница",
+    "pos": "noun"
+  },
+  {
+    "pt": "o colega",
+    "ru": "коллега (м.)",
+    "pos": "noun"
+  },
+  {
+    "pt": "a colega",
+    "ru": "коллега (ж.)",
+    "pos": "noun"
+  },
+  {
+    "pt": "o dia",
+    "ru": "день",
+    "pos": "noun"
+  },
+  {
+    "pt": "a empregada doméstica",
+    "ru": "домработница",
+    "pos": "noun"
+  },
+  {
+    "pt": "a empresa",
+    "ru": "компания",
+    "pos": "noun"
+  },
+  {
+    "pt": "o empresário",
+    "ru": "предприниматель",
+    "pos": "noun"
+  },
+  {
+    "pt": "a esquadra",
+    "ru": "участок полиции",
+    "pos": "noun"
+  },
+  {
+    "pt": "a hora",
+    "ru": "час",
+    "pos": "noun"
+  },
+  {
+    "pt": "o hospital",
+    "ru": "больница",
+    "pos": "noun"
+  },
+  {
+    "pt": "a pergunta",
+    "ru": "вопрос",
+    "pos": "noun"
+  },
+  {
+    "pt": "a semana",
+    "ru": "неделя",
+    "pos": "noun"
+  },
+  {
+    "pt": "o teatro",
+    "ru": "театр",
+    "pos": "noun"
+  },
+  {
+    "pt": "o trabalho",
+    "ru": "работа",
+    "pos": "noun"
+  },
+  {
+    "pt": "a universidade",
+    "ru": "университет",
+    "pos": "noun"
+  },
+  {
+    "pt": "difícil",
+    "ru": "трудный",
+    "pos": "adj"
+  },
+  {
+    "pt": "interessante",
+    "ru": "интересный",
+    "pos": "adj"
+  },
+  {
+    "pt": "pronto",
+    "ru": "готовый",
+    "pos": "adj"
+  },
+  {
+    "pt": "sozinho",
+    "ru": "в одиночку",
+    "pos": "adj"
+  },
+  {
+    "pt": "felizmente",
+    "ru": "к счастью",
+    "pos": "adv"
+  },
+  {
+    "pt": "infelizmente",
+    "ru": "к сожалению",
+    "pos": "adv"
+  },
+  {
+    "pt": "normalmente",
+    "ru": "обычно",
+    "pos": "adv"
+  },
+  {
+    "pt": "pouco",
+    "ru": "мало",
+    "pos": "adv"
+  },
+  {
+    "pt": "até",
+    "ru": "до",
+    "pos": "prep"
+  },
+  {
+    "pt": "por",
+    "ru": "по, за",
+    "pos": "prep"
+  },
+  {
+    "pt": "à noite",
+    "ru": "вечером",
+    "pos": "adv"
+  },
+  {
+    "pt": "às vezes",
+    "ru": "иногда",
+    "pos": "adv"
+  },
+  {
+    "pt": "andar",
+    "ru": "ходить",
+    "pos": "verb"
+  },
+  {
+    "pt": "casar",
+    "ru": "жениться",
+    "pos": "verb"
+  },
+  {
+    "pt": "o amigo",
+    "ru": "друг",
+    "pos": "noun"
+  },
+  {
+    "pt": "o avô",
+    "ru": "дедушка",
+    "pos": "noun"
+  },
+  {
+    "pt": "a avó",
+    "ru": "бабушка",
+    "pos": "noun"
+  },
+  {
+    "pt": "a família",
+    "ru": "семья",
+    "pos": "noun"
+  },
+  {
+    "pt": "o filho",
+    "ru": "сын",
+    "pos": "noun"
+  },
+  {
+    "pt": "a fotografia",
+    "ru": "фотография",
+    "pos": "noun"
+  },
+  {
+    "pt": "o homem",
+    "ru": "мужчина",
+    "pos": "noun"
+  },
+  {
+    "pt": "a mulher",
+    "ru": "женщина",
+    "pos": "noun"
+  },
+  {
+    "pt": "o irmão",
+    "ru": "брат",
+    "pos": "noun"
+  },
+  {
+    "pt": "a irmã",
+    "ru": "сестра",
+    "pos": "noun"
+  },
+  {
+    "pt": "o marido",
+    "ru": "муж",
+    "pos": "noun"
+  },
+  {
+    "pt": "o namorado",
+    "ru": "молодой человек",
+    "pos": "noun"
+  },
+  {
+    "pt": "o neto",
+    "ru": "внук",
+    "pos": "noun"
+  },
+  {
+    "pt": "o pai",
+    "ru": "отец",
+    "pos": "noun"
+  },
+  {
+    "pt": "a mãe",
+    "ru": "мать",
+    "pos": "noun"
+  },
+  {
+    "pt": "o primo",
+    "ru": "двоюродный брат",
+    "pos": "noun"
+  },
+  {
+    "pt": "o rapaz",
+    "ru": "парень",
+    "pos": "noun"
+  },
+  {
+    "pt": "a rapariga",
+    "ru": "девушка",
+    "pos": "noun"
+  },
+  {
+    "pt": "a sogra",
+    "ru": "свекровь",
+    "pos": "noun"
+  },
+  {
+    "pt": "o tio",
+    "ru": "дядя",
+    "pos": "noun"
+  },
+  {
+    "pt": "a turma",
+    "ru": "класс (группа)",
+    "pos": "noun"
+  },
+  {
+    "pt": "giro",
+    "ru": "симпатичный",
+    "pos": "adj"
+  },
+  {
+    "pt": "único",
+    "ru": "единственный",
+    "pos": "adj"
+  },
+  {
+    "pt": "já",
+    "ru": "уже",
+    "pos": "adv"
+  },
+  {
+    "pt": "ainda",
+    "ru": "ещё",
+    "pos": "adv"
+  },
+  {
+    "pt": "este",
+    "ru": "этот",
+    "pos": "det"
+  },
+  {
+    "pt": "esta",
+    "ru": "эта",
+    "pos": "det"
+  },
+  {
+    "pt": "esse",
+    "ru": "тот",
+    "pos": "det"
+  },
+  {
+    "pt": "essa",
+    "ru": "та",
+    "pos": "det"
+  },
+  {
+    "pt": "aquele",
+    "ru": "тот (далеко)",
+    "pos": "det"
+  },
+  {
+    "pt": "aquela",
+    "ru": "та (далеко)",
+    "pos": "det"
+  },
+  {
+    "pt": "Que pena!",
+    "ru": "как жаль",
+    "pos": "phrase"
+  },
+  {
+    "pt": "cantar",
+    "ru": "петь",
+    "pos": "verb"
+  },
+  {
+    "pt": "cozinhar",
+    "ru": "готовить",
+    "pos": "verb"
+  },
+  {
+    "pt": "dançar",
+    "ru": "танцевать",
+    "pos": "verb"
+  },
+  {
+    "pt": "ler",
+    "ru": "читать",
+    "pos": "verb"
+  },
+  {
+    "pt": "ver",
+    "ru": "смотреть",
+    "pos": "verb"
+  },
+  {
+    "pt": "a barba",
+    "ru": "борода",
+    "pos": "noun"
+  },
+  {
+    "pt": "o bigode",
+    "ru": "усы",
+    "pos": "noun"
+  },
+  {
+    "pt": "o cabelo",
+    "ru": "волосы",
+    "pos": "noun"
+  },
+  {
+    "pt": "o careca",
+    "ru": "лысый",
+    "pos": "noun"
+  },
+  {
+    "pt": "o filme",
+    "ru": "фильм",
+    "pos": "noun"
+  },
+  {
+    "pt": "o olho",
+    "ru": "глаз",
+    "pos": "noun"
+  },
+  {
+    "pt": "a televisão",
+    "ru": "телевизор",
+    "pos": "noun"
+  },
+  {
+    "pt": "alto",
+    "ru": "высокий",
+    "pos": "adj"
+  },
+  {
+    "pt": "baixo",
+    "ru": "низкий",
+    "pos": "adj"
+  },
+  {
+    "pt": "cansado",
+    "ru": "усталый",
+    "pos": "adj"
+  },
+  {
+    "pt": "claro",
+    "ru": "светлый",
+    "pos": "adj"
+  },
+  {
+    "pt": "comprido",
+    "ru": "длинный",
+    "pos": "adj"
+  },
+  {
+    "pt": "curto",
+    "ru": "короткий",
+    "pos": "adj"
+  },
+  {
+    "pt": "direito",
+    "ru": "правый",
+    "pos": "adj"
+  },
+  {
+    "pt": "doente",
+    "ru": "больной",
+    "pos": "adj"
+  },
+  {
+    "pt": "escuro",
+    "ru": "тёмный",
+    "pos": "adj"
+  },
+  {
+    "pt": "esquerdo",
+    "ru": "левый",
+    "pos": "adj"
+  },
+  {
+    "pt": "gordo",
+    "ru": "толстый",
+    "pos": "adj"
+  },
+  {
+    "pt": "loiro",
+    "ru": "блондин",
+    "pos": "adj"
+  },
+  {
+    "pt": "magro",
+    "ru": "худой",
+    "pos": "adj"
+  },
+  {
+    "pt": "moreno",
+    "ru": "брюнет",
+    "pos": "adj"
+  },
+  {
+    "pt": "ruivo",
+    "ru": "рыжий",
+    "pos": "adj"
+  },
+  {
+    "pt": "cerca de",
+    "ru": "около",
+    "pos": "prep"
+  },
+  {
+    "pt": "com calor",
+    "ru": "жарко",
+    "pos": "phrase"
+  },
+  {
+    "pt": "com fome",
+    "ru": "голоден",
+    "pos": "phrase"
+  },
+  {
+    "pt": "com frio",
+    "ru": "холодно",
+    "pos": "phrase"
+  },
+  {
+    "pt": "com sede",
+    "ru": "хочется пить",
+    "pos": "phrase"
+  },
+  {
+    "pt": "com sono",
+    "ru": "хочется спать",
+    "pos": "phrase"
+  },
+  {
+    "pt": "de altura média",
+    "ru": "среднего роста",
+    "pos": "phrase"
+  },
+  {
+    "pt": "Estás bom?",
+    "ru": "ты в порядке? (м.)",
+    "pos": "phrase"
+  },
+  {
+    "pt": "Estás boa?",
+    "ru": "ты в порядке? (ж.)",
+    "pos": "phrase"
+  },
+  {
+    "pt": "adorar",
+    "ru": "обожать",
+    "pos": "verb"
+  },
+  {
+    "pt": "detestar",
+    "ru": "терпеть не могу",
+    "pos": "verb"
+  },
+  {
+    "pt": "ir",
+    "ru": "идти",
+    "pos": "verb"
+  },
+  {
+    "pt": "jogar",
+    "ru": "играть",
+    "pos": "verb"
+  },
+  {
+    "pt": "passar",
+    "ru": "проводить",
+    "pos": "verb"
+  },
+  {
+    "pt": "o animal",
+    "ru": "животное",
+    "pos": "noun"
+  },
+  {
+    "pt": "o bar",
+    "ru": "бар",
+    "pos": "noun"
+  },
+  {
+    "pt": "o café",
+    "ru": "кафе",
+    "pos": "noun"
+  },
+  {
+    "pt": "o cão",
+    "ru": "собака",
+    "pos": "noun"
+  },
+  {
+    "pt": "o cinema",
+    "ru": "кино",
+    "pos": "noun"
+  },
+  {
+    "pt": "o clube de futebol",
+    "ru": "футбольный клуб",
+    "pos": "noun"
+  },
+  {
+    "pt": "a comida",
+    "ru": "еда",
+    "pos": "noun"
+  },
+  {
+    "pt": "as compras",
+    "ru": "покупки",
+    "pos": "noun"
+  },
+  {
+    "pt": "o desporto",
+    "ru": "спорт",
+    "pos": "noun"
+  },
+  {
+    "pt": "a discoteca",
+    "ru": "дискотека",
+    "pos": "noun"
+  },
+  {
+    "pt": "o estrangeiro",
+    "ru": "заграница",
+    "pos": "noun"
+  },
+  {
+    "pt": "o gato",
+    "ru": "кот",
+    "pos": "noun"
+  },
+  {
+    "pt": "o ginásio",
+    "ru": "спортзал",
+    "pos": "noun"
+  },
+  {
+    "pt": "o jogo",
+    "ru": "игра",
+    "pos": "noun"
+  },
+  {
+    "pt": "a música clássica",
+    "ru": "классическая музыка",
+    "pos": "noun"
+  },
+  {
+    "pt": "a natureza",
+    "ru": "природа",
+    "pos": "noun"
+  },
+  {
+    "pt": "a praia",
+    "ru": "пляж",
+    "pos": "noun"
+  },
+  {
+    "pt": "a revista",
+    "ru": "журнал",
+    "pos": "noun"
+  },
+  {
+    "pt": "o ténis",
+    "ru": "теннис",
+    "pos": "noun"
+  },
+  {
+    "pt": "preferido",
+    "ru": "любимый",
+    "pos": "adj"
+  },
+  {
+    "pt": "nem",
+    "ru": "даже не",
+    "pos": "adv"
+  },
+  {
+    "pt": "almoçar",
+    "ru": "обедать",
+    "pos": "verb"
+  },
+  {
+    "pt": "andar de",
+    "ru": "ездить на",
+    "pos": "verb"
+  },
+  {
+    "pt": "apanhar",
+    "ru": "ловить, брать",
+    "pos": "verb"
+  },
+  {
+    "pt": "estacionar",
+    "ru": "парковаться",
+    "pos": "verb"
+  },
+  {
+    "pt": "jantar",
+    "ru": "ужинать",
+    "pos": "verb"
+  },
+  {
+    "pt": "pagar",
+    "ru": "платить",
+    "pos": "verb"
+  },
+  {
+    "pt": "procurar",
+    "ru": "искать",
+    "pos": "verb"
+  },
+  {
+    "pt": "ser bom em",
+    "ru": "хорошо уметь",
+    "pos": "phrase"
+  },
+  {
+    "pt": "ter interesse em",
+    "ru": "интересоваться",
+    "pos": "phrase"
+  },
+  {
+    "pt": "tomar",
+    "ru": "брать, пить",
+    "pos": "verb"
+  },
+  {
+    "pt": "o artista",
+    "ru": "артист",
+    "pos": "noun"
+  },
+  {
+    "pt": "a artista",
+    "ru": "артистка",
+    "pos": "noun"
+  },
+  {
+    "pt": "o banho",
+    "ru": "душ, ванна",
+    "pos": "noun"
+  },
+  {
+    "pt": "a bicicleta",
+    "ru": "велосипед",
+    "pos": "noun"
+  },
+  {
+    "pt": "o mar",
+    "ru": "море",
+    "pos": "noun"
+  },
+  {
+    "pt": "o parque de estacionamento",
+    "ru": "парковка",
+    "pos": "noun"
+  },
+  {
+    "pt": "o passeio",
+    "ru": "прогулка",
+    "pos": "noun"
+  },
+  {
+    "pt": "o sol",
+    "ru": "солнце",
+    "pos": "noun"
+  },
+  {
+    "pt": "diferente",
+    "ru": "другой",
+    "pos": "adj"
+  },
+  {
+    "pt": "irlandês",
+    "ru": "ирландский",
+    "pos": "adj"
+  },
+  {
+    "pt": "popular",
+    "ru": "популярный",
+    "pos": "adj"
+  },
+  {
+    "pt": "típico",
+    "ru": "типичный",
+    "pos": "adj"
+  },
+  {
+    "pt": "todos",
+    "ru": "все",
+    "pos": "pron"
+  },
+  {
+    "pt": "entre",
+    "ru": "между",
+    "pos": "prep"
+  },
+  {
+    "pt": "assim",
+    "ru": "так",
+    "pos": "adv"
+  },
+  {
+    "pt": "cá",
+    "ru": "здесь (у меня)",
+    "pos": "adv"
+  },
+  {
+    "pt": "lá",
+    "ru": "там",
+    "pos": "adv"
+  },
+  {
+    "pt": "pois não?",
+    "ru": "не так ли?",
+    "pos": "phrase"
+  },
+  {
+    "pt": "Um abraço",
+    "ru": "обнимаю",
+    "pos": "phrase"
+  }
 ]

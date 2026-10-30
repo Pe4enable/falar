@@ -1,432 +1,272 @@
 {
   "id": 10,
   "number": 10,
-  "title": "Артикли и слияния — no, na, do, ao, pelo",
-  "topic": "Предлоги места + em/de/a/por с артиклями; ficar и há",
+  "title": "Tenho olhos azuis — внешность",
+  "topic": "Внешность, самочувствие, ler и ver",
   "tags": [
-    "artigos",
-    "contrações"
+    "aparência",
+    "ser/estar",
+    "ler"
   ],
   "free": false,
   "theory": {
-    "intro": "Артикли: o, a, os, as. Предлоги em, de, a, por сливаются с ними в короткие слова — и появляются вездесущие no, na, do, da, ao, à, pelo, pela.",
+    "intro": "Десятый юнит описывает человека: глаза, волосы, рост — через ter и ser. Самочувствие идёт через estar: estou cansado, estou com fome.",
     "blocks": [
       {
         "type": "text",
-        "content": "em + o = no (в), em + a = na; de + o = do (из/от), de + a = da; a + o = ao (к/в), a + a = à; por + o = pelo (через/по), por + a = pela."
+        "content": "Внешность, которая «при вас»: tenho olhos azuis, ele tem barba, o cabelo é curto. Рост и телосложение с ser: ela é alta, ele é magro."
       },
       {
         "type": "text",
-        "content": "Ficar — «находиться» для зданий и мест: «A farmácia fica ao lado do café» — «Аптека находится рядом с кафе». Há — «есть/имеется»: «Há uma farmácia aqui perto?»"
+        "content": "Состояние с estar: estou cansado, ela não está doente, estás bom? Com fome, com sede, com sono, com frio, com calor — устойчивые формулы, не прилагательные."
+      },
+      {
+        "type": "text",
+        "content": "Ler и ver: ela lê um livro, vejo um filme. Eu у ler — leio, у ver — vejo. В юните они нужны, чтобы сказать, чем человек занят."
       },
       {
         "type": "note",
-        "content": "Multibanco — португальский банкомат (и целая платёжная система). Os correios — почта. A paragem — остановка."
+        "content": "Olhos azuis: olhos мужского рода, поэтому azul во множественном — azuis. Loiro, moreno, ruivo описывают цвет волос."
       }
     ]
   },
   "verbTable": {
-    "verb": "comprar",
-    "translation": "покупать",
-    "conjugation": "ar",
+    "verb": "ter",
+    "translation": "иметь",
+    "conjugation": "irregular",
     "schema": {
       "present": {
-        "affirm": "compro",
-        "negate": "não compro",
-        "question": "compro?"
+        "affirm": "tenho",
+        "negate": "não tenho",
+        "question": "tenho?"
       },
       "past": {
-        "affirm": "comprei",
-        "negate": "não comprei",
-        "question": "comprei?"
+        "affirm": "tive",
+        "negate": "não tive",
+        "question": "tive?"
       },
       "future": {
-        "affirm": "vou comprar",
-        "negate": "não vou comprar",
-        "question": "vou comprar?"
+        "affirm": "vou ter",
+        "negate": "não vou ter",
+        "question": "vou ter?"
       }
     },
     "presentFull": {
-      "eu": "compro",
-      "tu": "compras",
-      "ele": "compra",
-      "nos": "compramos",
-      "eles": "compram"
+      "eu": "tenho",
+      "tu": "tens",
+      "ele": "tem",
+      "nos": "temos",
+      "eles": "têm"
     }
   },
+  "tables": [
+    {
+      "type": "paradigm",
+      "forms": [
+        [
+          "eu",
+          "estou"
+        ],
+        [
+          "tu",
+          "estás"
+        ],
+        [
+          "ele/ela",
+          "está"
+        ],
+        [
+          "nós",
+          "estamos"
+        ],
+        [
+          "eles/elas",
+          "estão"
+        ]
+      ],
+      "title": "estar — настоящее"
+    },
+    {
+      "type": "compare",
+      "title": "ser или estar",
+      "cols": [
+        "ser — какое оно",
+        "estar — как сейчас"
+      ],
+      "rows": [
+        [
+          "внешность / усталость",
+          "Ela é alta.",
+          "Estou cansado."
+        ],
+        [
+          "цвет волос / голод",
+          "O cabelo é escuro.",
+          "Estou com fome."
+        ]
+      ]
+    }
+  ],
   "phrases": [
     {
       "id": "l10-001",
-      "ru": "Я иду в супермаркет.",
-      "pt": "Vou ao supermercado.",
+      "ru": "У меня голубые глаза.",
+      "pt": "Eu tenho olhos azuis.",
       "tense": "present",
       "form": "affirm",
       "conjugation": "irregular",
-      "verb": "ir",
+      "verb": "ter",
       "distractors": [
-        "vais",
-        "mercado"
+        "verdes",
+        "castanhos"
       ]
     },
     {
       "id": "l10-002",
-      "ru": "Я иду с работы.",
-      "pt": "Venho do trabalho.",
+      "ru": "Она высокая.",
+      "pt": "Ela é alta.",
       "tense": "present",
       "form": "affirm",
       "conjugation": "irregular",
-      "verb": "vir",
+      "verb": "ser",
       "distractors": [
-        "vens",
-        "café"
+        "baixa",
+        "magra"
       ]
     },
     {
       "id": "l10-003",
-      "ru": "Ключи на столе.",
-      "pt": "As chaves estão na mesa.",
+      "ru": "Я устал.",
+      "pt": "Estou cansado.",
       "tense": "present",
       "form": "affirm",
       "conjugation": "irregular",
       "verb": "estar",
       "distractors": [
-        "está",
-        "carteira"
+        "doente",
+        "bem"
       ]
     },
     {
       "id": "l10-004",
-      "ru": "Аптека находится рядом с кафе.",
-      "pt": "A farmácia fica ao lado do café.",
+      "ru": "У него борода.",
+      "pt": "Ele tem barba.",
       "tense": "present",
       "form": "affirm",
-      "conjugation": "ar",
-      "verb": "ficar",
+      "conjugation": "irregular",
+      "verb": "ter",
       "distractors": [
-        "ficam",
-        "banco"
+        "bigode",
+        "cabelo"
       ]
     },
     {
       "id": "l10-005",
-      "ru": "Я покупаю фрукты на рынке.",
-      "pt": "Compro fruta no mercado.",
+      "ru": "Волосы короткие.",
+      "pt": "O cabelo é curto.",
       "tense": "present",
       "form": "affirm",
-      "conjugation": "ar",
-      "verb": "comprar",
+      "conjugation": "irregular",
+      "verb": "ser",
       "distractors": [
-        "compras",
-        "supermercado"
+        "comprido",
+        "loiro"
       ]
     },
     {
       "id": "l10-006",
-      "ru": "Я работаю в центре города.",
-      "pt": "Eu trabalho no centro da cidade.",
+      "ru": "Я голоден.",
+      "pt": "Estou com fome.",
       "tense": "present",
       "form": "affirm",
-      "conjugation": "ar",
-      "verb": "trabalhar",
+      "conjugation": "irregular",
+      "verb": "estar",
       "distractors": [
-        "trabalhas",
-        "rua"
+        "sede",
+        "sono"
       ]
     },
     {
       "id": "l10-007",
-      "ru": "Она живёт на улице Флорес.",
-      "pt": "Ela mora na Rua das Flores.",
+      "ru": "Она читает книгу.",
+      "pt": "Ela lê um livro.",
       "tense": "present",
       "form": "affirm",
-      "conjugation": "ar",
-      "verb": "morar",
+      "conjugation": "er",
+      "verb": "ler",
       "distractors": [
-        "moras",
-        "Avenida"
+        "revista",
+        "jornal"
       ]
     },
     {
       "id": "l10-008",
-      "ru": "Деньги в кошельке.",
-      "pt": "O dinheiro está na carteira.",
+      "ru": "Я смотрю фильм.",
+      "pt": "Vejo um filme.",
       "tense": "present",
       "form": "affirm",
       "conjugation": "irregular",
-      "verb": "estar",
+      "verb": "ver",
       "distractors": [
-        "estão",
-        "mesa"
+        "livro",
+        "jogo"
       ]
     },
     {
       "id": "l10-009",
-      "ru": "Мы идём через мост.",
-      "pt": "Vamos pela ponte.",
+      "ru": "Он худой.",
+      "pt": "Ele é magro.",
       "tense": "present",
       "form": "affirm",
       "conjugation": "irregular",
-      "verb": "ir",
+      "verb": "ser",
       "distractors": [
-        "vão",
-        "rua"
+        "gordo",
+        "alto"
       ]
     },
     {
       "id": "l10-010",
-      "ru": "Почта находится на углу.",
-      "pt": "Os correios ficam na esquina.",
+      "ru": "Я хочу спать.",
+      "pt": "Estou com sono.",
       "tense": "present",
       "form": "affirm",
-      "conjugation": "ar",
-      "verb": "ficar",
+      "conjugation": "irregular",
+      "verb": "estar",
       "distractors": [
-        "fica",
-        "centro"
+        "fome",
+        "frio"
       ]
     },
     {
       "id": "l10-011",
-      "ru": "В воскресенье я еду на пляж.",
-      "pt": "Vou à praia no domingo.",
-      "tense": "present",
-      "form": "affirm",
-      "conjugation": "irregular",
-      "verb": "ir",
-      "distractors": [
-        "vais",
-        "sábado"
-      ]
-    },
-    {
-      "id": "l10-012",
-      "ru": "Сегодня я не иду в спортзал.",
-      "pt": "Não vou ao ginásio hoje.",
-      "tense": "present",
-      "form": "negate",
-      "conjugation": "irregular",
-      "verb": "ir",
-      "distractors": [
-        "vais",
-        "amanhã"
-      ]
-    },
-    {
-      "id": "l10-013",
-      "ru": "Его нет в офисе.",
-      "pt": "Ele não está no escritório.",
+      "ru": "Она не больна.",
+      "pt": "Ela não está doente.",
       "tense": "present",
       "form": "negate",
       "conjugation": "irregular",
       "verb": "estar",
       "distractors": [
-        "estás",
-        "casa"
+        "cansada",
+        "bem"
       ]
     },
     {
-      "id": "l10-014",
-      "ru": "В холодильнике нет молока.",
-      "pt": "Não há leite no frigorífico.",
-      "tense": "present",
-      "form": "negate",
-      "conjugation": "irregular",
-      "verb": "haver",
-      "tags": [
-        "chunk"
-      ],
-      "distractors": [
-        "têm",
-        "pão"
-      ]
-    },
-    {
-      "id": "l10-015",
-      "ru": "Магазины не работают по воскресеньям.",
-      "pt": "As lojas não abrem ao domingo.",
-      "tense": "present",
-      "form": "negate",
-      "conjugation": "ir",
-      "verb": "abrir",
-      "distractors": [
-        "abre",
-        "sábado"
-      ]
-    },
-    {
-      "id": "l10-016",
-      "ru": "Я не прохожу через центр.",
-      "pt": "Eu não passo pelo centro.",
-      "tense": "present",
-      "form": "negate",
-      "conjugation": "ar",
-      "verb": "passar",
-      "distractors": [
-        "passas",
-        "ponte"
-      ]
-    },
-    {
-      "id": "l10-017",
-      "ru": "Остановка недалеко.",
-      "pt": "A paragem não fica longe.",
-      "tense": "present",
-      "form": "negate",
-      "conjugation": "ar",
-      "verb": "ficar",
-      "distractors": [
-        "ficam",
-        "perto"
-      ]
-    },
-    {
-      "id": "l10-018",
-      "ru": "Где находится станция метро?",
-      "pt": "Onde fica a estação de metro?",
-      "tense": "present",
-      "form": "question",
-      "conjugation": "ar",
-      "verb": "ficar",
-      "tags": [
-        "chunk"
-      ],
-      "distractors": [
-        "ficam",
-        "paragem"
-      ]
-    },
-    {
-      "id": "l10-019",
-      "ru": "Здесь поблизости есть аптека?",
-      "pt": "Há uma farmácia aqui perto?",
+      "id": "l10-012",
+      "ru": "Ты в порядке?",
+      "pt": "Tu estás bom?",
       "tense": "present",
       "form": "question",
       "conjugation": "irregular",
-      "verb": "haver",
-      "tags": [
-        "chunk"
-      ],
+      "verb": "estar",
       "distractors": [
-        "fica",
-        "longe"
-      ]
-    },
-    {
-      "id": "l10-020",
-      "ru": "Ты идёшь на рынок в субботу?",
-      "pt": "Vais ao mercado no sábado?",
-      "tense": "present",
-      "form": "question",
-      "conjugation": "irregular",
-      "verb": "ir",
-      "distractors": [
-        "vou",
-        "domingo"
-      ]
-    },
-    {
-      "id": "l10-021",
-      "ru": "Где ты покупаешь фрукты?",
-      "pt": "Onde é que compras fruta?",
-      "tense": "present",
-      "form": "question",
-      "conjugation": "ar",
-      "verb": "comprar",
-      "tags": [
-        "e-que"
-      ],
-      "distractors": [
-        "compro",
-        "pão"
-      ]
-    },
-    {
-      "id": "l10-022",
-      "ru": "Ты едешь из аэропорта?",
-      "pt": "Vens do aeroporto?",
-      "tense": "present",
-      "form": "question",
-      "conjugation": "irregular",
-      "verb": "vir",
-      "distractors": [
-        "venho",
-        "trabalho"
-      ]
-    },
-    {
-      "id": "l10-023",
-      "ru": "Музей находится в центре?",
-      "pt": "O museu fica no centro?",
-      "tense": "present",
-      "form": "question",
-      "conjugation": "ar",
-      "verb": "ficar",
-      "distractors": [
-        "ficam",
-        "esquina"
-      ]
-    },
-    {
-      "id": "l10-024",
-      "ru": "Зайдёшь в аптеку (по пути)?",
-      "pt": "Passas pela farmácia?",
-      "tense": "present",
-      "form": "question",
-      "conjugation": "ar",
-      "verb": "passar",
-      "distractors": [
-        "passo",
-        "banco"
+        "boa",
+        "cansado"
       ]
     }
   ],
   "exam": {
     "count": 10,
     "passThreshold": 0.8
-  },
-  "tables": [
-    {
-      "type": "contractions",
-      "title": "Слияния предлог + артикль",
-      "cols": [
-        "o",
-        "a",
-        "os",
-        "as"
-      ],
-      "rows": [
-        "em",
-        "de",
-        "a",
-        "por"
-      ],
-      "note": "no = em + o (в); do = de + o (из/от); ao = a + o (к); pelo = por + o (через/по).",
-      "cells": [
-        [
-          "no",
-          "na",
-          "nos",
-          "nas"
-        ],
-        [
-          "do",
-          "da",
-          "dos",
-          "das"
-        ],
-        [
-          "ao",
-          "à",
-          "aos",
-          "às"
-        ],
-        [
-          "pelo",
-          "pela",
-          "pelos",
-          "pelas"
-        ]
-      ]
-    }
-  ]
+  }
 }

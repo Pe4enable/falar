@@ -1,181 +1,146 @@
 {
   "1": {
-    "title": "The verb falar — present tense -ar",
-    "topic": "-ar conjugation: statement, negative, question",
-    "verb": "to speak",
-    "intro": "One verb gives you nine working forms: three sentence forms (statement, negative, question) across three tenses. First see the whole scheme, then drill it to automatic. This lesson takes the present tense of -ar verbs.",
+    "title": "Olá, bom dia! — greetings",
+    "topic": "Say hello, introduce yourself, say goodbye",
+    "verb": "to be",
+    "intro": "The first unit is how you enter a conversation: greet, say your name, and leave. Singular ser and chamar-se carry almost all of it.",
     "blocks": [
-      "-ar verbs in the present change their ending by person: eu falo, tu falas, ele/ela/você fala, nós falamos, eles/elas/vocês falam.",
-      "The negative is the word «não» before the verb: eu não falo. A question keeps the same word order, just with a rising intonation: tu falas?",
-      "This lesson has eight -ar verbs, and they all conjugate the same way: falar (to speak), morar (to live), trabalhar (to work), estudar (to study), comprar (to buy), tomar (to have/drink), almoçar (to have lunch), pagar (to pay).",
-      "European norm: «tu» (you) is widely used in everyday speech. Questions are often built with «é que»: «Onde é que tu moras?» — «Where do you live?».",
-      "You can drop the pronoun — the verb ending already shows the person: «Falo português» = «Eu falo português». Both versions count as correct in the exercises."
+      "Ser in the present: eu sou, tu és, ele/ela/você é. We and they (somos, são) come in the next unit. The negative is não before the verb: eu não sou o João.",
+      "«My name is» is eu chamo-me Ana. To ask: como te chamas? In Portugal an article goes before the name: eu sou a Ana, eu sou o Pedro.",
+      "The time of day picks the greeting: bom dia until lunch, boa tarde after, boa noite in the evening. Goodbye is até logo, até amanhã, até já, adeus.",
+      "A man says obrigado, a woman says obrigada. It follows the speaker, not the person they thank."
     ]
   },
   "2": {
-    "title": "Pronouns and question words",
-    "topic": "eu, tu, ele… + onde, quando, quem, o que, como, porquê",
-    "verb": "to work",
-    "intro": "Seven personal pronouns and six question words open almost any conversation. In European Portuguese a question is most often built with the connector «é que».",
+    "title": "Sou de Lisboa — where you are from",
+    "topic": "Origin, countries, and where a city is",
+    "verb": "to be located",
+    "intro": "Unit 2 answers «where are you from?». Ser takes de, ficar takes em: a person is from a country, a city is in a country.",
     "blocks": [
-      "Pronouns: eu (I), tu (you), ele/ela (he/she), você (you, polite), nós (we), eles/elas (they), vocês (you, plural).",
-      "Question words: onde (where), quando (when), quem (who), o que (what), como (how), porque/porquê (why). Question pattern: «Onde é que tu moras?» — literally «Where is it that you live?».",
-      "In Portugal «tu» is the normal way to address friends and peers. «Você» is polite-neutral, and is often dropped entirely: «Mora aqui?» — «Do you live here?»."
+      "Origin: sou de Portugal, ela é da China, eles são do Brasil. De merges with the article: de + a = da, de + o = do.",
+      "Where a city or country is uses ficar: Lisboa fica em Portugal. The question is onde fica Lisboa? We and you: nós somos, vocês são.",
+      "The negative is short: não, sou de Angola. Numbers from thirty to a hundred sit in this unit: trinta, quarenta, cinquenta, cem.",
+      "Portugal, Angola and Marrocos take no article. Brasil, França and China do: o Brasil, a França, a China."
     ]
   },
   "3": {
-    "title": "Ser and Estar — two verbs for «to be»",
-    "topic": "Permanent (ser) and state/location (estar)",
-    "verb": "to be (permanent)",
-    "intro": "Portuguese has two verbs for «to be». Ser is for the permanent: who you are, where you're from, your job. Estar is for state and location: how you feel, where you are right now, whether the café is open.",
+    "title": "Falo português — languages",
+    "topic": "Languages, nationalities, -ar verbs and estar",
+    "verb": "to speak",
+    "intro": "Unit 3 is languages and nationalities. Falar and morar follow the regular -ar pattern. Estar here is a state: está bem.",
     "blocks": [
-      "Ser: eu sou, tu és, ele/ela é, nós somos, eles são. Estar: eu estou, tu estás, ele/ela está, nós estamos, eles estão.",
-      "Compare: «O café é ótimo» — the café is great in general (a property). «O café está fechado» — the café is closed right now (a state).",
-      "When introducing themselves, the Portuguese put an article before the name: «Eu sou o Alex», «Ela é a Ana». That's the norm, not a mistake."
+      "-ar endings: eu falo, tu falas, ele fala, nós falamos, eles falam. Morar works the same way, and so do the other regular -ar verbs in this course.",
+      "A language takes no article: falo português, falas inglês. Nationality agrees: ele é português, ela é portuguesa. The book list gives the masculine form.",
+      "Estar is not ser. Ela está bem is how she feels now. Ela é portuguesa is who she is. Também, só, muito and um pouco sit next to the verb.",
+      "Hundreds run cento e um, duzentos, trezentos, mil. Cento is only inside a compound; on its own you say cem."
     ]
   },
   "4": {
-    "title": "-er verbs — present tense",
-    "topic": "comer, beber, viver, perceber, aprender",
-    "verb": "to eat",
-    "intro": "The second group of verbs ends in -er. The logic is the same as -ar; only the vowel in the endings changes: como, comes, come, comemos, comem.",
+    "title": "Como se diz isto em português?",
+    "topic": "Classroom objects, colours, isto / isso / aquilo",
+    "verb": "to be",
+    "intro": "Unit 4 is classroom language. You name a thing, its colour, and ask how to say it in Portuguese.",
     "blocks": [
-      "Comer (to eat): eu como, tu comes, ele come, nós comemos, eles comem. The same pattern: beber (to drink), viver (to live), aprender (to learn), vender (to sell).",
-      "Perceber is the main Portuguese verb for «to understand» (compreender is the bookish synonym). «Não percebo» is survival phrase number one.",
-      "A sandwich in European Portuguese is «uma sandes» (in Brazil — sanduíche). The landlord of a rented flat is «o senhorio»."
+      "Three demonstratives: isto is by me, isso is by you, aquilo is farther off. They do not change for gender: isto é um livro, isso é o mapa, aquilo é a janela.",
+      "Colour comes after the noun and usually agrees: o livro é vermelho, a porta é branca. Azul, verde, cor-de-rosa and cor de laranja do not change.",
+      "Useful classroom lines: como se diz, como se escreve, o que significa, pode repetir, pode escrever, qual é a página. Não percebo and não compreendo both mean you don't understand.",
+      "«What?» in this unit is o que, not the que of the previous unit. O que é isto?"
     ]
   },
   "5": {
-    "title": "-ir verbs — present tense",
-    "topic": "abrir, partir, dormir, decidir, preferir",
-    "verb": "to open",
-    "intro": "The third and last group is -ir verbs. The endings are almost like -er; only the «we» form differs: abrimos.",
+    "title": "Tenho carta de condução",
+    "topic": "ter, my things, aqui / aí / ali",
+    "verb": "to have",
+    "intro": "Unit 5 is built on ter: what you have. Next to it are meu, teu, seu and the three words for «here»: aqui, aí, ali.",
     "blocks": [
-      "Abrir (to open): eu abro, tu abres, ele abre, nós abrimos, eles abrem. Also: partir (to leave), decidir (to decide).",
-      "Two useful verbs slightly change their stem in the «I» form: dormir → durmo (I sleep), preferir → prefiro (I prefer). The other forms are regular: dormes, prefere…",
-      "«A que horas abre…?» — «What time does … open?» — the standard question about shops, museums and pharmacies."
+      "Ter: eu tenho, tu tens, ele tem, nós temos, eles têm. Eu tenho um carro. Não tenho dinheiro. To ask where a thing is: onde está o telemóvel?",
+      "Possessives agree with the thing, not the owner: a minha mala, o meu carro, a casa é minha. Teu is for tu, seu is for você.",
+      "Aqui is by me, aí is by you, ali is over there. A chave está aqui. O passaporte está ali.",
+      "In European Portuguese the possessive usually takes an article: a minha mala, not minha mala alone."
     ]
   },
   "6": {
-    "title": "Past tense — Pretérito Perfeito",
-    "topic": "Completed actions: falei, comi, parti",
-    "verb": "to have dinner",
-    "intro": "Pretérito Perfeito is the main past tense: completed actions. «Yesterday I worked, ate, went to bed» — all of that is PPS.",
+    "title": "Sou estudante — a form",
+    "topic": "Jobs, ordinals and personal details",
+    "verb": "to be",
+    "intro": "Unit 6 is a form: name, surname, age, address and job. Ser carries it. Ordinals from primeiro to décimo are for floors and queues.",
     "blocks": [
-      "-ar endings: falei, falaste, falou, falámos, falaram. -er endings: comi, comeste, comeu, comemos, comeram. -ir endings: parti, partiste, partiu, partimos, partiram.",
-      "A European detail: in the «we» form the -ar past is written with an accent — «jantámos» (we had dinner), while the present has none — «jantamos» (we have dinner).",
-      "The most useful irregular form: fui — «I was» and «I went» (ser and ir share the past): «Fui ao supermercado» — «I went to the supermarket»."
+      "A job uses ser, often with no article: eu sou estudante, ele é professor, ela é médica. The job changes gender: o médico, a médica, o jornalista, a jornalista.",
+      "Form questions: qual é o teu nome, qual é a tua idade, qual é a morada. Quanto asks for a quantity, qual asks which one.",
+      "Marital status: solteiro, casado, divorciado. Ordinals: primeiro, segundo, terceiro, quarto. Eu sou o primeiro.",
+      "On an address Dto. is the right-hand side, Esq. is the left, rés do chão is the ground floor."
     ]
   },
   "7": {
-    "title": "Future tense — ir + infinitive",
-    "topic": "Plans: vou trabalhar, vamos jantar",
-    "verb": "to go",
-    "intro": "The future in spoken Portuguese is the verb ir (to go) + infinitive: «vou falar» — «I'm going to speak». Just like English «going to».",
+    "title": "Gosto da minha cidade",
+    "topic": "Liking, describing a city, adjectives",
+    "verb": "to like",
+    "intro": "Unit 7 describes a city and says whether you like it. Gostar always takes de: gosto da minha cidade.",
     "blocks": [
-      "Ir: eu vou, tu vais, ele vai, nós vamos, eles vão. Then any infinitive: vou comprar (I'll buy), vais gostar (you'll like it), vamos jantar (we'll have dinner).",
-      "The present can also serve as a future when there's a time marker: «Amanhã trabalho» — «Tomorrow I work».",
-      "«Vamos beber um café?» is the standard Portuguese invitation. To agree: «Vamos!»",
-      "There is also a second, more formal way — the synthetic future: falarei (I will speak), comerei (I will eat), partirei (I will leave). In speech, ir + infinitive is more common, but the synthetic future appears in texts and formal speech. The «Verb forms» trainer drills both."
+      "Gostar de: eu gosto, tu gostas, ele gosta. De merges with the article: gosto do centro, gosto da cidade, não gosto do restaurante.",
+      "The adjective follows the noun and agrees: o centro é bonito, a cidade é antiga, o hotel é caro, o quarto é pequeno. Bom/boa and mau/má change gender.",
+      "Perto is near, longe is far. O hotel fica perto. Porque gostas da cidade? asks for the reason.",
+      "Porque without an accent is «because» and «why» inside a sentence. Porquê with an accent is the standalone «why?»."
     ]
   },
   "8": {
-    "title": "Estar a + infinitive — action right now",
-    "topic": "Estou a trabalhar — I'm working (right now)",
-    "verb": "to be speaking (right now)",
-    "intro": "An action happening right now is expressed in Portugal with estar a + infinitive: «Estou a trabalhar» — «I'm working (at this moment)».",
+    "title": "Trabalho num escritório",
+    "topic": "Work, opinions, muito and pouco",
+    "verb": "to work",
+    "intro": "Unit 8 is the working day. Trabalhar, estudar, ganhar, usar and viajar share one pattern. Achar introduces an opinion: acho o trabalho difícil.",
     "blocks": [
-      "Estar is conjugated (estou, estás, está, estamos, estão), the infinitive stays the same: estou a falar, estás a comer, estamos a chegar.",
-      "This is the hallmark of European Portuguese. In Brazil they say «estou falando» — in Portugal always «estou a falar».",
-      "«Não estou a perceber» — «I don't understand (what's happening/being said) right now» — one of the most common phrases."
+      "The workplace takes em: trabalho num escritório, estudo na universidade. Em + o = num, and em + a gives na in na universidade.",
+      "Muito is a lot, pouco is a little. Não ganho muito. Viajo pouco. À noite is in the evening, às vezes is sometimes, normalmente is usually.",
+      "Por covers span and motive. In this lesson: infelizmente trabalho à noite.",
+      "Colega, chefe and estudante keep one -e form; the article shows gender: o colega, a colega, o chefe, a chefe."
     ]
   },
   "9": {
-    "title": "Modal verbs — want, can, must",
-    "topic": "poder, querer, ter de, dever, precisar de",
-    "verb": "to be able to",
-    "intro": "Five key verbs: querer (to want), poder (to be able), ter de (to have to), dever (should), precisar de (to need). A plain infinitive follows them.",
+    "title": "Tenho um irmão — family",
+    "topic": "Family and este, esse, aquele",
+    "verb": "to have",
+    "intro": "Unit 9 introduces the family. Ter is back, now with people: tenho um irmão. Este, esse and aquele do change for gender.",
     "blocks": [
-      "Querer: quero, queres, quer, queremos, querem. Poder: posso, podes, pode, podemos, podem. Ter: tenho, tens, tem, temos, têm (+ de: tenho de ir — I have to go).",
-      "«Posso…?» is the all-purpose polite question: Posso pagar com cartão? Posso experimentar? Posso deixar a mala aqui?",
-      "In a café you order with querer: «Quero um galão, por favor» (a galão is coffee with milk in a tall glass). Or softer: «Queria…» — «I'd like…»."
+      "Este is this one by me, esse is that one by you, aquele is that one farther off. Feminine: esta, essa, aquela. Este é o meu pai. Aquele é o meu primo.",
+      "Family: o pai, a mãe, o irmão, a irmã, o avô, a avó, o filho, o primo, o tio, a sogra.",
+      "Ainda is still, já is already. Ainda não sou casado. Giro in Portugal is «cute, nice»: o meu avô é giro.",
+      "A mulher is both «woman» and «wife». Husband is o marido. A rapariga is the ordinary European Portuguese word for a girl."
     ]
   },
   "10": {
-    "title": "Articles and contractions — no, na, do, ao, pelo",
-    "topic": "Prepositions of place + em/de/a/por with articles; ficar and há",
-    "verb": "to buy",
-    "intro": "Articles: o, a, os, as. The prepositions em, de, a, por merge with them into short words — giving the ever-present no, na, do, da, ao, à, pelo, pela.",
+    "title": "Tenho olhos azuis — appearance",
+    "topic": "Looks, how you feel, ler and ver",
+    "verb": "to have",
+    "intro": "Unit 10 describes a person. Eyes, hair and height use ter and ser. How you feel uses estar: estou cansado, estou com fome.",
     "blocks": [
-      "em + o = no (in), em + a = na; de + o = do (from/of), de + a = da; a + o = ao (to), a + a = à; por + o = pelo (through/along), por + a = pela.",
-      "Ficar — «to be located» for buildings and places: «A farmácia fica ao lado do café» — «The pharmacy is next to the café». Há — «there is»: «Há uma farmácia aqui perto?»",
-      "Multibanco is the Portuguese cash machine (and a whole payment system). Os correios — the post office. A paragem — the bus stop."
+      "Looks you «have»: tenho olhos azuis, ele tem barba, o cabelo é curto. Height and build use ser: ela é alta, ele é magro.",
+      "A state uses estar: estou cansado, ela não está doente, estás bom? Com fome, com sede, com sono, com frio and com calor are fixed phrases, not adjectives.",
+      "Ler and ver: ela lê um livro, vejo um filme. The eu form of ler is leio, of ver is vejo.",
+      "Olhos azuis: olhos is masculine, so the plural of azul is azuis. Loiro, moreno and ruivo are hair colours."
     ]
   },
   "11": {
-    "title": "Possessives — my, your, our + the verb ter",
-    "topic": "o meu, a tua, o nosso; tenho, tens, tem",
-    "verb": "to have",
-    "intro": "«My house» in Portuguese is «a minha casa», with an article before the possessive. Gender and number agree with the thing, not the owner.",
+    "title": "Vou muito à praia",
+    "topic": "ir, free time and the preposition a",
+    "verb": "to go",
+    "intro": "Unit 11 is where you go. Ir plus a: vou à praia, vou ao cinema. Adorar and detestar say whether you like it.",
     "blocks": [
-      "o meu / a minha / os meus / as minhas (my); o teu / a tua (your); o nosso / a nossa (our); o vosso / a vossa (your, plural). Ter (to have): tenho, tens, tem, temos, têm.",
-      "«O seu» usually means «your» (polite). For «his/her» the Portuguese say dele/dela: «o carro dele» — his car.",
-      "«Tens horas?» — «Have you got the time?» (literally «do you have hours?»). A renda — the rent. O troco — the change."
+      "Ir: eu vou, tu vais, ele vai, nós vamos, eles vão. A merges with the article: a + a = à, a + o = ao. Vou à praia. Vou ao cinema. Vou ao ginásio.",
+      "Adoro a natureza. Detesto o ginásio. Jogo ténis. O meu desporto preferido é o ténis. Muito strengthens it: vou muito à praia.",
+      "The negative: eu não vou ao bar, eu não vou à discoteca. Passar o dia is to spend the day: passo o dia na praia.",
+      "À is a + a, with a grave accent. It is not the bare a «to», and it is not há «there is»."
     ]
   },
   "12": {
-    "title": "Movement and transport",
-    "topic": "ir de metro, apanhar o autocarro, vir de, até",
-    "verb": "to catch",
-    "intro": "How to get there: ir de + transport (de metro, de carro, de autocarro) or a pé (on foot). «To catch / take» is the verb apanhar.",
+    "title": "Adoro café português",
+    "topic": "Tastes, habits and the tag pois não",
+    "verb": "to love",
+    "intro": "Unit 12 closes the first stretch of the book: what you love, where you eat, and how to check you are agreed. Cá is here by me, lá is there.",
     "blocks": [
-      "Apanhar: apanho o autocarro (I catch the bus), apanhamos um táxi (we take a taxi). Vir (to come): venho, vens, vem, vimos, vêm.",
-      "Para — direction «for good / all the way» (vou para casa — I'm going home), a — «briefly» (vou ao banco — to the bank and back). Até — «as far as»: até à estação.",
-      "O elétrico — the Lisbon tram. O comboio — the train (in Brazil trem). Connosco — «with us» (the European form)."
-    ]
-  },
-  "13": {
-    "title": "Adjectives and demonstratives",
-    "topic": "este/esse/aquele, agreement, gostar de",
-    "verb": "to like (gostar de)",
-    "intro": "An adjective agrees with the noun in gender and number: vinho tinto, casa bonita, praias lindas. Demonstratives: este (this, near me), esse (that, near you), aquele (that one, far away).",
-    "blocks": [
-      "Gostar de — «to like»: gosto de café, gostas de bacalhau? With demonstratives, de merges: gosto deste restaurante (de + este).",
-      "Comparison: mais caro (do) que — more expensive than; melhor — better; o melhor — the best.",
-      "Giro/gira — colloquial «cool, nice» (Portugal only). Sossegado — calm, quiet (about a neighbourhood, a café)."
-    ]
-  },
-  "14": {
-    "title": "Numbers, time and prices",
-    "topic": "What time it is, how much it costs, days of the week",
-    "verb": "to do/make",
-    "intro": "Numbers, hours and prices — what you need every day: at the café, the market, the station. Plus the days of the week and the question «Que horas são?».",
-    "blocks": [
-      "1–12: um, dois, três, quatro, cinco, seis, sete, oito, nove, dez, onze, doze. Tens: vinte, trinta, quarenta, cinquenta… cem (100).",
-      "Time: É uma hora (one o'clock), São duas/três horas. At what time — às: às oito e meia (at 8:30). Price: custa — it costs, custam — they cost.",
-      "Days: segunda, terça, quarta, quinta, sexta (weekdays — «-feira»), sábado, domingo. «À segunda» — on Mondays. Many museums are closed à segunda!"
-    ]
-  },
-  "15": {
-    "title": "Pretérito Imperfeito — used to, would",
-    "topic": "Habits and background in the past: morava, era, tinha",
-    "verb": "to live (somewhere)",
-    "intro": "The second past tense — for habits, background and descriptions: «I used to live in Porto», «coffee was cheaper». Not a finished event (that's PPS) but a picture of the past.",
-    "blocks": [
-      "-ar endings: morava, moravas, morava, morávamos, moravam. -er/-ir endings: bebia, bebias, bebia, bebíamos, bebiam.",
-      "Four key irregulars: era (was), tinha (had), ia (used to go), havia (there was).",
-      "Compare: «Morei no Porto dois anos» — a fact, a finished period (PPS). «Morava no Porto quando era estudante» — background, a habitual state (Imperfeito)."
-    ]
-  },
-  "16": {
-    "title": "Everyday phrases — politeness and survival",
-    "topic": "Set phrases for every day: café, street, conversation",
-    "verb": "to say",
-    "intro": "The final lesson — ready-made phrases the Portuguese say every day. Learn them whole, like words: they glue together everything you already know.",
-    "blocks": [
-      "Dizer (to say/tell): digo, dizes, diz, dizemos, dizem. «Como se diz…?» — «How do you say…?» — your learning tool forever.",
-      "Obrigado is said by a man, obrigada by a woman. The reply: «De nada» or «Não tem de quê».",
-      "Pois é — «yeah, true». Se calhar — «maybe». Está bem — «okay, fine». Combinado — «it's settled». These little words make speech come alive."
+      "Adoro café português. O café é típico, o café é popular. Almoço cá, janto lá. Tu jantas lá? Eu não janto lá.",
+      "Pois não? is a tag, «isn't it?», when you expect agreement. É típico, pois não? It is not a real negative.",
+      "Habits of getting around: ando de bicicleta, estaciono, tomamos banho no mar. Sou bom em português means you are good at it. Tomo um café is «I have a coffee».",
+      "Um abraço closes an informal email. It is not something you say at the end of a chat in the street."
     ]
   }
 }

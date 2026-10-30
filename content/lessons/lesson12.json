@@ -1,421 +1,250 @@
 {
   "id": 12,
   "number": 12,
-  "title": "Движение и транспорт",
-  "topic": "ir de metro, apanhar o autocarro, vir de, até",
+  "title": "Adoro café português",
+  "topic": "Вкусы, привычки и вопрос pois não",
   "tags": [
-    "transportes",
-    "movimento"
+    "gostos",
+    "cá/lá",
+    "confirmação"
   ],
   "free": false,
   "theory": {
-    "intro": "Как добраться: ir de + транспорт (de metro, de carro, de autocarro) или a pé (пешком). «Успеть на / сесть на» — глагол apanhar.",
+    "intro": "Двенадцатый юнит закрывает первую третью учебника: что вы любите, где обедаете и как мягко переспросить. Cá — здесь у меня, lá — там.",
     "blocks": [
       {
         "type": "text",
-        "content": "Apanhar: apanho o autocarro (сажусь на автобус), apanhamos um táxi (берём такси). Vir (приходить/приезжать): venho, vens, vem, vimos, vêm."
+        "content": "Adoro café português. O café é típico, o café é popular. Almoço cá, janto lá. Tu jantas lá? Eu não janto lá."
       },
       {
         "type": "text",
-        "content": "Para — направление «надолго/до конца» (vou para casa — домой), a — «ненадолго» (vou ao banco — в банк и обратно). Até — «до»: até à estação."
+        "content": "Pois não? — переспрос «не так ли?», когда ждёте согласия. É típico, pois não? Это не отрицание, а приглашение кивнуть."
+      },
+      {
+        "type": "text",
+        "content": "Привычки движения: ando de bicicleta, estaciono, tomamos banho no mar. Sou bom em português — «хорошо умею». Tomo um café — «пью кофе»."
       },
       {
         "type": "note",
-        "content": "O elétrico — лиссабонский трамвай. O comboio — поезд (в Бразилии trem). Connosco — «с нами» (европейская форма)."
+        "content": "Um abraço — обычное завершение неформального письма, не буквальное объятие в конце разговора на улице."
       }
     ]
   },
   "verbTable": {
-    "verb": "apanhar",
-    "translation": "успеть на, поймать",
+    "verb": "adorar",
+    "translation": "обожать",
     "conjugation": "ar",
     "schema": {
       "present": {
-        "affirm": "apanho",
-        "negate": "não apanho",
-        "question": "apanho?"
+        "affirm": "adoro",
+        "negate": "não adoro",
+        "question": "adoro?"
       },
       "past": {
-        "affirm": "apanhei",
-        "negate": "não apanhei",
-        "question": "apanhei?"
+        "affirm": "adorei",
+        "negate": "não adorei",
+        "question": "adorei?"
       },
       "future": {
-        "affirm": "vou apanhar",
-        "negate": "não vou apanhar",
-        "question": "vou apanhar?"
+        "affirm": "vou adorar",
+        "negate": "não vou adorar",
+        "question": "vou adorar?"
       }
     },
     "presentFull": {
-      "eu": "apanho",
-      "tu": "apanhas",
-      "ele": "apanha",
-      "nos": "apanhamos",
-      "eles": "apanham"
+      "eu": "adoro",
+      "tu": "adoras",
+      "ele": "adora",
+      "nos": "adoramos",
+      "eles": "adoram"
     }
   },
+  "tables": [
+    {
+      "type": "list",
+      "title": "Здесь и там",
+      "cols": 2,
+      "note": "Cá — ближе к говорящему, lá — дальше.",
+      "items": [
+        {
+          "pt": "cá",
+          "ru": "здесь, у меня"
+        },
+        {
+          "pt": "lá",
+          "ru": "там"
+        },
+        {
+          "pt": "pois não?",
+          "ru": "не так ли?"
+        },
+        {
+          "pt": "um abraço",
+          "ru": "обнимаю"
+        }
+      ]
+    }
+  ],
   "phrases": [
     {
       "id": "l12-001",
-      "ru": "Я езжу на работу на метро.",
-      "pt": "Vou de metro para o trabalho.",
+      "ru": "Обожаю португальский кофе.",
+      "pt": "Adoro café português.",
       "tense": "present",
       "form": "affirm",
-      "conjugation": "irregular",
-      "verb": "ir",
+      "conjugation": "ar",
+      "verb": "adorar",
       "distractors": [
-        "vais",
-        "carro"
+        "chá",
+        "vinho"
       ]
     },
     {
       "id": "l12-002",
-      "ru": "Я сажусь на автобус в восемь.",
-      "pt": "Apanho o autocarro às oito.",
+      "ru": "Кофе типичный.",
+      "pt": "O café é típico.",
       "tense": "present",
       "form": "affirm",
-      "conjugation": "ar",
-      "verb": "apanhar",
+      "conjugation": "irregular",
+      "verb": "ser",
       "distractors": [
-        "apanhas",
-        "nove"
+        "popular",
+        "caro"
       ]
     },
     {
       "id": "l12-003",
-      "ru": "Поезд идёт в Порту.",
-      "pt": "O comboio vai para o Porto.",
+      "ru": "Я обедаю здесь.",
+      "pt": "Eu almoço cá.",
       "tense": "present",
       "form": "affirm",
-      "conjugation": "irregular",
-      "verb": "ir",
+      "conjugation": "ar",
+      "verb": "almoçar",
       "distractors": [
-        "vão",
-        "Lisboa"
+        "lá",
+        "jantar"
       ]
     },
     {
       "id": "l12-004",
-      "ru": "Я иду из аптеки.",
-      "pt": "Venho da farmácia.",
+      "ru": "Ты ужинаешь там?",
+      "pt": "Tu jantas lá?",
       "tense": "present",
-      "form": "affirm",
-      "conjugation": "irregular",
-      "verb": "vir",
-      "distractors": [
-        "vens",
-        "mercado"
-      ]
-    },
-    {
-      "id": "l12-005",
-      "ru": "Мы идём пешком до площади.",
-      "pt": "Vamos a pé até à praça.",
-      "tense": "present",
-      "form": "affirm",
-      "conjugation": "irregular",
-      "verb": "ir",
-      "distractors": [
-        "vão",
-        "estação"
-      ]
-    },
-    {
-      "id": "l12-006",
-      "ru": "Она приезжает на машине.",
-      "pt": "Ela vem de carro.",
-      "tense": "present",
-      "form": "affirm",
-      "conjugation": "irregular",
-      "verb": "vir",
-      "distractors": [
-        "vens",
-        "táxi"
-      ]
-    },
-    {
-      "id": "l12-007",
-      "ru": "Мы берём такси до аэропорта.",
-      "pt": "Apanhamos um táxi para o aeroporto.",
-      "tense": "present",
-      "form": "affirm",
+      "form": "question",
       "conjugation": "ar",
-      "verb": "apanhar",
+      "verb": "jantar",
       "distractors": [
-        "apanham",
-        "centro"
-      ]
-    },
-    {
-      "id": "l12-008",
-      "ru": "Трамвай проходит через центр.",
-      "pt": "O elétrico passa pelo centro.",
-      "tense": "present",
-      "form": "affirm",
-      "conjugation": "ar",
-      "verb": "passar",
-      "distractors": [
-        "passam",
-        "ponte"
-      ]
-    },
-    {
-      "id": "l12-009",
-      "ru": "Я схожу до банкомата.",
-      "pt": "Vou até ao multibanco.",
-      "tense": "present",
-      "form": "affirm",
-      "conjugation": "irregular",
-      "verb": "ir",
-      "tags": [
-        "chunk"
-      ],
-      "distractors": [
-        "vais",
-        "banco"
-      ]
-    },
-    {
-      "id": "l12-010",
-      "ru": "Я выхожу из дома в семь.",
-      "pt": "Saio de casa às sete.",
-      "tense": "present",
-      "form": "affirm",
-      "conjugation": "irregular",
-      "verb": "sair",
-      "distractors": [
-        "sais",
-        "oito"
-      ]
-    },
-    {
-      "id": "l12-011",
-      "ru": "Автобус не идёт в центр.",
-      "pt": "O autocarro não vai para o centro.",
-      "tense": "present",
-      "form": "negate",
-      "conjugation": "irregular",
-      "verb": "ir",
-      "distractors": [
-        "vão",
-        "praia"
-      ]
-    },
-    {
-      "id": "l12-012",
-      "ru": "Сегодня я не еду на машине.",
-      "pt": "Não vou de carro hoje.",
-      "tense": "present",
-      "form": "negate",
-      "conjugation": "irregular",
-      "verb": "ir",
-      "distractors": [
-        "vais",
-        "metro"
-      ]
-    },
-    {
-      "id": "l12-013",
-      "ru": "Метро туда не доходит.",
-      "pt": "O metro não chega até lá.",
-      "tense": "present",
-      "form": "negate",
-      "conjugation": "ar",
-      "verb": "chegar",
-      "distractors": [
-        "chegam",
+        "cá",
         "aqui"
       ]
     },
     {
-      "id": "l12-014",
-      "ru": "Я не успеваю на девятичасовой поезд.",
-      "pt": "Não apanho o comboio das nove.",
+      "id": "l12-005",
+      "ru": "Я пью кофе.",
+      "pt": "Tomo um café.",
+      "tense": "present",
+      "form": "affirm",
+      "conjugation": "ar",
+      "verb": "tomar",
+      "distractors": [
+        "chá",
+        "sumo"
+      ]
+    },
+    {
+      "id": "l12-006",
+      "ru": "Я езжу на велосипеде.",
+      "pt": "Eu ando de bicicleta.",
+      "tense": "present",
+      "form": "affirm",
+      "conjugation": "ar",
+      "verb": "andar",
+      "distractors": [
+        "carro",
+        "metro"
+      ]
+    },
+    {
+      "id": "l12-007",
+      "ru": "Типично, не так ли?",
+      "pt": "É típico, pois não?",
+      "tense": "present",
+      "form": "question",
+      "conjugation": "irregular",
+      "verb": "ser",
+      "distractors": [
+        "popular",
+        "diferente"
+      ]
+    },
+    {
+      "id": "l12-008",
+      "ru": "Я ищу кафе.",
+      "pt": "Procuro um café.",
+      "tense": "present",
+      "form": "affirm",
+      "conjugation": "ar",
+      "verb": "procurar",
+      "distractors": [
+        "restaurante",
+        "bar"
+      ]
+    },
+    {
+      "id": "l12-009",
+      "ru": "Я хорошо знаю португальский.",
+      "pt": "Sou bom em português.",
+      "tense": "present",
+      "form": "affirm",
+      "conjugation": "irregular",
+      "verb": "ser",
+      "distractors": [
+        "inglês",
+        "francês"
+      ]
+    },
+    {
+      "id": "l12-010",
+      "ru": "Мы купаемся в море.",
+      "pt": "Tomamos banho no mar.",
+      "tense": "present",
+      "form": "affirm",
+      "conjugation": "ar",
+      "verb": "tomar",
+      "distractors": [
+        "rio",
+        "piscina"
+      ]
+    },
+    {
+      "id": "l12-011",
+      "ru": "Кофе популярный.",
+      "pt": "O café é popular.",
+      "tense": "present",
+      "form": "affirm",
+      "conjugation": "irregular",
+      "verb": "ser",
+      "distractors": [
+        "típico",
+        "caro"
+      ]
+    },
+    {
+      "id": "l12-012",
+      "ru": "Я не ужинаю там.",
+      "pt": "Eu não janto lá.",
       "tense": "present",
       "form": "negate",
       "conjugation": "ar",
-      "verb": "apanhar",
+      "verb": "jantar",
       "distractors": [
-        "apanhas",
-        "oito"
-      ]
-    },
-    {
-      "id": "l12-015",
-      "ru": "Она не идёт с нами.",
-      "pt": "Ela não vem connosco.",
-      "tense": "present",
-      "form": "negate",
-      "conjugation": "irregular",
-      "verb": "vir",
-      "distractors": [
-        "venho",
-        "contigo"
-      ]
-    },
-    {
-      "id": "l12-016",
-      "ru": "По воскресеньям я не выхожу из дома.",
-      "pt": "Não saio de casa ao domingo.",
-      "tense": "present",
-      "form": "negate",
-      "conjugation": "irregular",
-      "verb": "sair",
-      "distractors": [
-        "sais",
-        "sábado"
-      ]
-    },
-    {
-      "id": "l12-017",
-      "ru": "Этот автобус идёт в Белен?",
-      "pt": "Este autocarro vai para Belém?",
-      "tense": "present",
-      "form": "question",
-      "conjugation": "irregular",
-      "verb": "ir",
-      "distractors": [
-        "vão",
-        "centro"
-      ]
-    },
-    {
-      "id": "l12-018",
-      "ru": "Где мне сесть на метро?",
-      "pt": "Onde é que apanho o metro?",
-      "tense": "present",
-      "form": "question",
-      "conjugation": "ar",
-      "verb": "apanhar",
-      "tags": [
-        "e-que"
-      ],
-      "distractors": [
-        "apanhas",
-        "autocarro"
-      ]
-    },
-    {
-      "id": "l12-019",
-      "ru": "Ты едешь на поезде или на автобусе?",
-      "pt": "Vais de comboio ou de autocarro?",
-      "tense": "present",
-      "form": "question",
-      "conjugation": "irregular",
-      "verb": "ir",
-      "distractors": [
-        "vou",
-        "carro"
-      ]
-    },
-    {
-      "id": "l12-020",
-      "ru": "Во сколько уходит последнее метро?",
-      "pt": "A que horas parte o último metro?",
-      "tense": "present",
-      "form": "question",
-      "conjugation": "ir",
-      "verb": "partir",
-      "tags": [
-        "chunk"
-      ],
-      "distractors": [
-        "partem",
-        "primeiro"
-      ]
-    },
-    {
-      "id": "l12-021",
-      "ru": "Пойдёшь с нами?",
-      "pt": "Vens connosco?",
-      "tense": "present",
-      "form": "question",
-      "conjugation": "irregular",
-      "verb": "vir",
-      "distractors": [
-        "venho",
-        "contigo"
-      ]
-    },
-    {
-      "id": "l12-022",
-      "ru": "Как мне добраться до аэропорта?",
-      "pt": "Como é que chego ao aeroporto?",
-      "tense": "present",
-      "form": "question",
-      "conjugation": "ar",
-      "verb": "chegar",
-      "tags": [
-        "e-que",
-        "chunk"
-      ],
-      "distractors": [
-        "chegas",
-        "centro"
-      ]
-    },
-    {
-      "id": "l12-023",
-      "ru": "Трамвай здесь проходит?",
-      "pt": "O elétrico passa aqui?",
-      "tense": "present",
-      "form": "question",
-      "conjugation": "ar",
-      "verb": "passar",
-      "distractors": [
-        "passam",
-        "ali"
-      ]
-    },
-    {
-      "id": "l12-024",
-      "ru": "Пойдём пешком?",
-      "pt": "Vamos a pé?",
-      "tense": "present",
-      "form": "question",
-      "conjugation": "irregular",
-      "verb": "ir",
-      "tags": [
-        "chunk"
-      ],
-      "distractors": [
-        "vão",
-        "carro"
+        "cá",
+        "aqui"
       ]
     }
   ],
   "exam": {
     "count": 10,
     "passThreshold": 0.8
-  },
-  "tables": [
-    {
-      "type": "list",
-      "title": "Движение и транспорт",
-      "cols": 1,
-      "note": "de + транспорт (de metro), но a pé — пешком. apanhar — сесть на (букв. поймать).",
-      "items": [
-        {
-          "pt": "ir de metro",
-          "ru": "ехать на метро"
-        },
-        {
-          "pt": "apanhar o autocarro",
-          "ru": "сесть на автобус"
-        },
-        {
-          "pt": "ir a pé",
-          "ru": "идти пешком"
-        },
-        {
-          "pt": "vir de comboio",
-          "ru": "приехать на поезде"
-        },
-        {
-          "pt": "até ao centro",
-          "ru": "до центра"
-        }
-      ]
-    }
-  ]
+  }
 }

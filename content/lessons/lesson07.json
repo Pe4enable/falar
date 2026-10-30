@@ -1,436 +1,283 @@
 {
   "id": 7,
   "number": 7,
-  "title": "Будущее время — ir + инфинитив",
-  "topic": "Планы: vou trabalhar, vamos jantar",
+  "title": "Gosto da minha cidade",
+  "topic": "Нравиться, описание города и прилагательные",
   "tags": [
-    "futuro",
-    "ir+inf"
+    "gostar",
+    "adjetivos",
+    "cidade"
   ],
   "free": false,
   "theory": {
-    "intro": "Будущее в разговорном португальском — это глагол ir (идти) + инфинитив: «vou falar» — «буду говорить / поговорю». Точно как английское going to.",
+    "intro": "Седьмой юнит описывает город и говорит, нравится он или нет. Gostar всегда требует de: gosto da minha cidade.",
     "blocks": [
       {
         "type": "text",
-        "content": "Ir: eu vou, tu vais, ele vai, nós vamos, eles vão. Дальше любой инфинитив: vou comprar (куплю), vais gostar (тебе понравится), vamos jantar (поужинаем)."
+        "content": "Gostar de: eu gosto, tu gostas, ele gosta. De сливается с артиклем: gosto do centro, gosto da cidade, não gosto do restaurante."
+      },
+      {
+        "type": "text",
+        "content": "Прилагательное после существительного и согласуется: o centro é bonito, a cidade é antiga, o hotel é caro, o quarto é pequeno. Bom/boa и mau/má меняют род."
+      },
+      {
+        "type": "text",
+        "content": "Где это относительно вас: perto — близко, longe — далеко. O hotel fica perto. Porque gostas da cidade? — вопрос о причине."
       },
       {
         "type": "note",
-        "content": "Само настоящее тоже служит будущим, если есть слово-маркер: «Amanhã trabalho» — «Завтра работаю»."
-      },
-      {
-        "type": "note",
-        "content": "«Vamos beber um café?» — дежурное португальское приглашение. Соглашаться: «Vamos!»"
-      },
-      {
-        "type": "note",
-        "content": "Есть и второй, «книжный» способ — синтетическое будущее: falarei (поговорю), comerei (поем), partirei (уеду). В разговоре чаще ir + инфинитив, но синтетическое встречается в текстах и официальной речи. В тренажёре «Формы глаголов» отрабатываются обе формы."
+        "content": "Porque без акцента — «потому что» и «почему» в середине фразы. Porquê с акцентом — отдельный вопрос «почему?»."
       }
     ]
   },
   "verbTable": {
-    "verb": "ir",
-    "translation": "идти, ехать",
-    "conjugation": "irregular",
+    "verb": "gostar",
+    "translation": "нравиться",
+    "conjugation": "ar",
     "schema": {
       "present": {
-        "affirm": "vou",
-        "negate": "não vou",
-        "question": "vou?"
+        "affirm": "gosto",
+        "negate": "não gosto",
+        "question": "gosto?"
       },
       "past": {
-        "affirm": "fui",
-        "negate": "não fui",
-        "question": "fui?"
+        "affirm": "gostei",
+        "negate": "não gostei",
+        "question": "gostei?"
       },
       "future": {
-        "affirm": "vou amanhã",
-        "negate": "não vou amanhã",
-        "question": "vou amanhã?"
+        "affirm": "vou gostar",
+        "negate": "não vou gostar",
+        "question": "vou gostar?"
       }
     },
     "presentFull": {
-      "eu": "vou",
-      "tu": "vais",
-      "ele": "vai",
-      "nos": "vamos",
-      "eles": "vão"
+      "eu": "gosto",
+      "tu": "gostas",
+      "ele": "gosta",
+      "nos": "gostamos",
+      "eles": "gostam"
     }
   },
+  "tables": [
+    {
+      "type": "paradigm",
+      "forms": [
+        [
+          "eu",
+          "gosto"
+        ],
+        [
+          "tu",
+          "gostas"
+        ],
+        [
+          "ele/ela",
+          "gosta"
+        ],
+        [
+          "nós",
+          "gostamos"
+        ],
+        [
+          "eles/elas",
+          "gostam"
+        ]
+      ],
+      "title": "gostar — настоящее"
+    },
+    {
+      "type": "list",
+      "title": "Про город",
+      "cols": 2,
+      "items": [
+        {
+          "pt": "bonito",
+          "ru": "красивый"
+        },
+        {
+          "pt": "feio",
+          "ru": "некрасивый"
+        },
+        {
+          "pt": "caro",
+          "ru": "дорогой"
+        },
+        {
+          "pt": "barato",
+          "ru": "дешёвый"
+        },
+        {
+          "pt": "grande",
+          "ru": "большой"
+        },
+        {
+          "pt": "pequeno",
+          "ru": "маленький"
+        }
+      ]
+    }
+  ],
   "phrases": [
     {
       "id": "l7-001",
-      "ru": "Завтра я буду работать.",
-      "pt": "Amanhã vou trabalhar.",
-      "tense": "future",
+      "ru": "Мне нравится мой город.",
+      "pt": "Gosto da minha cidade.",
+      "tense": "present",
       "form": "affirm",
       "conjugation": "ar",
-      "verb": "trabalhar",
+      "verb": "gostar",
       "distractors": [
-        "vais",
-        "hoje"
+        "centro",
+        "hotel"
       ]
     },
     {
       "id": "l7-002",
-      "ru": "Я куплю хлеб.",
-      "pt": "Vou comprar pão.",
-      "tense": "future",
+      "ru": "Центр красивый.",
+      "pt": "O centro é bonito.",
+      "tense": "present",
       "form": "affirm",
-      "conjugation": "ar",
-      "verb": "comprar",
+      "conjugation": "irregular",
+      "verb": "ser",
       "distractors": [
-        "vais",
-        "fruta"
+        "feio",
+        "caro"
       ]
     },
     {
       "id": "l7-003",
-      "ru": "Сегодня мы ужинаем не дома.",
-      "pt": "Vamos jantar fora hoje.",
-      "tense": "future",
+      "ru": "Отель дорогой.",
+      "pt": "O hotel é caro.",
+      "tense": "present",
       "form": "affirm",
-      "conjugation": "ar",
-      "verb": "jantar",
+      "conjugation": "irregular",
+      "verb": "ser",
       "distractors": [
-        "vão",
-        "amanhã"
+        "barato",
+        "grande"
       ]
     },
     {
       "id": "l7-004",
-      "ru": "Она приедет поздно.",
-      "pt": "Ela vai chegar tarde.",
-      "tense": "future",
-      "form": "affirm",
+      "ru": "Мне не нравится ресторан.",
+      "pt": "Não gosto do restaurante.",
+      "tense": "present",
+      "form": "negate",
       "conjugation": "ar",
-      "verb": "chegar",
+      "verb": "gostar",
       "distractors": [
-        "vais",
-        "cedo"
+        "hotel",
+        "centro"
       ]
     },
     {
       "id": "l7-005",
-      "ru": "Вечером я буду заниматься.",
-      "pt": "Vou estudar à noite.",
-      "tense": "future",
+      "ru": "Город старинный.",
+      "pt": "A cidade é antiga.",
+      "tense": "present",
       "form": "affirm",
-      "conjugation": "ar",
-      "verb": "estudar",
+      "conjugation": "irregular",
+      "verb": "ser",
       "distractors": [
-        "vamos",
-        "tarde"
+        "moderna",
+        "nova"
       ]
     },
     {
       "id": "l7-006",
-      "ru": "Они будут жить в Порту.",
-      "pt": "Eles vão morar no Porto.",
-      "tense": "future",
+      "ru": "Комната маленькая.",
+      "pt": "O quarto é pequeno.",
+      "tense": "present",
       "form": "affirm",
-      "conjugation": "ar",
-      "verb": "morar",
+      "conjugation": "irregular",
+      "verb": "ser",
       "distractors": [
-        "vamos",
-        "Lisboa"
+        "grande",
+        "caro"
       ]
     },
     {
       "id": "l7-007",
-      "ru": "Тебе понравится Лиссабон.",
-      "pt": "Vais gostar de Lisboa.",
-      "tense": "future",
+      "ru": "Отель близко.",
+      "pt": "O hotel fica perto.",
+      "tense": "present",
       "form": "affirm",
       "conjugation": "ar",
-      "verb": "gostar",
+      "verb": "ficar",
       "distractors": [
-        "vou",
-        "Porto"
+        "longe",
+        "fora"
       ]
     },
     {
       "id": "l7-008",
-      "ru": "Завтра я с ним поговорю.",
-      "pt": "Vou falar com ele amanhã.",
-      "tense": "future",
-      "form": "affirm",
+      "ru": "Почему тебе нравится город?",
+      "pt": "Porque gostas da cidade?",
+      "tense": "present",
+      "form": "question",
       "conjugation": "ar",
-      "verb": "falar",
+      "verb": "gostar",
       "distractors": [
-        "vais",
-        "ela"
+        "hotel",
+        "centro"
       ]
     },
     {
       "id": "l7-009",
-      "ru": "В воскресенье мы едем на пляж.",
-      "pt": "No domingo vamos à praia.",
-      "tense": "future",
+      "ru": "Город современный.",
+      "pt": "A cidade é moderna.",
+      "tense": "present",
       "form": "affirm",
       "conjugation": "irregular",
-      "verb": "ir",
+      "verb": "ser",
       "distractors": [
-        "vão",
-        "sábado"
+        "antiga",
+        "velha"
       ]
     },
     {
       "id": "l7-010",
-      "ru": "Я открою счёт в банке.",
-      "pt": "Vou abrir uma conta no banco.",
-      "tense": "future",
+      "ru": "Центр далеко.",
+      "pt": "O centro fica longe.",
+      "tense": "present",
       "form": "affirm",
-      "conjugation": "ir",
-      "verb": "abrir",
+      "conjugation": "ar",
+      "verb": "ficar",
       "distractors": [
-        "vais",
-        "loja"
+        "perto",
+        "fora"
       ]
     },
     {
       "id": "l7-011",
-      "ru": "Завтра я не работаю.",
-      "pt": "Não vou trabalhar amanhã.",
-      "tense": "future",
+      "ru": "Ресторан не дешёвый.",
+      "pt": "O restaurante não é barato.",
+      "tense": "present",
       "form": "negate",
-      "conjugation": "ar",
-      "verb": "trabalhar",
+      "conjugation": "irregular",
+      "verb": "ser",
       "distractors": [
-        "vais",
-        "hoje"
+        "caro",
+        "bom"
       ]
     },
     {
       "id": "l7-012",
-      "ru": "Ей это не понравится.",
-      "pt": "Ela não vai gostar disto.",
-      "tense": "future",
-      "form": "negate",
+      "ru": "Мне очень нравится центр.",
+      "pt": "Gosto muito do centro.",
+      "tense": "present",
+      "form": "affirm",
       "conjugation": "ar",
       "verb": "gostar",
       "distractors": [
-        "vou",
-        "disso"
-      ]
-    },
-    {
-      "id": "l7-013",
-      "ru": "Сегодня мы не едим не дома.",
-      "pt": "Não vamos comer fora hoje.",
-      "tense": "future",
-      "form": "negate",
-      "conjugation": "er",
-      "verb": "comer",
-      "distractors": [
-        "vou",
-        "amanhã"
-      ]
-    },
-    {
-      "id": "l7-014",
-      "ru": "Они не успеют вовремя.",
-      "pt": "Eles não vão chegar a tempo.",
-      "tense": "future",
-      "form": "negate",
-      "conjugation": "ar",
-      "verb": "chegar",
-      "distractors": [
-        "vamos",
-        "tarde"
-      ]
-    },
-    {
-      "id": "l7-015",
-      "ru": "Сегодня я не буду пить кофе.",
-      "pt": "Não vou beber café hoje.",
-      "tense": "future",
-      "form": "negate",
-      "conjugation": "er",
-      "verb": "beber",
-      "distractors": [
-        "vais",
-        "vinho"
-      ]
-    },
-    {
-      "id": "l7-016",
-      "ru": "Ты не будешь спать?",
-      "pt": "Tu não vais dormir?",
-      "tense": "future",
-      "form": "question",
-      "conjugation": "ir",
-      "verb": "dormir",
-      "distractors": [
-        "vou",
-        "comer"
-      ]
-    },
-    {
-      "id": "l7-017",
-      "ru": "Ты работаешь в субботу?",
-      "pt": "Vais trabalhar no sábado?",
-      "tense": "future",
-      "form": "question",
-      "conjugation": "ar",
-      "verb": "trabalhar",
-      "distractors": [
-        "vou",
-        "domingo"
-      ]
-    },
-    {
-      "id": "l7-018",
-      "ru": "Что ты будешь покупать?",
-      "pt": "O que é que vais comprar?",
-      "tense": "future",
-      "form": "question",
-      "conjugation": "ar",
-      "verb": "comprar",
-      "tags": [
-        "e-que"
-      ],
-      "distractors": [
-        "vou",
-        "onde"
-      ]
-    },
-    {
-      "id": "l7-019",
-      "ru": "Когда вы уезжаете?",
-      "pt": "Quando é que vocês vão partir?",
-      "tense": "future",
-      "form": "question",
-      "conjugation": "ir",
-      "verb": "partir",
-      "tags": [
-        "e-que"
-      ],
-      "distractors": [
-        "vamos",
-        "onde"
-      ]
-    },
-    {
-      "id": "l7-020",
-      "ru": "Выпьем кофе?",
-      "pt": "Vamos beber um café?",
-      "tense": "future",
-      "form": "question",
-      "conjugation": "er",
-      "verb": "beber",
-      "tags": [
-        "chunk"
-      ],
-      "distractors": [
-        "vão",
-        "chá"
-      ]
-    },
-    {
-      "id": "l7-021",
-      "ru": "Она будет учиться в Коимбре?",
-      "pt": "Ela vai estudar em Coimbra?",
-      "tense": "future",
-      "form": "question",
-      "conjugation": "ar",
-      "verb": "estudar",
-      "distractors": [
-        "vais",
-        "Lisboa"
-      ]
-    },
-    {
-      "id": "l7-022",
-      "ru": "Ты сегодня останешься дома?",
-      "pt": "Vais ficar em casa hoje?",
-      "tense": "future",
-      "form": "question",
-      "conjugation": "ar",
-      "verb": "ficar",
-      "distractors": [
-        "vou",
-        "amanhã"
-      ]
-    },
-    {
-      "id": "l7-023",
-      "ru": "Во сколько начнётся фильм?",
-      "pt": "A que horas vai começar o filme?",
-      "tense": "future",
-      "form": "question",
-      "conjugation": "ar",
-      "verb": "começar",
-      "distractors": [
-        "vão",
-        "jogo"
-      ]
-    },
-    {
-      "id": "l7-024",
-      "ru": "Кто будет платить по счёту?",
-      "pt": "Quem vai pagar a conta?",
-      "tense": "future",
-      "form": "question",
-      "conjugation": "ar",
-      "verb": "pagar",
-      "distractors": [
-        "vais",
-        "café"
+        "hotel",
+        "quarto"
       ]
     }
   ],
   "exam": {
     "count": 10,
     "passThreshold": 0.8
-  },
-  "tables": [
-    {
-      "type": "list",
-      "title": "Планы: ir + инфинитив",
-      "cols": 1,
-      "note": "Будущее = ir (спряж.) + инфинитив: vou trabalhar — я буду работать.",
-      "items": [
-        {
-          "pt": "Vou trabalhar.",
-          "ru": "Я буду работать."
-        },
-        {
-          "pt": "Vais comer?",
-          "ru": "Ты будешь есть?"
-        },
-        {
-          "pt": "Vamos jantar.",
-          "ru": "Мы поужинаем."
-        }
-      ]
-    },
-    {
-      "type": "compare",
-      "title": "Два способа сказать о будущем",
-      "cols": [
-        "Разговорный · ir + инф.",
-        "Книжный · Futuro"
-      ],
-      "note": "Смысл один. В речи — ir + инфинитив; синтетическое будущее (falarei) — формальнее.",
-      "rows": [
-        [
-          "я буду говорить",
-          "vou falar",
-          "falarei"
-        ],
-        [
-          "ты будешь есть",
-          "vais comer",
-          "comerás"
-        ],
-        [
-          "мы уедем",
-          "vamos partir",
-          "partiremos"
-        ]
-      ]
-    }
-  ]
+  }
 }

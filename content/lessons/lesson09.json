@@ -1,478 +1,257 @@
 {
   "id": 9,
   "number": 9,
-  "title": "Модальные глаголы — хочу, могу, должен",
-  "topic": "poder, querer, ter de, dever, precisar de",
+  "title": "Tenho um irmão — семья",
+  "topic": "Семья, притяжательные во множественном и este, esse, aquele",
   "tags": [
-    "modais"
+    "família",
+    "possessivos",
+    "demonstrativos"
   ],
   "free": false,
   "theory": {
-    "intro": "Пять глаголов-ключей: querer (хотеть), poder (мочь), ter de (быть должным), dever (следует), precisar de (нуждаться). После них идёт обычный инфинитив.",
+    "intro": "Девятый юнит представляет семью. Снова ter, но теперь с людьми: tenho um irmão. Указательные este, esse, aquele уже меняются по роду.",
     "blocks": [
       {
         "type": "text",
-        "content": "Querer: quero, queres, quer, queremos, querem. Poder: posso, podes, pode, podemos, podem. Ter: tenho, tens, tem, temos, têm (+ de: tenho de ir — мне надо идти)."
+        "content": "Este — этот рядом со мной, esse — тот рядом с тобой, aquele — тот далеко. Женский род: esta, essa, aquela. Este é o meu pai. Aquele é o meu primo."
+      },
+      {
+        "type": "text",
+        "content": "Семья: o pai, a mãe, o irmão, a irmã, o avô, a avó, o filho, o primo, o tio, a sogra. Артикль показывает род там, где слово одно: o estudante из прошлого юнита устроен так же."
+      },
+      {
+        "type": "text",
+        "content": "Ainda — ещё, já — уже. Ainda não sou casado. Giro в Португалии — «симпатичный, милый»: o meu avô é giro."
       },
       {
         "type": "note",
-        "content": "«Posso…?» — универсальный вежливый вопрос: Posso pagar com cartão? Posso experimentar? Posso deixar a mala aqui?"
-      },
-      {
-        "type": "note",
-        "content": "В кафе заказывают через querer: «Quero um galão, por favor» (галан — кофе с молоком в высоком стакане). Или мягче: «Queria…» — «я бы хотел»."
+        "content": "A mulher — и «женщина», и «жена». Муж — o marido. Девушка — a rapariga, это обычное португальское слово."
       }
     ]
   },
   "verbTable": {
-    "verb": "poder",
-    "translation": "мочь",
+    "verb": "ter",
+    "translation": "иметь",
     "conjugation": "irregular",
     "schema": {
       "present": {
-        "affirm": "posso",
-        "negate": "não posso",
-        "question": "posso?"
+        "affirm": "tenho",
+        "negate": "não tenho",
+        "question": "tenho?"
       },
       "past": {
-        "affirm": "pude",
-        "negate": "não pude",
-        "question": "pude?"
+        "affirm": "tive",
+        "negate": "não tive",
+        "question": "tive?"
       },
       "future": {
-        "affirm": "vou poder",
-        "negate": "não vou poder",
-        "question": "vou poder?"
+        "affirm": "vou ter",
+        "negate": "não vou ter",
+        "question": "vou ter?"
       }
     },
     "presentFull": {
-      "eu": "posso",
-      "tu": "podes",
-      "ele": "pode",
-      "nos": "podemos",
-      "eles": "podem"
+      "eu": "tenho",
+      "tu": "tens",
+      "ele": "tem",
+      "nos": "temos",
+      "eles": "têm"
     }
   },
+  "tables": [
+    {
+      "type": "list",
+      "title": "Семья",
+      "cols": 2,
+      "items": [
+        {
+          "pt": "o pai",
+          "ru": "отец"
+        },
+        {
+          "pt": "a mãe",
+          "ru": "мать"
+        },
+        {
+          "pt": "o irmão",
+          "ru": "брат"
+        },
+        {
+          "pt": "a irmã",
+          "ru": "сестра"
+        },
+        {
+          "pt": "o avô",
+          "ru": "дедушка"
+        },
+        {
+          "pt": "a avó",
+          "ru": "бабушка"
+        }
+      ]
+    }
+  ],
   "phrases": [
     {
       "id": "l9-001",
-      "ru": "Я хочу галан, пожалуйста.",
-      "pt": "Quero um galão, por favor.",
+      "ru": "У меня есть брат.",
+      "pt": "Eu tenho um irmão.",
       "tense": "present",
       "form": "affirm",
       "conjugation": "irregular",
-      "verb": "querer",
-      "tags": [
-        "chunk"
-      ],
+      "verb": "ter",
       "distractors": [
-        "queres",
-        "bica"
+        "irmã",
+        "primo"
       ]
     },
     {
       "id": "l9-002",
-      "ru": "Я могу помочь.",
-      "pt": "Posso ajudar.",
+      "ru": "Это мой отец.",
+      "pt": "Este é o meu pai.",
       "tense": "present",
       "form": "affirm",
       "conjugation": "irregular",
-      "verb": "poder",
+      "verb": "ser",
       "distractors": [
-        "podes",
-        "pagar"
+        "mãe",
+        "tio"
       ]
     },
     {
       "id": "l9-003",
-      "ru": "Мне нужно идти.",
-      "pt": "Tenho de ir embora.",
+      "ru": "У неё есть сестра.",
+      "pt": "Ela tem uma irmã.",
       "tense": "present",
       "form": "affirm",
       "conjugation": "irregular",
       "verb": "ter",
-      "tags": [
-        "chunk"
-      ],
       "distractors": [
-        "tens",
-        "ficar"
+        "irmão",
+        "filho"
       ]
     },
     {
       "id": "l9-004",
-      "ru": "Завтра мне следует прийти рано.",
-      "pt": "Devo chegar cedo amanhã.",
+      "ru": "Мой дедушка симпатичный.",
+      "pt": "O meu avô é giro.",
       "tense": "present",
       "form": "affirm",
-      "conjugation": "er",
-      "verb": "dever",
+      "conjugation": "irregular",
+      "verb": "ser",
       "distractors": [
-        "deves",
-        "tarde"
+        "avó",
+        "tio"
       ]
     },
     {
       "id": "l9-005",
-      "ru": "Ты можешь остаться здесь.",
-      "pt": "Podes ficar aqui.",
+      "ru": "У меня нет братьев.",
+      "pt": "Eu não tenho irmãos.",
       "tense": "present",
-      "form": "affirm",
+      "form": "negate",
       "conjugation": "irregular",
-      "verb": "poder",
+      "verb": "ter",
       "distractors": [
-        "posso",
-        "ali"
+        "irmãs",
+        "filhos"
       ]
     },
     {
       "id": "l9-006",
-      "ru": "Мы хотим столик на двоих.",
-      "pt": "Queremos uma mesa para dois.",
+      "ru": "Тот мой двоюродный брат.",
+      "pt": "Aquele é o meu primo.",
       "tense": "present",
       "form": "affirm",
       "conjugation": "irregular",
-      "verb": "querer",
-      "tags": [
-        "chunk"
-      ],
+      "verb": "ser",
       "distractors": [
-        "querem",
-        "três"
+        "tio",
+        "pai"
       ]
     },
     {
       "id": "l9-007",
-      "ru": "Ты должен это попробовать.",
-      "pt": "Tens de provar isto.",
+      "ru": "Моя семья большая.",
+      "pt": "A minha família é grande.",
       "tense": "present",
       "form": "affirm",
       "conjugation": "irregular",
-      "verb": "ter",
+      "verb": "ser",
       "distractors": [
-        "tenho",
-        "isso"
+        "pequena",
+        "giro"
       ]
     },
     {
       "id": "l9-008",
-      "ru": "Мне нужна помощь.",
-      "pt": "Preciso de ajuda.",
+      "ru": "Это мой сын.",
+      "pt": "Este é o meu filho.",
       "tense": "present",
       "form": "affirm",
-      "conjugation": "ar",
-      "verb": "precisar",
-      "tags": [
-        "chunk"
-      ],
+      "conjugation": "irregular",
+      "verb": "ser",
       "distractors": [
-        "precisas",
-        "tempo"
+        "pai",
+        "neto"
       ]
     },
     {
       "id": "l9-009",
-      "ru": "Она хочет переехать.",
-      "pt": "Ela quer mudar de casa.",
+      "ru": "Я ещё не женат.",
+      "pt": "Ainda não sou casado.",
       "tense": "present",
-      "form": "affirm",
+      "form": "negate",
       "conjugation": "irregular",
-      "verb": "querer",
+      "verb": "ser",
       "distractors": [
-        "queres",
-        "trabalho"
+        "solteiro",
+        "já"
       ]
     },
     {
       "id": "l9-010",
-      "ru": "Ты можешь открыть окно.",
-      "pt": "Podes abrir a janela.",
+      "ru": "Её парень симпатичный.",
+      "pt": "O namorado dela é giro.",
       "tense": "present",
       "form": "affirm",
       "conjugation": "irregular",
-      "verb": "poder",
+      "verb": "ser",
       "distractors": [
-        "podem",
-        "porta"
+        "marido",
+        "primo"
       ]
     },
     {
       "id": "l9-011",
-      "ru": "Я сейчас не могу говорить.",
-      "pt": "Não posso falar agora.",
+      "ru": "У меня есть бабушка.",
+      "pt": "Eu tenho uma avó.",
       "tense": "present",
-      "form": "negate",
+      "form": "affirm",
       "conjugation": "irregular",
-      "verb": "poder",
+      "verb": "ter",
       "distractors": [
-        "podes",
-        "depois"
+        "avô",
+        "mãe"
       ]
     },
     {
       "id": "l9-012",
-      "ru": "Я не хочу сахар, спасибо.",
-      "pt": "Não quero açúcar, obrigado.",
+      "ru": "Как жаль!",
+      "pt": "Que pena!",
       "tense": "present",
-      "form": "negate",
-      "conjugation": "irregular",
-      "verb": "querer",
+      "form": "affirm",
+      "conjugation": "n/a",
+      "verb": "ser",
       "distractors": [
-        "queres",
-        "leite"
-      ]
-    },
-    {
-      "id": "l9-013",
-      "ru": "Он не может прийти сегодня.",
-      "pt": "Ele não pode vir hoje.",
-      "tense": "present",
-      "form": "negate",
-      "conjugation": "irregular",
-      "verb": "poder",
-      "distractors": [
-        "podes",
-        "amanhã"
-      ]
-    },
-    {
-      "id": "l9-014",
-      "ru": "Тебе не нужно ничего платить.",
-      "pt": "Não tens de pagar nada.",
-      "tense": "present",
-      "form": "negate",
-      "conjugation": "irregular",
-      "verb": "ter",
-      "distractors": [
-        "tenho",
-        "tudo"
-      ]
-    },
-    {
-      "id": "l9-015",
-      "ru": "Мне не следует столько есть.",
-      "pt": "Não devo comer tanto.",
-      "tense": "present",
-      "form": "negate",
-      "conjugation": "er",
-      "verb": "dever",
-      "distractors": [
-        "deves",
-        "pouco"
-      ]
-    },
-    {
-      "id": "l9-016",
-      "ru": "Пакет не нужен, спасибо.",
-      "pt": "Não preciso de saco, obrigado.",
-      "tense": "present",
-      "form": "negate",
-      "conjugation": "ar",
-      "verb": "precisar",
-      "tags": [
-        "chunk"
-      ],
-      "distractors": [
-        "precisas",
-        "caixa"
-      ]
-    },
-    {
-      "id": "l9-017",
-      "ru": "Можно оплатить картой?",
-      "pt": "Posso pagar com cartão?",
-      "tense": "present",
-      "form": "question",
-      "conjugation": "irregular",
-      "verb": "poder",
-      "tags": [
-        "chunk"
-      ],
-      "distractors": [
-        "podes",
-        "dinheiro"
-      ]
-    },
-    {
-      "id": "l9-018",
-      "ru": "Можешь повторить, пожалуйста?",
-      "pt": "Podes repetir, por favor?",
-      "tense": "present",
-      "form": "question",
-      "conjugation": "irregular",
-      "verb": "poder",
-      "tags": [
-        "chunk"
-      ],
-      "distractors": [
-        "posso",
-        "falar"
-      ]
-    },
-    {
-      "id": "l9-019",
-      "ru": "Можно примерить?",
-      "pt": "Posso experimentar?",
-      "tense": "present",
-      "form": "question",
-      "conjugation": "irregular",
-      "verb": "poder",
-      "tags": [
-        "chunk"
-      ],
-      "distractors": [
-        "podes",
-        "pagar"
-      ]
-    },
-    {
-      "id": "l9-020",
-      "ru": "Хочешь что-нибудь выпить?",
-      "pt": "Queres beber alguma coisa?",
-      "tense": "present",
-      "form": "question",
-      "conjugation": "irregular",
-      "verb": "querer",
-      "distractors": [
-        "quero",
-        "comer"
-      ]
-    },
-    {
-      "id": "l9-021",
-      "ru": "Мы можем заплатить раздельно?",
-      "pt": "Podemos pagar em separado?",
-      "tense": "present",
-      "form": "question",
-      "conjugation": "irregular",
-      "verb": "poder",
-      "tags": [
-        "chunk"
-      ],
-      "distractors": [
-        "podem",
-        "junto"
-      ]
-    },
-    {
-      "id": "l9-022",
-      "ru": "Тебе завтра на работу?",
-      "pt": "Tens de trabalhar amanhã?",
-      "tense": "present",
-      "form": "question",
-      "conjugation": "irregular",
-      "verb": "ter",
-      "distractors": [
-        "tenho",
-        "hoje"
-      ]
-    },
-    {
-      "id": "l9-023",
-      "ru": "Можно оставить чемодан здесь?",
-      "pt": "Posso deixar a mala aqui?",
-      "tense": "present",
-      "form": "question",
-      "conjugation": "irregular",
-      "verb": "poder",
-      "distractors": [
-        "podes",
-        "ali"
-      ]
-    },
-    {
-      "id": "l9-024",
-      "ru": "Что ты хочешь делать сегодня?",
-      "pt": "O que é que queres fazer hoje?",
-      "tense": "present",
-      "form": "question",
-      "conjugation": "irregular",
-      "verb": "querer",
-      "tags": [
-        "e-que"
-      ],
-      "distractors": [
-        "quero",
-        "amanhã"
+        "giro",
+        "já"
       ]
     }
   ],
   "exam": {
     "count": 10,
     "passThreshold": 0.8
-  },
-  "tables": [
-    {
-      "type": "contractions",
-      "title": "poder · querer · dever — настоящее",
-      "cols": [
-        "poder",
-        "querer",
-        "dever"
-      ],
-      "rows": [
-        "eu",
-        "tu",
-        "ele/ela",
-        "nós",
-        "eles/elas"
-      ],
-      "note": "querer — неправильный: ele quer (без -e).",
-      "cells": [
-        [
-          "posso",
-          "quero",
-          "devo"
-        ],
-        [
-          "podes",
-          "queres",
-          "deves"
-        ],
-        [
-          "pode",
-          "quer",
-          "deve"
-        ],
-        [
-          "podemos",
-          "queremos",
-          "devemos"
-        ],
-        [
-          "podem",
-          "querem",
-          "devem"
-        ]
-      ]
-    },
-    {
-      "type": "list",
-      "title": "Модальные + инфинитив",
-      "cols": 1,
-      "note": "ter de и precisar de требуют предлог.",
-      "items": [
-        {
-          "pt": "posso falar",
-          "ru": "я могу говорить"
-        },
-        {
-          "pt": "quero comer",
-          "ru": "я хочу есть"
-        },
-        {
-          "pt": "tenho de ir",
-          "ru": "я должен идти"
-        },
-        {
-          "pt": "devo estudar",
-          "ru": "мне следует учиться"
-        },
-        {
-          "pt": "preciso de dormir",
-          "ru": "мне нужно поспать"
-        }
-      ]
-    }
-  ]
+  }
 }

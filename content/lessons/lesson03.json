@@ -1,415 +1,92 @@
 {
   "id": 3,
   "number": 3,
-  "title": "Ser и Estar — два глагола «быть»",
-  "topic": "Постоянное (ser) и состояние/место (estar)",
+  "title": "Falo português — языки",
+  "topic": "Языки, национальности, глаголы на -ar и estar",
   "tags": [
-    "ser",
-    "estar"
+    "-ar",
+    "estar",
+    "nacionalidade"
   ],
   "free": false,
   "theory": {
-    "intro": "В португальском два глагола «быть». Ser — для постоянного: кто ты, откуда, профессия. Estar — для состояния и местоположения: как ты себя чувствуешь, где ты сейчас, открыто ли кафе.",
+    "intro": "Третий юнит — про языки и национальности. Глаголы falar и morar спрягаются как обычные глаголы на -ar. Estar здесь про состояние: está bem.",
     "blocks": [
       {
         "type": "text",
-        "content": "Ser: eu sou, tu és, ele/ela é, nós somos, eles são. Estar: eu estou, tu estás, ele/ela está, nós estamos, eles estão."
+        "content": "Окончания -ar: eu falo, tu falas, ele fala, nós falamos, eles falam. Так же идут morar и почти все регулярные глаголы на -ar в этом курсе."
       },
       {
         "type": "text",
-        "content": "Сравни: «O café é ótimo» — это кафе вообще отличное (свойство). «O café está fechado» — кафе сейчас закрыто (состояние)."
+        "content": "Язык без артикля: falo português, falas inglês. Национальность согласуется: ele é português, ela é portuguesa. В списке учебника дана форма мужского рода."
+      },
+      {
+        "type": "text",
+        "content": "Estar — не ser. Ela está bem говорит о самочувствии сейчас, а ela é portuguesa — о том, кто она. Também, só, muito и um pouco встают рядом с глаголом."
       },
       {
         "type": "note",
-        "content": "Представляясь, португальцы ставят артикль перед именем: «Eu sou o Alex», «Ela é a Ana». Это норма, а не ошибка."
+        "content": "Сотни строятся так: cento e um, duzentos, trezentos, mil. Cento — только внутри составного числа, отдельно говорят cem."
       }
     ]
   },
   "verbTable": {
-    "verb": "ser",
-    "translation": "быть (постоянно)",
-    "conjugation": "irregular",
+    "verb": "falar",
+    "translation": "говорить",
+    "conjugation": "ar",
     "schema": {
       "present": {
-        "affirm": "sou",
-        "negate": "não sou",
-        "question": "sou?"
+        "affirm": "falo",
+        "negate": "não falo",
+        "question": "falo?"
       },
       "past": {
-        "affirm": "fui",
-        "negate": "não fui",
-        "question": "fui?"
+        "affirm": "falei",
+        "negate": "não falei",
+        "question": "falei?"
       },
       "future": {
-        "affirm": "vou ser",
-        "negate": "não vou ser",
-        "question": "vou ser?"
+        "affirm": "vou falar",
+        "negate": "não vou falar",
+        "question": "vou falar?"
       }
     },
     "presentFull": {
-      "eu": "sou",
-      "tu": "és",
-      "ele": "é",
-      "nos": "somos",
-      "eles": "são"
+      "eu": "falo",
+      "tu": "falas",
+      "ele": "fala",
+      "nos": "falamos",
+      "eles": "falam"
     }
-  },
-  "phrases": [
-    {
-      "id": "l3-001",
-      "ru": "Я русский.",
-      "pt": "Eu sou russo.",
-      "tense": "present",
-      "form": "affirm",
-      "conjugation": "irregular",
-      "verb": "ser",
-      "distractors": [
-        "és",
-        "português"
-      ]
-    },
-    {
-      "id": "l3-002",
-      "ru": "Ты очень приятный человек.",
-      "pt": "Tu és muito simpático.",
-      "tense": "present",
-      "form": "affirm",
-      "conjugation": "irregular",
-      "verb": "ser",
-      "distractors": [
-        "é",
-        "cansado"
-      ]
-    },
-    {
-      "id": "l3-003",
-      "ru": "Она врач.",
-      "pt": "Ela é médica.",
-      "tense": "present",
-      "form": "affirm",
-      "conjugation": "irregular",
-      "verb": "ser",
-      "distractors": [
-        "está",
-        "professora"
-      ]
-    },
-    {
-      "id": "l3-004",
-      "ru": "Мы соседи.",
-      "pt": "Nós somos vizinhos.",
-      "tense": "present",
-      "form": "affirm",
-      "conjugation": "irregular",
-      "verb": "ser",
-      "distractors": [
-        "são",
-        "amigos"
-      ]
-    },
-    {
-      "id": "l3-005",
-      "ru": "Они из Лиссабона.",
-      "pt": "Eles são de Lisboa.",
-      "tense": "present",
-      "form": "affirm",
-      "conjugation": "irregular",
-      "verb": "ser",
-      "distractors": [
-        "somos",
-        "Porto"
-      ]
-    },
-    {
-      "id": "l3-006",
-      "ru": "Я устал.",
-      "pt": "Eu estou cansado.",
-      "tense": "present",
-      "form": "affirm",
-      "conjugation": "irregular",
-      "verb": "estar",
-      "distractors": [
-        "sou",
-        "doente"
-      ]
-    },
-    {
-      "id": "l3-007",
-      "ru": "Кафе закрыто.",
-      "pt": "O café está fechado.",
-      "tense": "present",
-      "form": "affirm",
-      "conjugation": "irregular",
-      "verb": "estar",
-      "distractors": [
-        "é",
-        "aberto"
-      ]
-    },
-    {
-      "id": "l3-008",
-      "ru": "Вода холодная.",
-      "pt": "A água está fria.",
-      "tense": "present",
-      "form": "affirm",
-      "conjugation": "irregular",
-      "verb": "estar",
-      "distractors": [
-        "é",
-        "quente"
-      ]
-    },
-    {
-      "id": "l3-009",
-      "ru": "Я дома.",
-      "pt": "Estou em casa.",
-      "tense": "present",
-      "form": "affirm",
-      "conjugation": "irregular",
-      "verb": "estar",
-      "distractors": [
-        "estás",
-        "aqui"
-      ]
-    },
-    {
-      "id": "l3-010",
-      "ru": "Погода сегодня отличная.",
-      "pt": "O tempo está ótimo hoje.",
-      "tense": "present",
-      "form": "affirm",
-      "conjugation": "irregular",
-      "verb": "estar",
-      "distractors": [
-        "é",
-        "frio"
-      ]
-    },
-    {
-      "id": "l3-011",
-      "ru": "Я не португалец.",
-      "pt": "Eu não sou português.",
-      "tense": "present",
-      "form": "negate",
-      "conjugation": "irregular",
-      "verb": "ser",
-      "distractors": [
-        "estou",
-        "russo"
-      ]
-    },
-    {
-      "id": "l3-012",
-      "ru": "Он не местный.",
-      "pt": "Ele não é daqui.",
-      "tense": "present",
-      "form": "negate",
-      "conjugation": "irregular",
-      "verb": "ser",
-      "distractors": [
-        "está",
-        "aqui"
-      ]
-    },
-    {
-      "id": "l3-013",
-      "ru": "Нас нет дома.",
-      "pt": "Nós não estamos em casa.",
-      "tense": "present",
-      "form": "negate",
-      "conjugation": "irregular",
-      "verb": "estar",
-      "distractors": [
-        "somos",
-        "hoje"
-      ]
-    },
-    {
-      "id": "l3-014",
-      "ru": "Магазин не открыт.",
-      "pt": "A loja não está aberta.",
-      "tense": "present",
-      "form": "negate",
-      "conjugation": "irregular",
-      "verb": "estar",
-      "distractors": [
-        "é",
-        "fechada"
-      ]
-    },
-    {
-      "id": "l3-015",
-      "ru": "Это не дорого.",
-      "pt": "Isto não é caro.",
-      "tense": "present",
-      "form": "negate",
-      "conjugation": "irregular",
-      "verb": "ser",
-      "distractors": [
-        "está",
-        "barato"
-      ]
-    },
-    {
-      "id": "l3-016",
-      "ru": "Ты из Лиссабона?",
-      "pt": "Tu és de Lisboa?",
-      "tense": "present",
-      "form": "question",
-      "conjugation": "irregular",
-      "verb": "ser",
-      "distractors": [
-        "é",
-        "Porto"
-      ]
-    },
-    {
-      "id": "l3-017",
-      "ru": "Вы господин Силва?",
-      "pt": "Você é o senhor Silva?",
-      "tense": "present",
-      "form": "question",
-      "conjugation": "irregular",
-      "verb": "ser",
-      "tags": [
-        "voce"
-      ],
-      "distractors": [
-        "está",
-        "senhora"
-      ]
-    },
-    {
-      "id": "l3-018",
-      "ru": "Где ты (сейчас)?",
-      "pt": "Onde é que tu estás?",
-      "tense": "present",
-      "form": "question",
-      "conjugation": "irregular",
-      "verb": "estar",
-      "tags": [
-        "e-que"
-      ],
-      "distractors": [
-        "és",
-        "quando"
-      ]
-    },
-    {
-      "id": "l3-019",
-      "ru": "Ресторан открыт?",
-      "pt": "O restaurante está aberto?",
-      "tense": "present",
-      "form": "question",
-      "conjugation": "irregular",
-      "verb": "estar",
-      "distractors": [
-        "é",
-        "fechado"
-      ]
-    },
-    {
-      "id": "l3-020",
-      "ru": "Какая сегодня погода?",
-      "pt": "Como está o tempo hoje?",
-      "tense": "present",
-      "form": "question",
-      "conjugation": "irregular",
-      "verb": "estar",
-      "distractors": [
-        "é",
-        "amanhã"
-      ]
-    },
-    {
-      "id": "l3-021",
-      "ru": "Всё хорошо?",
-      "pt": "Está tudo bem?",
-      "tense": "present",
-      "form": "question",
-      "conjugation": "irregular",
-      "verb": "estar",
-      "tags": [
-        "chunk"
-      ],
-      "distractors": [
-        "é",
-        "mal"
-      ]
-    },
-    {
-      "id": "l3-022",
-      "ru": "Я Алекс.",
-      "pt": "Eu sou o Alex.",
-      "tense": "present",
-      "form": "affirm",
-      "conjugation": "irregular",
-      "verb": "ser",
-      "distractors": [
-        "estou",
-        "senhor"
-      ]
-    },
-    {
-      "id": "l3-023",
-      "ru": "Вы женаты?",
-      "pt": "Vocês são casados?",
-      "tense": "present",
-      "form": "question",
-      "conjugation": "irregular",
-      "verb": "ser",
-      "distractors": [
-        "estão",
-        "solteiros"
-      ]
-    },
-    {
-      "id": "l3-024",
-      "ru": "Ужин готов?",
-      "pt": "O jantar está pronto?",
-      "tense": "present",
-      "form": "question",
-      "conjugation": "irregular",
-      "verb": "estar",
-      "distractors": [
-        "é",
-        "almoço"
-      ]
-    }
-  ],
-  "exam": {
-    "count": 10,
-    "passThreshold": 0.8
   },
   "tables": [
     {
-      "type": "compare",
-      "title": "ser или estar?",
-      "cols": [
-        "ser — суть",
-        "estar — состояние/место"
-      ],
-      "note": "ser — то, что определяет (характер, профессия, происхождение); estar — временное состояние и местонахождение.",
-      "rows": [
+      "type": "paradigm",
+      "forms": [
         [
-          "профессия / состояние",
-          "Ela é médica.",
-          "Eu estou cansado."
+          "eu",
+          "falo"
         ],
         [
-          "откуда / где сейчас",
-          "Eles são de Lisboa.",
-          "Estou em casa."
+          "tu",
+          "falas"
         ],
         [
-          "кто по сути / где все",
-          "Nós somos vizinhos.",
-          "Nós não estamos em casa."
+          "ele/ela",
+          "fala"
+        ],
+        [
+          "nós",
+          "falamos"
+        ],
+        [
+          "eles/elas",
+          "falam"
         ]
-      ]
+      ],
+      "title": "falar — настоящее"
     },
     {
-      "title": "estar — настоящее время",
       "type": "paradigm",
       "forms": [
         [
@@ -432,7 +109,170 @@
           "eles/elas",
           "estão"
         ]
+      ],
+      "title": "estar — настоящее"
+    }
+  ],
+  "phrases": [
+    {
+      "id": "l3-001",
+      "ru": "Я говорю по-португальски.",
+      "pt": "Eu falo português.",
+      "tense": "present",
+      "form": "affirm",
+      "conjugation": "ar",
+      "verb": "falar",
+      "distractors": [
+        "inglês",
+        "francês"
+      ]
+    },
+    {
+      "id": "l3-002",
+      "ru": "Она живёт в Лиссабоне.",
+      "pt": "Ela mora em Lisboa.",
+      "tense": "present",
+      "form": "affirm",
+      "conjugation": "ar",
+      "verb": "morar",
+      "distractors": [
+        "Porto",
+        "Faro"
+      ]
+    },
+    {
+      "id": "l3-003",
+      "ru": "Ты говоришь по-английски?",
+      "pt": "Tu falas inglês?",
+      "tense": "present",
+      "form": "question",
+      "conjugation": "ar",
+      "verb": "falar",
+      "distractors": [
+        "francês",
+        "alemão"
+      ]
+    },
+    {
+      "id": "l3-004",
+      "ru": "Он бразилец.",
+      "pt": "Ele é brasileiro.",
+      "tense": "present",
+      "form": "affirm",
+      "conjugation": "irregular",
+      "verb": "ser",
+      "distractors": [
+        "português",
+        "chinês"
+      ]
+    },
+    {
+      "id": "l3-005",
+      "ru": "Ей хорошо.",
+      "pt": "Ela está bem.",
+      "tense": "present",
+      "form": "affirm",
+      "conjugation": "irregular",
+      "verb": "estar",
+      "distractors": [
+        "mal",
+        "cá"
+      ]
+    },
+    {
+      "id": "l3-006",
+      "ru": "Тоже говорю по-французски.",
+      "pt": "Também falo francês.",
+      "tense": "present",
+      "form": "affirm",
+      "conjugation": "ar",
+      "verb": "falar",
+      "distractors": [
+        "inglês",
+        "alemão"
+      ]
+    },
+    {
+      "id": "l3-007",
+      "ru": "Я не говорю по-немецки.",
+      "pt": "Eu não falo alemão.",
+      "tense": "present",
+      "form": "negate",
+      "conjugation": "ar",
+      "verb": "falar",
+      "distractors": [
+        "inglês",
+        "francês"
+      ]
+    },
+    {
+      "id": "l3-008",
+      "ru": "Мы не живём в Португалии.",
+      "pt": "Nós não moramos em Portugal.",
+      "tense": "present",
+      "form": "negate",
+      "conjugation": "ar",
+      "verb": "morar",
+      "distractors": [
+        "Lisboa",
+        "Porto"
+      ]
+    },
+    {
+      "id": "l3-009",
+      "ru": "Ты говоришь очень хорошо?",
+      "pt": "Tu falas muito bem?",
+      "tense": "present",
+      "form": "question",
+      "conjugation": "ar",
+      "verb": "falar",
+      "distractors": [
+        "mal",
+        "pouco"
+      ]
+    },
+    {
+      "id": "l3-010",
+      "ru": "Ей нехорошо.",
+      "pt": "Ela não está bem.",
+      "tense": "present",
+      "form": "negate",
+      "conjugation": "irregular",
+      "verb": "estar",
+      "distractors": [
+        "mal",
+        "aqui"
+      ]
+    },
+    {
+      "id": "l3-011",
+      "ru": "Я живу в Португалии.",
+      "pt": "Eu moro em Portugal.",
+      "tense": "present",
+      "form": "affirm",
+      "conjugation": "ar",
+      "verb": "morar",
+      "distractors": [
+        "Lisboa",
+        "Porto"
+      ]
+    },
+    {
+      "id": "l3-012",
+      "ru": "Мы говорим немного.",
+      "pt": "Nós falamos um pouco.",
+      "tense": "present",
+      "form": "affirm",
+      "conjugation": "ar",
+      "verb": "falar",
+      "distractors": [
+        "muito",
+        "bem"
       ]
     }
-  ]
+  ],
+  "exam": {
+    "count": 10,
+    "passThreshold": 0.8
+  }
 }

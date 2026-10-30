@@ -1,428 +1,252 @@
 {
   "id": 8,
   "number": 8,
-  "title": "Estar a + инфинитив — действие прямо сейчас",
-  "topic": "Estou a trabalhar — я (сейчас) работаю",
+  "title": "Trabalho num escritório",
+  "topic": "Работа, мнение и слова muito, pouco, por",
   "tags": [
-    "estar a",
-    "continuo"
+    "trabalho",
+    "-ar",
+    "rotina"
   ],
   "free": false,
   "theory": {
-    "intro": "Действие, которое происходит прямо сейчас, в Португалии выражают конструкцией estar a + инфинитив: «Estou a trabalhar» — «Я работаю (в этот момент)».",
+    "intro": "Восьмой юнит — рабочий день. Trabalhar, estudar, ganhar, usar и viajar спрягаются одинаково. Achar вводит мнение: acho o trabalho difícil.",
     "blocks": [
       {
         "type": "text",
-        "content": "Estar спрягается (estou, estás, está, estamos, estão), инфинитив не меняется: estou a falar, estás a comer, estamos a chegar."
+        "content": "Место работы с em: trabalho num escritório, estudo na universidade. Em + o = num, em + a = numa, em + a (артикль) для universidade даёт na."
+      },
+      {
+        "type": "text",
+        "content": "Muito — много, pouco — мало. Não ganho muito. Viajo pouco. À noite — вечером, às vezes — иногда, normalmente — обычно."
+      },
+      {
+        "type": "text",
+        "content": "Por отвечает на «в течение, ради, по»: trabalho por horas в учебнике рядом с предлогом por. В фразах урока: infelizmente trabalho à noite."
       },
       {
         "type": "note",
-        "content": "Это визитная карточка европейского португальского. В Бразилии скажут «estou falando» — в Португалии всегда «estou a falar»."
-      },
-      {
-        "type": "note",
-        "content": "«Não estou a perceber» — «я не понимаю (то, что сейчас происходит/говорится)» — одна из самых ходовых фраз."
+        "content": "Colega, chefe и estudante имеют одну форму на -e и артикль меняет род: o colega, a colega, o chefe, a chefe."
       }
     ]
   },
   "verbTable": {
-    "verb": "estar a falar",
-    "translation": "говорить (прямо сейчас)",
-    "conjugation": "irregular",
+    "verb": "trabalhar",
+    "translation": "работать",
+    "conjugation": "ar",
     "schema": {
       "present": {
-        "affirm": "estou a falar",
-        "negate": "não estou a falar",
-        "question": "estou a falar?"
+        "affirm": "trabalho",
+        "negate": "não trabalho",
+        "question": "trabalho?"
       },
       "past": {
-        "affirm": "estava a falar",
-        "negate": "não estava a falar",
-        "question": "estava a falar?"
+        "affirm": "trabalhei",
+        "negate": "não trabalhei",
+        "question": "trabalhei?"
       },
       "future": {
-        "affirm": "vou estar a falar",
-        "negate": "não vou estar a falar",
-        "question": "vou estar a falar?"
+        "affirm": "vou trabalhar",
+        "negate": "não vou trabalhar",
+        "question": "vou trabalhar?"
       }
     },
     "presentFull": {
-      "eu": "estou a falar",
-      "tu": "estás a falar",
-      "ele": "está a falar",
-      "nos": "estamos a falar",
-      "eles": "estão a falar"
+      "eu": "trabalho",
+      "tu": "trabalhas",
+      "ele": "trabalha",
+      "nos": "trabalhamos",
+      "eles": "trabalham"
     }
   },
+  "tables": [
+    {
+      "type": "paradigm",
+      "forms": [
+        [
+          "eu",
+          "trabalho"
+        ],
+        [
+          "tu",
+          "trabalhas"
+        ],
+        [
+          "ele/ela",
+          "trabalha"
+        ],
+        [
+          "nós",
+          "trabalhamos"
+        ],
+        [
+          "eles/elas",
+          "trabalham"
+        ]
+      ],
+      "title": "trabalhar — настоящее"
+    }
+  ],
   "phrases": [
     {
       "id": "l8-001",
-      "ru": "Я учу португальский (сейчас, в этот период).",
-      "pt": "Estou a aprender português.",
-      "tense": "continuous",
+      "ru": "Я работаю в офисе.",
+      "pt": "Eu trabalho num escritório.",
+      "tense": "present",
       "form": "affirm",
-      "conjugation": "er",
-      "verb": "aprender",
+      "conjugation": "ar",
+      "verb": "trabalhar",
       "distractors": [
-        "estás",
-        "espanhol"
+        "hospital",
+        "teatro"
       ]
     },
     {
       "id": "l8-002",
-      "ru": "Идёт дождь.",
-      "pt": "Está a chover.",
-      "tense": "continuous",
+      "ru": "Я учусь в университете.",
+      "pt": "Eu estudo na universidade.",
+      "tense": "present",
       "form": "affirm",
-      "conjugation": "er",
-      "verb": "chover",
-      "tags": [
-        "chunk"
-      ],
+      "conjugation": "ar",
+      "verb": "estudar",
       "distractors": [
-        "estão",
-        "nevar"
+        "escola",
+        "empresa"
       ]
     },
     {
       "id": "l8-003",
-      "ru": "Я сейчас работаю.",
-      "pt": "Estou a trabalhar agora.",
-      "tense": "continuous",
+      "ru": "Работа интересная.",
+      "pt": "O trabalho é interessante.",
+      "tense": "present",
       "form": "affirm",
-      "conjugation": "ar",
-      "verb": "trabalhar",
+      "conjugation": "irregular",
+      "verb": "ser",
       "distractors": [
-        "está",
-        "hoje"
+        "difícil",
+        "fácil"
       ]
     },
     {
       "id": "l8-004",
-      "ru": "Телефон звонит.",
-      "pt": "O telefone está a tocar.",
-      "tense": "continuous",
+      "ru": "День кажется трудным.",
+      "pt": "Acho o dia difícil.",
+      "tense": "present",
       "form": "affirm",
       "conjugation": "ar",
-      "verb": "tocar",
+      "verb": "achar",
       "distractors": [
-        "estão",
-        "funcionar"
+        "fácil",
+        "curto"
       ]
     },
     {
       "id": "l8-005",
-      "ru": "Она спит.",
-      "pt": "Ela está a dormir.",
-      "tense": "continuous",
-      "form": "affirm",
-      "conjugation": "ir",
-      "verb": "dormir",
+      "ru": "Я мало зарабатываю.",
+      "pt": "Não ganho muito.",
+      "tense": "present",
+      "form": "negate",
+      "conjugation": "ar",
+      "verb": "ganhar",
       "distractors": [
-        "estás",
-        "comer"
+        "pouco",
+        "nada"
       ]
     },
     {
       "id": "l8-006",
-      "ru": "Мы подъезжаем.",
-      "pt": "Estamos a chegar.",
-      "tense": "continuous",
+      "ru": "Я работаю вечером.",
+      "pt": "Trabalho à noite.",
+      "tense": "present",
       "form": "affirm",
       "conjugation": "ar",
-      "verb": "chegar",
-      "tags": [
-        "chunk"
-      ],
+      "verb": "trabalhar",
       "distractors": [
-        "estão",
-        "partir"
+        "manhã",
+        "tarde"
       ]
     },
     {
       "id": "l8-007",
-      "ru": "Они едят.",
-      "pt": "Eles estão a comer.",
-      "tense": "continuous",
+      "ru": "Обычно я работаю один.",
+      "pt": "Normalmente eu trabalho sozinho.",
+      "tense": "present",
       "form": "affirm",
-      "conjugation": "er",
-      "verb": "comer",
+      "conjugation": "ar",
+      "verb": "trabalhar",
       "distractors": [
-        "estamos",
-        "beber"
+        "juntos",
+        "cedo"
       ]
     },
     {
       "id": "l8-008",
-      "ru": "Я говорю с тобой.",
-      "pt": "Estou a falar contigo.",
-      "tense": "continuous",
+      "ru": "Компания интересная.",
+      "pt": "A empresa é interessante.",
+      "tense": "present",
       "form": "affirm",
-      "conjugation": "ar",
-      "verb": "falar",
+      "conjugation": "irregular",
+      "verb": "ser",
       "distractors": [
-        "estás",
-        "comigo"
+        "grande",
+        "nova"
       ]
     },
     {
       "id": "l8-009",
-      "ru": "Вода закипает.",
-      "pt": "A água está a ferver.",
-      "tense": "continuous",
+      "ru": "Она начальница.",
+      "pt": "Ela é chefe.",
+      "tense": "present",
       "form": "affirm",
-      "conjugation": "er",
-      "verb": "ferver",
+      "conjugation": "irregular",
+      "verb": "ser",
       "distractors": [
-        "estão",
-        "arrefecer"
+        "colega",
+        "secretária"
       ]
     },
     {
       "id": "l8-010",
-      "ru": "Я слушаю музыку.",
-      "pt": "Estou a ouvir música.",
-      "tense": "continuous",
+      "ru": "К сожалению, я работаю вечером.",
+      "pt": "Infelizmente eu trabalho à noite.",
+      "tense": "present",
       "form": "affirm",
-      "conjugation": "ir",
-      "verb": "ouvir",
+      "conjugation": "ar",
+      "verb": "trabalhar",
       "distractors": [
-        "está",
-        "rádio"
+        "felizmente",
+        "cedo"
       ]
     },
     {
       "id": "l8-011",
-      "ru": "Я не понимаю (что происходит).",
-      "pt": "Não estou a perceber.",
-      "tense": "continuous",
-      "form": "negate",
-      "conjugation": "er",
-      "verb": "perceber",
-      "tags": [
-        "chunk"
-      ],
+      "ru": "Я мало путешествую.",
+      "pt": "Viajo pouco.",
+      "tense": "present",
+      "form": "affirm",
+      "conjugation": "ar",
+      "verb": "viajar",
       "distractors": [
-        "estás",
-        "ouvir"
+        "muito",
+        "sempre"
       ]
     },
     {
       "id": "l8-012",
-      "ru": "Она сегодня не работает.",
-      "pt": "Ela não está a trabalhar hoje.",
-      "tense": "continuous",
-      "form": "negate",
+      "ru": "Мой коллега работает.",
+      "pt": "O meu colega trabalha.",
+      "tense": "present",
+      "form": "affirm",
       "conjugation": "ar",
       "verb": "trabalhar",
       "distractors": [
-        "estou",
-        "amanhã"
-      ]
-    },
-    {
-      "id": "l8-013",
-      "ru": "Сейчас дождя нет.",
-      "pt": "Não está a chover agora.",
-      "tense": "continuous",
-      "form": "negate",
-      "conjugation": "er",
-      "verb": "chover",
-      "distractors": [
-        "estão",
-        "hoje"
-      ]
-    },
-    {
-      "id": "l8-014",
-      "ru": "Они не слушают.",
-      "pt": "Eles não estão a ouvir.",
-      "tense": "continuous",
-      "form": "negate",
-      "conjugation": "ir",
-      "verb": "ouvir",
-      "distractors": [
-        "estamos",
-        "falar"
-      ]
-    },
-    {
-      "id": "l8-015",
-      "ru": "Я не шучу.",
-      "pt": "Não estou a brincar.",
-      "tense": "continuous",
-      "form": "negate",
-      "conjugation": "ar",
-      "verb": "brincar",
-      "tags": [
-        "chunk"
-      ],
-      "distractors": [
-        "estás",
-        "trabalhar"
-      ]
-    },
-    {
-      "id": "l8-016",
-      "ru": "Машина не заводится (не работает).",
-      "pt": "O carro não está a funcionar.",
-      "tense": "continuous",
-      "form": "negate",
-      "conjugation": "ar",
-      "verb": "funcionar",
-      "distractors": [
-        "estão",
-        "tocar"
-      ]
-    },
-    {
-      "id": "l8-017",
-      "ru": "Ты понимаешь (о чём я)?",
-      "pt": "Estás a perceber?",
-      "tense": "continuous",
-      "form": "question",
-      "conjugation": "er",
-      "verb": "perceber",
-      "tags": [
-        "chunk"
-      ],
-      "distractors": [
-        "estou",
-        "ouvir"
-      ]
-    },
-    {
-      "id": "l8-018",
-      "ru": "Что ты делаешь?",
-      "pt": "O que é que estás a fazer?",
-      "tense": "continuous",
-      "form": "question",
-      "conjugation": "irregular",
-      "verb": "fazer",
-      "tags": [
-        "e-que",
-        "chunk"
-      ],
-      "distractors": [
-        "estou",
-        "comer"
-      ]
-    },
-    {
-      "id": "l8-019",
-      "ru": "У вас там идёт дождь?",
-      "pt": "Está a chover aí?",
-      "tense": "continuous",
-      "form": "question",
-      "conjugation": "er",
-      "verb": "chover",
-      "distractors": [
-        "estás",
-        "aqui"
-      ]
-    },
-    {
-      "id": "l8-020",
-      "ru": "Ты серьёзно?",
-      "pt": "Estás a falar a sério?",
-      "tense": "continuous",
-      "form": "question",
-      "conjugation": "ar",
-      "verb": "falar",
-      "tags": [
-        "chunk"
-      ],
-      "distractors": [
-        "estou",
-        "brincar"
-      ]
-    },
-    {
-      "id": "l8-021",
-      "ru": "Вам нравится Португалия (нравится жить здесь)?",
-      "pt": "Estão a gostar de Portugal?",
-      "tense": "continuous",
-      "form": "question",
-      "conjugation": "ar",
-      "verb": "gostar",
-      "tags": [
-        "chunk"
-      ],
-      "distractors": [
-        "estamos",
-        "Lisboa"
-      ]
-    },
-    {
-      "id": "l8-022",
-      "ru": "Кто звонит в дверь?",
-      "pt": "Quem está a tocar à porta?",
-      "tense": "continuous",
-      "form": "question",
-      "conjugation": "ar",
-      "verb": "tocar",
-      "distractors": [
-        "estás",
-        "janela"
-      ]
-    },
-    {
-      "id": "l8-023",
-      "ru": "Ты слушаешь?",
-      "pt": "Estás a ouvir?",
-      "tense": "continuous",
-      "form": "question",
-      "conjugation": "ir",
-      "verb": "ouvir",
-      "distractors": [
-        "estou",
-        "perceber"
-      ]
-    },
-    {
-      "id": "l8-024",
-      "ru": "Она сейчас занимается?",
-      "pt": "Ela está a estudar agora?",
-      "tense": "continuous",
-      "form": "question",
-      "conjugation": "ar",
-      "verb": "estudar",
-      "distractors": [
-        "estão",
-        "dormir"
+        "chefe",
+        "estuda"
       ]
     }
   ],
   "exam": {
     "count": 10,
     "passThreshold": 0.8
-  },
-  "tables": [
-    {
-      "type": "compare",
-      "title": "Просто или прямо сейчас?",
-      "cols": [
-        "привычно",
-        "estar a — сейчас"
-      ],
-      "note": "В евро-португальском — estar a + инфинитив (не герундий, как в Бразилии).",
-      "rows": [
-        [
-          "работать",
-          "Trabalho.",
-          "Estou a trabalhar agora."
-        ],
-        [
-          "учить",
-          "Aprendo.",
-          "Estou a aprender português."
-        ],
-        [
-          "спать",
-          "Ela dorme.",
-          "Ela está a dormir."
-        ]
-      ]
-    }
-  ]
+  }
 }

@@ -1,411 +1,271 @@
 {
   "id": 5,
   "number": 5,
-  "title": "Глаголы -ir — настоящее время",
-  "topic": "abrir, partir, dormir, decidir, preferir",
+  "title": "Tenho carta de condução",
+  "topic": "Глагол ter, мои вещи и слова aqui, aí, ali",
   "tags": [
-    "-ir",
-    "presente"
+    "ter",
+    "possessivos",
+    "objetos"
   ],
   "free": false,
   "theory": {
-    "intro": "Третья и последняя группа — глаголы на -ir. Окончания почти как у -er, отличается только форма «мы»: abrimos.",
+    "intro": "Пятый юнит собран вокруг ter: что у вас есть. Рядом — притяжательные meu, teu, seu и три «здесь»: aqui, aí, ali.",
     "blocks": [
       {
         "type": "text",
-        "content": "Abrir (открывать): eu abro, tu abres, ele abre, nós abrimos, eles abrem. Так же: partir (отправляться), decidir (решать)."
+        "content": "Ter: eu tenho, tu tens, ele tem, nós temos, eles têm. Eu tenho um carro. Não tenho dinheiro. Вопрос к вещи: onde está o telemóvel?"
+      },
+      {
+        "type": "text",
+        "content": "Притяжательные согласуются с вещью, не с владельцем: a minha mala, o meu carro, a casa é minha. Teu — для tu, seu — для você."
+      },
+      {
+        "type": "text",
+        "content": "Aqui — рядом со мной, aí — рядом с тобой, ali — вон там. A chave está aqui. O passaporte está ali."
       },
       {
         "type": "note",
-        "content": "Два полезных глагола чуть меняют корень в форме «я»: dormir → durmo (сплю), preferir → prefiro (предпочитаю). Остальные формы обычные: dormes, prefere…"
-      },
-      {
-        "type": "note",
-        "content": "«A que horas abre…?» — «Во сколько открывается…?» — дежурный вопрос про магазины, музеи и аптеки."
+        "content": "В европейской норме притяжательное обычно с артиклем: a minha mala, не просто minha mala."
       }
     ]
   },
   "verbTable": {
-    "verb": "abrir",
-    "translation": "открывать(ся)",
-    "conjugation": "ir",
+    "verb": "ter",
+    "translation": "иметь",
+    "conjugation": "irregular",
     "schema": {
       "present": {
-        "affirm": "abro",
-        "negate": "não abro",
-        "question": "abro?"
+        "affirm": "tenho",
+        "negate": "não tenho",
+        "question": "tenho?"
       },
       "past": {
-        "affirm": "abri",
-        "negate": "não abri",
-        "question": "abri?"
+        "affirm": "tive",
+        "negate": "não tive",
+        "question": "tive?"
       },
       "future": {
-        "affirm": "vou abrir",
-        "negate": "não vou abrir",
-        "question": "vou abrir?"
+        "affirm": "vou ter",
+        "negate": "não vou ter",
+        "question": "vou ter?"
       }
     },
     "presentFull": {
-      "eu": "abro",
-      "tu": "abres",
-      "ele": "abre",
-      "nos": "abrimos",
-      "eles": "abrem"
+      "eu": "tenho",
+      "tu": "tens",
+      "ele": "tem",
+      "nos": "temos",
+      "eles": "têm"
     }
   },
+  "tables": [
+    {
+      "type": "paradigm",
+      "forms": [
+        [
+          "eu",
+          "tenho"
+        ],
+        [
+          "tu",
+          "tens"
+        ],
+        [
+          "ele/ela",
+          "tem"
+        ],
+        [
+          "nós",
+          "temos"
+        ],
+        [
+          "eles/elas",
+          "têm"
+        ]
+      ],
+      "title": "ter — настоящее"
+    },
+    {
+      "type": "list",
+      "title": "Где это",
+      "cols": 2,
+      "items": [
+        {
+          "pt": "aqui",
+          "ru": "здесь, у меня"
+        },
+        {
+          "pt": "aí",
+          "ru": "там, у тебя"
+        },
+        {
+          "pt": "ali",
+          "ru": "вон там"
+        }
+      ]
+    }
+  ],
   "phrases": [
     {
       "id": "l5-001",
-      "ru": "Магазин открывается в девять.",
-      "pt": "A loja abre às nove.",
+      "ru": "У меня есть машина.",
+      "pt": "Eu tenho um carro.",
       "tense": "present",
       "form": "affirm",
-      "conjugation": "ir",
-      "verb": "abrir",
+      "conjugation": "irregular",
+      "verb": "ter",
       "distractors": [
-        "abrem",
-        "dez"
+        "casa",
+        "mala"
       ]
     },
     {
       "id": "l5-002",
-      "ru": "Я открываю окно.",
-      "pt": "Eu abro a janela.",
+      "ru": "Ключ здесь.",
+      "pt": "A chave está aqui.",
       "tense": "present",
       "form": "affirm",
-      "conjugation": "ir",
-      "verb": "abrir",
+      "conjugation": "irregular",
+      "verb": "estar",
       "distractors": [
-        "abres",
-        "porta"
+        "ali",
+        "aí"
       ]
     },
     {
       "id": "l5-003",
-      "ru": "Поезд отправляется в восемь.",
-      "pt": "O comboio parte às oito.",
+      "ru": "Это моя сумка.",
+      "pt": "Isto é a minha mala.",
       "tense": "present",
       "form": "affirm",
-      "conjugation": "ir",
-      "verb": "partir",
+      "conjugation": "irregular",
+      "verb": "ser",
       "distractors": [
-        "partem",
-        "nove"
+        "carteira",
+        "mochila"
       ]
     },
     {
       "id": "l5-004",
-      "ru": "Я сплю восемь часов.",
-      "pt": "Eu durmo oito horas.",
+      "ru": "Где телефон?",
+      "pt": "Onde está o telemóvel?",
       "tense": "present",
-      "form": "affirm",
-      "conjugation": "ir",
-      "verb": "dormir",
+      "form": "question",
+      "conjugation": "irregular",
+      "verb": "estar",
       "distractors": [
-        "dormes",
-        "dez"
+        "carro",
+        "chave"
       ]
     },
     {
       "id": "l5-005",
-      "ru": "Мы решаем сегодня.",
-      "pt": "Nós decidimos hoje.",
+      "ru": "У меня нет денег.",
+      "pt": "Eu não tenho dinheiro.",
       "tense": "present",
-      "form": "affirm",
-      "conjugation": "ir",
-      "verb": "decidir",
+      "form": "negate",
+      "conjugation": "irregular",
+      "verb": "ter",
       "distractors": [
-        "decidem",
-        "amanhã"
+        "carro",
+        "casa"
       ]
     },
     {
       "id": "l5-006",
-      "ru": "Я предпочитаю чай.",
-      "pt": "Eu prefiro chá.",
+      "ru": "Паспорт вон там.",
+      "pt": "O passaporte está ali.",
       "tense": "present",
       "form": "affirm",
-      "conjugation": "ir",
-      "verb": "preferir",
+      "conjugation": "irregular",
+      "verb": "estar",
       "distractors": [
-        "preferes",
-        "café"
+        "aqui",
+        "aí"
       ]
     },
     {
       "id": "l5-007",
-      "ru": "Она много спит.",
-      "pt": "Ela dorme muito.",
+      "ru": "У тебя есть права?",
+      "pt": "Tens a carta de condução?",
       "tense": "present",
-      "form": "affirm",
-      "conjugation": "ir",
-      "verb": "dormir",
+      "form": "question",
+      "conjugation": "irregular",
+      "verb": "ter",
       "distractors": [
-        "dormem",
-        "pouco"
+        "passaporte",
+        "carro"
       ]
     },
     {
       "id": "l5-008",
-      "ru": "Магазины открыты по субботам.",
-      "pt": "As lojas abrem aos sábados.",
+      "ru": "Дом мой.",
+      "pt": "A casa é minha.",
       "tense": "present",
       "form": "affirm",
-      "conjugation": "ir",
-      "verb": "abrir",
+      "conjugation": "irregular",
+      "verb": "ser",
       "distractors": [
-        "abre",
-        "domingos"
+        "teu",
+        "seu"
       ]
     },
     {
       "id": "l5-009",
-      "ru": "Я уезжаю завтра.",
-      "pt": "Eu parto amanhã.",
+      "ru": "Карандаш у тебя.",
+      "pt": "O lápis está aí.",
       "tense": "present",
       "form": "affirm",
-      "conjugation": "ir",
-      "verb": "partir",
+      "conjugation": "irregular",
+      "verb": "estar",
       "distractors": [
-        "partes",
-        "hoje"
+        "aqui",
+        "ali"
       ]
     },
     {
       "id": "l5-010",
-      "ru": "Ты всегда всё решаешь.",
-      "pt": "Tu decides sempre tudo.",
+      "ru": "У него нет машины.",
+      "pt": "Ele não tem carro.",
       "tense": "present",
-      "form": "affirm",
-      "conjugation": "ir",
-      "verb": "decidir",
+      "form": "negate",
+      "conjugation": "irregular",
+      "verb": "ter",
       "distractors": [
-        "decido",
-        "nada"
+        "casa",
+        "mala"
       ]
     },
     {
       "id": "l5-011",
-      "ru": "Аптека сегодня не работает.",
-      "pt": "A farmácia não abre hoje.",
+      "ru": "Рюкзака здесь нет.",
+      "pt": "A mochila não está aqui.",
       "tense": "present",
       "form": "negate",
-      "conjugation": "ir",
-      "verb": "abrir",
+      "conjugation": "irregular",
+      "verb": "estar",
       "distractors": [
-        "abrem",
-        "amanhã"
+        "ali",
+        "aí"
       ]
     },
     {
       "id": "l5-012",
-      "ru": "Я плохо сплю.",
-      "pt": "Eu não durmo bem.",
-      "tense": "present",
-      "form": "negate",
-      "conjugation": "ir",
-      "verb": "dormir",
-      "distractors": [
-        "dormes",
-        "mal"
-      ]
-    },
-    {
-      "id": "l5-013",
-      "ru": "Автобус отсюда не отправляется.",
-      "pt": "O autocarro não parte daqui.",
-      "tense": "present",
-      "form": "negate",
-      "conjugation": "ir",
-      "verb": "partir",
-      "distractors": [
-        "partes",
-        "aqui"
-      ]
-    },
-    {
-      "id": "l5-014",
-      "ru": "Мы ничего не решаем.",
-      "pt": "Nós não decidimos nada.",
-      "tense": "present",
-      "form": "negate",
-      "conjugation": "ir",
-      "verb": "decidir",
-      "distractors": [
-        "decides",
-        "tudo"
-      ]
-    },
-    {
-      "id": "l5-015",
-      "ru": "Она не спит днём.",
-      "pt": "Ela não dorme à tarde.",
-      "tense": "present",
-      "form": "negate",
-      "conjugation": "ir",
-      "verb": "dormir",
-      "distractors": [
-        "durmo",
-        "noite"
-      ]
-    },
-    {
-      "id": "l5-016",
-      "ru": "Я сегодня не уезжаю.",
-      "pt": "Eu não parto hoje.",
-      "tense": "present",
-      "form": "negate",
-      "conjugation": "ir",
-      "verb": "partir",
-      "distractors": [
-        "parte",
-        "amanhã"
-      ]
-    },
-    {
-      "id": "l5-017",
-      "ru": "Во сколько открывается музей?",
-      "pt": "A que horas abre o museu?",
+      "ru": "Это твой телефон?",
+      "pt": "É o teu telemóvel?",
       "tense": "present",
       "form": "question",
-      "conjugation": "ir",
-      "verb": "abrir",
-      "tags": [
-        "chunk"
-      ],
+      "conjugation": "irregular",
+      "verb": "ser",
       "distractors": [
-        "fecha",
-        "loja"
-      ]
-    },
-    {
-      "id": "l5-018",
-      "ru": "Ты хорошо спишь?",
-      "pt": "Tu dormes bem?",
-      "tense": "present",
-      "form": "question",
-      "conjugation": "ir",
-      "verb": "dormir",
-      "distractors": [
-        "durmo",
-        "mal"
-      ]
-    },
-    {
-      "id": "l5-019",
-      "ru": "Когда ты уезжаешь?",
-      "pt": "Quando é que tu partes?",
-      "tense": "present",
-      "form": "question",
-      "conjugation": "ir",
-      "verb": "partir",
-      "tags": [
-        "e-que"
-      ],
-      "distractors": [
-        "onde",
-        "parto"
-      ]
-    },
-    {
-      "id": "l5-020",
-      "ru": "Вы предпочитаете вино или пиво?",
-      "pt": "Vocês preferem vinho ou cerveja?",
-      "tense": "present",
-      "form": "question",
-      "conjugation": "ir",
-      "verb": "preferir",
-      "distractors": [
-        "prefiro",
-        "água"
-      ]
-    },
-    {
-      "id": "l5-021",
-      "ru": "Магазин работает по воскресеньям?",
-      "pt": "A loja abre ao domingo?",
-      "tense": "present",
-      "form": "question",
-      "conjugation": "ir",
-      "verb": "abrir",
-      "distractors": [
-        "abrem",
-        "sábado"
-      ]
-    },
-    {
-      "id": "l5-022",
-      "ru": "Ты предпочитаешь кофе или чай?",
-      "pt": "Tu preferes café ou chá?",
-      "tense": "present",
-      "form": "question",
-      "conjugation": "ir",
-      "verb": "preferir",
-      "distractors": [
-        "prefere",
-        "vinho"
-      ]
-    },
-    {
-      "id": "l5-023",
-      "ru": "Рейс вылетает из Лиссабона?",
-      "pt": "O voo parte de Lisboa?",
-      "tense": "present",
-      "form": "question",
-      "conjugation": "ir",
-      "verb": "partir",
-      "distractors": [
-        "partem",
-        "Porto"
-      ]
-    },
-    {
-      "id": "l5-024",
-      "ru": "Кто завтра открывает магазин?",
-      "pt": "Quem abre a loja amanhã?",
-      "tense": "present",
-      "form": "question",
-      "conjugation": "ir",
-      "verb": "abrir",
-      "distractors": [
-        "abres",
-        "hoje"
+        "meu",
+        "seu"
       ]
     }
   ],
   "exam": {
     "count": 10,
     "passThreshold": 0.8
-  },
-  "tables": [
-    {
-      "type": "list",
-      "title": "Частые глаголы на -ir",
-      "cols": 2,
-      "note": "Окончания -ir: -o, -es, -e, -imos, -em. У dormir/preferir в «eu» меняется корень: durmo, prefiro.",
-      "items": [
-        {
-          "pt": "abrir",
-          "ru": "открывать"
-        },
-        {
-          "pt": "partir",
-          "ru": "уезжать"
-        },
-        {
-          "pt": "dormir",
-          "ru": "спать"
-        },
-        {
-          "pt": "decidir",
-          "ru": "решать"
-        },
-        {
-          "pt": "preferir",
-          "ru": "предпочитать"
-        }
-      ]
-    }
-  ]
+  }
 }

@@ -1,406 +1,871 @@
 {
- "_note":"Пословный перевод (en), сгенерирован gen-gloss.js: выровнен по словам, артикли из PT-фразы.","l1-001":["eu","falar","português"],
- "l1-002":["tu","falar","muito","bem"],
- "l1-003":["ela","morar","em","Lisboa"],
- "l1-004":["nós","trabalhar","hoje"],
- "l1-005":["eles","estudar","português"],
- "l1-006":["eu","morar","aqui"],
- "l1-007":["tu","falar","devagar"],
- "l1-008":["nós","morar","em","Portugal"],
- "l1-009":["O João","trabalhar","um","muito"],
- "l1-010":["eu","estudar","todos","dia"],
- "l1-011":["eu","falar","um","pouco"],
- "l1-012":["nós","estudar","juntos"],
- "l1-013":["eu","não","falar","espanhol"],
- "l1-014":["tu","não","trabalhar","hoje"],
- "l1-015":["ela","não","morar","aqui"],
- "l1-016":["nós","não","falar","rápido"],
- "l1-017":["eles","não","estudar","hoje"],
- "l1-018":["eu","não","morar","em","Lisboa"],
- "l1-019":["tu","não","falar","francês"],
- "l1-020":["eu","não","trabalhar","em","domingos"],
- "l1-021":["","tu","falar","português"],
- "l1-022":["","tu","morar","em","Lisboa"],
- "l1-023":["","eles","trabalhar","aqui"],
- "l1-024":["onde","","tu","morar"],
- "l1-025":["","tu","falar","inglês"],
- "l1-026":["o que","","tu","estudar"],
- "l1-027":["","ela","trabalhar","um","muito"],
- "l1-028":["","tu","morar","longe"],
- "l1-029":["eu","comprar","fresco","pão"],
- "l1-030":["nós","comprar","fruta","em","o","mercado"],
- "l1-031":["eles","comprar","peixe","aqui"],
- "l1-032":["eu","beber","café","em","o","manhã"],
- "l1-033":["nós","ter","o pequeno-almoço","em","oito"],
- "l1-034":["ela","ter","almoço","em","meio-dia"],
- "l1-035":["nós","ter","almoço","em","casa"],
- "l1-036":["eu","pagar","o","a conta"],
- "l1-037":["nós","pagar","de","cartão"],
- "l1-038":["eu","não","a comprar","nada","hoje"],
- "l1-039":["eu","não","beber","café","com","açúcar"],
- "l1-040":["hoje","eu","não","a comer","fora"],
- "l1-041":["eu","não","a pagar","agora"],
- "l1-042":["","tu","comprar","o","o jornal"],
- "l1-043":["ir","tu","ter","um","café","com","mim"],
- "l1-044":["o que","horas","","tu","ter","almoço"],
- "l1-045":["quem","pagar","o","a conta"],
- "l2-001":["onde","","tu","trabalhar"],
- "l2-002":["eu","trabalhar","em","Lisboa"],
- "l2-003":["quem","falar","russo","aqui"],
- "l2-004":["o que","","tu","estudar"],
- "l2-005":["quando","","ela","chegar"],
- "l2-006":["como","","este","trabalhar"],
- "l2-007":["porque","","tu","estudar","português"],
- "l2-008":["porque","eu","morar","em","Portugal"],
- "l2-009":["nós","morar","em","Cascais"],
- "l2-010":["eles","trabalhar","juntos"],
- "l2-011":["ela","chegar","amanhã"],
- "l2-012":["eu","estudar","em","o","manhã"],
- "l2-013":["","tu","morar","aqui"],
- "l2-014":["eu","não","trabalhar","hoje"],
- "l2-015":["ele","não","falar","russo"],
- "l2-016":["nós","não","estudar","juntos"],
- "l2-017":["onde","","tu","morar"],
- "l2-018":["quando","","tu","trabalhar"],
- "l2-019":["ela","não","chegar","hoje"],
- "l2-020":["quem","trabalhar","aqui"],
- "l2-021":["eu","chegar","a casa","cedo"],
- "l2-022":["não","tu","falar","espanhol"],
- "l2-023":["como","","tu","chegar","a casa"],
- "l2-024":["","tu","trabalhar","amanhã"],
- "l3-001":["eu","russo"],
- "l3-002":["","muito","giro"],
- "l3-003":["ela é","um","médico"],
- "l3-004":["nós","vizinhos"],
- "l3-005":["eles","de","Lisboa"],
- "l3-006":["eu","cansado"],
- "l3-007":["o","O café","ser/estar","fechado"],
- "l3-008":["o","A água","ser/estar","fria"],
- "l3-009":["eu","em","casa"],
- "l3-010":["o","O tempo","ser/estar","ótimo","hoje"],
- "l3-011":["eu","não","português"],
- "l3-012":["ele é","não","de","aqui"],
- "l3-013":["nós","não","em","casa"],
- "l3-014":["o","A loja","não é","abrir"],
- "l3-015":["este","não é","caro"],
- "l3-016":["ser/estar","tu","de","Lisboa"],
- "l3-017":["ser/estar","tu","o senhor","Silva"],
- "l3-018":["onde","ser/estar","tu"],
- "l3-019":["ser/estar","o","O restaurante","abrir"],
- "l3-020":["como está","o","o tempo","hoje"],
- "l3-021":["ser/estar","tudo","está bem"],
- "l3-022":["eu","o Alex"],
- "l3-023":["ser/estar","tu","casados"],
- "l3-024":["ser/estar","O jantar","pronto"],
- "l4-001":["eu","comer","peixe","e","arroz"],
- "l4-002":["tu","beber","café","em","o","manhã"],
- "l4-003":["nós","morar","em","Portugal"],
- "l4-004":["eu","a aprender","português"],
- "l4-005":["ela","vender","fruta","em","o","mercado"],
- "l4-006":["eu","perceber","um","pouco"],
- "l4-007":["eles","comer","fora","em","sábados"],
- "l4-008":["nós","beber","vinho","com","jantar"],
- "l4-009":["o","O senhorio","morar","em","o","primeiro","andar"],
- "l4-010":["eu","ter","um","uma sandes","para","almoço"],
- "l4-011":["eu","não","comer","carne"],
- "l4-012":["ela","não","beber","álcool"],
- "l4-013":["nós","não","perceber","nada"],
- "l4-014":["eles","não","morar","aqui"],
- "l4-015":["tu","não","beber","café"],
- "l4-016":["eu","não","vender","nada"],
- "l4-017":["","tu","comer","peixe"],
- "l4-018":["","tu","morar","em","Lisboa"],
- "l4-019":["o que","","tu","beber"],
- "l4-020":["","ela","perceber","russo"],
- "l4-021":["onde","","tu","comer","hoje"],
- "l4-022":["onde","","tu","aprender","português"],
- "l4-023":["","eles","vender","pão","aqui"],
- "l4-024":["","tu","perceber"],
- "l5-001":["o","A loja","abrir","em","nove"],
- "l5-002":["eu","abrir","o","a janela"],
- "l5-003":["o","O comboio","partir","em","oito"],
- "l5-004":["eu","dormir","oito","horas"],
- "l5-005":["nós","decidir","hoje"],
- "l5-006":["eu","preferir","chá"],
- "l5-007":["ela","dormir","um","muito"],
- "l5-008":["o","As lojas","abrir","em","sábados"],
- "l5-009":["eu","a partir","amanhã"],
- "l5-010":["tu","sempre","decidir","tudo"],
- "l5-011":["o","A farmácia","não é","abrir","hoje"],
- "l5-012":["eu","não","dormir","bem"],
- "l5-013":["o","O autocarro","não","partir","de","aqui"],
- "l5-014":["nós","não","decidir","nada"],
- "l5-015":["ela","não","dormir","em","o","tarde"],
- "l5-016":["eu","não","a partir","hoje"],
- "l5-017":["o que","horas","","o","o museu","abrir"],
- "l5-018":["","tu","dormir","bem"],
- "l5-019":["quando","","tu","partir"],
- "l5-020":["","tu","preferir","vinho","ou","cerveja"],
- "l5-021":["ser/estar","o","A loja","abrir","em","domingo"],
- "l5-022":["","tu","preferir","café","ou","chá"],
- "l5-023":["","o","O voo","partir","de","Lisboa"],
- "l5-024":["quem","abrir","o","a loja","amanhã"],
- "l6-001":["ontem","eu","trabalhar","um","muito"],
- "l6-002":["eu","falar","com","o","o senhorio"],
- "l6-003":["eu","comer","um","pastel","","nata"],
- "l6-004":["eu","ter","um","café","com","a Ana"],
- "l6-005":["eu","chegar","a casa","tarde"],
- "l6-006":["eu","dormir","mal","último","noite"],
- "l6-007":["nós","comer","fora","ontem"],
- "l6-008":["ela","abrir","o","a loja","cedo"],
- "l6-009":["eles","sair","em","o","manhã"],
- "l6-010":["eu","perceber","tudo"],
- "l6-011":["eu","não","trabalhar","em","domingo"],
- "l6-012":["eu","não","comer","nada","hoje"],
- "l6-013":["ela","não","falar","a","mim"],
- "l6-014":["eu","quase","dormir"],
- "l6-015":["eles","ainda não","chegar","ainda"],
- "l6-016":["eu","não","beber","vinho","ontem"],
- "l6-017":["","tu","falar","a","ela"],
- "l6-018":["","tu","comer","nada"],
- "l6-019":["o que","horas","","tu","chegar"],
- "l6-020":["","tu","trabalhar","ontem"],
- "l6-021":["ter","eles","sair","já"],
- "l6-022":["onde","","tu","ter","jantar"],
- "l6-023":["","tu","dormir","bem"],
- "l6-024":["quem","abrir","o","a janela"],
- "l7-001":["amanhã","eu","a ir","a","trabalhar"],
- "l7-002":["eu","a ir","a","comprar","pão"],
- "l7-003":["nós","a comer","fora","hoje"],
- "l7-004":["ela é","a ir","a","chegar","tarde"],
- "l7-005":["eu","a ir","a","estudar","à noite"],
- "l7-006":["eles","a ir","a","morar","em","Porto"],
- "l7-007":["","a ir","a","gostar de","Lisboa"],
- "l7-008":["eu","falar","a","ele","amanhã"],
- "l7-009":["em","domingo","nós","a ir","a","o","praia"],
- "l7-010":["eu","a ir","a","abrir","um","banco","conta"],
- "l7-011":["eu","não","a trabalhar","amanhã"],
- "l7-012":["ela é","não","a ir","a","gostar de","este"],
- "l7-013":["nós","não","a comer","fora","hoje"],
- "l7-014":["eles","não vou","chegar","em","horas"],
- "l7-015":["eu","não","a ir","a","beber","café","hoje"],
- "l7-016":["não","tu","a ir","a","dormir"],
- "l7-017":["ser/estar","tu","a trabalhar","em","sábado"],
- "l7-018":["o que","ser/estar","tu","a ir","a","comprar"],
- "l7-019":["quando","ser/estar","tu","a ir","a","partir"],
- "l7-020":["","nós","ter","um","café"],
- "l7-021":["ser/estar","ela","a ir","a","estudar","em","Coimbra"],
- "l7-022":["ser/estar","tu","a ficar","casa","hoje"],
- "l7-023":["o que","horas","","o","o filme","começar"],
- "l7-024":["quem é","a ir","a","pagar","o","a conta"],
- "l8-001":["eu","a aprender","português"],
- "l8-002":["é","a chover"],
- "l8-003":["eu","a trabalhar","","agora"],
- "l8-004":["o","telemóvel","ser/estar","a tocar"],
- "l8-005":["ela é","a dormir"],
- "l8-006":["nós","a chegar"],
- "l8-007":["eles","a comer"],
- "l8-008":["eu","","a","tu"],
- "l8-009":["o","A água","ser/estar","a ferver"],
- "l8-010":["eu","a ouvir","a","música"],
- "l8-011":["eu","não","a perceber"],
- "l8-012":["ela","não é","a trabalhar","hoje"],
- "l8-013":["isto","não é","a chover","agora"],
- "l8-014":["eles","não","a ouvir"],
- "l8-015":["eu","não","a brincar"],
- "l8-016":["o","O carro","não é","a trabalhar"],
- "l8-017":["","tu","a perceber","mim"],
- "l8-018":["o que","ser/estar","tu","a fazer"],
- "l8-019":["ser/estar","isto","a chover","onde","tu","ser/estar"],
- "l8-020":["ser/estar","tu","a sério"],
- "l8-021":["ser/estar","tu","a gostar de","Portugal"],
- "l8-022":["quem é","a tocar","em","o","porta"],
- "l8-023":["ser/estar","tu","a ouvir"],
- "l8-024":["ser/estar","ela","a estudar","","agora"],
- "l9-001":["eu","gostar de","um","galão","por favor"],
- "l9-002":["eu","poder","ajudar"],
- "l9-003":["eu","ter","a","ir"],
- "l9-004":["eu","dever","chegar","cedo","amanhã"],
- "l9-005":["tu","poder","ficar","aqui"],
- "l9-006":["nós","gostar de","um","mesa","para","dois"],
- "l9-007":["tu","ter","a","provar","este"],
- "l9-008":["eu","precisar de","ajudar"],
- "l9-009":["ela","querer","a","mudar","casa"],
- "l9-010":["tu","poder","abrir","o","a janela"],
- "l9-011":["eu","não posso","falar","","agora"],
- "l9-012":["eu","não","querer","açúcar","obrigado"],
- "l9-013":["ele","não posso","vir","hoje"],
- "l9-014":["tu","não","ter","a","pagar","nada"],
- "l9-015":["eu","não devo","comer","tão","muito"],
- "l9-016":["eu","não","precisar de","um","saco","obrigado"],
- "l9-017":["poder","eu","pagar","de","cartão"],
- "l9-018":["poder","tu","repetir","esse","por favor"],
- "l9-019":["poder","eu","provar","isto","em"],
- "l9-020":["","tu","querer","alguma coisa","a","beber"],
- "l9-021":["poder","nós","pagar",""],
- "l9-022":["","tu","ter","a","trabalhar","amanhã"],
- "l9-023":["poder","eu","partir","o","a mala","aqui"],
- "l9-024":["o que","","tu","querer","a","","hoje"],
- "l10-001":["eu","a ir","a","o","supermercado"],
- "l10-002":["eu","a vir","de","trabalhar"],
- "l10-003":["o","As chaves","ser/estar","em","o","mesa"],
- "l10-004":["o","A farmácia","ser/estar","próxima","a","o","café"],
- "l10-005":["eu","comprar","fruta","em","o","mercado"],
- "l10-006":["eu","trabalhar","em","o","cidade","centro"],
- "l10-007":["ela","morar","em","rua","das","Flores"],
- "l10-008":["o","O dinheiro","ser/estar","em","o","carteira"],
- "l10-009":["nós","a ir","por","o","ponte"],
- "l10-010":["o","Os correios","escritório","ser/estar","em","o","esquina"],
- "l10-011":["em","domingo","eu","a ir","a","o","praia"],
- "l10-012":["eu","não","a ir","a","o","ginásio","hoje"],
- "l10-013":["ele é","não","em","o","escritório"],
- "l10-014":["há","não","leite","em","o","frigorífico"],
- "l10-015":["o","As lojas","não","abrir","em","domingo"],
- "l10-016":["eu","não","ir","por","o","centro"],
- "l10-017":["o","autocarro","A paragem","não é","longe"],
- "l10-018":["onde está","o","metro","a estação"],
- "l10-019":["ser/estar","","um","farmácia","perto","aqui"],
- "l10-020":["ser/estar","tu","a ir","a","o","mercado","em","sábado"],
- "l10-021":["onde","","tu","comprar","fruta"],
- "l10-022":["ser/estar","tu","a vir","de","o","aeroporto"],
- "l10-023":["ser/estar","o","O museu","em","o","centro"],
- "l10-024":["ir","tu","paragem","de","o","farmácia"],
- "l11-001":["O meu","apartamento","ser/estar","pequeno"],
- "l11-002":["meu","mulher","trabalhar","em","Lisboa"],
- "l11-003":["eu","ter","dois","filhos"],
- "l11-004":["meu","vizinhos","ser/estar","giro","pessoas"],
- "l11-005":["O nosso","carro","ser/estar","em","o","garagem"],
- "l11-006":["teu","casa","ser/estar","muito","bonita"],
- "l11-007":["eu","ter","um","reunião","em","dez"],
- "l11-008":["O meu","telemóvel","ser/estar","fora","de","bateria"],
- "l11-009":["nosso","renda","ser/estar","caro"],
- "l11-010":["ele","ter","o meu","número"],
- "l11-011":["eu","não","ter","troco"],
- "l11-012":["O meu","carro","não","trabalhar"],
- "l11-013":["nós","não","ter","horas","hoje"],
- "l11-014":["meu","chave","não","abrir","o","a porta"],
- "l11-015":["ela","não","ter","irmãos"],
- "l11-016":["este","não é","meu"],
- "l11-017":["onde está","o meu","telemóvel"],
- "l11-018":["","tu","ter","o","as chaves"],
- "l11-019":["ser/estar","este","o teu","casaco"],
- "l11-020":["como","velho","ser/estar","o teu","filho"],
- "l11-021":["","tu","ter","o","horas"],
- "l11-022":["","teu","casa","ter","um","jardim"],
- "l11-023":["","tu","ter","planos","para","o","fim de semana"],
- "l11-024":["","O teu","médico","falar","inglês"],
- "l12-001":["eu","ir","a","trabalhar","de","metro"],
- "l12-002":["eu","apanhar","o","o autocarro","em","oito"],
- "l12-003":["o","O comboio","ir","a","o Porto"],
- "l12-004":["eu","a vir","de","o","farmácia"],
- "l12-005":["nós","","a","o","praça"],
- "l12-006":["ela","vir","de","carro"],
- "l12-007":["nós","apanhar","um","táxi","a","o","o aeroporto"],
- "l12-008":["o","O elétrico","ir","por","o","centro"],
- "l12-009":["eu","a ir","a","o","multibanco","multibanco"],
- "l12-010":["eu","partir","casa","em","sete"],
- "l12-011":["o","O autocarro","não","ir","a","o","o centro"],
- "l12-012":["eu","não","a ir","de","carro","hoje"],
- "l12-013":["o","O metro","não","chegar",""],
- "l12-014":["eu","não","a apanhar","o","nove","horas","o comboio"],
- "l12-015":["ela","não é","a vir","com","nós"],
- "l12-016":["eu","não","partir","casa","em","domingo"],
- "l12-017":["","este","autocarro","ir","a","Belém"],
- "l12-018":["onde","","eu","apanhar","o","o metro"],
- "l12-019":["ser/estar","tu","a ir","de","comboio","ou","de","autocarro"],
- "l12-020":["o que","horas","","o","o último","metro","partir"],
- "l12-021":["ser/estar","tu","a vir","com","nós"],
- "l12-022":["como","","eu","chegar","a","o","aeroporto"],
- "l12-023":["","o","O elétrico","passar","aqui"],
- "l12-024":["","nós",""],
- "l13-001":["este","café","ser/estar","ótimo"],
- "l13-002":["eu","","gostar de","este","restaurante"],
- "l13-003":["esse","camisola","ser/estar","giro"],
- "l13-004":["o","O tempo","ser/estar","bom","hoje"],
- "l13-005":["esse","","ser/estar","novo"],
- "l13-006":["este","sopa","ser/estar","deliciosa"],
- "l13-007":["eu","gostar de","tinto","vinho"],
- "l13-008":["o","português","As praias","ser/estar","lindas"],
- "l13-009":["este","bairro","ser/estar","muito","sossegado"],
- "l13-010":["o","A fruta","aqui","ser/estar","fresco"],
- "l13-011":["eu","não","gostar de","filas"],
- "l13-012":["este","vinho","não é","caro"],
- "l13-013":["esse","loja","não é","barata"],
- "l13-014":["eu","não","gostar de","este","tempo"],
- "l13-015":["o","O peixe","não é","fresco"],
- "l13-016":["esse","rua","não é","muito","segura"],
- "l13-017":["","tu","gostar de","este","vinho"],
- "l13-018":["ser/estar","este","mesa","livre"],
- "l13-019":["ser/estar","esse","restaurante","bom"],
- "l13-020":["o que é","o","o melhor","café","aqui"],
- "l13-021":["ser/estar","este","queijo","da região"],
- "l13-022":["","tu","gostar de","bacalhau"],
- "l13-023":["ser/estar","esse","casaco","novo"],
- "l13-024":["qual","","tu","preferir","este","uma","ou","esse","uma"],
- "l14-001":["é","três","em","o","tarde"],
- "l14-002":["o","O comboio","partir","em","meia","","oito"],
- "l14-003":["isto","custar","dois","","cinquenta"],
- "l14-004":["eu","trinta e dois","","velho"],
- "l14-005":["o","A consulta","ser/estar","em","quinta-feira"],
- "l14-006":["hoje","ser/estar","o","quinze"],
- "l14-007":["meu","aniversário","ser/estar","em","maio"],
- "l14-008":["O almoço","ser/estar","em","meio-dia"],
- "l14-009":["eu","trabalhar","de","nove","a","seis"],
- "l14-010":["o","A loja","fechar","em","uma"],
- "l14-011":["é","não","meio-dia","ainda"],
- "l14-012":["o","O museu","não","abrir","em","segunda"],
- "l14-013":["isto","não","custar","muito"],
- "l14-014":["eu","não","ter","horas","em","o","tarde"],
- "l14-015":["há","não","metro","depois","uma"],
- "l14-016":["o","A reunião","não é","hoje"],
- "l14-017":["o que","horas","ser/estar","isto"],
- "l14-018":["o que","horas","","o","o supermercado","fechar"],
- "l14-019":["como","muito","ser/estar","isto"],
- "l14-020":["como","muito","ser/estar","um","","de","laranjas"],
- "l14-021":["o que","dia","ser/estar","isto","hoje"],
- "l14-022":["o que","horas","ser/estar","o","o jogo"],
- "l14-023":["como","velho","ser/estar","tu"],
- "l14-024":["ser/estar","O jantar","em","oito"],
- "l15-001":["eu","costumar","a","morar","em","Porto"],
- "l15-002":["quando","um","criança","eu","falar","russo"],
- "l15-003":["eu","costumar","a","trabalhar","em","um","café"],
- "l15-004":["O café","costumar","a","ser","mais barato"],
- "l15-005":["nós","ir","a","o","praia","todos","verão"],
- "l15-006":["ela","ter","um","cão"],
- "l15-007":["eu","costumar","a","beber","um","muito","de","café"],
- "l15-008":["nós","morar","perto","o","mar"],
- "l15-009":["O meu","avô","costumar","a","fazer","pão"],
- "l15-010":["","costumar","a","ser","um","livraria","em","este","rua"],
- "l15-011":["","ser/estar","não","metro","atrás","então"],
- "l15-012":["eu","não","gostar","a","gostar de","peixe"],
- "l15-013":["nós","não","ter","um","carro"],
- "l15-014":["ela","não","falar","inglês"],
- "l15-015":["eu","não","perceber","nada"],
- "l15-016":["isto","não era","esse","caro"],
- "l15-017":["onde","","tu","costumar","a","morar"],
- "l15-018":["onde","","tu","costumar","a","trabalhar"],
- "l15-019":["o que","ser/estar","teu","cidade","gostar de"],
- "l15-020":["","tu","ter","animais","em","casa"],
- "l15-021":["","tu","gostar de","escola"],
- "l15-022":["","tu","ir","a","o","praia","um","muito"],
- "l15-023":["o que","","tu","","em","domingos"],
- "l15-024":["ser/estar","tudo","mais barato"],
- "l16-001":["com licença","mim"],
- "l16-002":["obrigado","tu","muito","muito","para","teu","ajudar"],
- "l16-003":["está bem","é","combinado"],
- "l16-004":["ter","um","bom","fim de semana"],
- "l16-005":["se calhar","eu","ir","mais tarde"],
- "l16-006":["pois é","",""],
- "l16-007":["desculpe","para","","tarde"],
- "l16-008":["a","apanhar","fora","por favor"],
- "l16-009":["vamos","partir","isto","para","a próxima","horas"],
- "l16-010":["como","giro"],
- "l16-011":["não","mal"],
- "l16-012":["eu","não","saber","ainda"],
- "l16-013":["desculpe","eu","não","apanhar","esse"],
- "l16-014":["","de nada"],
- "l16-015":["isto","não","fazer","sentido"],
- "l16-016":["infelizmente","eu","não posso","ir"],
- "l16-017":["como","","tu","dizer","este","em","português"],
- "l16-018":["poder","tu","repetir","esse","mais","devagar","por favor"],
- "l16-019":["o que","","este","querer dizer"],
- "l16-020":["como","ser/estar","tu","a fazer"],
- "l16-021":["poder","tu","dizer","esse","outra vez"],
- "l16-022":["","tu","apanhar","cartão"],
- "l16-023":["onde está","o","casa de banho"],
- "l16-024":["ser/estar","tu","a certeza"]}
+  "_note": "Пословный перевод (en), выровнен по словам подсказки.",
+  "l1-001": [
+    "bom",
+    "dia"
+  ],
+  "l1-002": [
+    "boa",
+    "tarde"
+  ],
+  "l1-003": [
+    "olá",
+    "tudo",
+    "bem"
+  ],
+  "l1-004": [
+    "eu",
+    "chamo-me",
+    "ana",
+    "ana"
+  ],
+  "l1-005": [
+    "eu",
+    "sou",
+    "o pedro"
+  ],
+  "l1-006": [
+    "ela",
+    "é",
+    "a maria"
+  ],
+  "l1-007": [
+    "quem",
+    "é",
+    "ele"
+  ],
+  "l1-008": [
+    "como",
+    "te",
+    "chamas",
+    "chamas"
+  ],
+  "l1-009": [
+    "eu",
+    "não",
+    "sou",
+    "o joão"
+  ],
+  "l1-010": [
+    "eu",
+    "não",
+    "sei"
+  ],
+  "l1-011": [
+    "até",
+    "amanhã"
+  ],
+  "l1-012": [
+    "muito",
+    "prazer"
+  ],
+  "l2-001": [
+    "sou",
+    "de",
+    "portugal",
+    "portugal"
+  ],
+  "l2-002": [
+    "ela",
+    "é",
+    "da",
+    "china"
+  ],
+  "l2-003": [
+    "onde",
+    "fica",
+    "lisboa"
+  ],
+  "l2-004": [
+    "nós",
+    "somos",
+    "de",
+    "lisboa"
+  ],
+  "l2-005": [
+    "lisboa",
+    "fica",
+    "em",
+    "portugal"
+  ],
+  "l2-006": [
+    "eles",
+    "são",
+    "do",
+    "brasil"
+  ],
+  "l2-007": [
+    "eu",
+    "não",
+    "sou",
+    "de",
+    "frança"
+  ],
+  "l2-008": [
+    "vocês",
+    "não",
+    "são",
+    "da",
+    "índia"
+  ],
+  "l2-009": [
+    "onde",
+    "fica",
+    "o japão"
+  ],
+  "l2-010": [
+    "não",
+    "sou",
+    "de",
+    "angola",
+    "angola"
+  ],
+  "l2-011": [
+    "eles",
+    "são",
+    "de",
+    "marrocos"
+  ],
+  "l2-012": [
+    "nós",
+    "não",
+    "somos",
+    "do",
+    "méxico"
+  ],
+  "l3-001": [
+    "eu",
+    "falo",
+    "português"
+  ],
+  "l3-002": [
+    "ela",
+    "mora",
+    "em",
+    "lisboa"
+  ],
+  "l3-003": [
+    "tu",
+    "falas",
+    "inglês"
+  ],
+  "l3-004": [
+    "ele",
+    "é",
+    "brasileiro"
+  ],
+  "l3-005": [
+    "ela",
+    "está",
+    "bem"
+  ],
+  "l3-006": [
+    "também",
+    "falo",
+    "francês",
+    "francês"
+  ],
+  "l3-007": [
+    "eu",
+    "não",
+    "falo",
+    "alemão",
+    "alemão"
+  ],
+  "l3-008": [
+    "nós",
+    "não",
+    "moramos",
+    "em",
+    "portugal",
+    "portugal"
+  ],
+  "l3-009": [
+    "tu",
+    "falas",
+    "muito",
+    "bem"
+  ],
+  "l3-010": [
+    "ela",
+    "não",
+    "está",
+    "bem"
+  ],
+  "l3-011": [
+    "eu",
+    "moro",
+    "em",
+    "portugal"
+  ],
+  "l3-012": [
+    "nós",
+    "falamos",
+    "um",
+    "pouco"
+  ],
+  "l4-001": [
+    "isto",
+    "é",
+    "um",
+    "livro"
+  ],
+  "l4-002": [
+    "a",
+    "cadeira",
+    "é",
+    "azul"
+  ],
+  "l4-003": [
+    "o",
+    "que",
+    "é isto"
+  ],
+  "l4-004": [
+    "isso",
+    "é",
+    "o",
+    "mapa"
+  ],
+  "l4-005": [
+    "a",
+    "porta",
+    "é",
+    "branca"
+  ],
+  "l4-006": [
+    "como",
+    "se",
+    "diz",
+    "livro"
+  ],
+  "l4-007": [
+    "eu",
+    "não",
+    "percebo",
+    "percebo",
+    "percebo"
+  ],
+  "l4-008": [
+    "pode",
+    "repetir",
+    "repetir"
+  ],
+  "l4-009": [
+    "o",
+    "livro",
+    "é",
+    "vermelho"
+  ],
+  "l4-010": [
+    "aquilo",
+    "é",
+    "a",
+    "janela"
+  ],
+  "l4-011": [
+    "qual",
+    "é",
+    "a",
+    "página"
+  ],
+  "l4-012": [
+    "a",
+    "mesa",
+    "não",
+    "é",
+    "preta"
+  ],
+  "l5-001": [
+    "eu",
+    "tenho",
+    "um",
+    "carro"
+  ],
+  "l5-002": [
+    "a",
+    "chave",
+    "está",
+    "aqui"
+  ],
+  "l5-003": [
+    "isto",
+    "é",
+    "a",
+    "minha mala"
+  ],
+  "l5-004": [
+    "onde",
+    "está",
+    "o",
+    "telemóvel"
+  ],
+  "l5-005": [
+    "eu",
+    "não",
+    "tenho",
+    "dinheiro"
+  ],
+  "l5-006": [
+    "o",
+    "passaporte",
+    "está",
+    "ali"
+  ],
+  "l5-007": [
+    "tens",
+    "a",
+    "carta",
+    "de condução"
+  ],
+  "l5-008": [
+    "a",
+    "casa",
+    "é",
+    "minha"
+  ],
+  "l5-009": [
+    "o",
+    "lápis",
+    "está",
+    "aí",
+    "aí"
+  ],
+  "l5-010": [
+    "ele",
+    "não",
+    "tem",
+    "carro"
+  ],
+  "l5-011": [
+    "a",
+    "mochila",
+    "não",
+    "está",
+    "aqui"
+  ],
+  "l5-012": [
+    "é",
+    "o",
+    "teu",
+    "telemóvel"
+  ],
+  "l6-001": [
+    "eu",
+    "sou",
+    "estudante",
+    "estudante"
+  ],
+  "l6-002": [
+    "ela",
+    "é",
+    "médica",
+    "médica"
+  ],
+  "l6-003": [
+    "qual",
+    "é",
+    "o",
+    "teu nome"
+  ],
+  "l6-004": [
+    "eu",
+    "sou",
+    "o",
+    "primeiro"
+  ],
+  "l6-005": [
+    "ele",
+    "é",
+    "professor",
+    "professor"
+  ],
+  "l6-006": [
+    "qual",
+    "é",
+    "a",
+    "tua idade"
+  ],
+  "l6-007": [
+    "não",
+    "sou",
+    "casado",
+    "casado"
+  ],
+  "l6-008": [
+    "ela",
+    "é",
+    "jornalista",
+    "jornalista"
+  ],
+  "l6-009": [
+    "o",
+    "meu",
+    "apelido",
+    "é silva"
+  ],
+  "l6-010": [
+    "sou",
+    "solteiro",
+    "solteiro"
+  ],
+  "l6-011": [
+    "ele",
+    "é",
+    "o",
+    "segundo"
+  ],
+  "l6-012": [
+    "qual",
+    "é",
+    "a",
+    "morada"
+  ],
+  "l7-001": [
+    "gosto",
+    "da",
+    "minha",
+    "cidade"
+  ],
+  "l7-002": [
+    "o",
+    "centro",
+    "é",
+    "bonito"
+  ],
+  "l7-003": [
+    "o",
+    "hotel",
+    "é",
+    "caro"
+  ],
+  "l7-004": [
+    "não",
+    "gosto",
+    "do",
+    "restaurante",
+    "restaurante",
+    "restaurante"
+  ],
+  "l7-005": [
+    "a",
+    "cidade",
+    "é",
+    "antiga"
+  ],
+  "l7-006": [
+    "o",
+    "quarto",
+    "é",
+    "pequeno"
+  ],
+  "l7-007": [
+    "o",
+    "hotel",
+    "fica",
+    "perto"
+  ],
+  "l7-008": [
+    "porque",
+    "gostas",
+    "da",
+    "cidade",
+    "cidade",
+    "cidade"
+  ],
+  "l7-009": [
+    "a",
+    "cidade",
+    "é",
+    "moderna"
+  ],
+  "l7-010": [
+    "o",
+    "centro",
+    "fica",
+    "longe"
+  ],
+  "l7-011": [
+    "o",
+    "restaurante",
+    "não",
+    "é",
+    "barato"
+  ],
+  "l7-012": [
+    "gosto",
+    "muito",
+    "do",
+    "centro",
+    "centro"
+  ],
+  "l8-001": [
+    "eu",
+    "trabalho",
+    "num",
+    "escritório",
+    "escritório"
+  ],
+  "l8-002": [
+    "eu",
+    "estudo",
+    "na",
+    "universidade"
+  ],
+  "l8-003": [
+    "o",
+    "trabalho",
+    "é",
+    "interessante"
+  ],
+  "l8-004": [
+    "acho",
+    "o",
+    "dia",
+    "difícil",
+    "difícil"
+  ],
+  "l8-005": [
+    "não",
+    "ganho",
+    "muito"
+  ],
+  "l8-006": [
+    "trabalho",
+    "à",
+    "noite",
+    "noite"
+  ],
+  "l8-007": [
+    "normalmente",
+    "eu",
+    "trabalho",
+    "sozinho"
+  ],
+  "l8-008": [
+    "a",
+    "empresa",
+    "é",
+    "interessante"
+  ],
+  "l8-009": [
+    "ela",
+    "é",
+    "chefe",
+    "chefe"
+  ],
+  "l8-010": [
+    "infelizmente",
+    "eu",
+    "trabalho",
+    "à",
+    "noite"
+  ],
+  "l8-011": [
+    "viajo",
+    "pouco",
+    "pouco"
+  ],
+  "l8-012": [
+    "o",
+    "meu",
+    "colega trabalha"
+  ],
+  "l9-001": [
+    "eu",
+    "tenho",
+    "um",
+    "irmão"
+  ],
+  "l9-002": [
+    "este",
+    "é",
+    "o",
+    "meu pai"
+  ],
+  "l9-003": [
+    "ela",
+    "tem",
+    "uma",
+    "irmã"
+  ],
+  "l9-004": [
+    "o",
+    "meu",
+    "avô",
+    "é giro"
+  ],
+  "l9-005": [
+    "eu",
+    "não",
+    "tenho",
+    "irmãos"
+  ],
+  "l9-006": [
+    "aquele",
+    "é",
+    "o",
+    "meu primo"
+  ],
+  "l9-007": [
+    "a",
+    "minha",
+    "família",
+    "é grande"
+  ],
+  "l9-008": [
+    "este",
+    "é",
+    "o",
+    "meu filho"
+  ],
+  "l9-009": [
+    "ainda",
+    "não",
+    "sou",
+    "casado",
+    "casado"
+  ],
+  "l9-010": [
+    "o",
+    "namorado",
+    "dela",
+    "é giro"
+  ],
+  "l9-011": [
+    "eu",
+    "tenho",
+    "uma",
+    "avó"
+  ],
+  "l9-012": [
+    "que",
+    "pena",
+    "pena"
+  ],
+  "l10-001": [
+    "eu",
+    "tenho",
+    "olhos",
+    "azuis"
+  ],
+  "l10-002": [
+    "ela",
+    "é",
+    "alta"
+  ],
+  "l10-003": [
+    "estou",
+    "cansado",
+    "cansado"
+  ],
+  "l10-004": [
+    "ele",
+    "tem",
+    "barba",
+    "barba"
+  ],
+  "l10-005": [
+    "o",
+    "cabelo",
+    "é",
+    "curto"
+  ],
+  "l10-006": [
+    "estou",
+    "com",
+    "fome"
+  ],
+  "l10-007": [
+    "ela",
+    "lê",
+    "um",
+    "livro"
+  ],
+  "l10-008": [
+    "vejo",
+    "um",
+    "filme",
+    "filme"
+  ],
+  "l10-009": [
+    "ele",
+    "é",
+    "magro"
+  ],
+  "l10-010": [
+    "estou",
+    "com",
+    "sono"
+  ],
+  "l10-011": [
+    "ela",
+    "não",
+    "está",
+    "doente"
+  ],
+  "l10-012": [
+    "tu",
+    "estás",
+    "bom"
+  ],
+  "l11-001": [
+    "eu",
+    "vou",
+    "muito",
+    "à",
+    "praia",
+    "praia"
+  ],
+  "l11-002": [
+    "adoro",
+    "a",
+    "música"
+  ],
+  "l11-003": [
+    "eu",
+    "vou",
+    "ao",
+    "cinema",
+    "cinema"
+  ],
+  "l11-004": [
+    "eu",
+    "detesto",
+    "o",
+    "ginásio"
+  ],
+  "l11-005": [
+    "nós",
+    "vamos",
+    "à",
+    "praia",
+    "praia"
+  ],
+  "l11-006": [
+    "eu",
+    "jogo",
+    "o ténis"
+  ],
+  "l11-007": [
+    "eu",
+    "não",
+    "vou",
+    "ao",
+    "bar",
+    "bar",
+    "bar"
+  ],
+  "l11-008": [
+    "eu",
+    "vou",
+    "ao",
+    "ginásio",
+    "ginásio"
+  ],
+  "l11-009": [
+    "adoro",
+    "a",
+    "natureza"
+  ],
+  "l11-010": [
+    "o",
+    "meu",
+    "desporto",
+    "preferido é o ténis"
+  ],
+  "l11-011": [
+    "passo",
+    "o",
+    "dia",
+    "na",
+    "praia",
+    "praia",
+    "praia"
+  ],
+  "l11-012": [
+    "eu",
+    "não",
+    "vou",
+    "à",
+    "discoteca",
+    "discoteca",
+    "discoteca"
+  ],
+  "l12-001": [
+    "adoro",
+    "café",
+    "português",
+    "português"
+  ],
+  "l12-002": [
+    "o",
+    "café",
+    "é",
+    "típico"
+  ],
+  "l12-003": [
+    "eu",
+    "almoço",
+    "cá",
+    "cá"
+  ],
+  "l12-004": [
+    "tu",
+    "jantas",
+    "lá",
+    "lá"
+  ],
+  "l12-005": [
+    "tomo",
+    "um",
+    "café",
+    "café"
+  ],
+  "l12-006": [
+    "eu",
+    "ando",
+    "de",
+    "bicicleta"
+  ],
+  "l12-007": [
+    "é",
+    "típico",
+    "pois",
+    "não"
+  ],
+  "l12-008": [
+    "procuro",
+    "um",
+    "café",
+    "café",
+    "café"
+  ],
+  "l12-009": [
+    "sou",
+    "bom",
+    "em",
+    "português",
+    "português"
+  ],
+  "l12-010": [
+    "tomamos",
+    "banho",
+    "no",
+    "mar",
+    "mar"
+  ],
+  "l12-011": [
+    "o",
+    "café",
+    "é",
+    "popular"
+  ],
+  "l12-012": [
+    "eu",
+    "não",
+    "janto",
+    "lá",
+    "lá"
+  ]
+}

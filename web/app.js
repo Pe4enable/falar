@@ -934,15 +934,15 @@ function vHome() {
       </div>
     </div>
 
-    <div class="serif" style="font-size:18px;font-weight:500;margin-bottom:12px">Программа · 16 уроков</div>
+    <div class="serif" style="font-size:18px;font-weight:500;margin-bottom:12px">Программа · ${LESSONS.length} уроков</div>
     <div style="display:flex;flex-direction:column;gap:10px">${list}</div>
     ${(w1kHas() || verbsHas()) ? `
     <div class="serif" style="font-size:18px;font-weight:500;margin:24px 0 12px">Тренажёры</div>
     <div style="display:flex;flex-direction:column;gap:10px">
     ${w1kHas() ? `
     <div class="card lesson-card tappable" onclick="A.openW1k()">
-      <div style="width:44px;height:44px;border-radius:13px;background:var(--accent-sunk);display:flex;align-items:center;justify-content:center;color:var(--accent);flex:none;font-weight:700;font-family:Lora,serif">1K</div>
-      <div class="grow"><h2>1000 слов</h2><div class="hint" style="margin-top:2px">Частотные слова · PT ⇄ RU · изучено ${w1kLearnedCount()}/${W1K().length}</div></div>
+      <div style="width:44px;height:44px;border-radius:13px;background:var(--accent-sunk);display:flex;align-items:center;justify-content:center;color:var(--accent);flex:none;font-weight:700;font-family:Lora,serif">PT</div>
+      <div class="grow"><h2>Слова учебника</h2><div class="hint" style="margin-top:2px">Юниты 1–12 · PT ⇄ RU · изучено ${w1kLearnedCount()}/${W1K().length}</div></div>
       <span style="color:var(--t3)">${I.chev}</span>
     </div>` : ''}
     ${verbsHas() ? `
@@ -1736,8 +1736,8 @@ function vW1kHome() {
   return `<div class="screen no-tab" style="display:flex;flex-direction:column;padding-bottom:0">
     <button class="icon-btn" style="margin-bottom:14px" onclick="A.goTab('home')">${I.back}<span class="sr-only">Назад</span></button>
     <div style="flex:1;overflow-y:auto">
-      <h1 style="font-size:26px">1000 слов</h1>
-      <div class="sub" style="margin:8px 0 16px">Урок — 5 слов. Слово уходит в изученные после 3 верных ответов подряд (PT ⇄ RU).</div>
+      <h1 style="font-size:26px">Слова учебника</h1>
+      <div class="sub" style="margin:8px 0 16px">Слова юнитов 1–12. Урок — 5 слов. Слово уходит в изученные после 3 верных ответов подряд (PT ⇄ RU).</div>
       <div class="card row" style="padding:16px 18px">
         <div class="ring-wrap" style="width:60px;height:60px;flex:none">
           <svg width="60" height="60" viewBox="0 0 60 60">
@@ -1747,7 +1747,7 @@ function vW1kHome() {
           <div class="ring-center"><b class="serif mono" style="font-size:15px">${learned}</b></div>
         </div>
         <div class="grow"><div class="serif" style="font-size:17px;font-weight:600">Изучено ${learned} из ${total}</div>
-          <div class="hint" style="margin-top:2px">В работе: ${active.length} · в уроке всегда самые частые ещё не выученные</div></div>
+          <div class="hint" style="margin-top:2px">В работе: ${active.length} · в уроке — следующие слова из учебника</div></div>
       </div>
       <div class="group-label" style="margin-top:20px">В ЭТОМ УРОКЕ (${active.length})</div>
       <div style="display:flex;flex-direction:column;gap:10px">${activeRows}</div>

@@ -1,430 +1,252 @@
 {
   "id": 11,
   "number": 11,
-  "title": "Притяжательные — мой, твой, наш + глагол ter",
-  "topic": "o meu, a tua, o nosso; tenho, tens, tem",
+  "title": "Vou muito à praia",
+  "topic": "Глагол ir, досуг и предлог a",
   "tags": [
-    "possessivos",
-    "ter"
+    "ir",
+    "tempos livres",
+    "a"
   ],
   "free": false,
   "theory": {
-    "intro": "«Мой дом» по-португальски — «a minha casa», с артиклем перед притяжательным. Род и число согласуются с вещью, а не с владельцем.",
+    "intro": "Одиннадцатый юнит — куда вы ходите. Ir плюс предлог a: vou à praia, vou ao cinema. Adorar и detestar говорят, нравится ли это.",
     "blocks": [
       {
         "type": "text",
-        "content": "o meu / a minha / os meus / as minhas (мой); o teu / a tua (твой); o nosso / a nossa (наш); o vosso / a vossa (ваш). Ter (иметь): tenho, tens, tem, temos, têm."
+        "content": "Ir: eu vou, tu vais, ele vai, nós vamos, eles vão. A сливается с артиклем: a + a = à, a + o = ao. Vou à praia. Vou ao cinema. Vou ao ginásio."
+      },
+      {
+        "type": "text",
+        "content": "Adoro a natureza. Detesto o ginásio. Jogo ténis. O meu desporto preferido é o ténis. Muito усиливает: vou muito à praia."
+      },
+      {
+        "type": "text",
+        "content": "Отрицание: eu não vou ao bar, eu não vou à discoteca. Passar o dia — провести день: passo o dia na praia."
       },
       {
         "type": "note",
-        "content": "eles têm — с циркумфлексом (têm), отличие от ele tem без него. На слух почти одинаково, но на письме — разные формы."
-      },
-      {
-        "type": "note",
-        "content": "«O seu» обычно значит «ваш» (вежливое). Для «его/её» португальцы говорят dele/dela: «o carro dele» — его машина."
-      },
-      {
-        "type": "note",
-        "content": "«Tens horas?» — «Не подскажешь, который час?» (дословно «имеешь часы?»). A renda — арендная плата. O troco — сдача."
+        "content": "À — это a + a, с грависом. Не путать с a «к» без артикля и с há «имеется»."
       }
     ]
   },
   "verbTable": {
-    "verb": "ter",
-    "translation": "иметь",
+    "verb": "ir",
+    "translation": "идти",
     "conjugation": "irregular",
     "schema": {
       "present": {
-        "affirm": "tenho",
-        "negate": "não tenho",
-        "question": "tenho?"
+        "affirm": "vou",
+        "negate": "não vou",
+        "question": "vou?"
       },
       "past": {
-        "affirm": "tive",
-        "negate": "não tive",
-        "question": "tive?"
+        "affirm": "fui",
+        "negate": "não fui",
+        "question": "fui?"
       },
       "future": {
-        "affirm": "vou ter",
-        "negate": "não vou ter",
-        "question": "vou ter?"
+        "affirm": "vou ir",
+        "negate": "não vou ir",
+        "question": "vou ir?"
       }
     },
     "presentFull": {
-      "eu": "tenho",
-      "tu": "tens",
-      "ele": "tem",
-      "nos": "temos",
-      "eles": "têm"
+      "eu": "vou",
+      "tu": "vais",
+      "ele": "vai",
+      "nos": "vamos",
+      "eles": "vão"
     }
   },
+  "tables": [
+    {
+      "type": "paradigm",
+      "forms": [
+        [
+          "eu",
+          "vou"
+        ],
+        [
+          "tu",
+          "vais"
+        ],
+        [
+          "ele/ela",
+          "vai"
+        ],
+        [
+          "nós",
+          "vamos"
+        ],
+        [
+          "eles/elas",
+          "vão"
+        ]
+      ],
+      "title": "ir — настоящее"
+    }
+  ],
   "phrases": [
     {
       "id": "l11-001",
-      "ru": "Моя квартира маленькая.",
-      "pt": "O meu apartamento é pequeno.",
+      "ru": "Я часто хожу на пляж.",
+      "pt": "Eu vou muito à praia.",
       "tense": "present",
       "form": "affirm",
       "conjugation": "irregular",
-      "verb": "ser",
+      "verb": "ir",
       "distractors": [
-        "minha",
-        "grande"
+        "cinema",
+        "ginásio"
       ]
     },
     {
       "id": "l11-002",
-      "ru": "Моя жена работает в Лиссабоне.",
-      "pt": "A minha mulher trabalha em Lisboa.",
+      "ru": "Обожаю музыку.",
+      "pt": "Adoro a música.",
       "tense": "present",
       "form": "affirm",
       "conjugation": "ar",
-      "verb": "trabalhar",
+      "verb": "adorar",
       "distractors": [
-        "meu",
-        "Porto"
+        "praia",
+        "desporto"
       ]
     },
     {
       "id": "l11-003",
-      "ru": "У меня двое детей.",
-      "pt": "Tenho dois filhos.",
+      "ru": "Я иду в кино.",
+      "pt": "Eu vou ao cinema.",
       "tense": "present",
       "form": "affirm",
       "conjugation": "irregular",
-      "verb": "ter",
+      "verb": "ir",
       "distractors": [
-        "tens",
-        "três"
+        "praia",
+        "bar"
       ]
     },
     {
       "id": "l11-004",
-      "ru": "Мои соседи — приятные люди.",
-      "pt": "Os meus vizinhos são simpáticos.",
+      "ru": "Терпеть не могу спортзал.",
+      "pt": "Eu detesto o ginásio.",
       "tense": "present",
       "form": "affirm",
-      "conjugation": "irregular",
-      "verb": "ser",
+      "conjugation": "ar",
+      "verb": "detestar",
       "distractors": [
-        "minhas",
-        "amigos"
+        "praia",
+        "mar"
       ]
     },
     {
       "id": "l11-005",
-      "ru": "Наша машина в гараже.",
-      "pt": "O nosso carro está na garagem.",
+      "ru": "Мы идём на пляж.",
+      "pt": "Nós vamos à praia.",
       "tense": "present",
       "form": "affirm",
       "conjugation": "irregular",
-      "verb": "estar",
+      "verb": "ir",
       "distractors": [
-        "nossa",
-        "rua"
+        "cinema",
+        "bar"
       ]
     },
     {
       "id": "l11-006",
-      "ru": "Твой дом очень красивый.",
-      "pt": "A tua casa é muito bonita.",
+      "ru": "Я играю в теннис.",
+      "pt": "Eu jogo o ténis.",
       "tense": "present",
       "form": "affirm",
-      "conjugation": "irregular",
-      "verb": "ser",
+      "conjugation": "ar",
+      "verb": "jogar",
       "distractors": [
-        "teu",
-        "pequena"
+        "futebol",
+        "xadrez"
       ]
     },
     {
       "id": "l11-007",
-      "ru": "У меня встреча в десять.",
-      "pt": "Tenho uma reunião às dez.",
+      "ru": "Я не иду в бар.",
+      "pt": "Eu não vou ao bar.",
       "tense": "present",
-      "form": "affirm",
+      "form": "negate",
       "conjugation": "irregular",
-      "verb": "ter",
+      "verb": "ir",
       "distractors": [
-        "tens",
-        "nove"
+        "cinema",
+        "praia"
       ]
     },
     {
       "id": "l11-008",
-      "ru": "Мой телефон разрядился.",
-      "pt": "O meu telemóvel está sem bateria.",
+      "ru": "Я иду в зал.",
+      "pt": "Eu vou ao ginásio.",
       "tense": "present",
       "form": "affirm",
       "conjugation": "irregular",
-      "verb": "estar",
-      "tags": [
-        "chunk"
-      ],
+      "verb": "ir",
       "distractors": [
-        "teu",
-        "carregador"
+        "bar",
+        "cinema"
       ]
     },
     {
       "id": "l11-009",
-      "ru": "Наша аренда дорогая.",
-      "pt": "A nossa renda é cara.",
+      "ru": "Обожаю природу.",
+      "pt": "Adoro a natureza.",
       "tense": "present",
       "form": "affirm",
-      "conjugation": "irregular",
-      "verb": "ser",
+      "conjugation": "ar",
+      "verb": "adorar",
       "distractors": [
-        "nosso",
-        "barata"
+        "praia",
+        "cidade"
       ]
     },
     {
       "id": "l11-010",
-      "ru": "У него есть мой номер.",
-      "pt": "Ele tem o meu número.",
+      "ru": "Мой любимый спорт — теннис.",
+      "pt": "O meu desporto preferido é o ténis.",
       "tense": "present",
       "form": "affirm",
       "conjugation": "irregular",
-      "verb": "ter",
+      "verb": "ser",
       "distractors": [
-        "tens",
-        "teu"
+        "futebol",
+        "natação"
       ]
     },
     {
       "id": "l11-011",
-      "ru": "У меня нет сдачи.",
-      "pt": "Não tenho troco.",
+      "ru": "Я провожу день на пляже.",
+      "pt": "Passo o dia na praia.",
       "tense": "present",
-      "form": "negate",
-      "conjugation": "irregular",
-      "verb": "ter",
-      "tags": [
-        "chunk"
-      ],
+      "form": "affirm",
+      "conjugation": "ar",
+      "verb": "passar",
       "distractors": [
-        "tens",
-        "dinheiro"
+        "cidade",
+        "casa"
       ]
     },
     {
       "id": "l11-012",
-      "ru": "Моя машина не работает.",
-      "pt": "O meu carro não funciona.",
-      "tense": "present",
-      "form": "negate",
-      "conjugation": "ar",
-      "verb": "funcionar",
-      "distractors": [
-        "teu",
-        "anda"
-      ]
-    },
-    {
-      "id": "l11-013",
-      "ru": "У нас сегодня нет времени.",
-      "pt": "Não temos tempo hoje.",
+      "ru": "Я не иду на дискотеку.",
+      "pt": "Eu não vou à discoteca.",
       "tense": "present",
       "form": "negate",
       "conjugation": "irregular",
-      "verb": "ter",
+      "verb": "ir",
       "distractors": [
-        "têm",
-        "amanhã"
-      ]
-    },
-    {
-      "id": "l11-014",
-      "ru": "Мой ключ не открывает дверь.",
-      "pt": "A minha chave não abre a porta.",
-      "tense": "present",
-      "form": "negate",
-      "conjugation": "ir",
-      "verb": "abrir",
-      "distractors": [
-        "meu",
-        "janela"
-      ]
-    },
-    {
-      "id": "l11-015",
-      "ru": "У неё нет братьев и сестёр.",
-      "pt": "Ela não tem irmãos.",
-      "tense": "present",
-      "form": "negate",
-      "conjugation": "irregular",
-      "verb": "ter",
-      "distractors": [
-        "têm",
-        "filhos"
-      ]
-    },
-    {
-      "id": "l11-016",
-      "ru": "Это не моё.",
-      "pt": "Isto não é meu.",
-      "tense": "present",
-      "form": "negate",
-      "conjugation": "irregular",
-      "verb": "ser",
-      "tags": [
-        "chunk"
-      ],
-      "distractors": [
-        "teu",
-        "está"
-      ]
-    },
-    {
-      "id": "l11-017",
-      "ru": "Где мой телефон?",
-      "pt": "Onde está o meu telemóvel?",
-      "tense": "present",
-      "form": "question",
-      "conjugation": "irregular",
-      "verb": "estar",
-      "distractors": [
-        "estão",
-        "teu"
-      ]
-    },
-    {
-      "id": "l11-018",
-      "ru": "Ключи у тебя?",
-      "pt": "Tens as chaves?",
-      "tense": "present",
-      "form": "question",
-      "conjugation": "irregular",
-      "verb": "ter",
-      "distractors": [
-        "tenho",
-        "minhas"
-      ]
-    },
-    {
-      "id": "l11-019",
-      "ru": "Это твоя куртка?",
-      "pt": "É o teu casaco?",
-      "tense": "present",
-      "form": "question",
-      "conjugation": "irregular",
-      "verb": "ser",
-      "distractors": [
-        "tua",
-        "meu"
-      ]
-    },
-    {
-      "id": "l11-020",
-      "ru": "Сколько лет твоему сыну?",
-      "pt": "Quantos anos tem o teu filho?",
-      "tense": "present",
-      "form": "question",
-      "conjugation": "irregular",
-      "verb": "ter",
-      "tags": [
-        "chunk"
-      ],
-      "distractors": [
-        "tens",
-        "tua"
-      ]
-    },
-    {
-      "id": "l11-021",
-      "ru": "Не подскажешь, который час?",
-      "pt": "Tens horas?",
-      "tense": "present",
-      "form": "question",
-      "conjugation": "irregular",
-      "verb": "ter",
-      "tags": [
-        "chunk"
-      ],
-      "distractors": [
-        "tenho",
-        "tempo"
-      ]
-    },
-    {
-      "id": "l11-022",
-      "ru": "В вашем доме есть сад?",
-      "pt": "A vossa casa tem jardim?",
-      "tense": "present",
-      "form": "question",
-      "conjugation": "irregular",
-      "verb": "ter",
-      "distractors": [
-        "vosso",
-        "garagem"
-      ]
-    },
-    {
-      "id": "l11-023",
-      "ru": "У тебя есть планы на выходные?",
-      "pt": "Tens planos para o fim de semana?",
-      "tense": "present",
-      "form": "question",
-      "conjugation": "irregular",
-      "verb": "ter",
-      "tags": [
-        "chunk"
-      ],
-      "distractors": [
-        "tenho",
-        "domingo"
-      ]
-    },
-    {
-      "id": "l11-024",
-      "ru": "Твой врач говорит по-английски?",
-      "pt": "O teu médico fala inglês?",
-      "tense": "present",
-      "form": "question",
-      "conjugation": "ar",
-      "verb": "falar",
-      "distractors": [
-        "minha",
-        "russo"
+        "praia",
+        "bar"
       ]
     }
   ],
   "exam": {
     "count": 10,
     "passThreshold": 0.8
-  },
-  "tables": [
-    {
-      "type": "compare",
-      "title": "Притяжательные",
-      "cols": [
-        "муж. род",
-        "жен. род"
-      ],
-      "note": "В португальском артикль + притяжательное: o meu carro — моя машина.",
-      "rows": [
-        [
-          "мой",
-          "o meu",
-          "a minha"
-        ],
-        [
-          "твой",
-          "o teu",
-          "a tua"
-        ],
-        [
-          "наш",
-          "o nosso",
-          "a nossa"
-        ],
-        [
-          "ваш",
-          "o vosso",
-          "a vossa"
-        ]
-      ]
-    }
-  ]
+  }
 }
