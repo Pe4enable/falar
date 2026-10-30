@@ -1,0 +1,887 @@
+{
+  "source": "content/a1-2.pdf",
+  "book": "Passaporte para Português 1 — Livro do Aluno",
+  "authors": "Robert Kuzka / José Pascoal",
+  "publisher": "Lidel",
+  "level": "A1/A2",
+  "edition": "Edição atualizada. Copyright 2024. 1.ª edição setembro de 2014, 3.ª impressão outubro de 2024. ISBN 978-989-752-892-7.",
+  "pdf_pages": 267,
+  "indice_pdf_page": 5,
+  "indice_printed_page": 4,
+  "note": "pdf_page — номер страницы в content/a1-2.pdf, с 1. printed_page — номер внизу листа и в índice (печатные 4–9). До печатной 111 включительно pdf_page = printed_page + 1. С печатной 112 pdf_page = printed_page + 3. Страницы PDF 113–114 — повторный скан печатных 110–111 (начало unidade 20); в таблице указан первый скан, PDF 111. Колонки comunicacao, vocabulario, pronuncia и gramatica — строки índice. У Português em Ação в índice заполнен только vocabulário.",
+  "front": [
+    {
+      "title": "Capa",
+      "pdf_page": 1,
+      "printed_page": null
+    },
+    {
+      "title": "Página de rosto",
+      "pdf_page": 2,
+      "printed_page": 1
+    },
+    {
+      "title": "Ficha técnica",
+      "pdf_page": 3,
+      "printed_page": 2
+    },
+    {
+      "title": "Introdução",
+      "pdf_page": 4,
+      "printed_page": 3
+    },
+    {
+      "title": "Índice",
+      "pdf_page": 5,
+      "pdf_page_end": 10,
+      "printed_page": 4,
+      "printed_end": 9
+    }
+  ],
+  "units": [
+    {
+      "id": 1,
+      "title": "Olá, bom dia!",
+      "printed_page": 10,
+      "printed_end": 13,
+      "pdf_page": 11,
+      "pdf_page_end": 14,
+      "comunicacao": "Cumprimentar / Identificar pessoas / Apresentar-se / Despedir-se",
+      "vocabulario": "Números 0–20 / Dias da semana",
+      "pronuncia": "Vogais / Sílabas / Acento / Letra o",
+      "gramatica": "Ser e chamar-se (Presente do Indicativo singular) / Pronomes pessoais (singular) / Artigo definido (singular) / Como e quem"
+    },
+    {
+      "id": 2,
+      "title": "Sou de Lisboa",
+      "printed_page": 14,
+      "printed_end": 17,
+      "pdf_page": 15,
+      "pdf_page_end": 18,
+      "comunicacao": "Falar sobre origem / Localizar cidades",
+      "vocabulario": "Números 21–100 / Países / Cidades",
+      "pronuncia": "Acento / Letra s",
+      "gramatica": "Ser (Presente do Indicativo plural) / Ficar / Pronomes pessoais (plural) / Artigo definido (plural) / Preposições de e em e as suas contrações com artigo definido / Frases negativas / Onde"
+    },
+    {
+      "id": 3,
+      "title": "Falo português",
+      "printed_page": 18,
+      "printed_end": 21,
+      "pdf_page": 19,
+      "pdf_page_end": 22,
+      "comunicacao": "Perguntar sobre nacionalidades e línguas / Localizar pessoas",
+      "vocabulario": "Números 101–1000 / Nacionalidades / Línguas",
+      "pronuncia": "Vogais nasais / Acento / Letra x / Pares mínimos [ẽw] e [ẽ]",
+      "gramatica": "Género e número das nacionalidades / Verbos regulares em -ar (Presente do Indicativo) / Estar (Presente do Indicativo) / Diferenças entre ser e estar"
+    },
+    {
+      "id": 4,
+      "title": "Como se diz isto em português?",
+      "printed_page": 22,
+      "printed_end": 25,
+      "pdf_page": 23,
+      "pdf_page_end": 26,
+      "comunicacao": "Fazer perguntas ao professor / Perceber as instruções na sala de aula / Identificar objetos e cores / Expressar posse",
+      "vocabulario": "Objetos da sala de aula / Cores",
+      "pronuncia": "Entoação nas frases afirmativas e interrogativas / Som [j]",
+      "gramatica": "Demonstrativos invariáveis isto, isso e aquilo / Artigo indefinido (singular) / Género e número dos nomes e das cores / Preposição de para posse / Ordem das palavras / O que"
+    },
+    {
+      "id": 5,
+      "title": "Tenho carta de condução",
+      "printed_page": 32,
+      "printed_end": 35,
+      "pdf_page": 33,
+      "pdf_page_end": 36,
+      "comunicacao": "Pedir objetos / Localizar objetos e pessoas / Expressar posse",
+      "vocabulario": "Objetos pessoais / Locais",
+      "pronuncia": "Ditongo [ej] / Letra r / Dígrafo rr / Frases com é que",
+      "gramatica": "Ter (Presente do Indicativo) / Expressão expletiva é que / Possessivos (singular) / Advérbios de lugar aqui, aí e ali"
+    },
+    {
+      "id": 6,
+      "title": "Sou estudante",
+      "printed_page": 36,
+      "printed_end": 39,
+      "pdf_page": 37,
+      "pdf_page_end": 40,
+      "comunicacao": "Soletrar palavras / Pedir e dar informação sobre dados pessoais / Preencher uma ficha",
+      "vocabulario": "Profissões e atividades / Alfabeto / Dados pessoais",
+      "pronuncia": "Som [ɐ] / Dígrafo ss / Letra x",
+      "gramatica": "Ordinais 1–10 / Género das profissões / Ordem das palavras / Qual e quanto"
+    },
+    {
+      "id": 7,
+      "title": "Gosto da minha cidade",
+      "printed_page": 40,
+      "printed_end": 43,
+      "pdf_page": 41,
+      "pdf_page_end": 44,
+      "comunicacao": "Descrever lugares / Expressar gostos",
+      "vocabulario": "Adjetivos",
+      "pronuncia": "Letra z / Dígrafo ch / Som [ʃ] / Pares mínimos",
+      "gramatica": "Gostar / Contrações de de e em com advérbios de lugar e demonstrativos invariáveis / Adjetivos (género e número) / Porque"
+    },
+    {
+      "id": 8,
+      "title": "Trabalho num escritório",
+      "printed_page": 44,
+      "printed_end": 47,
+      "pdf_page": 45,
+      "pdf_page_end": 48,
+      "comunicacao": "Falar sobre rotinas profissionais e escolares / Dar opiniões",
+      "vocabulario": "Locais de trabalho / Palavras para descrever o trabalho",
+      "pronuncia": "Acento / Letra h / Sons [ɐ] e [ɐ̃]",
+      "gramatica": "Contrações de de e em com artigo indefinido / Quantificadores muito e pouco / Preposição por"
+    },
+    {
+      "id": 9,
+      "title": "Tenho um irmão",
+      "printed_page": 54,
+      "printed_end": 57,
+      "pdf_page": 55,
+      "pdf_page_end": 58,
+      "comunicacao": "Apresentar a família e pessoas próximas",
+      "vocabulario": "Família e pessoas próximas",
+      "pronuncia": "Sons [i] e [ĩ] / Acento / Pares mínimos [o] e [ɔ]",
+      "gramatica": "Possessivos (plural) / Demonstrativos variáveis"
+    },
+    {
+      "id": 10,
+      "title": "Tenho olhos azuis",
+      "printed_page": 58,
+      "printed_end": 61,
+      "pdf_page": 59,
+      "pdf_page_end": 62,
+      "comunicacao": "Descrever a aparência física e os estados fisiológicos",
+      "vocabulario": "Aparência física / Estados fisiológicos / Gostos e hábitos",
+      "pronuncia": "Letra x / Sibilantes / Formas verbais / Ligações vocálicas",
+      "gramatica": "Ler e ver (Presente do Indicativo) / Diferenças entre ser e estar / Qual"
+    },
+    {
+      "id": 11,
+      "title": "Vou muito à praia",
+      "printed_page": 62,
+      "printed_end": 65,
+      "pdf_page": 63,
+      "pdf_page_end": 66,
+      "comunicacao": "Falar sobre gostos e tempos livres",
+      "vocabulario": "Gostos e tempos livres",
+      "pronuncia": "Letra g",
+      "gramatica": "Ir (Presente do Indicativo) / Preposição a / Contração de a com artigo definido"
+    },
+    {
+      "id": 12,
+      "title": "Adoro café português",
+      "printed_page": 66,
+      "printed_end": 69,
+      "pdf_page": 67,
+      "pdf_page_end": 70,
+      "comunicacao": "Falar sobre gostos e hábitos / Escrever um e-mail informal",
+      "vocabulario": "Gostos e hábitos",
+      "pronuncia": "Letra c / Letras b e v",
+      "gramatica": "Interrogativas de confirmação / Advérbios de lugar cá e lá"
+    },
+    {
+      "id": 13,
+      "title": "Faço anos a 10 de dezembro",
+      "printed_page": 76,
+      "printed_end": 79,
+      "pdf_page": 77,
+      "pdf_page_end": 80,
+      "comunicacao": "Perguntar e dizer as horas e as datas / Dar os parabéns",
+      "vocabulario": "Tempo, horas e meses / Dias festivos",
+      "pronuncia": "Sons [i] e [ĩ] / Letra j / Letra ç / Sons [s] e [z]",
+      "gramatica": "Fazer (Presente do Indicativo) / Expressão daqui a / Preposições usadas com as horas, meses, datas, anos e dias festivos / Quando"
+    },
+    {
+      "id": 14,
+      "title": "Levanto-me às 8 horas",
+      "printed_page": 80,
+      "printed_end": 83,
+      "pdf_page": 81,
+      "pdf_page_end": 84,
+      "comunicacao": "Falar sobre as rotinas diárias e semanais",
+      "vocabulario": "Rotinas diárias e semanais / Partes do dia",
+      "pronuncia": "Sons [a] e [ɐ]",
+      "gramatica": "Verbos reflexos / Preposições de tempo e de movimento"
+    },
+    {
+      "id": 15,
+      "title": "Tenho uma vida saudável",
+      "printed_page": 84,
+      "printed_end": 87,
+      "pdf_page": 85,
+      "pdf_page_end": 88,
+      "comunicacao": "Falar sobre os hábitos alimentares e estilos de vida / Preencher um questionário",
+      "vocabulario": "Alimentos / Hábitos e rotinas",
+      "pronuncia": "Ligações consonânticas / Ditongos [ẽj] e [uj] / Som [i]",
+      "gramatica": "Verbos regulares em -er (Presente do Indicativo) / Dormir (Presente do Indicativo) / Advérbios de frequência / Todo e algum / Advérbio mal"
+    },
+    {
+      "id": 16,
+      "title": "Adoro comer fora",
+      "printed_page": 88,
+      "printed_end": 91,
+      "pdf_page": 89,
+      "pdf_page_end": 92,
+      "comunicacao": "Ler uma ementa / Fazer pedidos / Fazer e aceitar propostas / Expressar permissão, proibição e possibilidade",
+      "vocabulario": "Pratos portugueses / Preparação de comida / Adjetivos / Tipos de restaurantes",
+      "pronuncia": "Ditongos [õj] e [oj] / Qua, que e qui",
+      "gramatica": "Pôr, saber, poder e querer (Presente do Indicativo) / Preposições de lugar"
+    },
+    {
+      "id": 17,
+      "title": "Tomo sempre o pequeno-almoço",
+      "printed_page": 98,
+      "printed_end": 101,
+      "pdf_page": 99,
+      "pdf_page_end": 102,
+      "comunicacao": "Falar sobre os hábitos alimentares / Interagir num restaurante / Comprar comida",
+      "vocabulario": "Pequeno-almoço / Embalagens / Compras de comida",
+      "pronuncia": "Acento / Grupos vocálicos ea e ia",
+      "gramatica": "Contração de de, em e a com demonstrativos variáveis / O uso de haver e estar / Artigo indefinido (plural)"
+    },
+    {
+      "id": 18,
+      "title": "Prefiro ir à Madeira",
+      "printed_page": 102,
+      "printed_end": 105,
+      "pdf_page": 103,
+      "pdf_page_end": 106,
+      "comunicacao": "Fazer comparações / Expressar preferências / Ler um folheto publicitário / Pedir informações numa agência de viagens",
+      "vocabulario": "Adjetivos / Lugares",
+      "pronuncia": "Sons [ɐ] e [ɐ̃] / Ligações consonânticas",
+      "gramatica": "Comparativo e superlativo dos adjetivos e advérbios / Conhecer e preferir (Presente do Indicativo)"
+    },
+    {
+      "id": 19,
+      "title": "Tenho de gastar menos",
+      "printed_page": 106,
+      "printed_end": 109,
+      "pdf_page": 107,
+      "pdf_page_end": 110,
+      "comunicacao": "Expressar necessidade, obrigação e capacidade",
+      "vocabulario": "Verbos relacionados com dinheiro / Passatempos e atividades",
+      "pronuncia": "Acento / Sons [ɐ] e [ɐ̃] / Ditongo [ɐj]",
+      "gramatica": "Ter de e precisar / Pronomes indefinidos invariáveis / Uso do verbo saber"
+    },
+    {
+      "id": 20,
+      "title": "Estou a falar ao telefone",
+      "printed_page": 110,
+      "printed_end": 113,
+      "pdf_page": 111,
+      "pdf_page_end": 116,
+      "comunicacao": "Falar sobre ações em curso / Falar ao telefone",
+      "vocabulario": "Chamadas e mensagens telefónicas",
+      "pronuncia": "Letra u / Ligações consonânticas / Gua",
+      "gramatica": "Verbos regulares em -ir / Estar a + infinitivo / Uso de tão e tanto"
+    },
+    {
+      "id": 21,
+      "title": "Vou viajar de comboio",
+      "printed_page": 120,
+      "printed_end": 123,
+      "pdf_page": 123,
+      "pdf_page_end": 126,
+      "comunicacao": "Fazer planos / Falar sobre deslocações do dia a dia",
+      "vocabulario": "Viagens e deslocações / Meios de transporte",
+      "pronuncia": "Sons [aj] e [ẽw] / Gui / Pares mínimos",
+      "gramatica": "Ir + infinitivo / Vir (Presente do Indicativo) / Perder (Presente do Indicativo) / Outro / Contrações de por com artigo definido / Preposições com meios de transporte"
+    },
+    {
+      "id": 22,
+      "title": "Quero uma casa com jardim",
+      "printed_page": 124,
+      "printed_end": 127,
+      "pdf_page": 127,
+      "pdf_page_end": 130,
+      "comunicacao": "Falar sobre habitação / Interagir numa agência imobiliária / Ler anúncios imobiliários",
+      "vocabulario": "Tipos de habitação / Divisões da casa / Mobiliário",
+      "pronuncia": "Letra â / Letra e / Sons [aj] e [aw]",
+      "gramatica": "Dizer e subir (Presente do Indicativo) / Verbos em -air (Presente do Indicativo) / Nenhum / Diferenças entre ser e estar"
+    },
+    {
+      "id": 23,
+      "title": "Não tenho planos para sábado",
+      "printed_page": 128,
+      "printed_end": 131,
+      "pdf_page": 131,
+      "pdf_page_end": 134,
+      "comunicacao": "Organizar um evento ou uma festa / Planear e dividir as tarefas",
+      "vocabulario": "Organização de eventos / Utensílios de cozinha",
+      "pronuncia": "Pares mínimos [a] e [ã] / Sons [e] e [ĩ] nas formas do imperativo",
+      "gramatica": "Imperativo informal regular / Verbos em -ear (Presente do Indicativo)"
+    },
+    {
+      "id": 24,
+      "title": "Quero visitar este museu",
+      "printed_page": 132,
+      "printed_end": 135,
+      "pdf_page": 135,
+      "pdf_page_end": 138,
+      "comunicacao": "Falar sobre atrações turísticas de uma cidade / Ler informação turística / Escrever um postal",
+      "vocabulario": "Lugares de interesse turístico na cidade / Acessos, horários e bilheteira",
+      "pronuncia": "Sons [i] e [ĩ]",
+      "gramatica": "Trazer (Presente do Indicativo) / Preposição + pronome pessoal"
+    },
+    {
+      "id": 25,
+      "title": "Estou perdido",
+      "printed_page": 142,
+      "printed_end": 145,
+      "pdf_page": 145,
+      "pdf_page_end": 148,
+      "comunicacao": "Interagir nos serviços de utilidade pública / Dar e pedir direções na cidade",
+      "vocabulario": "Serviços de utilidade pública / Orientação na cidade",
+      "pronuncia": "Vogais duplas ee e oo / Som [e] / Sons [e] e [ĩ] nas formas do imperativo",
+      "gramatica": "Pedir e seguir (Presente do Indicativo) / Imperativo formal dos verbos regulares e de ir"
+    },
+    {
+      "id": 26,
+      "title": "Prove uma francesinha",
+      "printed_page": 146,
+      "printed_end": 149,
+      "pdf_page": 149,
+      "pdf_page_end": 152,
+      "comunicacao": "Falar sobre experiências e atividades turísticas / Ler uma receita culinária",
+      "vocabulario": "Experiências e atividades turísticas / Receitas culinárias",
+      "pronuncia": "Sons [e] e [ɛ]",
+      "gramatica": "Descobrir, servir, sentir-se e conseguir (Presente do Indicativo e Imperativo) / Locuções conjuncionais"
+    },
+    {
+      "id": 27,
+      "title": "Deves estudar mais",
+      "printed_page": 150,
+      "printed_end": 153,
+      "pdf_page": 153,
+      "pdf_page_end": 156,
+      "comunicacao": "Dar conselhos / Expressar probabilidade, obrigação e proibição / Falar sobre práticas culturais",
+      "vocabulario": "Tarefas domésticas / Práticas culturais de vários povos",
+      "pronuncia": "Sons [e] e [ɛ] / Letras b e p",
+      "gramatica": "Dever e dar / Imperativo irregular / Complemento indireto e direto / Advérbios"
+    },
+    {
+      "id": 28,
+      "title": "Amanhã vai chover",
+      "printed_page": 154,
+      "printed_end": 157,
+      "pdf_page": 157,
+      "pdf_page_end": 160,
+      "comunicacao": "Descrever caráter / Descrever clima / Falar sobre tempo meteorológico",
+      "vocabulario": "Adjetivos de caráter / Estações do ano / Tempo meteorológico / Clima / Pontos cardeais",
+      "pronuncia": "Acento / Ditongos [ew] e [ẽw] / Som [õ]",
+      "gramatica": "Superlativo absoluto"
+    },
+    {
+      "id": 29,
+      "title": "Mudei-me para Lisboa em 2004",
+      "printed_page": 162,
+      "printed_end": 165,
+      "pdf_page": 165,
+      "pdf_page_end": 168,
+      "comunicacao": "Descrever ações do passado e momentos marcantes da vida",
+      "vocabulario": "Momentos marcantes da vida",
+      "pronuncia": "Acento / Ditongo [ej] / Formas verbais",
+      "gramatica": "Verbos regulares em -ar (Pretérito Perfeito Simples do Indicativo) / Ser (Pretérito Perfeito Simples do Indicativo) / Formação de advérbios em -mente / Uso de acabar de"
+    },
+    {
+      "id": 30,
+      "title": "Ontem diverti-me muito",
+      "printed_page": 166,
+      "printed_end": 169,
+      "pdf_page": 169,
+      "pdf_page_end": 172,
+      "comunicacao": "Descrever ações do passado / Relatar experiências",
+      "vocabulario": "Tempos livres",
+      "pronuncia": "Acento / Ditongos [ew] e [ẽw] / Formas verbais",
+      "gramatica": "Verbos regulares em -er e -ir (Pretérito Perfeito Simples do Indicativo) / Ir (Pretérito Perfeito Simples do Indicativo) / Uso de costumar / Andar (a) + infinitivo/adjetivo"
+    },
+    {
+      "id": 31,
+      "title": "No ano passado não tive férias",
+      "printed_page": 170,
+      "printed_end": 173,
+      "pdf_page": 173,
+      "pdf_page_end": 176,
+      "comunicacao": "Perguntar e informar sobre experiências",
+      "vocabulario": "Experiências / Atividades de tempos livres",
+      "pronuncia": "Conjunto consonântico sn / Letras v e f",
+      "gramatica": "Estar, ter, fazer e ver (Pretérito Perfeito Simples do Indicativo) / Advérbios de tempo usados com o PPS / Mesmo (uso e formas)"
+    },
+    {
+      "id": 32,
+      "title": "Dei-lhe uma prenda",
+      "printed_page": 174,
+      "printed_end": 177,
+      "pdf_page": 177,
+      "pdf_page_end": 180,
+      "comunicacao": "Falar sobre os hábitos e experiências de dar prendas e emprestar coisas",
+      "vocabulario": "Prendas / Adjetivos",
+      "pronuncia": "Letras t e d / Pronome lhe(s) / Pares mínimos [ʎ], [l] e [r]",
+      "gramatica": "Dar (Pretérito Perfeito Simples do Indicativo) / Uso de pouco e um pouco / Pronome pessoal complemento indireto lhe(s)"
+    },
+    {
+      "id": 33,
+      "title": "Estas calças ficam-te bem!",
+      "printed_page": 184,
+      "printed_end": 187,
+      "pdf_page": 187,
+      "pdf_page_end": 190,
+      "comunicacao": "Dar conselhos e opiniões sobre roupa / Descrever o modo de se vestir / Falar sobre os hábitos de fazer compras",
+      "vocabulario": "Lojas / Compras / Vestuário",
+      "pronuncia": "Sons [k] e [g]",
+      "gramatica": "Vestir e despir (Presente do Indicativo e Pretérito Perfeito Simples do Indicativo) / Uso de já como negação / Pronomes pessoais complemento indireto me/te/nos/vos"
+    },
+    {
+      "id": 34,
+      "title": "Dói-me a cabeça",
+      "printed_page": 188,
+      "printed_end": 191,
+      "pdf_page": 191,
+      "pdf_page_end": 194,
+      "comunicacao": "Perguntar e informar sobre o estado de saúde / Dar conselhos a um doente / Dar conselhos sobre hábitos alimentares",
+      "vocabulario": "Partes do corpo / Problemas de saúde / Alimentação saudável",
+      "pronuncia": "Letra à / Som [ɐ̃] / Formas verbais",
+      "gramatica": "Doer (Presente do Indicativo e Pretérito Perfeito Simples do Indicativo) / Dizer, vir, pôr, trazer e querer (Pretérito Perfeito Simples do Indicativo) / Há quanto tempo e desde quando"
+    },
+    {
+      "id": 35,
+      "title": "Somos felizes juntos",
+      "printed_page": 192,
+      "printed_end": 195,
+      "pdf_page": 195,
+      "pdf_page_end": 198,
+      "comunicacao": "Contar uma história / Falar sobre relacionamentos / Expressar sentimentos / Ler avisos públicos",
+      "vocabulario": "Relacionamentos / Sentimentos / Avisos públicos",
+      "pronuncia": "Pronome o/a/os/as / Dígrafo ou / Som [o]",
+      "gramatica": "Pronome pessoal complemento direto o/a/os/as / Frases interrogativas"
+    },
+    {
+      "id": 36,
+      "title": "Vou ficar neste hotel",
+      "printed_page": 196,
+      "printed_end": 199,
+      "pdf_page": 199,
+      "pdf_page_end": 202,
+      "comunicacao": "Descrever hotéis e serviços hoteleiros / Escrever um e-mail formal",
+      "vocabulario": "Hotéis / Viagens",
+      "pronuncia": "Sons [o] e [ɔ]",
+      "gramatica": "Saber, poder e haver (Pretérito Perfeito Simples do Indicativo) / Pronomes pessoais complemento direto me/te/nos/vos / Ser + adjetivo + infinitivo"
+    },
+    {
+      "id": 37,
+      "title": "Tudo muda",
+      "printed_page": 206,
+      "printed_end": 209,
+      "pdf_page": 209,
+      "pdf_page_end": 212,
+      "comunicacao": "Descrever estados e ações durativas ou habituais do passado",
+      "vocabulario": "A vida no campo",
+      "pronuncia": "Acento / Ditongos [oj] e [ɔj]",
+      "gramatica": "Pretérito Imperfeito do Indicativo"
+    },
+    {
+      "id": 38,
+      "title": "Tudo está bem quando acaba bem",
+      "printed_page": 210,
+      "printed_end": 213,
+      "pdf_page": 213,
+      "pdf_page_end": 216,
+      "comunicacao": "Descrever estados emocionais / Relatar ações do passado",
+      "vocabulario": "Estados emocionais",
+      "pronuncia": "Sons [r] e [ʁ] / Sons [ʎ] e [l]",
+      "gramatica": "Rir e sorrir / Pretérito Imperfeito do Indicativo vs. PPS"
+    },
+    {
+      "id": 39,
+      "title": "Silêncio que se vai cantar o fado",
+      "printed_page": 214,
+      "printed_end": 217,
+      "pdf_page": 217,
+      "pdf_page_end": 220,
+      "comunicacao": "Ler uma biografia / Falar sobre gostos e preferências musicais",
+      "vocabulario": "Dados biográficos / Música",
+      "pronuncia": "Pronomes / Conjunto consonântico sc / Sons [ʃ] e [s]",
+      "gramatica": "Partícula se / Formas -no/-na/-nos/-nas do pronome -o/-a/-os/-as"
+    },
+    {
+      "id": 40,
+      "title": "Boa viagem!",
+      "printed_page": 218,
+      "printed_end": 221,
+      "pdf_page": 221,
+      "pdf_page_end": 224,
+      "comunicacao": "Interagir num aeroporto e num avião / Preparar uma viagem",
+      "vocabulario": "Transporte aéreo / Aeroportos / Viagens",
+      "pronuncia": "Pronomes / Terminação -gem / Entoação",
+      "gramatica": "Formas -lo/-la/-los/-las do pronome -o/-a/-os/-as / Omissão dos artigos"
+    }
+  ],
+  "gramatica": [
+    {
+      "units": [
+        1,
+        4
+      ],
+      "title": "Gramática unidades 1–4",
+      "printed_page": 26,
+      "printed_end": 29,
+      "pdf_page": 27,
+      "pdf_page_end": 30
+    },
+    {
+      "units": [
+        5,
+        8
+      ],
+      "title": "Gramática unidades 5–8",
+      "printed_page": 48,
+      "printed_end": 51,
+      "pdf_page": 49,
+      "pdf_page_end": 52
+    },
+    {
+      "units": [
+        9,
+        12
+      ],
+      "title": "Gramática unidades 9–12",
+      "printed_page": 70,
+      "printed_end": 73,
+      "pdf_page": 71,
+      "pdf_page_end": 74
+    },
+    {
+      "units": [
+        13,
+        16
+      ],
+      "title": "Gramática unidades 13–16",
+      "printed_page": 92,
+      "printed_end": 95,
+      "pdf_page": 93,
+      "pdf_page_end": 96
+    },
+    {
+      "units": [
+        17,
+        20
+      ],
+      "title": "Gramática unidades 17–20",
+      "printed_page": 114,
+      "printed_end": 117,
+      "pdf_page": 117,
+      "pdf_page_end": 120
+    },
+    {
+      "units": [
+        21,
+        24
+      ],
+      "title": "Gramática unidades 21–24",
+      "printed_page": 136,
+      "printed_end": 139,
+      "pdf_page": 139,
+      "pdf_page_end": 142
+    },
+    {
+      "units": [
+        25,
+        28
+      ],
+      "title": "Gramática unidades 25–28",
+      "printed_page": 158,
+      "printed_end": 159,
+      "pdf_page": 161,
+      "pdf_page_end": 162
+    },
+    {
+      "units": [
+        29,
+        32
+      ],
+      "title": "Gramática unidades 29–32",
+      "printed_page": 178,
+      "printed_end": 181,
+      "pdf_page": 181,
+      "pdf_page_end": 184
+    },
+    {
+      "units": [
+        33,
+        36
+      ],
+      "title": "Gramática unidades 33–36",
+      "printed_page": 200,
+      "printed_end": 203,
+      "pdf_page": 203,
+      "pdf_page_end": 206
+    },
+    {
+      "units": [
+        37,
+        40
+      ],
+      "title": "Gramática unidades 37–40",
+      "printed_page": 222,
+      "printed_end": 223,
+      "pdf_page": 225,
+      "pdf_page_end": 226
+    }
+  ],
+  "acao": [
+    {
+      "id": 1,
+      "title": "No avião",
+      "printed_page": 30,
+      "pdf_page": 31,
+      "comunicacao": "Oferecer, pedir e aceitar bebidas",
+      "vocabulario": "Bebidas"
+    },
+    {
+      "id": 2,
+      "title": "Na fronteira",
+      "printed_page": 52,
+      "pdf_page": 53,
+      "comunicacao": "Responder às perguntas à entrada no país",
+      "vocabulario": "Passagem da fronteira"
+    },
+    {
+      "id": 3,
+      "title": "Num café",
+      "printed_page": 74,
+      "pdf_page": 75,
+      "comunicacao": "Pedir coisas num café ou numa pastelaria / Fazer o pagamento",
+      "vocabulario": "Produtos à venda num café ou pastelaria portuguesa"
+    },
+    {
+      "id": 4,
+      "title": "No restaurante",
+      "printed_page": 96,
+      "pdf_page": 97,
+      "comunicacao": "Interagir num restaurante",
+      "vocabulario": "Sabores / Jantar num restaurante"
+    },
+    {
+      "id": 5,
+      "title": "Ao telefone",
+      "printed_page": 118,
+      "pdf_page": 121,
+      "comunicacao": "Falar ao telefone",
+      "vocabulario": "Conversa ao telefone"
+    },
+    {
+      "id": 6,
+      "title": "Na estação de comboios",
+      "printed_page": 140,
+      "pdf_page": 143,
+      "comunicacao": "Comprar bilhetes de comboio / Informar-se sobre os horários dos comboios",
+      "vocabulario": "Estação de comboios"
+    },
+    {
+      "id": 7,
+      "title": "No hotel",
+      "printed_page": 160,
+      "pdf_page": 163,
+      "comunicacao": "Fazer o check-in num hotel",
+      "vocabulario": "Estadia num hotel"
+    },
+    {
+      "id": 8,
+      "title": "Numa loja de roupa",
+      "printed_page": 182,
+      "pdf_page": 185,
+      "comunicacao": "Comprar roupa / Dar conselhos e opiniões sobre roupa",
+      "vocabulario": "Adjetivos / Compras de roupa"
+    },
+    {
+      "id": 9,
+      "title": "Na farmácia",
+      "printed_page": 204,
+      "pdf_page": 207,
+      "comunicacao": "Interagir numa farmácia",
+      "vocabulario": "Medicamentos"
+    },
+    {
+      "id": 10,
+      "title": "No check-in",
+      "printed_page": 224,
+      "pdf_page": 227,
+      "comunicacao": "Fazer o check-in no aeroporto",
+      "vocabulario": "Viagem de avião"
+    }
+  ],
+  "revisao": [
+    {
+      "units": [
+        1,
+        4
+      ],
+      "title": "Revisão unidades 1–4",
+      "printed_page": 30,
+      "printed_end": 31,
+      "pdf_page": 31,
+      "pdf_page_end": 32
+    },
+    {
+      "units": [
+        5,
+        8
+      ],
+      "title": "Revisão unidades 5–8",
+      "printed_page": 52,
+      "printed_end": 53,
+      "pdf_page": 53,
+      "pdf_page_end": 54
+    },
+    {
+      "units": [
+        9,
+        12
+      ],
+      "title": "Revisão unidades 9–12",
+      "printed_page": 74,
+      "printed_end": 75,
+      "pdf_page": 75,
+      "pdf_page_end": 76
+    },
+    {
+      "units": [
+        13,
+        16
+      ],
+      "title": "Revisão unidades 13–16",
+      "printed_page": 96,
+      "printed_end": 97,
+      "pdf_page": 97,
+      "pdf_page_end": 98
+    },
+    {
+      "units": [
+        17,
+        20
+      ],
+      "title": "Revisão unidades 17–20",
+      "printed_page": 118,
+      "printed_end": 119,
+      "pdf_page": 121,
+      "pdf_page_end": 122
+    },
+    {
+      "units": [
+        21,
+        24
+      ],
+      "title": "Revisão unidades 21–24",
+      "printed_page": 140,
+      "printed_end": 141,
+      "pdf_page": 143,
+      "pdf_page_end": 144
+    },
+    {
+      "units": [
+        25,
+        28
+      ],
+      "title": "Revisão unidades 25–28",
+      "printed_page": 160,
+      "printed_end": 161,
+      "pdf_page": 163,
+      "pdf_page_end": 164
+    },
+    {
+      "units": [
+        29,
+        32
+      ],
+      "title": "Revisão unidades 29–32",
+      "printed_page": 182,
+      "printed_end": 183,
+      "pdf_page": 185,
+      "pdf_page_end": 186
+    },
+    {
+      "units": [
+        33,
+        36
+      ],
+      "title": "Revisão unidades 33–36",
+      "printed_page": 204,
+      "printed_end": 205,
+      "pdf_page": 207,
+      "pdf_page_end": 208
+    },
+    {
+      "units": [
+        37,
+        40
+      ],
+      "title": "Revisão unidades 37–40",
+      "printed_page": 224,
+      "printed_end": 225,
+      "pdf_page": 227,
+      "pdf_page_end": 228
+    }
+  ],
+  "back": [
+    {
+      "title": "Atividades de comunicação",
+      "printed_page": 226,
+      "printed_end": 246,
+      "pdf_page": 229,
+      "pdf_page_end": 249
+    },
+    {
+      "title": "Tabelas gramaticais",
+      "printed_page": 247,
+      "printed_end": 248,
+      "pdf_page": 250,
+      "pdf_page_end": 251
+    },
+    {
+      "title": "Regências verbais",
+      "printed_page": 249,
+      "printed_end": 250,
+      "pdf_page": 252,
+      "pdf_page_end": 253
+    },
+    {
+      "title": "Transcrições dos textos áudio",
+      "printed_page": 251,
+      "printed_end": 260,
+      "pdf_page": 254,
+      "pdf_page_end": 263
+    },
+    {
+      "title": "Soluções das unidades de revisão",
+      "printed_page": 261,
+      "printed_end": 262,
+      "pdf_page": 264,
+      "pdf_page_end": 265
+    },
+    {
+      "title": "Lista de faixas áudio",
+      "printed_page": 263,
+      "printed_end": 264,
+      "pdf_page": 266,
+      "pdf_page_end": 267
+    }
+  ],
+  "rescan": [
+    {
+      "pdf_page": 113,
+      "printed_page": 110,
+      "same_as_pdf_page": 111,
+      "unit": 20
+    },
+    {
+      "pdf_page": 114,
+      "printed_page": 111,
+      "same_as_pdf_page": 112,
+      "unit": 20
+    }
+  ]
+}
